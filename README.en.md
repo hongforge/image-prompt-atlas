@@ -19,9 +19,9 @@
 Open **[hongforge.github.io/ai_skills](https://hongforge.github.io/ai_skills/)** to browse by deliverable, model, workflow, or keyword. Select any card to inspect its full-size cover, variables, cover-specific values, and production prompt.
 
 <p align="center">
-  <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/aigc-game-key-art.png" alt="AIGC game key art" width="29%"></a>
-  <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/east-asian-neon-closeup.png" alt="East Asian portrait close-up" width="29%"></a>
-  <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/tea-hero-still-life.png" alt="Product campaign visual" width="29%"></a>
+  <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/aigc-game-key-art.png" alt="AIGC game character key art" width="30%"></a>
+  <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/east-asian-neon-closeup.png" alt="East Asian neon portrait close-up" width="30%"></a>
+  <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/watch-campaign-image.png" alt="Luxury watch campaign visual" width="30%"></a>
 </p>
 
 ## 📖 Quick links

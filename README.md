@@ -21,9 +21,9 @@
 访问 **[hongforge.github.io/ai_skills](https://hongforge.github.io/ai_skills/)**，可按分类、模型、工作流和关键词浏览案例；点击任意卡片即可查看大图、完整变量、封面对应值与生产级提示词。
 
 <p align="center">
-  <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/aigc-game-key-art.png" alt="AIGC 游戏主视觉" width="29%"></a>
-  <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/east-asian-neon-closeup.png" alt="东方人物特写" width="29%"></a>
-  <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/tea-hero-still-life.png" alt="商品商业视觉" width="29%"></a>
+  <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/aigc-game-key-art.png" alt="AIGC 游戏角色主视觉" width="30%"></a>
+  <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/east-asian-neon-closeup.png" alt="东方人物霓虹特写" width="30%"></a>
+  <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/watch-campaign-image.png" alt="高端腕表商业视觉" width="30%"></a>
 </p>
 
 ## 📖 快速入口
