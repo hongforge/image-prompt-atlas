@@ -8,7 +8,7 @@
   <a href="https://github.com/hongforge/image-prompt-atlas/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/hongforge/image-prompt-atlas/ci.yml?branch=main&style=flat-square&label=CI" alt="CI"></a>
   <a href="https://github.com/hongforge/image-prompt-atlas/stargazers"><img src="https://img.shields.io/github/stars/hongforge/image-prompt-atlas?style=flat-square" alt="Stars"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-c5ff6f?style=flat-square" alt="MIT License"></a>
-  <a href="docs/gallery.md"><img src="https://img.shields.io/badge/案例-123-755bff?style=flat-square" alt="123 cases"></a>
+  <a href="docs/gallery.md"><img src="https://img.shields.io/badge/案例-131-755bff?style=flat-square" alt="131 cases"></a>
   <a href="docs/templates.md"><img src="https://img.shields.io/badge/工业模板-30-19856e?style=flat-square" alt="30 templates"></a>
 </p>
 
@@ -30,7 +30,7 @@
 
 | 入口 | 内容 | 适合谁 |
 | --- | --- | --- |
-| [完整案例画廊](docs/gallery.md) | 123 张效果图、案例说明与提示词入口 | 创作者、设计师 |
+| [完整案例画廊](docs/gallery.md) | 131 张效果图、案例说明与提示词入口 | 创作者、设计师 |
 | [工业提示词模板](docs/templates.md) | 30 套必填字段、输出契约、质量门槛与避坑检查 | 生产团队、Agent |
 | [在线浏览站点](https://hongforge.github.io/image-prompt-atlas/) | 搜索、筛选、卡片预览、提示词复制 | 所有使用者 |
 | [Agent 可用 JSON](data/prompt-library.json) | 案例、模板、变量、分类与限制的统一数据 | Agent、自动化程序 |
@@ -65,6 +65,17 @@
   </tr>
 </table>
 
+### 新增分类
+
+<table>
+  <tr>
+    <td width="25%" align="center" valign="top"><a href="docs/gallery.md#film-storyboard"><img src="site/public/case-images/cinematic-chase-keyframe.png" alt="影视分镜与镜头" height="240"></a><br><strong>🎥 影视分镜与镜头</strong><br><sub>2 个案例</sub></td>
+    <td width="25%" align="center" valign="top"><a href="docs/gallery.md#game-asset"><img src="site/public/case-images/legendary-potion-game-prop.png" alt="游戏资产与道具" height="240"></a><br><strong>🎮 游戏资产与道具</strong><br><sub>2 个案例</sub></td>
+    <td width="25%" align="center" valign="top"><a href="docs/gallery.md#social-content"><img src="site/public/case-images/artisan-dessert-social-story.png" alt="社交媒体内容" height="240"></a><br><strong>📱 社交媒体内容</strong><br><sub>2 个案例</sub></td>
+    <td width="25%" align="center" valign="top"><a href="docs/gallery.md#surface-pattern"><img src="site/public/case-images/ginkgo-textile-repeat.png" alt="纹样与材质设计" height="240"></a><br><strong>🧵 纹样与材质设计</strong><br><sub>2 个案例</sub></td>
+  </tr>
+</table>
+
 | 分类 | 案例数 | 分类 | 案例数 |
 | --- | ---: | --- | ---: |
 | [UI 与界面](docs/gallery.md#ui-interface) | 12 | [图表与信息可视化](docs/gallery.md#infographic) | 10 |
@@ -74,6 +85,8 @@
 | [AICG 游戏与动漫](docs/gallery.md#aigc-creation) | 9 | [漫剧关键帧](docs/gallery.md#comic-drama) | 5 |
 | [场景与叙事](docs/gallery.md#scene-storytelling) | 8 | [插画与艺术实验](docs/gallery.md#illustration-art) | 5 |
 | [文档与出版](docs/gallery.md#document-publishing) | 8 | [教育与知识视觉](docs/gallery.md#educational-visual) | 10 |
+| [影视分镜与镜头](docs/gallery.md#film-storyboard) | 2 | [游戏资产与道具](docs/gallery.md#game-asset) | 2 |
+| [社交媒体内容](docs/gallery.md#social-content) | 2 | [纹样与材质设计](docs/gallery.md#surface-pattern) | 2 |
 
 ## 🧩 工业模板
 

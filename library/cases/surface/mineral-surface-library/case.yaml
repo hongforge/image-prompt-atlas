@@ -1,0 +1,60 @@
+id: mineral-surface-library
+title: 矿物建筑材质样板库
+summary: 以统一尺度、掠射光和差异明确的表面行为构成可比较的建筑材质样板集合。
+taxonomy:
+  deliverable:
+    - surface-pattern
+    - architecture-space
+  medium:
+    - 3d-render
+    - photography
+  workflow:
+    - text-to-image
+  capability:
+    - material-lighting
+    - product-fidelity
+    - layout-hierarchy
+    - instruction-following
+  model:
+    - universal
+    - gpt-image
+    - midjourney
+    - stable-diffusion
+tags:
+  - 材质样板
+  - 建筑表面
+  - PBR 材质
+  - 工业设计
+license:
+  prompt: CC0-1.0
+  reference: none
+source:
+  kind: original
+  url: null
+  rights_note: Original repository content.
+prompt:
+  language: en
+  variables:
+    - surface_family
+    - sample_count
+    - material_contrast
+    - lighting_setup
+  cover_values:
+    surface_family:
+      zh: 黑曜石玻璃、烟晶树脂、氧化铜、浅色石灰岩、珠光陶瓷和炭黑水磨石六种原创建筑表面
+      en: "Six original architectural surfaces: obsidian glass, smoky quartz resin, oxidized copper, pale limestone, pearlescent ceramic, and charcoal terrazzo"
+    sample_count:
+      zh: 固定六块等尺寸矩形样板，按两列三行排列，边距和间距一致，所有样板完整可见
+      en: Exactly six equal rectangular samples arranged in a two-column by three-row grid with consistent margins and every sample fully visible
+    material_contrast:
+      zh: 同时覆盖高反射、半透明、氧化粗糙、多孔哑光、珠光起伏和骨料颗粒六种不同表面行为
+      en: "Six distinct surface behaviors: reflective, translucent, oxidized rough, porous matte, pearlescent relief, and aggregate grain"
+    lighting_setup:
+      zh: 左上方大面积柔光提供基础亮度，右侧低角度掠射光专门揭示纹理深度，背景保持炭黑
+      en: A large soft source from upper left establishes exposure while a low grazing light from the right reveals texture depth against charcoal
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations:
+    - Use the prompt as a starting point and review material plausibility, sample count, and texture uniqueness before production use.

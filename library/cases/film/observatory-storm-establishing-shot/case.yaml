@@ -1,0 +1,58 @@
+id: observatory-storm-establishing-shot
+title: 风暴前观星台建立镜头
+summary: 以观星仪、灯路和山海层次构成历史题材的宏观建立镜头，强调时代可信度与叙事预兆。
+taxonomy:
+  deliverable:
+    - film-storyboard
+    - scene-storytelling
+  medium:
+    - photography
+    - mixed-media
+  workflow:
+    - text-to-image
+  capability:
+    - spatial-reasoning
+    - material-lighting
+    - instruction-following
+  model:
+    - universal
+    - gpt-image
+    - midjourney
+tags:
+  - 历史场景
+  - 建立镜头
+  - 制作设计
+  - 风暴氛围
+license:
+  prompt: CC0-1.0
+  reference: none
+source:
+  kind: original
+  url: null
+  rights_note: Original repository content.
+prompt:
+  language: en
+  variables:
+    - historical_setting
+    - narrative_moment
+    - production_details
+    - light_weather
+  cover_values:
+    historical_setting:
+      zh: 架空东方山巅观星台，层叠瓦顶、石砌平台和云海共同建立宏大尺度，不使用可识别朝代徽记
+      en: A fictional East Asian mountain observatory with layered tiled roofs, stone terraces, and a sea of clouds, without dynasty-specific insignia
+    narrative_moment:
+      zh: 风暴到来前，观星官在青铜浑仪旁记录天象，侍从沿平台依次点亮灯笼形成事件倒计时
+      en: Before the storm, an astronomer records the sky beside a bronze armillary sphere while attendants light a countdown-like path of lanterns
+    production_details:
+      zh: 青铜浑仪、湿石地面、木构檐口、纸灯与克制的时代服装均按真实尺度和材料节点呈现
+      en: A bronze armillary sphere, wet stone, timber eaves, paper lanterns, and restrained period clothing rendered at believable scale and construction detail
+    light_weather:
+      zh: 冷蓝风暴云占据天空，远方落日形成微弱暖边，灯笼反光沿湿地面引导视线
+      en: Cool blue storm clouds dominate the sky, a faint warm horizon remains, and lantern reflections guide the eye across wet stone
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations:
+    - Use the prompt as a starting point and review historical consistency, architecture, and object geometry before production use.

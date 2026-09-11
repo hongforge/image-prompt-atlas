@@ -1,0 +1,60 @@
+id: cinematic-chase-keyframe
+title: 近未来雨夜追逐关键帧
+summary: 用明确的追逐动作、空间纵深与冷暖光线建立可继续拆镜的电影叙事节点。
+taxonomy:
+  deliverable:
+    - film-storyboard
+    - scene-storytelling
+  medium:
+    - photography
+    - mixed-media
+  workflow:
+    - text-to-image
+    - series-consistency
+  capability:
+    - subject-consistency
+    - spatial-reasoning
+    - material-lighting
+    - instruction-following
+  model:
+    - universal
+    - gpt-image
+    - midjourney
+tags:
+  - 影视分镜
+  - 动作关键帧
+  - 雨夜城市
+  - 电影感
+license:
+  prompt: CC0-1.0
+  reference: none
+source:
+  kind: original
+  url: null
+  rights_note: Original repository content.
+prompt:
+  language: en
+  variables:
+    - character_identity
+    - chase_location
+    - pursuing_threat
+    - cinematic_palette
+  cover_values:
+    character_identity:
+      zh: 一名穿炭黑长外套的东方女性信使，黑色短靴、斜挎包和湿发是连续镜头中不可改变的识别锚点
+      en: An East Asian female courier in a charcoal long coat, black ankle boots, cross-body bag, and rain-wet hair as continuity anchors
+    chase_location:
+      zh: 近未来东亚城市的高架轨道站台，湿润钢材、驶过列车与多层高架共同形成强透视纵深
+      en: An elevated rail platform in a near-future East Asian city, using wet steel, a passing train, and layered viaducts for deep perspective
+    pursuing_threat:
+      zh: 远处一架无人搜索机以窄束白光扫过站台，只作为追逐压力来源，不遮挡主角
+      en: A distant unmanned search drone sweeping the platform with a narrow white beam, creating pressure without obscuring the protagonist
+    cinematic_palette:
+      zh: 深海军蓝与石墨灰占 70%，青色雨光占 20%，琥珀色站台灯占 10% 并标记逃跑方向
+      en: 70% deep navy and graphite, 20% cyan rain light, and 10% amber platform practicals marking the escape direction
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations:
+    - Use the prompt as a starting point and review character continuity, anatomy, and spatial logic before production use.

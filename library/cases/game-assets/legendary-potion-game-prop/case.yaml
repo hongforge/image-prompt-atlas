@@ -1,0 +1,58 @@
+id: legendary-potion-game-prop
+title: 传奇药剂游戏道具
+summary: 通过清晰轮廓、可解释结构与 PBR 材质呈现可进入游戏资产流程的高等级药剂道具。
+taxonomy:
+  deliverable:
+    - game-asset
+    - product-commerce
+  medium:
+    - 3d-render
+  workflow:
+    - text-to-image
+  capability:
+    - product-fidelity
+    - material-lighting
+    - instruction-following
+  model:
+    - universal
+    - gpt-image
+    - midjourney
+    - stable-diffusion
+tags:
+  - 游戏道具
+  - PBR 材质
+  - 药剂瓶
+  - 资产设计
+license:
+  prompt: CC0-1.0
+  reference: none
+source:
+  kind: original
+  url: null
+  rights_note: Original repository content.
+prompt:
+  language: en
+  variables:
+    - prop_function
+    - material_stack
+    - wear_level
+    - rarity_palette
+  cover_values:
+    prop_function:
+      zh: 传奇级治疗药剂，瓶体需要可安全抓握、可密封运输，并通过红色液体表达恢复生命的功能
+      en: A legendary healing potion with a grippable, transport-safe sealed form and crimson liquid communicating health recovery
+    material_stack:
+      zh: 切面深红玻璃、做旧黄铜护笼、深棕皮革握带和暗红蜡封，所有连接点必须可制造
+      en: Faceted crimson glass, aged brass protective cage, dark brown leather grip, and oxblood wax seal with manufacturable joints
+    wear_level:
+      zh: 中度使用痕迹集中在金属边缘和皮革握持区，玻璃主体保持完整透明，不出现随机裂纹
+      en: Moderate wear limited to brass edges and leather grip zones, with intact transparent glass and no random cracks
+    rarity_palette:
+      zh: 暗红占 45%，旧黄铜占 30%，炭黑占 20%，低亮青色轮廓光占 5%
+      en: 45% oxblood, 30% aged brass, 20% charcoal, and 5% low-intensity teal rim light
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations:
+    - Use the prompt as a starting point and review prop construction, glass refraction, and silhouette readability before production use.

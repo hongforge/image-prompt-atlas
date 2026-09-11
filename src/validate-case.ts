@@ -2,7 +2,9 @@ export const TAXONOMY = {
   deliverable: [
     'ui-interface', 'infographic', 'poster-editorial', 'brand-identity',
     'product-commerce', 'architecture-space', 'portrait-character',
-    'scene-storytelling', 'comic-drama', 'avatar-expression', 'aigc-creation', 'illustration-art', 'document-publishing', 'educational-visual',
+    'scene-storytelling', 'comic-drama', 'avatar-expression', 'aigc-creation',
+    'film-storyboard', 'game-asset', 'social-content', 'surface-pattern',
+    'illustration-art', 'document-publishing', 'educational-visual',
   ],
   medium: ['photography', '3d-render', 'vector-graphic', 'illustration', 'mixed-media'],
   workflow: ['text-to-image', 'image-to-image', 'inpainting', 'compositing', 'series-consistency'],

@@ -1,0 +1,58 @@
+id: desert-scout-hoverbike
+title: 荒漠侦察悬浮载具
+summary: 用功能驱动的硬表面结构、磨损分布和完整轮廓建立原创科幻载具资产。
+taxonomy:
+  deliverable:
+    - game-asset
+  medium:
+    - 3d-render
+  workflow:
+    - text-to-image
+  capability:
+    - product-fidelity
+    - spatial-reasoning
+    - material-lighting
+    - instruction-following
+  model:
+    - universal
+    - gpt-image
+    - midjourney
+    - stable-diffusion
+tags:
+  - 游戏载具
+  - 硬表面设计
+  - 科幻资产
+  - 荒漠探索
+license:
+  prompt: CC0-1.0
+  reference: none
+source:
+  kind: original
+  url: null
+  rights_note: Original repository content.
+prompt:
+  language: en
+  variables:
+    - vehicle_role
+    - engineering_features
+    - surface_finish
+    - environment_context
+  cover_values:
+    vehicle_role:
+      zh: 单人荒漠侦察悬浮摩托，优先满足长距离勘察、轻量补给和快速撤离，不配置重型武器
+      en: A single-seat desert scout hoverbike for long-range survey, light cargo, and rapid extraction, without heavy weapons
+    engineering_features:
+      zh: 中央涡轮悬浮单元、可折叠导航翼、前部防撞框、低重心座舱和两侧软质补给包
+      en: A central lift turbine, foldable navigation fins, front crash frame, low-center cockpit, and side-mounted soft cargo bags
+    surface_finish:
+      zh: 沙色陶瓷装甲、石墨金属骨架与焦橙安全标识，磨损只出现在迎风边缘、踏板和维护面板
+      en: Sand ceramic armor, graphite metal frame, and burnt-orange safety accents, with wear limited to leading edges, footrests, and maintenance panels
+    environment_context:
+      zh: 开放式暗色机库连接金色荒漠地平线，载具停在湿润维护平台上形成冷暖材质对比
+      en: A dark open hangar facing a golden desert horizon, with the vehicle on a damp maintenance platform for warm-cool material contrast
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations:
+    - Use the prompt as a starting point and review vehicle mechanics, scale, and repeated geometry before production use.

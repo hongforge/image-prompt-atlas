@@ -13,12 +13,16 @@ const words: Record<Locale, Record<string, string>> = {
 words.zh.heroShotAigc = 'AIGC · 角色';
 words.zh.heroShotProduct = '商品 · 材质';
 words.zh.heroShotPortrait = '人像 · 写实';
+words.zh.heroNote = '131 个原创案例 · 30 套模板';
+words.zh.agentCasesNote = '131 个原创结构化案例';
 words.zh.homeAria = '图像提示词图谱首页';
 words.zh.footerBrand = '图像提示词图谱';
 words.zh.title = '图像提示词图谱';
 words.en.heroShotAigc = 'AIGC · Character';
 words.en.heroShotProduct = 'Product · Material';
 words.en.heroShotPortrait = 'Portrait · Realism';
+words.en.heroNote = '131 original cases · 30 templates';
+words.en.agentCasesNote = '131 original structured cases';
 words.en.brand = 'Image Prompt Atlas';
 words.en.homeAria = 'Image Prompt Atlas home';
 words.en.footerBrand = 'Image Prompt Atlas';
@@ -27,7 +31,7 @@ const labels: Record<Locale, Record<string, string>> = { zh:{'ui-interface':'UI 
 let locale: Locale = window.localStorage.getItem('prompt-atlas-locale') === 'en' ? 'en' : 'zh';
 const state = { search:'', deliverable:'all', workflow:'all', model:'all' };
 const text = (value: Localized) => value[locale];
-const label = (value: string) => labels[locale][value] || ({ 'comic-drama': locale === 'zh' ? '漫剧' : 'Comic drama', 'avatar-expression': locale === 'zh' ? '头像与表情' : 'Avatars & expressions', 'aigc-creation': locale === 'zh' ? 'AIGC 创作' : 'AIGC creation' }[value] ?? value);
+const label = (value: string) => labels[locale][value] || ({ 'comic-drama': locale === 'zh' ? '漫剧' : 'Comic drama', 'avatar-expression': locale === 'zh' ? '头像与表情' : 'Avatars & expressions', 'aigc-creation': locale === 'zh' ? 'AIGC 创作' : 'AIGC creation', 'film-storyboard': locale === 'zh' ? '影视分镜与镜头' : 'Film storyboards & shots', 'game-asset': locale === 'zh' ? '游戏资产与道具' : 'Game assets & props', 'social-content': locale === 'zh' ? '社交媒体内容' : 'Social media content', 'surface-pattern': locale === 'zh' ? '纹样与材质设计' : 'Patterns & surface design' }[value] ?? value);
 const t = (key: string, value?: string | number) => value === undefined ? words[locale][key] : words[locale][key].replace('{count}', String(value)).replace('{number}', String(value)).replace('{title}', String(value));
 const unique = (values: readonly string[]) => [...new Set(values)].sort();
 const deliverables = unique(catalog.flatMap((item) => item.taxonomy.deliverable));
