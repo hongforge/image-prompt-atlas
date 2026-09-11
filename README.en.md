@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="docs/assets/banner.svg" alt="Open Image Prompt Library" width="900">
+  <img src="docs/assets/banner.svg" alt="Image Prompt Atlas" width="900">
 </p>
 
 <h3 align="center">Structured visual prompts for repeatable, reviewable image production</h3>
 
 <p align="center">
-  <a href="https://github.com/hongforge/ai_skills/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/hongforge/ai_skills/ci.yml?branch=main&style=flat-square&label=CI" alt="CI"></a>
-  <a href="https://github.com/hongforge/ai_skills/stargazers"><img src="https://img.shields.io/github/stars/hongforge/ai_skills?style=flat-square" alt="Stars"></a>
+  <a href="https://github.com/hongforge/image-prompt-atlas/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/hongforge/image-prompt-atlas/ci.yml?branch=main&style=flat-square&label=CI" alt="CI"></a>
+  <a href="https://github.com/hongforge/image-prompt-atlas/stargazers"><img src="https://img.shields.io/github/stars/hongforge/image-prompt-atlas?style=flat-square" alt="Stars"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-c5ff6f?style=flat-square" alt="MIT License"></a>
   <a href="docs/gallery.en.md"><img src="https://img.shields.io/badge/cases-123-755bff?style=flat-square" alt="123 cases"></a>
   <a href="docs/templates.en.md"><img src="https://img.shields.io/badge/templates-30-19856e?style=flat-square" alt="30 templates"></a>
@@ -16,12 +16,12 @@
 
 ## 🌐 Live visual gallery
 
-Open **[hongforge.github.io/ai_skills](https://hongforge.github.io/ai_skills/)** to browse by deliverable, model, workflow, or keyword. Select any card to inspect its full-size cover, variables, cover-specific values, and production prompt.
+Open **[hongforge.github.io/image-prompt-atlas](https://hongforge.github.io/image-prompt-atlas/)** to browse by deliverable, model, workflow, or keyword. Select any card to inspect its full-size cover, variables, cover-specific values, and production prompt.
 
 <p align="center">
-  <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/aigc-game-key-art.png" alt="AIGC game character key art" width="30%"></a>
-  <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/east-asian-neon-closeup.png" alt="East Asian neon portrait close-up" width="30%"></a>
-  <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/aigc-legendary-weapon-card.png" alt="AIGC legendary weapon card" width="30%"></a>
+  <a href="https://hongforge.github.io/image-prompt-atlas/"><img src="site/public/case-images/aigc-game-key-art.png" alt="AIGC game character key art" width="30%"></a>
+  <a href="https://hongforge.github.io/image-prompt-atlas/"><img src="site/public/case-images/east-asian-neon-closeup.png" alt="East Asian neon portrait close-up" width="30%"></a>
+  <a href="https://hongforge.github.io/image-prompt-atlas/"><img src="site/public/case-images/aigc-legendary-weapon-card.png" alt="AIGC legendary weapon card" width="30%"></a>
 </p>
 
 ## 📖 Quick links
@@ -30,9 +30,9 @@ Open **[hongforge.github.io/ai_skills](https://hongforge.github.io/ai_skills/)**
 | --- | --- |
 | [Case gallery](docs/gallery.en.md) | 123 visual covers with case and prompt links |
 | [Industrial templates](docs/templates.en.md) | 30 templates with required fields, output contracts, quality gates, and pitfalls |
-| [Live website](https://hongforge.github.io/ai_skills/) | Search, filters, full previews, and prompt copying |
+| [Live website](https://hongforge.github.io/image-prompt-atlas/) | Search, filters, full previews, and prompt copying |
 | [Agent-ready JSON](data/prompt-library.json) | A stable catalog of cases, templates, variables, taxonomy, and limitations |
-| [Prompt library Skill](skills/open-image-prompt-library/SKILL.md) | Case retrieval and template pairing for coding agents |
+| [Image Prompt Atlas Skill](skills/image-prompt-atlas/SKILL.md) | Case retrieval and template pairing for coding agents |
 | [Img2Prompt Skill](skills/img2prompt/SKILL.md) | Model-neutral reverse engineering of reference images |
 
 ## ⚡ System design

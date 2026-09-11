@@ -18,7 +18,7 @@ describe('agent-ready prompt library data', () => {
     expect(fs.existsSync(dataFile)).toBe(true);
     const data = JSON.parse(fs.readFileSync(dataFile, 'utf8')) as AgentCatalog;
     expect(data.schema_version).toBe(1);
-    expect(data.project).toBe('open-image-prompt-library');
+    expect(data.project).toBe('image-prompt-atlas');
     expect(data.counts).toEqual({ cases: 123, templates: 30 });
     expect(data.cases).toHaveLength(data.counts.cases);
     expect(data.templates).toHaveLength(data.counts.templates);
@@ -35,7 +35,7 @@ describe('agent-ready prompt library data', () => {
   });
 
   it('documents how agents select shared catalog assets', () => {
-    const skill = fs.readFileSync(path.join(REPO_ROOT, 'skills', 'open-image-prompt-library', 'SKILL.md'), 'utf8');
+    const skill = fs.readFileSync(path.join(REPO_ROOT, 'skills', 'image-prompt-atlas', 'SKILL.md'), 'utf8');
     expect(skill).toContain('data/prompt-library.json');
     expect(skill).toContain('evaluation.status');
     expect(skill).toContain('skills/img2prompt');

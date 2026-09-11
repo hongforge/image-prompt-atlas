@@ -1,14 +1,14 @@
 {
-  "name": "open-image-prompt-library",
+  "name": "image-prompt-atlas",
   "version": "0.1.0",
   "description": "A structured library of reusable AI image prompts, generated previews, production templates, and agent-ready data.",
-  "homepage": "https://github.com/hongforge/ai_skills#readme",
+  "homepage": "https://github.com/hongforge/image-prompt-atlas#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hongforge/ai_skills.git"
+    "url": "git+https://github.com/hongforge/image-prompt-atlas.git"
   },
   "bugs": {
-    "url": "https://github.com/hongforge/ai_skills/issues"
+    "url": "https://github.com/hongforge/image-prompt-atlas/issues"
   },
   "type": "module",
   "scripts": {

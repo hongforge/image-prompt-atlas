@@ -2,7 +2,7 @@
 
 # 案例画廊
 
-[返回项目首页](../README.md) · [English](gallery.en.md) · [工业模板](templates.md) · [在线浏览](https://hongforge.github.io/ai_skills/)
+[返回项目首页](../README.md) · [English](gallery.en.md) · [工业模板](templates.md) · [在线浏览](https://hongforge.github.io/image-prompt-atlas/)
 
 这里展示 123 个原创案例。封面用于快速判断视觉方向，案例文件提供完整变量、对应封面值、生产级提示词与限制说明。
 

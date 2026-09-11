@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
-  <title id="title">Open Image Prompt Library</title>
+  <title id="title">Image Prompt Atlas</title>
   <desc id="description">Structured AI image prompts, production templates, visual cases, and agent-ready data.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
@@ -22,8 +22,8 @@
   </g>
   <rect x="72" y="62" width="94" height="28" rx="14" fill="#c5ff6f"/>
   <text x="119" y="82" text-anchor="middle" fill="#101511" font-family="Arial, sans-serif" font-size="13" font-weight="700">PROMPT OS</text>
-  <text x="72" y="166" fill="#f3f7ef" font-family="Arial, sans-serif" font-size="56" font-weight="700">Open Image</text>
-  <text x="72" y="228" fill="#c5ff6f" font-family="Arial, sans-serif" font-size="56" font-weight="700">Prompt Library</text>
+  <text x="72" y="166" fill="#f3f7ef" font-family="Arial, sans-serif" font-size="56" font-weight="700">Image Prompt</text>
+  <text x="72" y="228" fill="#c5ff6f" font-family="Arial, sans-serif" font-size="56" font-weight="700">Atlas</text>
   <text x="74" y="278" fill="#a9b5aa" font-family="Arial, sans-serif" font-size="19">123 visual cases · 30 production templates · Agent-ready data</text>
   <g transform="translate(880 74)">
     <rect width="102" height="142" rx="14" fill="#29352d" stroke="#c5ff6f" stroke-opacity="0.6"/>
