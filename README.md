@@ -23,7 +23,7 @@
 <p align="center">
   <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/aigc-game-key-art.png" alt="AIGC 游戏角色主视觉" width="30%"></a>
   <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/east-asian-neon-closeup.png" alt="东方人物霓虹特写" width="30%"></a>
-  <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/watch-campaign-image.png" alt="高端腕表商业视觉" width="30%"></a>
+  <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/aigc-legendary-weapon-card.png" alt="AIGC 传奇武器卡" width="30%"></a>
 </p>
 
 ## 📖 快速入口

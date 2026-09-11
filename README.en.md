@@ -21,7 +21,7 @@ Open **[hongforge.github.io/ai_skills](https://hongforge.github.io/ai_skills/)**
 <p align="center">
   <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/aigc-game-key-art.png" alt="AIGC game character key art" width="30%"></a>
   <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/east-asian-neon-closeup.png" alt="East Asian neon portrait close-up" width="30%"></a>
-  <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/watch-campaign-image.png" alt="Luxury watch campaign visual" width="30%"></a>
+  <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/aigc-legendary-weapon-card.png" alt="AIGC legendary weapon card" width="30%"></a>
 </p>
 
 ## 📖 Quick links
