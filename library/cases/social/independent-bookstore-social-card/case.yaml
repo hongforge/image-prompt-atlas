@@ -1,0 +1,24 @@
+id: independent-bookstore-social-card
+title: 独立书店雨夜社交卡片
+summary: 通过店主整理书堆、暖灯与雨窗构建有人情味的社区内容视觉。
+taxonomy:
+  deliverable: [social-content, scene-storytelling]
+  medium: [photography]
+  workflow: [text-to-image]
+  capability: [subject-consistency, material-lighting, layout-hierarchy]
+  model: [universal, gpt-image, midjourney]
+tags: [社交内容, 独立书店, 社区故事, 雨夜氛围]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [campaign_subject, visual_system, mobile_layout]
+  cover_values:
+    campaign_subject: { zh: 年轻书店店主在木桌旁整理一摞无标题旧书，深色针织衫与棕色围裙为人物锚点，椅上有一只熟睡虎斑猫, en: A young bookseller arranges a stack of untitled used books at a wood table, anchored by a dark knit and brown apron, with a sleeping tabby on a chair }
+    visual_system: { zh: 黄铜台灯与小壁灯形成琥珀暖区，雨窗外街道保持深蓝，木材、纸张和织物触感清晰, en: Brass lamps create amber pools against a deep-blue rainy street, with clear wood, paper, and textile tactility }
+    mobile_layout: { zh: 竖版 2:3，人物和书堆位于中下部，左上书架保留低对比区，右上雨窗保留 18% 排版空间, en: Portrait 2:3 with person and books lower-center, a low-contrast shelf upper-left, and 18% of the upper-right rainy window reserved for copy }
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Use the prompt as a starting point and review hands, book geometry, mobile hierarchy, safe zones, and platform compliance before production use.]

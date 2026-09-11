@@ -1,0 +1,24 @@
+id: brushed-metal-finish-library
+title: 热处理拉丝金属表面
+summary: 以统一拉丝方向、热处理渐变与受控微划痕定义可复用的金属材质。
+taxonomy:
+  deliverable: [surface-pattern, product-commerce]
+  medium: [photography, 3d-render]
+  workflow: [text-to-image]
+  capability: [material-lighting, product-fidelity, instruction-following]
+  model: [universal, gpt-image, midjourney]
+tags: [材质设计, 拉丝金属, 热处理表面, PBR参考]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [motif_system, surface_behavior, production_constraints]
+  cover_values:
+    motif_system: { zh: 深钛灰金属作为连续基底，蓝紫热处理色带从右上斜向左下过渡，零散细划痕与拉丝同向, en: Continuous dark titanium base with a blue-violet heat-treated band running upper-right to lower-left and sparse fine scratches aligned to the brushing }
+    surface_behavior: { zh: 细密单向拉丝形成各向异性高光，色带只改变氧化色不改变粗糙度，表面无镜面反射和深凹痕, en: Fine unidirectional brushing creates anisotropic highlights, the oxidation band changes color but not roughness, and the surface has no mirror reflections or deep gouges }
+    production_constraints: { zh: 拉丝线密度与尺度全画面一致，可平铺边缘保持色带和纹理连续，划痕覆盖率低于 3%, en: Brush density and scale stay uniform, tile edges preserve band and grain continuity, and scratch coverage remains below 3% }
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Review texture scale, anisotropy, edge continuity, and physically based material behavior before production use.]

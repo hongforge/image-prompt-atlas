@@ -1,0 +1,24 @@
+id: island-travel-carousel-cover
+title: 火山岛旅行轮播封面
+summary: 以人物尺度、火山湖层次与大面积天空构建具有后期排版空间的旅行首图。
+taxonomy:
+  deliverable: [social-content, scene-storytelling]
+  medium: [photography]
+  workflow: [text-to-image]
+  capability: [layout-hierarchy, spatial-reasoning, material-lighting]
+  model: [universal, gpt-image, midjourney]
+tags: [社交内容, 旅行封面, 火山岛, 轮播首图]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [campaign_subject, visual_system, mobile_layout]
+  cover_values:
+    campaign_subject: { zh: 一名穿钴蓝冲锋衣和黑色背包的独行者背对镜头站在黑色火山脊上，作为明确的人尺度锚点, en: A solo traveler in a cobalt shell and black backpack stands back to camera on a black volcanic ridge as the human-scale anchor }
+    visual_system: { zh: 青绿色火山湖、黑色岩脊、低云与破云金光形成冷暖层次，整体保持真实旅行摄影质感, en: A turquoise crater lake, black ridges, low cloud, and golden sunbreak form a cool-warm hierarchy in realistic travel photography }
+    mobile_layout: { zh: 竖版 2:3，人物置于下三分之一，湖面占中段，顶部 28% 天空保持低细节以供标题排版, en: Portrait 2:3 with the traveler in the lower third, lake across the middle, and the top 28% sky kept low-detail for later title placement }
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Use the prompt as a starting point and review geographic scale, mobile safe zones, hierarchy, and platform compliance before production use.]

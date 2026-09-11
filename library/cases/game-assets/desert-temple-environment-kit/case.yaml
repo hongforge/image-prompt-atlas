@@ -1,0 +1,30 @@
+id: desert-temple-environment-kit
+title: 沙漠神殿环境套件
+summary: 以可重复拱门、柱体、阶梯和水渠组成可拆解的环境资产样板。
+taxonomy:
+  deliverable: [game-asset, architecture-space]
+  medium: [3d-render]
+  workflow: [text-to-image]
+  capability: [spatial-reasoning, material-lighting, instruction-following]
+  model: [universal, gpt-image, midjourney]
+tags: [游戏资产, 环境套件, 沙漠神殿, 模块化建筑]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [asset_identity, construction_logic, material_presentation]
+  cover_values:
+    asset_identity:
+      zh: 一座组装完成的沙漠神殿微缩场景，尖拱入口、几何柱、破损阶梯、遮阳布和绿松石水渠为核心模块
+      en: An assembled desert-temple diorama built from a pointed arch, geometric pillars, broken stairs, shade cloth, and a turquoise water channel
+    construction_logic:
+      zh: 使用统一石块网格和柱距，阶梯连接入口平台，水渠沿最低标高穿过庭院，每个建筑模块都具有可重复边界
+      en: Use a consistent stone grid and bay spacing, connect stairs to the entry platform, run water along the lowest courtyard level, and give every module reusable boundaries
+    material_presentation:
+      zh: 暖砂岩、褪色红布、青绿釉饰和清水形成明确材质组，边缘风蚀与积沙遵循迎风方向
+      en: Separate warm sandstone, faded red cloth, turquoise glaze, and clear water, with erosion and sand buildup following one wind direction
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Use the prompt as a starting point and review silhouette, construction, scale, and material separation before production use.]

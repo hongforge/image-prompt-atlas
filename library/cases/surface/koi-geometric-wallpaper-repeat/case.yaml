@@ -1,0 +1,24 @@
+id: koi-geometric-wallpaper-repeat
+title: 锦鲤几何壁纸连续纹样
+summary: 将锦鲤与抽象水流组织为中尺度、边缘连续且色彩克制的壁纸纹样。
+taxonomy:
+  deliverable: [surface-pattern, illustration-art]
+  medium: [illustration, vector-graphic]
+  workflow: [text-to-image, series-consistency]
+  capability: [layout-hierarchy, instruction-following, subject-consistency]
+  model: [universal, gpt-image, midjourney]
+tags: [纹样设计, 锦鲤图案, 壁纸, 无缝重复]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [motif_system, surface_behavior, production_constraints]
+  cover_values:
+    motif_system: { zh: 红白锦鲤以三种弯曲姿态穿插于几何水流和少量梅花之间，鱼体长度约占单元宽度四分之一, en: Red-and-ivory koi in three curved poses interlock with geometric currents and sparse plum blossoms, each fish about one-quarter of the repeat-cell width }
+    surface_behavior: { zh: 深海军蓝底色配暖象牙与低饱和朱红，使用平整丝网印刷墨层和轻微纸纤维颗粒，不出现立体高光, en: Deep navy ground with warm ivory and muted vermilion, using flat screen-print ink and subtle paper fiber without dimensional highlights }
+    production_constraints: { zh: 中尺度半落重复，四边图形连续，最细线宽不低于成品 0.8 毫米，限定三专色且不得形成明显接缝, en: Medium-scale half-drop repeat with continuous edges, minimum final line width of 0.8 mm, limited to three spot colors and no visible seams }
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Review edge continuity, motif scale, color separation, and manufacturing feasibility before production use.]

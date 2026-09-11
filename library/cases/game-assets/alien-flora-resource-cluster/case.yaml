@@ -1,0 +1,30 @@
+id: alien-flora-resource-cluster
+title: 异星荧光植物资源簇
+summary: 以透明叶片、种荚和抓地根系设计可识别、可采集的外星生态资源。
+taxonomy:
+  deliverable: [game-asset]
+  medium: [3d-render, mixed-media]
+  workflow: [text-to-image]
+  capability: [material-lighting, spatial-reasoning, instruction-following]
+  model: [universal, gpt-image, midjourney]
+tags: [游戏资产, 异星植物, 资源道具, 生态设计]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [asset_identity, construction_logic, material_presentation]
+  cover_values:
+    asset_identity:
+      zh: 三株成簇的可采集异星植物，透明靛蓝叶片、珊瑚橙种荚和银白纤维根是固定识别特征
+      en: A harvestable cluster of three alien plants defined by translucent indigo leaves, coral-orange seed pods, and silver fibrous roots
+    construction_logic:
+      zh: 每株由六片叶围绕一根主茎生长，种荚位于叶腋，根系紧抓同一块多孔岩石并呈现合理分叉
+      en: Six leaves grow around each main stem, pods sit at leaf joints, and branching roots grip a shared porous rock
+    material_presentation:
+      zh: 叶片呈玻璃质半透明，种荚为柔软蜡质，根系带金属光泽，置于简洁异星土壤底座并用月光展示
+      en: Leaves appear glassy translucent, pods soft and waxy, roots subtly metallic, presented on a simple alien-soil base under moonlight
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Use the prompt as a starting point and review silhouette, construction, scale, and material separation before production use.]

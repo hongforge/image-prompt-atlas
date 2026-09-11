@@ -1,0 +1,24 @@
+id: coastal-mosaic-tile-pattern
+title: 海岸潮池马赛克纹样
+summary: 用手切陶片、潮池曲线和真实灰缝组织可铺装的海岸主题表面。
+taxonomy:
+  deliverable: [surface-pattern, architecture-space]
+  medium: [photography, 3d-render]
+  workflow: [text-to-image]
+  capability: [material-lighting, layout-hierarchy, instruction-following]
+  model: [universal, gpt-image, midjourney]
+tags: [纹样设计, 马赛克瓷砖, 海岸主题, 建筑表面]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [motif_system, surface_behavior, production_constraints]
+  cover_values:
+    motif_system: { zh: 深青和海绿色陶片形成旋转潮池，白色碎片勾勒泡沫边缘，沙色通道连接各潮池并以少量珊瑚橙贝形点缀, en: Deep-teal and sea-green tesserae form rotating tide pools, white pieces trace foam, sand paths connect pools, and sparse coral shell shapes accent the field }
+    surface_behavior: { zh: 手切釉面陶片存在轻微尺寸和色差，浅暖灰缝低于砖面约 1 毫米，斜光呈现真实边缘起伏, en: Hand-cut glazed tesserae show slight size and color variation, warm-gray grout sits about 1 mm below tile faces, and oblique light reveals true edge relief }
+    production_constraints: { zh: 连续铺装单元边缘可对接，灰缝宽度稳定在成品 3–5 毫米，不出现尖锐孤岛、过细陶片或明显重复块, en: Seamless paving edges, grout width held at 3–5 mm in final scale, with no sharp islands, overly thin pieces, or obvious duplicated clusters }
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Review edge continuity, grout width, tile scale, slip risk, and fabrication feasibility before production use.]

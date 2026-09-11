@@ -4,7 +4,7 @@
 
 [返回项目首页](../README.md) · [English](gallery.en.md) · [工业模板](templates.md) · [在线浏览](https://hongforge.github.io/image-prompt-atlas/)
 
-这里展示 131 个原创案例。封面用于快速判断视觉方向，案例文件提供完整变量、对应封面值、生产级提示词与限制说明。
+这里展示 163 个原创案例。封面用于快速判断视觉方向，案例文件提供完整变量、对应封面值、生产级提示词与限制说明。
 
 ## 分类导航
 
@@ -18,10 +18,10 @@
 - [😀 头像与表情（5）](#avatar-expression)
 - [⚡ AICG 游戏与动漫（9）](#aigc-creation)
 - [🎞️ 漫剧关键帧（5）](#comic-drama)
-- [🎥 影视分镜与镜头（2）](#film-storyboard)
-- [🎮 游戏资产与道具（2）](#game-asset)
-- [📱 社交媒体内容（2）](#social-content)
-- [🧵 纹样与材质设计（2）](#surface-pattern)
+- [🎥 影视分镜与镜头（10）](#film-storyboard)
+- [🎮 游戏资产与道具（10）](#game-asset)
+- [📱 社交媒体内容（10）](#social-content)
+- [🧵 纹样与材质设计（10）](#surface-pattern)
 - [🎬 场景与叙事（8）](#scene-storytelling)
 - [🎨 插画与艺术实验（5）](#illustration-art)
 - [📚 文档与出版（8）](#document-publishing)
@@ -885,10 +885,63 @@
 
 ## 🎥 影视分镜与镜头
 
-> 2 个案例；点击封面进入对应提示词文件。
+> 10 个案例；点击封面进入对应提示词文件。
 
 <table>
 <tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/film/midnight-kitchen-dialogue-shot/prompt.md"><img src="../site/public/case-images/midnight-kitchen-dialogue-shot.png" alt="午夜厨房家庭对白镜头" width="240"></a><br>
+<strong>午夜厨房家庭对白镜头</strong><br>
+<sub>通过人物距离、未拆信封和雨夜环境完成克制而紧张的家庭对白场面。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/film/midnight-kitchen-dialogue-shot/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/film/practical-creature-workshop-shot/prompt.md"><img src="../site/public/case-images/practical-creature-workshop-shot.png" alt="实体特效生物工坊镜头" width="240"></a><br>
+<strong>实体特效生物工坊镜头</strong><br>
+<sub>以机械眼调试、材料痕迹和团队工作环境呈现幕后制作的真实质感。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/film/practical-creature-workshop-shot/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/film/courtroom-reveal-keyframe/prompt.md"><img src="../site/public/case-images/courtroom-reveal-keyframe.png" alt="法庭证物揭示关键帧" width="240"></a><br>
+<strong>法庭证物揭示关键帧</strong><br>
+<sub>以发光证物、人物反应层级和法庭秩序构成剧情揭示瞬间。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/film/courtroom-reveal-keyframe/prompt.md">查看提示词与变量</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/film/underwater-station-suspense-shot/prompt.md"><img src="../site/public/case-images/underwater-station-suspense-shot.png" alt="深海站走廊悬疑镜头" width="240"></a><br>
+<strong>深海站走廊悬疑镜头</strong><br>
+<sub>用受压走廊、窗外巨影与应急灯建立封闭空间中的未知威胁。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/film/underwater-station-suspense-shot/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/film/lighthouse-storm-climax-shot/prompt.md"><img src="../site/public/case-images/lighthouse-storm-climax-shot.png" alt="灯塔风暴高潮镜头" width="240"></a><br>
+<strong>灯塔风暴高潮镜头</strong><br>
+<sub>用狭窄栈桥、巨浪与旋转灯束构成高风险环境动作场面。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/film/lighthouse-storm-climax-shot/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/film/desert-caravan-aerial-shot/prompt.md"><img src="../site/public/case-images/desert-caravan-aerial-shot.png" alt="盐湖车队航拍建立镜头" width="240"></a><br>
+<strong>盐湖车队航拍建立镜头</strong><br>
+<sub>以车队轨迹、盐湖尺度和崖壁城市建立宏大的远征地理关系。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/film/desert-caravan-aerial-shot/prompt.md">查看提示词与变量</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/film/orbital-garden-zero-gravity-shot/prompt.md"><img src="../site/public/case-images/orbital-garden-zero-gravity-shot.png" alt="轨道温室失重镜头" width="240"></a><br>
+<strong>轨道温室失重镜头</strong><br>
+<sub>以漂浮植物、水球与地球窗景建立可验证的失重空间叙事。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/film/orbital-garden-zero-gravity-shot/prompt.md">查看提示词与变量</a>
+</td>
 <td width="33%" valign="top" align="center">
 <a href="../library/cases/film/cinematic-chase-keyframe/prompt.md"><img src="../site/public/case-images/cinematic-chase-keyframe.png" alt="近未来雨夜追逐关键帧" width="240"></a><br>
 <strong>近未来雨夜追逐关键帧</strong><br>
@@ -903,6 +956,16 @@
 <sub>universal · gpt-image · midjourney · text-to-image</sub><br>
 <a href="../library/cases/film/observatory-storm-establishing-shot/prompt.md">查看提示词与变量</a>
 </td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/film/alpine-rescue-climax-shot/prompt.md"><img src="../site/public/case-images/alpine-rescue-climax-shot.png" alt="高山救援高潮镜头" width="240"></a><br>
+<strong>高山救援高潮镜头</strong><br>
+<sub>在极端高度、直升机气流和人物接触瞬间中建立清晰的救援动作逻辑。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/film/alpine-rescue-climax-shot/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%"></td>
 <td width="33%"></td>
 </tr>
 </table>
@@ -915,7 +978,7 @@
 
 ## 🎮 游戏资产与道具
 
-> 2 个案例；点击封面进入对应提示词文件。
+> 10 个案例；点击封面进入对应提示词文件。
 
 <table>
 <tr>
@@ -927,12 +990,75 @@
 <a href="../library/cases/game-assets/legendary-potion-game-prop/prompt.md">查看提示词与变量</a>
 </td>
 <td width="33%" valign="top" align="center">
+<a href="../library/cases/game-assets/frost-mage-staff-game-prop/prompt.md"><img src="../site/public/case-images/frost-mage-staff-game-prop.png" alt="冰霜法杖游戏道具" width="240"></a><br>
+<strong>冰霜法杖游戏道具</strong><br>
+<sub>用清晰轮廓、晶体核心和可解释结构设计高稀有度法术武器。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/game-assets/frost-mage-staff-game-prop/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/game-assets/alien-flora-resource-cluster/prompt.md"><img src="../site/public/case-images/alien-flora-resource-cluster.png" alt="异星荧光植物资源簇" width="240"></a><br>
+<strong>异星荧光植物资源簇</strong><br>
+<sub>以透明叶片、种荚和抓地根系设计可识别、可采集的外星生态资源。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/game-assets/alien-flora-resource-cluster/prompt.md">查看提示词与变量</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/game-assets/forest-guardian-creature-asset/prompt.md"><img src="../site/public/case-images/forest-guardian-creature-asset.png" alt="森林守护兽角色资产" width="240"></a><br>
+<strong>森林守护兽角色资产</strong><br>
+<sub>以树皮骨架、石甲分区和琥珀眼睛建立可动画化的原创生物角色。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/game-assets/forest-guardian-creature-asset/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/game-assets/modular-sci-fi-cargo-crate/prompt.md"><img src="../site/public/case-images/modular-sci-fi-cargo-crate.png" alt="模块化科幻货运箱" width="240"></a><br>
+<strong>模块化科幻货运箱</strong><br>
+<sub>以可替换护角、机械锁扣和使用磨损构建可信的硬表面场景道具。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/game-assets/modular-sci-fi-cargo-crate/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/game-assets/desert-temple-environment-kit/prompt.md"><img src="../site/public/case-images/desert-temple-environment-kit.png" alt="沙漠神殿环境套件" width="240"></a><br>
+<strong>沙漠神殿环境套件</strong><br>
+<sub>以可重复拱门、柱体、阶梯和水渠组成可拆解的环境资产样板。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/game-assets/desert-temple-environment-kit/prompt.md">查看提示词与变量</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/game-assets/ceremonial-warrior-helmet-asset/prompt.md"><img src="../site/public/case-images/ceremonial-warrior-helmet-asset.png" alt="漆艺仪典武士头盔" width="240"></a><br>
+<strong>漆艺仪典武士头盔</strong><br>
+<sub>在原创浪形冠饰、漆面盔体和编绳结构中平衡文化气质与游戏识别度。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/game-assets/ceremonial-warrior-helmet-asset/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/game-assets/tidal-energy-shield-game-prop/prompt.md"><img src="../site/public/case-images/tidal-energy-shield-game-prop.png" alt="潮汐能量盾牌道具" width="240"></a><br>
+<strong>潮汐能量盾牌道具</strong><br>
+<sub>将青铜机械叶片、漂流木环和动态水芯整合为高识别度防具。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/game-assets/tidal-energy-shield-game-prop/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/game-assets/steampunk-survey-airship-asset/prompt.md"><img src="../site/public/case-images/steampunk-survey-airship-asset.png" alt="蒸汽勘测飞艇载具" width="240"></a><br>
+<strong>蒸汽勘测飞艇载具</strong><br>
+<sub>用气囊骨架、观测舱和折叠尾翼建立可解释的轻型勘测载具。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/game-assets/steampunk-survey-airship-asset/prompt.md">查看提示词与变量</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
 <a href="../library/cases/game-assets/desert-scout-hoverbike/prompt.md"><img src="../site/public/case-images/desert-scout-hoverbike.png" alt="荒漠侦察悬浮载具" width="240"></a><br>
 <strong>荒漠侦察悬浮载具</strong><br>
 <sub>用功能驱动的硬表面结构、磨损分布和完整轮廓建立原创科幻载具资产。</sub><br>
 <sub>universal · gpt-image · midjourney · stable-diffusion · text-to-image</sub><br>
 <a href="../library/cases/game-assets/desert-scout-hoverbike/prompt.md">查看提示词与变量</a>
 </td>
+<td width="33%"></td>
 <td width="33%"></td>
 </tr>
 </table>
@@ -945,9 +1071,32 @@
 
 ## 📱 社交媒体内容
 
-> 2 个案例；点击封面进入对应提示词文件。
+> 10 个案例；点击封面进入对应提示词文件。
 
 <table>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/social/winter-coffee-seasonal-post/prompt.md"><img src="../site/public/case-images/winter-coffee-seasonal-post.png" alt="冬季咖啡时令内容" width="240"></a><br>
+<strong>冬季咖啡时令内容</strong><br>
+<sub>以手作杯、香料、霜窗与蒸汽构成具有触感和季节性的咖啡视觉。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/social/winter-coffee-seasonal-post/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/social/urban-fitness-challenge-story/prompt.md"><img src="../site/public/case-images/urban-fitness-challenge-story.png" alt="城市体能挑战故事封面" width="240"></a><br>
+<strong>城市体能挑战故事封面</strong><br>
+<sub>以真实运动人物、城市阶梯与蓝调时刻构成具有冲刺感的竖屏视觉。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/social/urban-fitness-challenge-story/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/social/pet-adoption-community-story/prompt.md"><img src="../site/public/case-images/pet-adoption-community-story.png" alt="宠物领养社区故事" width="240"></a><br>
+<strong>宠物领养社区故事</strong><br>
+<sub>以救助犬眼神、志愿者互动和日光庭院传达真实友好的领养主题。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/social/pet-adoption-community-story/prompt.md">查看提示词与变量</a>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top" align="center">
 <a href="../library/cases/social/artisan-dessert-social-story/prompt.md"><img src="../site/public/case-images/artisan-dessert-social-story.png" alt="手作甜点社媒故事封面" width="240"></a><br>
@@ -957,12 +1106,52 @@
 <a href="../library/cases/social/artisan-dessert-social-story/prompt.md">查看提示词与变量</a>
 </td>
 <td width="33%" valign="top" align="center">
+<a href="../library/cases/social/foldable-audio-device-launch-post/prompt.md"><img src="../site/public/case-images/foldable-audio-device-launch-post.png" alt="折叠音频设备新品帖" width="240"></a><br>
+<strong>折叠音频设备新品帖</strong><br>
+<sub>用几何收纳盒、悬浮产品与光平面构建高端消费电子发布视觉。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/social/foldable-audio-device-launch-post/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/social/skincare-reel-cover/prompt.md"><img src="../site/public/case-images/skincare-reel-cover.png" alt="植萃精华短视频封面" width="240"></a><br>
+<strong>植萃精华短视频封面</strong><br>
+<sub>以无标瓶身、水波与晨光建立清洁、可信且便于后期排字的护肤视觉。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/social/skincare-reel-cover/prompt.md">查看提示词与变量</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/social/island-travel-carousel-cover/prompt.md"><img src="../site/public/case-images/island-travel-carousel-cover.png" alt="火山岛旅行轮播封面" width="240"></a><br>
+<strong>火山岛旅行轮播封面</strong><br>
+<sub>以人物尺度、火山湖层次与大面积天空构建具有后期排版空间的旅行首图。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/social/island-travel-carousel-cover/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/social/independent-bookstore-social-card/prompt.md"><img src="../site/public/case-images/independent-bookstore-social-card.png" alt="独立书店雨夜社交卡片" width="240"></a><br>
+<strong>独立书店雨夜社交卡片</strong><br>
+<sub>通过店主整理书堆、暖灯与雨窗构建有人情味的社区内容视觉。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/social/independent-bookstore-social-card/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/social/indie-music-festival-social-poster/prompt.md"><img src="../site/public/case-images/indie-music-festival-social-poster.png" alt="独立音乐节社交海报" width="240"></a><br>
+<strong>独立音乐节社交海报</strong><br>
+<sub>用发光织物舞台、观众剪影与可控光束形成高能且可排版的活动主视觉。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/social/indie-music-festival-social-poster/prompt.md">查看提示词与变量</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
 <a href="../library/cases/social/streetwear-social-story/prompt.md"><img src="../site/public/case-images/streetwear-social-story.png" alt="街头鞋履社媒故事封面" width="240"></a><br>
 <strong>街头鞋履社媒故事封面</strong><br>
 <sub>以移动端安全区、单品焦点和可控动态元素构成无需平台界面也能成立的社媒广告封面。</sub><br>
 <sub>universal · gpt-image · midjourney · text-to-image</sub><br>
 <a href="../library/cases/social/streetwear-social-story/prompt.md">查看提示词与变量</a>
 </td>
+<td width="33%"></td>
 <td width="33%"></td>
 </tr>
 </table>
@@ -975,10 +1164,63 @@
 
 ## 🧵 纹样与材质设计
 
-> 2 个案例；点击封面进入对应提示词文件。
+> 10 个案例；点击封面进入对应提示词文件。
 
 <table>
 <tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/surface/dichroic-glass-gradient-library/prompt.md"><img src="../site/public/case-images/dichroic-glass-gradient-library.png" alt="二向色玻璃渐变材质" width="240"></a><br>
+<strong>二向色玻璃渐变材质</strong><br>
+<sub>用连续光谱过渡、折射焦散与轻微表面波纹定义可复用的玻璃视觉系统。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/surface/dichroic-glass-gradient-library/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/surface/embroidered-cloud-motif-repeat/prompt.md"><img src="../site/public/case-images/embroidered-cloud-motif-repeat.png" alt="云纹刺绣连续图案" width="240"></a><br>
+<strong>云纹刺绣连续图案</strong><br>
+<sub>用缎面针迹、抬高轮廓和现代云带节奏构建可生产的高端织物纹样。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/surface/embroidered-cloud-motif-repeat/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/surface/children-space-pattern-repeat/prompt.md"><img src="../site/public/case-images/children-space-pattern-repeat.png" alt="儿童太空主题连续纹样" width="240"></a><br>
+<strong>儿童太空主题连续纹样</strong><br>
+<sub>以圆润火箭、行星和天文台组成友好、清晰且适合儿童用品的图案。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/surface/children-space-pattern-repeat/prompt.md">查看提示词与变量</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/surface/recycled-terrazzo-surface-study/prompt.md"><img src="../site/public/case-images/recycled-terrazzo-surface-study.png" alt="再生水磨石材质样板" width="240"></a><br>
+<strong>再生水磨石材质样板</strong><br>
+<sub>用可追溯骨料比例、均匀分布和漫反射表面定义可制造的环保水磨石。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/surface/recycled-terrazzo-surface-study/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/surface/botanical-leather-emboss-surface/prompt.md"><img src="../site/public/case-images/botanical-leather-emboss-surface.png" alt="植物压花皮革表面" width="240"></a><br>
+<strong>植物压花皮革表面</strong><br>
+<sub>以蕨叶和种荚低浮雕、自然毛孔与旧化边缘定义奢华皮革材质。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/surface/botanical-leather-emboss-surface/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/surface/coastal-mosaic-tile-pattern/prompt.md"><img src="../site/public/case-images/coastal-mosaic-tile-pattern.png" alt="海岸潮池马赛克纹样" width="240"></a><br>
+<strong>海岸潮池马赛克纹样</strong><br>
+<sub>用手切陶片、潮池曲线和真实灰缝组织可铺装的海岸主题表面。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/surface/coastal-mosaic-tile-pattern/prompt.md">查看提示词与变量</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/surface/brushed-metal-finish-library/prompt.md"><img src="../site/public/case-images/brushed-metal-finish-library.png" alt="热处理拉丝金属表面" width="240"></a><br>
+<strong>热处理拉丝金属表面</strong><br>
+<sub>以统一拉丝方向、热处理渐变与受控微划痕定义可复用的金属材质。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/surface/brushed-metal-finish-library/prompt.md">查看提示词与变量</a>
+</td>
 <td width="33%" valign="top" align="center">
 <a href="../library/cases/surface/mineral-surface-library/prompt.md"><img src="../site/public/case-images/mineral-surface-library.png" alt="矿物建筑材质样板库" width="240"></a><br>
 <strong>矿物建筑材质样板库</strong><br>
@@ -993,6 +1235,16 @@
 <sub>universal · gpt-image · midjourney · stable-diffusion · text-to-image · series-consistency</sub><br>
 <a href="../library/cases/surface/ginkgo-textile-repeat/prompt.md">查看提示词与变量</a>
 </td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/surface/koi-geometric-wallpaper-repeat/prompt.md"><img src="../site/public/case-images/koi-geometric-wallpaper-repeat.png" alt="锦鲤几何壁纸连续纹样" width="240"></a><br>
+<strong>锦鲤几何壁纸连续纹样</strong><br>
+<sub>将锦鲤与抽象水流组织为中尺度、边缘连续且色彩克制的壁纸纹样。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/surface/koi-geometric-wallpaper-repeat/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%"></td>
 <td width="33%"></td>
 </tr>
 </table>

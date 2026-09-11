@@ -1,0 +1,24 @@
+id: foldable-audio-device-launch-post
+title: 折叠音频设备新品帖
+summary: 用几何收纳盒、悬浮产品与光平面构建高端消费电子发布视觉。
+taxonomy:
+  deliverable: [social-content, product-commerce]
+  medium: [3d-render]
+  workflow: [text-to-image]
+  capability: [product-fidelity, material-lighting, layout-hierarchy]
+  model: [universal, gpt-image, midjourney]
+tags: [社交内容, 消费电子, 新品发布, 产品渲染]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [campaign_subject, visual_system, mobile_layout]
+  cover_values:
+    campaign_subject: { zh: 一副折叠后的石墨灰头戴耳机置于打开的多面体充电盒中，铜色转轴、黑色耳垫与盒体卡槽完整可见, en: Folded graphite over-ear headphones sit inside an open faceted charging case, clearly showing copper hinges, black cushions, and fitted slots }
+    visual_system: { zh: 石墨黑、深铜与极细青色光线构成高端科技色板，反射地面和轮廓光控制在产品边缘, en: Graphite, deep copper, and thin cyan light lines form a premium technology palette with reflections and rim light confined to product edges }
+    mobile_layout: { zh: 竖版 2:3，产品盒悬浮于中部并占高度 48%，顶部留 20%、底部留 15% 深色低细节安全区, en: Portrait 2:3 with the case hovering centrally at 48% frame height, leaving 20% dark safe space above and 15% below }
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Use the prompt as a starting point and review product geometry, hinge logic, mobile safe zones, and platform compliance before production use.]

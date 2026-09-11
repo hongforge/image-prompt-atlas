@@ -70,6 +70,18 @@ const VARIABLE_LABEL_OVERRIDES: Record<string, string> = {
   sample_count: '样板数量',
   material_contrast: '材质行为差异',
   lighting_setup: '布光方案',
+  shot_subject: '镜头主体',
+  scene_geography: '场景空间关系',
+  camera_light: '摄影与光线',
+  asset_identity: '资产身份',
+  construction_logic: '结构逻辑',
+  material_presentation: '材质呈现',
+  campaign_subject: '传播主体',
+  visual_system: '视觉系统',
+  mobile_layout: '移动端版式',
+  motif_system: '母题系统',
+  surface_behavior: '表面行为',
+  production_constraints: '生产约束',
 };
 
 const VARIABLE_TERMS: Record<string, string> = {

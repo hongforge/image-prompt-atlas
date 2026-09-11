@@ -1,0 +1,30 @@
+id: lighthouse-storm-climax-shot
+title: 灯塔风暴高潮镜头
+summary: 用狭窄栈桥、巨浪与旋转灯束构成高风险环境动作场面。
+taxonomy:
+  deliverable: [film-storyboard, scene-storytelling]
+  medium: [photography]
+  workflow: [text-to-image, series-consistency]
+  capability: [subject-consistency, spatial-reasoning, material-lighting]
+  model: [universal, gpt-image, midjourney]
+tags: [影视分镜, 风暴灾难, 灯塔场景, 环境动作]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [shot_subject, scene_geography, camera_light]
+  cover_values:
+    shot_subject:
+      zh: 穿深黄色雨衣的守塔人抓住扶栏横穿外部金属栈桥，身体迎风前倾并保护怀中的备用灯芯
+      en: A keeper in a dark yellow raincoat grips the rail while crossing an exterior metal catwalk, leaning into the wind and protecting a spare lamp core
+    scene_geography:
+      zh: 灯塔圆柱位于右侧，栈桥从右下通向左中，巨浪从左后方撞击礁石但不得淹没人物轮廓
+      en: The lighthouse cylinder occupies the right, the catwalk runs from lower-right to center-left, and a giant wave strikes rear-left rocks without obscuring the figure
+    camera_light:
+      zh: 28mm 广角低机位，暴风蓝灰环境光为主，旋转琥珀灯束从塔顶扫过雨幕并短暂照亮人物
+      en: A low 28mm wide view dominated by stormy blue-gray ambience, with a rotating amber beacon sweeping rain and briefly lighting the keeper
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Use the prompt as a starting point and review continuity, anatomy, spatial logic, and lighting before production use.]

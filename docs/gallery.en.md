@@ -4,7 +4,7 @@
 
 [Project home](../README.en.md) · [中文](gallery.md) · [Industrial templates](templates.en.md) · [Live gallery](https://hongforge.github.io/image-prompt-atlas/)
 
-Browse 131 original cases. Covers communicate the visual direction; each case file contains complete variables, cover-specific values, a production prompt, and limitations.
+Browse 163 original cases. Covers communicate the visual direction; each case file contains complete variables, cover-specific values, a production prompt, and limitations.
 
 ## Category navigation
 
@@ -18,10 +18,10 @@ Browse 131 original cases. Covers communicate the visual direction; each case fi
 - [😀 Avatars & Expressions (5)](#avatar-expression)
 - [⚡ AIGC Games & Anime (9)](#aigc-creation)
 - [🎞️ Comic Drama Keyframes (5)](#comic-drama)
-- [🎥 Film Storyboards & Shots (2)](#film-storyboard)
-- [🎮 Game Assets & Props (2)](#game-asset)
-- [📱 Social Media Content (2)](#social-content)
-- [🧵 Patterns & Surface Design (2)](#surface-pattern)
+- [🎥 Film Storyboards & Shots (10)](#film-storyboard)
+- [🎮 Game Assets & Props (10)](#game-asset)
+- [📱 Social Media Content (10)](#social-content)
+- [🧵 Patterns & Surface Design (10)](#surface-pattern)
 - [🎬 Scenes & Storytelling (8)](#scene-storytelling)
 - [🎨 Illustration & Art (5)](#illustration-art)
 - [📚 Documents & Publishing (8)](#document-publishing)
@@ -885,10 +885,63 @@ Browse 131 original cases. Covers communicate the visual direction; each case fi
 
 ## 🎥 Film Storyboards & Shots
 
-> 2 cases. Select a cover to open its prompt file.
+> 10 cases. Select a cover to open its prompt file.
 
 <table>
 <tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/film/midnight-kitchen-dialogue-shot/prompt.md"><img src="../site/public/case-images/midnight-kitchen-dialogue-shot.png" alt="Midnight Kitchen Dialogue Shot" width="240"></a><br>
+<strong>Midnight Kitchen Dialogue Shot</strong><br>
+<sub>制作一张克制的双人对白电影镜头。人物与关键道具为 {{shot_subject}}，空间和视线严格遵循 {{scene_geography}}，摄影采用 {{camera_light}}。重点呈现停顿、回避目光和未说出口的冲突，不使用夸张动作；保持人物脸部、服装、座位、信封位置和光向，便于生成同轴正反打。竖版 2:3，写实电影剧照，不要字幕、对白气泡、品牌或</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/film/midnight-kitchen-dialogue-shot/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/film/practical-creature-workshop-shot/prompt.md"><img src="../site/public/case-images/practical-creature-workshop-shot.png" alt="Practical Creature Workshop Shot" width="240"></a><br>
+<strong>Practical Creature Workshop Shot</strong><br>
+<sub>制作一张记录实体特效制作过程的电影幕后镜头。核心工作动作是 {{shot_subject}}，工坊空间依照 {{scene_geography}}，摄影与灯光采用 {{camera_light}}。清楚区分树皮、硅胶、树脂、金属和布线材质，工具握持与机械连接必须可信；画面聚焦一次精密调试，而不是道具陈列拼贴。竖版 2:3，不要文字标签、影视 IP、品牌或水印</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/film/practical-creature-workshop-shot/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/film/courtroom-reveal-keyframe/prompt.md"><img src="../site/public/case-images/courtroom-reveal-keyframe.png" alt="Courtroom Reveal Keyframe" width="240"></a><br>
+<strong>Courtroom Reveal Keyframe</strong><br>
+<sub>制作一张“证物被打开”的剧情揭示关键帧。核心事件为 {{shot_subject}}，人物和席位严格遵循 {{scene_geography}}，采用 {{camera_light}}。通过证物亮度、人物视线和反应强弱建立由前至后的信息层级；保持律师、法官、陪审席与证物位置，便于延伸反应镜头。竖版 2:3，写实法庭电影剧照，不要字幕、法律徽章、可读文件、品牌</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/film/courtroom-reveal-keyframe/prompt.md">Open prompt and variables</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/film/underwater-station-suspense-shot/prompt.md"><img src="../site/public/case-images/underwater-station-suspense-shot.png" alt="Underwater Station Suspense Shot" width="240"></a><br>
+<strong>Underwater Station Suspense Shot</strong><br>
+<sub>制作一张可继续拆分前后镜头的电影悬疑关键帧。主体为 {{shot_subject}}；空间严格按照 {{scene_geography}} 建立前景、中景与远景，所有积水、舱门、窗框和视线方向保持物理一致；采用 {{camera_light}}。画面必须在缩略图中先读出人物、巨影和逃生方向，保留服装、工具与空间锚点供连续镜头复用。竖版 2:3，单张完整电影画</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/film/underwater-station-suspense-shot/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/film/lighthouse-storm-climax-shot/prompt.md"><img src="../site/public/case-images/lighthouse-storm-climax-shot.png" alt="Lighthouse Storm Climax Shot" width="240"></a><br>
+<strong>Lighthouse Storm Climax Shot</strong><br>
+<sub>制作一张风暴中横穿灯塔栈桥的高潮镜头。主体动作采用 {{shot_subject}}，场景空间遵循 {{scene_geography}}，摄影和灯光采用 {{camera_light}}。雨线、浪花、衣摆和人物重心必须遵循同一风向，栈桥连接关系与安全栏杆保持可读；巨浪负责制造压力，不得遮挡核心动作。竖版 2:3，不要文字、标识、品牌或水印。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/film/lighthouse-storm-climax-shot/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/film/desert-caravan-aerial-shot/prompt.md"><img src="../site/public/case-images/desert-caravan-aerial-shot.png" alt="Desert Caravan Aerial Shot" width="240"></a><br>
+<strong>Desert Caravan Aerial Shot</strong><br>
+<sub>制作一张表现远征尺度与目的地关系的航拍建立镜头。核心行动为 {{shot_subject}}，地理布局必须遵循 {{scene_geography}}，让车辙、山口和聚落形成连续可理解的行进路线；摄影与光线采用 {{camera_light}}。车辆数量、间距、阴影方向和地貌尺度必须可信，确保后续地面镜头能够沿同一轴线展开。竖版 2:3，单张完整电影画面，不</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/film/desert-caravan-aerial-shot/prompt.md">Open prompt and variables</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/film/orbital-garden-zero-gravity-shot/prompt.md"><img src="../site/public/case-images/orbital-garden-zero-gravity-shot.png" alt="Orbital Garden Zero Gravity Shot" width="240"></a><br>
+<strong>Orbital Garden Zero Gravity Shot</strong><br>
+<sub>制作一张具有可信失重逻辑的轨道温室电影镜头。主体动作采用 {{shot_subject}}，空间依照 {{scene_geography}}，摄影和色彩采用 {{camera_light}}。水球、头发、衣褶、叶片和工具都要呈现一致的失重方向，地球窗景只作为尺度锚点，不抢占人物焦点。竖版 2:3，单张完整画面，不要界面文字、太空机构标识、品牌或水印。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/film/orbital-garden-zero-gravity-shot/prompt.md">Open prompt and variables</a>
+</td>
 <td width="33%" valign="top" align="center">
 <a href="../library/cases/film/cinematic-chase-keyframe/prompt.md"><img src="../site/public/case-images/cinematic-chase-keyframe.png" alt="Cinematic Chase Keyframe" width="240"></a><br>
 <strong>Cinematic Chase Keyframe</strong><br>
@@ -903,6 +956,16 @@ Browse 131 original cases. Covers communicate the visual direction; each case fi
 <sub>universal · gpt-image · midjourney · text-to-image</sub><br>
 <a href="../library/cases/film/observatory-storm-establishing-shot/prompt.md">Open prompt and variables</a>
 </td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/film/alpine-rescue-climax-shot/prompt.md"><img src="../site/public/case-images/alpine-rescue-climax-shot.png" alt="Alpine Rescue Climax Shot" width="240"></a><br>
+<strong>Alpine Rescue Climax Shot</strong><br>
+<sub>制作一张动作关系明确的高山救援高潮关键帧。核心接触动作是 {{shot_subject}}，场景必须严格遵循 {{scene_geography}}，使用 {{camera_light}}。让手臂抓握、安全绳受力、直升机气流、碎雪方向和人物重心互相一致；优先保证动作可读性，不以云雾遮盖结构错误。竖版 2:3，单张电影画面，不要文字、标志、品牌或水印。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/film/alpine-rescue-climax-shot/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%"></td>
 <td width="33%"></td>
 </tr>
 </table>
@@ -915,7 +978,7 @@ Browse 131 original cases. Covers communicate the visual direction; each case fi
 
 ## 🎮 Game Assets & Props
 
-> 2 cases. Select a cover to open its prompt file.
+> 10 cases. Select a cover to open its prompt file.
 
 <table>
 <tr>
@@ -927,12 +990,75 @@ Browse 131 original cases. Covers communicate the visual direction; each case fi
 <a href="../library/cases/game-assets/legendary-potion-game-prop/prompt.md">Open prompt and variables</a>
 </td>
 <td width="33%" valign="top" align="center">
+<a href="../library/cases/game-assets/frost-mage-staff-game-prop/prompt.md"><img src="../site/public/case-images/frost-mage-staff-game-prop.png" alt="Frost Mage Staff Game Prop" width="240"></a><br>
+<strong>Frost Mage Staff Game Prop</strong><br>
+<sub>设计一个可进入游戏资产流程的单件武器道具。资产身份为 {{asset_identity}}，所有部件按照 {{construction_logic}} 形成可解释、可制造的连接关系，材质和展示遵循 {{material_presentation}}。完整显示顶端、握持区与末端，保证远距离轮廓可辨、近距离材质分区清楚；磨损只出现在握持和碰撞位置。竖版 2:3，</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/game-assets/frost-mage-staff-game-prop/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/game-assets/alien-flora-resource-cluster/prompt.md"><img src="../site/public/case-images/alien-flora-resource-cluster.png" alt="Alien Flora Resource Cluster" width="240"></a><br>
+<strong>Alien Flora Resource Cluster</strong><br>
+<sub>设计一个可用于开放世界采集点的异星植物资产。身份为 {{asset_identity}}，生长结构遵循 {{construction_logic}}，材质和光照采用 {{material_presentation}}。完整显示地上部分、根系和附着岩石，保证采集部位一眼可辨且生物结构自洽；发光只来自叶脉和种荚内部。竖版 2:3，单一资源簇，不要角色、文字、界面</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/game-assets/alien-flora-resource-cluster/prompt.md">Open prompt and variables</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/game-assets/forest-guardian-creature-asset/prompt.md"><img src="../site/public/case-images/forest-guardian-creature-asset.png" alt="Forest Guardian Creature Asset" width="240"></a><br>
+<strong>Forest Guardian Creature Asset</strong><br>
+<sub>设计一个可用于绑定和动画评估的原创四足生物。身份锚点为 {{asset_identity}}，身体结构遵循 {{construction_logic}}，材质展示使用 {{material_presentation}}。完整显示头、角、四肢、躯干与尾部，保证关节活动空间、承重关系和前后轮廓清楚；植物附着不能遮挡解剖结构。竖版 2:3，单一全身角色资产，不要文</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/game-assets/forest-guardian-creature-asset/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/game-assets/modular-sci-fi-cargo-crate/prompt.md"><img src="../site/public/case-images/modular-sci-fi-cargo-crate.png" alt="Modular Sci Fi Cargo Crate" width="240"></a><br>
+<strong>Modular Sci Fi Cargo Crate</strong><br>
+<sub>设计一个生产可信的模块化场景道具。资产为 {{asset_identity}}，结构必须遵循 {{construction_logic}}，材质与磨损采用 {{material_presentation}}。使用三分之四视角完整显示箱盖、锁扣、护角和底部搬运结构；所有分缝、铰链与受力点必须可解释。竖版 2:3，单件硬表面资产，不要文字、编号、图标、品牌、界面</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/game-assets/modular-sci-fi-cargo-crate/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/game-assets/desert-temple-environment-kit/prompt.md"><img src="../site/public/case-images/desert-temple-environment-kit.png" alt="Desert Temple Environment Kit" width="240"></a><br>
+<strong>Desert Temple Environment Kit</strong><br>
+<sub>设计一个组装完成、同时可反推模块拆分的游戏环境样板。环境身份为 {{asset_identity}}，空间和模块规则遵循 {{construction_logic}}，材质与风化采用 {{material_presentation}}。使用等距三分之四视角显示入口、路径、高差和水渠循环，避免不可到达的平台与无支撑构件。竖版 2:3，单一场景样板，不要接触表、</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/game-assets/desert-temple-environment-kit/prompt.md">Open prompt and variables</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/game-assets/ceremonial-warrior-helmet-asset/prompt.md"><img src="../site/public/case-images/ceremonial-warrior-helmet-asset.png" alt="Ceremonial Warrior Helmet Asset" width="240"></a><br>
+<strong>Ceremonial Warrior Helmet Asset</strong><br>
+<sub>设计一件具有原创文化气质的游戏头盔资产。外形身份为 {{asset_identity}}，连接关系依照 {{construction_logic}}，材质呈现采用 {{material_presentation}}。以略低的三分之四视角同时展示冠饰、盔体、护颈与内部衬垫；装饰必须服从结构，不使用真实家纹、军徽或既有角色元素。竖版 2:3，单件资产，不要人物、</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/game-assets/ceremonial-warrior-helmet-asset/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/game-assets/tidal-energy-shield-game-prop/prompt.md"><img src="../site/public/case-images/tidal-energy-shield-game-prop.png" alt="Tidal Energy Shield Game Prop" width="240"></a><br>
+<strong>Tidal Energy Shield Game Prop</strong><br>
+<sub>设计一件结构和魔法机制都可解释的盾牌资产。身份图形采用 {{asset_identity}}，组件关系遵循 {{construction_logic}}，材质展示使用 {{material_presentation}}。采用正面略偏三分之四视角，完整显示外圈、中心机构、厚度与握持空间；特效不得遮住连接点和轮廓。竖版 2:3，单件道具，不要角色、文字、符文、徽</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/game-assets/tidal-energy-shield-game-prop/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/game-assets/steampunk-survey-airship-asset/prompt.md"><img src="../site/public/case-images/steampunk-survey-airship-asset.png" alt="Steampunk Survey Airship Asset" width="240"></a><br>
+<strong>Steampunk Survey Airship Asset</strong><br>
+<sub>设计一艘结构可信的原创轻型飞艇资产。载具身份为 {{asset_identity}}，承重和操纵结构遵循 {{construction_logic}}，材质展示使用 {{material_presentation}}。完整显示头尾、气囊、舱体、动力和控制面，保证重心、吊挂、推进方向与维护入口合理。竖版 2:3，单一载具，不要驾驶员、文字、徽章、既有 IP、品</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/game-assets/steampunk-survey-airship-asset/prompt.md">Open prompt and variables</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
 <a href="../library/cases/game-assets/desert-scout-hoverbike/prompt.md"><img src="../site/public/case-images/desert-scout-hoverbike.png" alt="Desert Scout Hoverbike" width="240"></a><br>
 <strong>Desert Scout Hoverbike</strong><br>
 <sub>Design one original {{vehicle_role}} whose form is driven by {{engineering_features}}.</sub><br>
 <sub>universal · gpt-image · midjourney · stable-diffusion · text-to-image</sub><br>
 <a href="../library/cases/game-assets/desert-scout-hoverbike/prompt.md">Open prompt and variables</a>
 </td>
+<td width="33%"></td>
 <td width="33%"></td>
 </tr>
 </table>
@@ -945,9 +1071,32 @@ Browse 131 original cases. Covers communicate the visual direction; each case fi
 
 ## 📱 Social Media Content
 
-> 2 cases. Select a cover to open its prompt file.
+> 10 cases. Select a cover to open its prompt file.
 
 <table>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/social/winter-coffee-seasonal-post/prompt.md"><img src="../site/public/case-images/winter-coffee-seasonal-post.png" alt="Winter Coffee Seasonal Post" width="240"></a><br>
+<strong>Winter Coffee Seasonal Post</strong><br>
+<sub>制作一张冬季咖啡时令社交视觉。主角静物为 {{campaign_subject}}，材质和季节氛围采用 {{visual_system}}，版式遵循 {{mobile_layout}}。陶杯口沿、把手、液面、接触阴影和蒸汽必须真实，香料用于支持风味而不能形成杂乱堆砌；排版空间保持干净。不要包装文字、品牌、价格、平台界面或水印。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/social/winter-coffee-seasonal-post/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/social/urban-fitness-challenge-story/prompt.md"><img src="../site/public/case-images/urban-fitness-challenge-story.png" alt="Urban Fitness Challenge Story" width="240"></a><br>
+<strong>Urban Fitness Challenge Story</strong><br>
+<sub>制作一张竖屏城市体能挑战封面。人物与动作采用 {{campaign_subject}}，色彩和环境遵循 {{visual_system}}，裁切与安全区使用 {{mobile_layout}}。保持脸部真实清晰，手臂、腿部、鞋底接触和上楼重心符合运动逻辑；背景城市仅提供速度与地点感，不抢人物。不要标语、品牌服饰、平台界面、数字指标或水印。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/social/urban-fitness-challenge-story/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/social/pet-adoption-community-story/prompt.md"><img src="../site/public/case-images/pet-adoption-community-story.png" alt="Pet Adoption Community Story" width="240"></a><br>
+<strong>Pet Adoption Community Story</strong><br>
+<sub>制作一张真实、尊重且有希望感的宠物领养故事封面。人物与动物关系采用 {{campaign_subject}}，色彩和光线遵循 {{visual_system}}，构图使用 {{mobile_layout}}。犬只眼神、耳朵特征、毛色和志愿者手部接触必须自然；避免悲情夸张，以直接眼神建立信任。不要文字、收容机构标志、平台界面、互动数据或水印。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/social/pet-adoption-community-story/prompt.md">Open prompt and variables</a>
+</td>
+</tr>
 <tr>
 <td width="33%" valign="top" align="center">
 <a href="../library/cases/social/artisan-dessert-social-story/prompt.md"><img src="../site/public/case-images/artisan-dessert-social-story.png" alt="Artisan Dessert Social Story" width="240"></a><br>
@@ -957,12 +1106,52 @@ Browse 131 original cases. Covers communicate the visual direction; each case fi
 <a href="../library/cases/social/artisan-dessert-social-story/prompt.md">Open prompt and variables</a>
 </td>
 <td width="33%" valign="top" align="center">
+<a href="../library/cases/social/foldable-audio-device-launch-post/prompt.md"><img src="../site/public/case-images/foldable-audio-device-launch-post.png" alt="Foldable Audio Device Launch Post" width="240"></a><br>
+<strong>Foldable Audio Device Launch Post</strong><br>
+<sub>制作一张消费电子新品发布社交视觉。产品结构采用 {{campaign_subject}}，色彩和布光使用 {{visual_system}}，移动端版式遵循 {{mobile_layout}}。耳机左右结构、折叠转轴、耳垫厚度、盒体卡槽与开合关系必须准确；光线只帮助解释体块，不用光效遮盖结构。不要型号文字、品牌、伪界面、价格、互动数据或水印。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/social/foldable-audio-device-launch-post/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/social/skincare-reel-cover/prompt.md"><img src="../site/public/case-images/skincare-reel-cover.png" alt="Skincare Reel Cover" width="240"></a><br>
+<strong>Skincare Reel Cover</strong><br>
+<sub>制作一张移动端优先的护肤短视频封面。核心产品为 {{campaign_subject}}，色彩、环境与触感遵循 {{visual_system}}，版式严格采用 {{mobile_layout}}。产品轮廓、滴管结构、玻璃厚度、折射和接触阴影必须可信；只保留一个主焦点和可供后期排字的空白。不要标签、文字、品牌、平台界面、互动数据或水印。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/social/skincare-reel-cover/prompt.md">Open prompt and variables</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/social/island-travel-carousel-cover/prompt.md"><img src="../site/public/case-images/island-travel-carousel-cover.png" alt="Island Travel Carousel Cover" width="240"></a><br>
+<strong>Island Travel Carousel Cover</strong><br>
+<sub>制作一张旅行轮播内容的第一张封面图。人物主体为 {{campaign_subject}}，景观色彩与天气采用 {{visual_system}}，移动端层级严格遵循 {{mobile_layout}}。让人物、山脊、湖面和远岛形成四层纵深，保持云层光向、地形尺度和人物站姿可信；标题区只保留留白，不生成文字。不要平台界面、定位图标、品牌或水印。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/social/island-travel-carousel-cover/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/social/independent-bookstore-social-card/prompt.md"><img src="../site/public/case-images/independent-bookstore-social-card.png" alt="Independent Bookstore Social Card" width="240"></a><br>
+<strong>Independent Bookstore Social Card</strong><br>
+<sub>制作一张讲述社区书店日常的社交卡片底图。人物事件为 {{campaign_subject}}，环境与色彩采用 {{visual_system}}，构图遵循 {{mobile_layout}}。让手部整理动作、书本堆叠、台灯照明和窗外雨景彼此可信，主次清楚且不过度摆拍；书脊和排版区不得生成乱码。不要可读书名、品牌、平台界面或水印。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/social/independent-bookstore-social-card/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/social/indie-music-festival-social-poster/prompt.md"><img src="../site/public/case-images/indie-music-festival-social-poster.png" alt="Indie Music Festival Social Poster" width="240"></a><br>
+<strong>Indie Music Festival Social Poster</strong><br>
+<sub>制作一张高能但层级清楚的音乐节社交海报底图。活动场景为 {{campaign_subject}}，灯光系统采用 {{visual_system}}，构图遵循 {{mobile_layout}}。观众、舞台和天空分层明确，光束方向统一，主舞台必须在缩略图中优先被读到；信息区只保留空间，不直接生成阵容或日期文字。不要艺人肖像、品牌、平台界面、互动数据或水印。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/social/indie-music-festival-social-poster/prompt.md">Open prompt and variables</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
 <a href="../library/cases/social/streetwear-social-story/prompt.md"><img src="../site/public/case-images/streetwear-social-story.png" alt="Streetwear Social Story" width="240"></a><br>
 <strong>Streetwear Social Story</strong><br>
 <sub>Create one mobile-first social campaign cover for {{campaign_product}}, using {{motion_element}} as the only dynamic accent.</sub><br>
 <sub>universal · gpt-image · midjourney · text-to-image</sub><br>
 <a href="../library/cases/social/streetwear-social-story/prompt.md">Open prompt and variables</a>
 </td>
+<td width="33%"></td>
 <td width="33%"></td>
 </tr>
 </table>
@@ -975,10 +1164,63 @@ Browse 131 original cases. Covers communicate the visual direction; each case fi
 
 ## 🧵 Patterns & Surface Design
 
-> 2 cases. Select a cover to open its prompt file.
+> 10 cases. Select a cover to open its prompt file.
 
 <table>
 <tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/surface/dichroic-glass-gradient-library/prompt.md"><img src="../site/public/case-images/dichroic-glass-gradient-library.png" alt="Dichroic Glass Gradient Library" width="240"></a><br>
+<strong>Dichroic Glass Gradient Library</strong><br>
+<sub>制作一张可用于视觉系统与材质参考的二向色玻璃表面。色带和波脊按 {{motif_system}}，光学响应采用 {{surface_behavior}}，输出约束遵循 {{production_constraints}}。使用受控棚拍光呈现反射、透射、折射和焦散的区别，避免用纯色渐变冒充玻璃。画面填满竖版 2:3，不做器物或建筑样机，不要边框、文字、品牌或水</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/surface/dichroic-glass-gradient-library/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/surface/embroidered-cloud-motif-repeat/prompt.md"><img src="../site/public/case-images/embroidered-cloud-motif-repeat.png" alt="Embroidered Cloud Motif Repeat" width="240"></a><br>
+<strong>Embroidered Cloud Motif Repeat</strong><br>
+<sub>制作一张真实可绣制的连续织物纹样。母题组织为 {{motif_system}}，线材和针迹表现采用 {{surface_behavior}}，生产规则遵循 {{production_constraints}}。清楚呈现底布经纬、针脚方向、线层高度和边缘收针，检查四边连续与母题密度；输出平铺材质，不做服装样机。竖版 2:3，不要文字、徽章、品牌或水印。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/surface/embroidered-cloud-motif-repeat/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/surface/children-space-pattern-repeat/prompt.md"><img src="../site/public/case-images/children-space-pattern-repeat.png" alt="Children Space Pattern Repeat" width="240"></a><br>
+<strong>Children Space Pattern Repeat</strong><br>
+<sub>制作一张适合儿童用品的太空连续纹样。母题系统采用 {{motif_system}}，视觉质感使用 {{surface_behavior}}，生产约束遵循 {{production_constraints}}。保持所有图形友好、原创、轮廓简单，建立主母题与填充星点的密度层级，并检查四边接缝。输出平面竖版 2:3，不做床品或服装样机，不要文字、数字、品牌、既有动</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/surface/children-space-pattern-repeat/prompt.md">Open prompt and variables</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/surface/recycled-terrazzo-surface-study/prompt.md"><img src="../site/public/case-images/recycled-terrazzo-surface-study.png" alt="Recycled Terrazzo Surface Study" width="240"></a><br>
+<strong>Recycled Terrazzo Surface Study</strong><br>
+<sub>制作一张正交俯视的再生水磨石材质样板。骨料组成按 {{motif_system}}，表面响应采用 {{surface_behavior}}，制造限制遵循 {{production_constraints}}。保持骨料嵌入深度、边缘磨圆和基底密度真实，使用均匀漫射光，避免靠阴影制造假凹凸。画面填满竖版 2:3，不做台面或房间样机，不要物品、文字、品牌或水印。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/surface/recycled-terrazzo-surface-study/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/surface/botanical-leather-emboss-surface/prompt.md"><img src="../site/public/case-images/botanical-leather-emboss-surface.png" alt="Botanical Leather Emboss Surface" width="240"></a><br>
+<strong>Botanical Leather Emboss Surface</strong><br>
+<sub>制作一张可用于压花工艺评估的连续皮革表面。植物母题按 {{motif_system}}，皮革和浮雕表现采用 {{surface_behavior}}，生产限制严格遵循 {{production_constraints}}。使用斜向柔光说明高低关系，同时保留天然毛孔、细微折痕和植鞣色差；检查四边连续和最小沟槽。画面填满竖版 2:3，不做皮具样机，不要文字、品牌</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/surface/botanical-leather-emboss-surface/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/surface/coastal-mosaic-tile-pattern/prompt.md"><img src="../site/public/case-images/coastal-mosaic-tile-pattern.png" alt="Coastal Mosaic Tile Pattern" width="240"></a><br>
+<strong>Coastal Mosaic Tile Pattern</strong><br>
+<sub>制作一张可用于建筑铺装的连续马赛克表面。母题组织为 {{motif_system}}，瓷片与灰缝表现采用 {{surface_behavior}}，施工限制遵循 {{production_constraints}}。正交俯视完整显示陶片切割、灰缝和潮池节奏，检查四边拼接和局部可施工性。画面填满竖版 2:3，不做泳池或室内样机，不要边框、文字、品牌或水印。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/surface/coastal-mosaic-tile-pattern/prompt.md">Open prompt and variables</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/surface/brushed-metal-finish-library/prompt.md"><img src="../site/public/case-images/brushed-metal-finish-library.png" alt="Brushed Metal Finish Library" width="240"></a><br>
+<strong>Brushed Metal Finish Library</strong><br>
+<sub>制作一张用于材质库的连续拉丝金属表面。图形分布按 {{motif_system}}，物理响应采用 {{surface_behavior}}，输出限制遵循 {{production_constraints}}。使用大面积柔光显示各向异性，不让环境倒影或物体混入材质；保持金属基底连续且可判断粗糙度。画面填满竖版 2:3，不做产品样机，不要分栏、标签、文字、品牌或</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/surface/brushed-metal-finish-library/prompt.md">Open prompt and variables</a>
+</td>
 <td width="33%" valign="top" align="center">
 <a href="../library/cases/surface/mineral-surface-library/prompt.md"><img src="../site/public/case-images/mineral-surface-library.png" alt="Mineral Surface Library" width="240"></a><br>
 <strong>Mineral Surface Library</strong><br>
@@ -993,6 +1235,16 @@ Browse 131 original cases. Covers communicate the visual direction; each case fi
 <sub>universal · gpt-image · midjourney · stable-diffusion · text-to-image · series-consistency</sub><br>
 <a href="../library/cases/surface/ginkgo-textile-repeat/prompt.md">Open prompt and variables</a>
 </td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/surface/koi-geometric-wallpaper-repeat/prompt.md"><img src="../site/public/case-images/koi-geometric-wallpaper-repeat.png" alt="Koi Geometric Wallpaper Repeat" width="240"></a><br>
+<strong>Koi Geometric Wallpaper Repeat</strong><br>
+<sub>制作一张可测试重复的壁纸纹样。母题系统为 {{motif_system}}，表面视觉采用 {{surface_behavior}}，生产约束严格遵循 {{production_constraints}}。让主要锦鲤、次级水流和小型花朵形成明确层级，检查上下左右边缘连续、母题间距和旋转节奏；输出整幅纹样平面，不做室内样机。竖版 2:3，不要边框、文字、品牌或水</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/surface/koi-geometric-wallpaper-repeat/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%"></td>
 <td width="33%"></td>
 </tr>
 </table>

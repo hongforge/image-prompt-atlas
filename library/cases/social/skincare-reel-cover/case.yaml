@@ -1,0 +1,24 @@
+id: skincare-reel-cover
+title: 植萃精华短视频封面
+summary: 以无标瓶身、水波与晨光建立清洁、可信且便于后期排字的护肤视觉。
+taxonomy:
+  deliverable: [social-content, product-commerce]
+  medium: [photography]
+  workflow: [text-to-image]
+  capability: [product-fidelity, material-lighting, layout-hierarchy]
+  model: [universal, gpt-image, midjourney]
+tags: [社交内容, 护肤产品, 短视频封面, 商业摄影]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [campaign_subject, visual_system, mobile_layout]
+  cover_values:
+    campaign_subject: { zh: 一支无标签磨砂玻璃滴管精华瓶，内含透明浅绿色液体，瓶体垂直完整且占画面高度约三分之一, en: One unlabeled frosted-glass dropper bottle with pale green liquid, upright and complete at roughly one-third of the frame height }
+    visual_system: { zh: 鼠尾草绿与象牙白为主，湿润绿叶、浅水涟漪和晨间斜射阳光共同传达清洁植萃感, en: Sage and ivory with wet leaves, shallow ripples, and angled morning sunlight communicating clean botanical care }
+    mobile_layout: { zh: 竖版 2:3，产品位于下中部，上方保留 25% 浅色留白，下方保留 12% 无关键细节安全区, en: Portrait 2:3 with the product lower-center, 25% light negative space above, and a 12% detail-free safe zone below }
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Use the prompt as a starting point and review product geometry, mobile safe zones, hierarchy, and platform compliance before production use.]

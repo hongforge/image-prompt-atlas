@@ -1,0 +1,24 @@
+id: winter-coffee-seasonal-post
+title: 冬季咖啡时令内容
+summary: 以手作杯、香料、霜窗与蒸汽构成具有触感和季节性的咖啡视觉。
+taxonomy:
+  deliverable: [social-content, product-commerce]
+  medium: [photography]
+  workflow: [text-to-image]
+  capability: [material-lighting, layout-hierarchy, product-fidelity]
+  model: [universal, gpt-image, midjourney]
+tags: [社交内容, 冬季咖啡, 时令营销, 静物摄影]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [campaign_subject, visual_system, mobile_layout]
+  cover_values:
+    campaign_subject: { zh: 一只米褐双色手作陶杯盛满黑咖啡，杯旁放橙皮和八角，蒸汽形成自然连续曲线, en: A two-tone cream-and-brown handmade ceramic cup filled with black coffee, accompanied by orange peel and star anise, with natural continuous steam }
+    visual_system: { zh: 深森林绿毛织物、深木桌、霜花窗和右侧烛光构成冬季触感，橙皮作为唯一高饱和点, en: Deep forest-green knit, dark wood, frosted window, and right-side candlelight create winter tactility, with orange peel as the only saturated accent }
+    mobile_layout: { zh: 竖版 2:3，杯子位于中央下部占高度 35%，蒸汽向顶部留白延伸，四周至少保留 10% 安全边距, en: Portrait 2:3 with the cup lower-center at 35% frame height, steam rising into upper negative space, and at least 10% safe margins }
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Use the prompt as a starting point and review vessel geometry, steam, mobile hierarchy, safe zones, and platform compliance before production use.]

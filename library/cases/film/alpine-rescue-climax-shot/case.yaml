@@ -1,0 +1,30 @@
+id: alpine-rescue-climax-shot
+title: 高山救援高潮镜头
+summary: 在极端高度、直升机气流和人物接触瞬间中建立清晰的救援动作逻辑。
+taxonomy:
+  deliverable: [film-storyboard, scene-storytelling]
+  medium: [photography]
+  workflow: [text-to-image, series-consistency]
+  capability: [subject-consistency, spatial-reasoning, material-lighting]
+  model: [universal, gpt-image, midjourney]
+tags: [影视分镜, 救援动作, 高山环境, 高潮镜头]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [shot_subject, scene_geography, camera_light]
+  cover_values:
+    shot_subject:
+      zh: 穿红色救援服的救援员俯身抓住悬崖边登山者前臂，安全绳已连接且两人动作方向相反形成张力
+      en: A rescuer in red reaches down and grips a climber's forearm at the cliff edge, with an attached safety rope and opposing body directions creating tension
+    scene_geography:
+      zh: 岩脊从左下延伸至人物接触点，直升机悬停在右上后景，绳索从救援员腰部连向机腹且不得穿过人体
+      en: A ridge leads from lower-left to the contact point, a helicopter hovers upper-right, and the rope runs from the rescuer's harness to the aircraft without crossing bodies
+    camera_light:
+      zh: 28mm 近距离广角低机位，黎明逆光穿过云层，冷灰岩石与红色救援服形成唯一高对比焦点
+      en: A close low-angle 28mm wide shot with dawn backlight through clouds, making the red rescue suit the sole high-contrast focus against cool gray rock
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Use the prompt as a starting point and review continuity, anatomy, spatial logic, and lighting before production use.]

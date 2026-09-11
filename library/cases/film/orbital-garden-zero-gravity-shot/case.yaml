@@ -1,0 +1,30 @@
+id: orbital-garden-zero-gravity-shot
+title: 轨道温室失重镜头
+summary: 以漂浮植物、水球与地球窗景建立可验证的失重空间叙事。
+taxonomy:
+  deliverable: [film-storyboard, scene-storytelling]
+  medium: [photography, mixed-media]
+  workflow: [text-to-image, series-consistency]
+  capability: [subject-consistency, spatial-reasoning, material-lighting]
+  model: [universal, gpt-image, midjourney]
+tags: [影视分镜, 太空科幻, 失重场景, 环境叙事]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [shot_subject, scene_geography, camera_light]
+  cover_values:
+    shot_subject:
+      zh: 穿白色工作服的植物学家漂浮在温室中央，双手引导三颗水球浇灌一排番茄藤，面部清晰可见
+      en: A botanist in a white work suit floats at the center, guiding three water spheres toward tomato vines with a clearly visible face
+    scene_geography:
+      zh: 弧形种植架围绕中央工作区，圆形地球观察窗位于后景，人物脚部朝左下且所有漂浮物遵循同一失重状态
+      en: Curved grow racks surround the central workspace, a round Earth window sits behind, and every loose object shares the same zero-gravity state with the subject oriented feet lower-left
+    camera_light:
+      zh: 24mm 广角平稳漂浮机位，地球反射的蓝光作为主光，种植灯提供柔和洋红辅光，叶片边缘保持通透
+      en: A stable floating 24mm wide view with blue Earth-reflected key light, soft magenta grow-light fill, and translucent leaf edges
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Use the prompt as a starting point and review continuity, anatomy, spatial logic, and lighting before production use.]

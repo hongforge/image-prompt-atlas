@@ -8,7 +8,7 @@
   <a href="https://github.com/hongforge/image-prompt-atlas/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/hongforge/image-prompt-atlas/ci.yml?branch=main&style=flat-square&label=CI" alt="CI"></a>
   <a href="https://github.com/hongforge/image-prompt-atlas/stargazers"><img src="https://img.shields.io/github/stars/hongforge/image-prompt-atlas?style=flat-square" alt="Stars"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-c5ff6f?style=flat-square" alt="MIT License"></a>
-  <a href="docs/gallery.en.md"><img src="https://img.shields.io/badge/cases-131-755bff?style=flat-square" alt="131 cases"></a>
+  <a href="docs/gallery.en.md"><img src="https://img.shields.io/badge/cases-163-755bff?style=flat-square" alt="163 cases"></a>
   <a href="docs/templates.en.md"><img src="https://img.shields.io/badge/templates-30-19856e?style=flat-square" alt="30 templates"></a>
 </p>
 
@@ -28,7 +28,7 @@ Open **[hongforge.github.io/image-prompt-atlas](https://hongforge.github.io/imag
 
 | Resource | What it contains |
 | --- | --- |
-| [Case gallery](docs/gallery.en.md) | 131 visual covers with case and prompt links |
+| [Case gallery](docs/gallery.en.md) | 163 visual covers with case and prompt links |
 | [Industrial templates](docs/templates.en.md) | 30 templates with required fields, output contracts, quality gates, and pitfalls |
 | [Live website](https://hongforge.github.io/image-prompt-atlas/) | Search, filters, full previews, and prompt copying |
 | [Agent-ready JSON](data/prompt-library.json) | A stable catalog of cases, templates, variables, taxonomy, and limitations |

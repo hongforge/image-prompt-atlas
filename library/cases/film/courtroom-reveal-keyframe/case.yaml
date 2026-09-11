@@ -1,0 +1,30 @@
+id: courtroom-reveal-keyframe
+title: 法庭证物揭示关键帧
+summary: 以发光证物、人物反应层级和法庭秩序构成剧情揭示瞬间。
+taxonomy:
+  deliverable: [film-storyboard, scene-storytelling]
+  medium: [photography]
+  workflow: [text-to-image, series-consistency]
+  capability: [subject-consistency, spatial-reasoning, layout-hierarchy]
+  model: [universal, gpt-image, midjourney]
+tags: [影视分镜, 法庭剧情, 证物揭示, 群像反应]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [shot_subject, scene_geography, camera_light]
+  cover_values:
+    shot_subject:
+      zh: 女律师在证物桌前打开黑色硬壳箱，箱内蓝色晶体装置发光，法官与陪审席同时产生克制的震惊反应
+      en: A female attorney opens a black evidence case containing a glowing blue crystal device while the judge and jury react with restrained surprise
+    scene_geography:
+      zh: 证物箱位于前景中心，律师站在左侧，法官高台位于后景中轴，陪审席在右后方且所有视线汇聚到证物
+      en: The evidence case anchors the foreground center, the attorney stands left, the judge is elevated on the rear axis, and the jury sits rear-right with every eyeline converging on the evidence
+    camera_light:
+      zh: 40mm 中广角略低机位，木质法庭以暖褐环境光为主，证物蓝光只照亮律师手部与相邻面部
+      en: A slightly low 40mm medium-wide view with warm brown courtroom ambience and evidence-blue light limited to the attorney's hands and nearby faces
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Use the prompt as a starting point and review continuity, anatomy, spatial logic, and lighting before production use.]

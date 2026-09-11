@@ -1,0 +1,30 @@
+id: frost-mage-staff-game-prop
+title: 冰霜法杖游戏道具
+summary: 用清晰轮廓、晶体核心和可解释结构设计高稀有度法术武器。
+taxonomy:
+  deliverable: [game-asset]
+  medium: [3d-render, mixed-media]
+  workflow: [text-to-image]
+  capability: [material-lighting, product-fidelity, instruction-following]
+  model: [universal, gpt-image, midjourney]
+tags: [游戏资产, 武器道具, 冰霜法杖, 角色装备]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [asset_identity, construction_logic, material_presentation]
+  cover_values:
+    asset_identity:
+      zh: 一根高稀有度冰霜法杖，长柄、分叉冰冠和中央青色晶体构成不可改变的三段式轮廓
+      en: A high-rarity frost staff whose long shaft, branching ice crown, and central cyan crystal form a fixed three-part silhouette
+    construction_logic:
+      zh: 深色银质骨架包围晶体核心，柄部以交错金属带加固，悬挂冰棱通过细环连接且不得无支撑漂浮
+      en: A dark-silver frame encloses the crystal core, crossed metal bands reinforce the shaft, and hanging icicles connect through visible small rings rather than floating unsupported
+    material_presentation:
+      zh: 半透明蓝冰、拉丝暗银与黑色皮革握把三种材质清楚分离，置于黑色石台并以冷雾和轮廓光展示
+      en: Clearly separate translucent blue ice, brushed dark silver, and black leather grip, presented on a black stone pedestal with cold mist and rim light
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Use the prompt as a starting point and review silhouette, construction, scale, and material separation before production use.]

@@ -1,0 +1,30 @@
+id: tidal-energy-shield-game-prop
+title: 潮汐能量盾牌道具
+summary: 将青铜机械叶片、漂流木环和动态水芯整合为高识别度防具。
+taxonomy:
+  deliverable: [game-asset]
+  medium: [3d-render]
+  workflow: [text-to-image]
+  capability: [product-fidelity, material-lighting, instruction-following]
+  model: [universal, gpt-image, midjourney]
+tags: [游戏资产, 盾牌道具, 潮汐魔法, 防具设计]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [asset_identity, construction_logic, material_presentation]
+  cover_values:
+    asset_identity:
+      zh: 圆形潮汐能量盾，三叶青铜旋片、深色漂流木外环和透明旋涡水芯构成固定正面图案
+      en: A round tidal-energy shield with a fixed frontal motif of three bronze rotor blades, a dark driftwood ring, and a transparent vortex-water core
+    construction_logic:
+      zh: 三叶旋片围绕中央轴承连接，木环由四个金属卡扣加固，边缘水滴通过环形能量场维持而非无规则漂浮
+      en: Three blades connect to a central bearing, four metal clamps reinforce the wood ring, and edge droplets follow a circular energy field rather than floating randomly
+    material_presentation:
+      zh: 锤纹旧青铜、潮湿黑木、清澈动态水体与少量冷白高光明确分离，以暗色中性背景展示正面和厚度
+      en: Separate hammered aged bronze, wet black wood, clear moving water, and restrained cool-white highlights, showing both front design and thickness on a dark neutral background
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Use the prompt as a starting point and review silhouette, construction, scale, and material separation before production use.]
