@@ -1,0 +1,59 @@
+id: ginkgo-textile-repeat
+title: 银杏丝绸连续纹样
+summary: 用明确重复单元、边缘衔接和受控色板建立可用于纺织印花的原创连续图案。
+taxonomy:
+  deliverable:
+    - surface-pattern
+    - illustration-art
+  medium:
+    - illustration
+  workflow:
+    - text-to-image
+    - series-consistency
+  capability:
+    - subject-consistency
+    - layout-hierarchy
+    - instruction-following
+  model:
+    - universal
+    - gpt-image
+    - midjourney
+    - stable-diffusion
+tags:
+  - 连续纹样
+  - 纺织印花
+  - 植物插画
+  - 图案设计
+license:
+  prompt: CC0-1.0
+  reference: none
+source:
+  kind: original
+  url: null
+  rights_note: Original repository content.
+prompt:
+  language: en
+  variables:
+    - motif_family
+    - repeat_structure
+    - print_palette
+    - substrate
+  cover_values:
+    motif_family:
+      zh: 原创银杏叶、细长种荚、微型八芒星与墨线藤茎四组母题，比例分为大中小三级
+      en: Four original motif families—ginkgo leaves, slender seed pods, tiny eight-point stars, and ink-like stems—at three scales
+    repeat_structure:
+      zh: 半落式连续排列，画布四边的叶片和藤茎必须无缝衔接，避免中央徽章式单点构图
+      en: A half-drop seamless repeat with leaves and stems connecting across all four edges and no central medallion composition
+    print_palette:
+      zh: 深森林绿底占 65%，古金色叶片占 22%，骨白花苞占 8%，低饱和珊瑚种荚占 5%
+      en: 65% deep forest ground, 22% antique-gold leaves, 8% bone-white buds, and 5% muted coral seed pods
+    substrate:
+      zh: 面向高密度真丝斜纹印花，保留水粉笔触和轻微纸纹，但不表现布料褶皱或样机
+      en: Designed for dense silk twill printing, retaining gouache brushwork and subtle paper grain without fabric folds or mockups
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations:
+    - Use the prompt as a starting point and verify true edge tiling, motif collisions, and print gamut before production use.

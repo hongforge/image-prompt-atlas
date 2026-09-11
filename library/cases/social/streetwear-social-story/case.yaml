@@ -1,0 +1,59 @@
+id: streetwear-social-story
+title: 街头鞋履社媒故事封面
+summary: 以移动端安全区、单品焦点和可控动态元素构成无需平台界面也能成立的社媒广告封面。
+taxonomy:
+  deliverable:
+    - social-content
+    - product-commerce
+  medium:
+    - photography
+    - mixed-media
+  workflow:
+    - text-to-image
+  capability:
+    - product-fidelity
+    - layout-hierarchy
+    - material-lighting
+    - instruction-following
+  model:
+    - universal
+    - gpt-image
+    - midjourney
+tags:
+  - 社媒广告
+  - 鞋履发布
+  - 移动端构图
+  - 商业摄影
+license:
+  prompt: CC0-1.0
+  reference: none
+source:
+  kind: original
+  url: null
+  rights_note: Original repository content.
+prompt:
+  language: en
+  variables:
+    - campaign_product
+    - motion_element
+    - platform_safe_zone
+    - campaign_palette
+  cover_values:
+    campaign_product:
+      zh: 一只无品牌石墨黑街头运动鞋，鞋面织物、皮革覆片和厚底结构必须清晰且几何完整
+      en: One unbranded graphite streetwear sneaker with clearly separated mesh, leather overlays, and intact sculpted sole geometry
+    motion_element:
+      zh: 一条电光绿色丝带围绕鞋体形成单次 S 形动势，不遮挡鞋头、鞋带和外底轮廓
+      en: One electric-lime fabric ribbon forming a single S-curve around the shoe without hiding the toe, laces, or outsole silhouette
+    platform_safe_zone:
+      zh: 竖版 2:3 构图，上方 25% 保持低信息密度，主体位于中下区域，不渲染平台按钮或界面
+      en: A portrait 2:3 frame with the upper 25% kept low-density, the product in the lower middle, and no platform buttons or interface chrome
+    campaign_palette:
+      zh: 黑与石墨灰占 75%，拉丝钢占 15%，电光绿占 10% 且只用于丝带与鞋底小面积强调
+      en: 75% black and graphite, 15% brushed steel, and 10% electric lime restricted to the ribbon and small sole accents
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations:
+    - Use the prompt as a starting point and review product geometry, safe-zone spacing, and accidental branding before production use.

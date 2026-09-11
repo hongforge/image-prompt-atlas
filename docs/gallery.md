@@ -4,7 +4,7 @@
 
 [返回项目首页](../README.md) · [English](gallery.en.md) · [工业模板](templates.md) · [在线浏览](https://hongforge.github.io/image-prompt-atlas/)
 
-这里展示 123 个原创案例。封面用于快速判断视觉方向，案例文件提供完整变量、对应封面值、生产级提示词与限制说明。
+这里展示 131 个原创案例。封面用于快速判断视觉方向，案例文件提供完整变量、对应封面值、生产级提示词与限制说明。
 
 ## 分类导航
 
@@ -18,6 +18,10 @@
 - [😀 头像与表情（5）](#avatar-expression)
 - [⚡ AICG 游戏与动漫（9）](#aigc-creation)
 - [🎞️ 漫剧关键帧（5）](#comic-drama)
+- [🎥 影视分镜与镜头（2）](#film-storyboard)
+- [🎮 游戏资产与道具（2）](#game-asset)
+- [📱 社交媒体内容（2）](#social-content)
+- [🧵 纹样与材质设计（2）](#surface-pattern)
 - [🎬 场景与叙事（8）](#scene-storytelling)
 - [🎨 插画与艺术实验（5）](#illustration-art)
 - [📚 文档与出版（8）](#document-publishing)
@@ -868,6 +872,126 @@
 <sub>用主角、关系线索与情绪余韵收束一集内容，并为下一集留下可感知的悬念。</sub><br>
 <sub>gpt-image · nano-banana · midjourney · text-to-image · series-consistency</sub><br>
 <a href="../library/cases/comic-drama/episode-ending-cover/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%"></td>
+</tr>
+</table>
+
+[返回分类导航](#分类导航)
+
+---
+
+<a id="film-storyboard"></a>
+
+## 🎥 影视分镜与镜头
+
+> 2 个案例；点击封面进入对应提示词文件。
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/film/cinematic-chase-keyframe/prompt.md"><img src="../site/public/case-images/cinematic-chase-keyframe.png" alt="近未来雨夜追逐关键帧" width="240"></a><br>
+<strong>近未来雨夜追逐关键帧</strong><br>
+<sub>用明确的追逐动作、空间纵深与冷暖光线建立可继续拆镜的电影叙事节点。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/film/cinematic-chase-keyframe/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/film/observatory-storm-establishing-shot/prompt.md"><img src="../site/public/case-images/observatory-storm-establishing-shot.png" alt="风暴前观星台建立镜头" width="240"></a><br>
+<strong>风暴前观星台建立镜头</strong><br>
+<sub>以观星仪、灯路和山海层次构成历史题材的宏观建立镜头，强调时代可信度与叙事预兆。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/film/observatory-storm-establishing-shot/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%"></td>
+</tr>
+</table>
+
+[返回分类导航](#分类导航)
+
+---
+
+<a id="game-asset"></a>
+
+## 🎮 游戏资产与道具
+
+> 2 个案例；点击封面进入对应提示词文件。
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/game-assets/legendary-potion-game-prop/prompt.md"><img src="../site/public/case-images/legendary-potion-game-prop.png" alt="传奇药剂游戏道具" width="240"></a><br>
+<strong>传奇药剂游戏道具</strong><br>
+<sub>通过清晰轮廓、可解释结构与 PBR 材质呈现可进入游戏资产流程的高等级药剂道具。</sub><br>
+<sub>universal · gpt-image · midjourney · stable-diffusion · text-to-image</sub><br>
+<a href="../library/cases/game-assets/legendary-potion-game-prop/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/game-assets/desert-scout-hoverbike/prompt.md"><img src="../site/public/case-images/desert-scout-hoverbike.png" alt="荒漠侦察悬浮载具" width="240"></a><br>
+<strong>荒漠侦察悬浮载具</strong><br>
+<sub>用功能驱动的硬表面结构、磨损分布和完整轮廓建立原创科幻载具资产。</sub><br>
+<sub>universal · gpt-image · midjourney · stable-diffusion · text-to-image</sub><br>
+<a href="../library/cases/game-assets/desert-scout-hoverbike/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%"></td>
+</tr>
+</table>
+
+[返回分类导航](#分类导航)
+
+---
+
+<a id="social-content"></a>
+
+## 📱 社交媒体内容
+
+> 2 个案例；点击封面进入对应提示词文件。
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/social/artisan-dessert-social-story/prompt.md"><img src="../site/public/case-images/artisan-dessert-social-story.png" alt="手作甜点社媒故事封面" width="240"></a><br>
+<strong>手作甜点社媒故事封面</strong><br>
+<sub>以真实食物质感、节制道具和明确文案留白构成适合餐饮品牌发布的竖版内容。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/social/artisan-dessert-social-story/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/social/streetwear-social-story/prompt.md"><img src="../site/public/case-images/streetwear-social-story.png" alt="街头鞋履社媒故事封面" width="240"></a><br>
+<strong>街头鞋履社媒故事封面</strong><br>
+<sub>以移动端安全区、单品焦点和可控动态元素构成无需平台界面也能成立的社媒广告封面。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/social/streetwear-social-story/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%"></td>
+</tr>
+</table>
+
+[返回分类导航](#分类导航)
+
+---
+
+<a id="surface-pattern"></a>
+
+## 🧵 纹样与材质设计
+
+> 2 个案例；点击封面进入对应提示词文件。
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/surface/mineral-surface-library/prompt.md"><img src="../site/public/case-images/mineral-surface-library.png" alt="矿物建筑材质样板库" width="240"></a><br>
+<strong>矿物建筑材质样板库</strong><br>
+<sub>以统一尺度、掠射光和差异明确的表面行为构成可比较的建筑材质样板集合。</sub><br>
+<sub>universal · gpt-image · midjourney · stable-diffusion · text-to-image</sub><br>
+<a href="../library/cases/surface/mineral-surface-library/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/surface/ginkgo-textile-repeat/prompt.md"><img src="../site/public/case-images/ginkgo-textile-repeat.png" alt="银杏丝绸连续纹样" width="240"></a><br>
+<strong>银杏丝绸连续纹样</strong><br>
+<sub>用明确重复单元、边缘衔接和受控色板建立可用于纺织印花的原创连续图案。</sub><br>
+<sub>universal · gpt-image · midjourney · stable-diffusion · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/surface/ginkgo-textile-repeat/prompt.md">查看提示词与变量</a>
 </td>
 <td width="33%"></td>
 </tr>

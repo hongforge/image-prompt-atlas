@@ -24,7 +24,7 @@
   <text x="119" y="82" text-anchor="middle" fill="#101511" font-family="Arial, sans-serif" font-size="13" font-weight="700">PROMPT OS</text>
   <text x="72" y="166" fill="#f3f7ef" font-family="Arial, sans-serif" font-size="56" font-weight="700">Image Prompt</text>
   <text x="72" y="228" fill="#c5ff6f" font-family="Arial, sans-serif" font-size="56" font-weight="700">Atlas</text>
-  <text x="74" y="278" fill="#a9b5aa" font-family="Arial, sans-serif" font-size="19">123 visual cases · 30 production templates · Agent-ready data</text>
+  <text x="74" y="278" fill="#a9b5aa" font-family="Arial, sans-serif" font-size="19">131 visual cases · 30 production templates · Agent-ready data</text>
   <g transform="translate(880 74)">
     <rect width="102" height="142" rx="14" fill="#29352d" stroke="#c5ff6f" stroke-opacity="0.6"/>
     <rect x="118" y="34" width="102" height="142" rx="14" fill="#2b2540" stroke="#917aff" stroke-opacity="0.7"/>

@@ -4,7 +4,7 @@
 
 [Project home](../README.en.md) · [中文](gallery.md) · [Industrial templates](templates.en.md) · [Live gallery](https://hongforge.github.io/image-prompt-atlas/)
 
-Browse 123 original cases. Covers communicate the visual direction; each case file contains complete variables, cover-specific values, a production prompt, and limitations.
+Browse 131 original cases. Covers communicate the visual direction; each case file contains complete variables, cover-specific values, a production prompt, and limitations.
 
 ## Category navigation
 
@@ -18,6 +18,10 @@ Browse 123 original cases. Covers communicate the visual direction; each case fi
 - [😀 Avatars & Expressions (5)](#avatar-expression)
 - [⚡ AIGC Games & Anime (9)](#aigc-creation)
 - [🎞️ Comic Drama Keyframes (5)](#comic-drama)
+- [🎥 Film Storyboards & Shots (2)](#film-storyboard)
+- [🎮 Game Assets & Props (2)](#game-asset)
+- [📱 Social Media Content (2)](#social-content)
+- [🧵 Patterns & Surface Design (2)](#surface-pattern)
 - [🎬 Scenes & Storytelling (8)](#scene-storytelling)
 - [🎨 Illustration & Art (5)](#illustration-art)
 - [📚 Documents & Publishing (8)](#document-publishing)
@@ -868,6 +872,126 @@ Browse 123 original cases. Covers communicate the visual direction; each case fi
 <sub>Create a polished vertical 9:16 comic-drama episode-ending cover.</sub><br>
 <sub>gpt-image · nano-banana · midjourney · text-to-image · series-consistency</sub><br>
 <a href="../library/cases/comic-drama/episode-ending-cover/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%"></td>
+</tr>
+</table>
+
+[Back to category navigation](#category-navigation)
+
+---
+
+<a id="film-storyboard"></a>
+
+## 🎥 Film Storyboards & Shots
+
+> 2 cases. Select a cover to open its prompt file.
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/film/cinematic-chase-keyframe/prompt.md"><img src="../site/public/case-images/cinematic-chase-keyframe.png" alt="Cinematic Chase Keyframe" width="240"></a><br>
+<strong>Cinematic Chase Keyframe</strong><br>
+<sub>Create one cinematic chase keyframe featuring {{character_identity}} at {{chase_location}}, reacting to {{pursuing_threat}}.</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/film/cinematic-chase-keyframe/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/film/observatory-storm-establishing-shot/prompt.md"><img src="../site/public/case-images/observatory-storm-establishing-shot.png" alt="Observatory Storm Establishing Shot" width="240"></a><br>
+<strong>Observatory Storm Establishing Shot</strong><br>
+<sub>Create one historical drama establishing shot set in {{historical_setting}} at {{narrative_moment}}.</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/film/observatory-storm-establishing-shot/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%"></td>
+</tr>
+</table>
+
+[Back to category navigation](#category-navigation)
+
+---
+
+<a id="game-asset"></a>
+
+## 🎮 Game Assets & Props
+
+> 2 cases. Select a cover to open its prompt file.
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/game-assets/legendary-potion-game-prop/prompt.md"><img src="../site/public/case-images/legendary-potion-game-prop.png" alt="Legendary Potion Game Prop" width="240"></a><br>
+<strong>Legendary Potion Game Prop</strong><br>
+<sub>Design one production-ready fantasy game prop for {{prop_function}} using {{material_stack}}.</sub><br>
+<sub>universal · gpt-image · midjourney · stable-diffusion · text-to-image</sub><br>
+<a href="../library/cases/game-assets/legendary-potion-game-prop/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/game-assets/desert-scout-hoverbike/prompt.md"><img src="../site/public/case-images/desert-scout-hoverbike.png" alt="Desert Scout Hoverbike" width="240"></a><br>
+<strong>Desert Scout Hoverbike</strong><br>
+<sub>Design one original {{vehicle_role}} whose form is driven by {{engineering_features}}.</sub><br>
+<sub>universal · gpt-image · midjourney · stable-diffusion · text-to-image</sub><br>
+<a href="../library/cases/game-assets/desert-scout-hoverbike/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%"></td>
+</tr>
+</table>
+
+[Back to category navigation](#category-navigation)
+
+---
+
+<a id="social-content"></a>
+
+## 📱 Social Media Content
+
+> 2 cases. Select a cover to open its prompt file.
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/social/artisan-dessert-social-story/prompt.md"><img src="../site/public/case-images/artisan-dessert-social-story.png" alt="Artisan Dessert Social Story" width="240"></a><br>
+<strong>Artisan Dessert Social Story</strong><br>
+<sub>Create one vertical social story image featuring {{hero_dessert}} in {{hospitality_setting}}.</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/social/artisan-dessert-social-story/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/social/streetwear-social-story/prompt.md"><img src="../site/public/case-images/streetwear-social-story.png" alt="Streetwear Social Story" width="240"></a><br>
+<strong>Streetwear Social Story</strong><br>
+<sub>Create one mobile-first social campaign cover for {{campaign_product}}, using {{motion_element}} as the only dynamic accent.</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/social/streetwear-social-story/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%"></td>
+</tr>
+</table>
+
+[Back to category navigation](#category-navigation)
+
+---
+
+<a id="surface-pattern"></a>
+
+## 🧵 Patterns & Surface Design
+
+> 2 cases. Select a cover to open its prompt file.
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/surface/mineral-surface-library/prompt.md"><img src="../site/public/case-images/mineral-surface-library.png" alt="Mineral Surface Library" width="240"></a><br>
+<strong>Mineral Surface Library</strong><br>
+<sub>Create one coherent architectural material study containing {{surface_family}}.</sub><br>
+<sub>universal · gpt-image · midjourney · stable-diffusion · text-to-image</sub><br>
+<a href="../library/cases/surface/mineral-surface-library/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/surface/ginkgo-textile-repeat/prompt.md"><img src="../site/public/case-images/ginkgo-textile-repeat.png" alt="Ginkgo Textile Repeat" width="240"></a><br>
+<strong>Ginkgo Textile Repeat</strong><br>
+<sub>Create one original seamless textile design using {{motif_family}} arranged through {{repeat_structure}}.</sub><br>
+<sub>universal · gpt-image · midjourney · stable-diffusion · text-to-image · series-consistency</sub><br>
+<a href="../library/cases/surface/ginkgo-textile-repeat/prompt.md">Open prompt and variables</a>
 </td>
 <td width="33%"></td>
 </tr>

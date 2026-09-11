@@ -1,0 +1,58 @@
+id: artisan-dessert-social-story
+title: 手作甜点社媒故事封面
+summary: 以真实食物质感、节制道具和明确文案留白构成适合餐饮品牌发布的竖版内容。
+taxonomy:
+  deliverable:
+    - social-content
+    - product-commerce
+  medium:
+    - photography
+  workflow:
+    - text-to-image
+  capability:
+    - product-fidelity
+    - layout-hierarchy
+    - material-lighting
+    - instruction-following
+  model:
+    - universal
+    - gpt-image
+    - midjourney
+tags:
+  - 餐饮社媒
+  - 甜点摄影
+  - 移动端内容
+  - 文案留白
+license:
+  prompt: CC0-1.0
+  reference: none
+source:
+  kind: original
+  url: null
+  rights_note: Original repository content.
+prompt:
+  language: en
+  variables:
+    - hero_dessert
+    - hospitality_setting
+    - sensory_cues
+    - copy_safe_zone
+  cover_values:
+    hero_dessert:
+      zh: 一枚切开的黑芝麻慕斯蛋糕，亮面外层、浅灰芝麻慕斯、透明柚子夹心和黑色酥底层次清晰
+      en: One cut black-sesame mousse cake with a glossy shell, pale sesame mousse, translucent yuzu center, and dark crumb base
+    hospitality_setting:
+      zh: 现代东方茶室木桌，深色手作陶盘、亚麻布和后景热茶构成克制的待客场景
+      en: A modern East Asian tea-room table with a dark handmade ceramic plate, linen, and hot tea in the background
+    sensory_cues:
+      zh: 柚子切面保持湿润透光，茶杯有一缕真实蒸汽，柔和窗光表现慕斯与陶器的触感差异
+      en: A moist translucent yuzu center, one natural curl of tea steam, and soft window light separating mousse and ceramic textures
+    copy_safe_zone:
+      zh: 画面左上约 30% 保持安静浅墙与植物影，不生成文字，供后期加入短标题
+      en: Roughly 30% of the upper-left frame remains a quiet pale wall with branch shadow and no generated text for later copy
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations:
+    - Use the prompt as a starting point and review food realism, edible texture, and copy-safe spacing before production use.

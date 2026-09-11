@@ -9,7 +9,7 @@
     "model"
   ],
   "counts": {
-    "cases": 123,
+    "cases": 131,
     "templates": 30
   },
   "cases": [
@@ -2405,6 +2405,158 @@
       },
       "preview": "case-images/medical-anatomy-poster.png",
       "path": "library/cases/health/medical-anatomy-poster"
+    },
+    {
+      "id": "legendary-potion-game-prop",
+      "title": {
+        "zh": "传奇药剂游戏道具",
+        "en": "Legendary Potion Game Prop"
+      },
+      "summary": {
+        "zh": "通过清晰轮廓、可解释结构与 PBR 材质呈现可进入游戏资产流程的高等级药剂道具。",
+        "en": "Design one production-ready fantasy game prop for {{prop_function}} using {{material_stack}}."
+      },
+      "taxonomy": {
+        "deliverable": [
+          "game-asset",
+          "product-commerce"
+        ],
+        "medium": [
+          "3d-render"
+        ],
+        "workflow": [
+          "text-to-image"
+        ],
+        "capability": [
+          "product-fidelity",
+          "material-lighting",
+          "instruction-following"
+        ],
+        "model": [
+          "universal",
+          "gpt-image",
+          "midjourney",
+          "stable-diffusion"
+        ]
+      },
+      "tags": {
+        "zh": [
+          "游戏道具",
+          "PBR 材质",
+          "药剂瓶",
+          "资产设计"
+        ],
+        "en": [
+          "Game Asset",
+          "Product Commerce",
+          "Product Fidelity",
+          "Material Lighting",
+          "Instruction Following"
+        ]
+      },
+      "prompt": {
+        "language": "bilingual",
+        "variables": [
+          "prop_function",
+          "material_stack",
+          "wear_level",
+          "rarity_palette"
+        ],
+        "cover_values": {
+          "prop_function": {
+            "zh": "传奇级治疗药剂，瓶体需要可安全抓握、可密封运输，并通过红色液体表达恢复生命的功能",
+            "en": "A legendary healing potion with a grippable, transport-safe sealed form and crimson liquid communicating health recovery"
+          },
+          "material_stack": {
+            "zh": "切面深红玻璃、做旧黄铜护笼、深棕皮革握带和暗红蜡封，所有连接点必须可制造",
+            "en": "Faceted crimson glass, aged brass protective cage, dark brown leather grip, and oxblood wax seal with manufacturable joints"
+          },
+          "wear_level": {
+            "zh": "中度使用痕迹集中在金属边缘和皮革握持区，玻璃主体保持完整透明，不出现随机裂纹",
+            "en": "Moderate wear limited to brass edges and leather grip zones, with intact transparent glass and no random cracks"
+          },
+          "rarity_palette": {
+            "zh": "暗红占 45%，旧黄铜占 30%，炭黑占 20%，低亮青色轮廓光占 5%",
+            "en": "45% oxblood, 30% aged brass, 20% charcoal, and 5% low-intensity teal rim light"
+          }
+        },
+        "variable_labels": [
+          {
+            "id": "prop_function",
+            "zh": "道具功能",
+            "en": "Prop Function",
+            "description": {
+              "zh": "请填写「道具功能」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+              "en": "Provide a concrete value for Prop Function, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+            },
+            "cover_value": {
+              "zh": "传奇级治疗药剂，瓶体需要可安全抓握、可密封运输，并通过红色液体表达恢复生命的功能",
+              "en": "A legendary healing potion with a grippable, transport-safe sealed form and crimson liquid communicating health recovery"
+            }
+          },
+          {
+            "id": "material_stack",
+            "zh": "材质组合",
+            "en": "Material Stack",
+            "description": {
+              "zh": "请写清「材质组合」的主要材质、表面状态、磨损或反射特征，以及它在画面中的重点部位。",
+              "en": "State the main materials, surface condition, wear or reflectance, and the focal placement of Material Stack."
+            },
+            "cover_value": {
+              "zh": "切面深红玻璃、做旧黄铜护笼、深棕皮革握带和暗红蜡封，所有连接点必须可制造",
+              "en": "Faceted crimson glass, aged brass protective cage, dark brown leather grip, and oxblood wax seal with manufacturable joints"
+            }
+          },
+          {
+            "id": "wear_level",
+            "zh": "磨损等级",
+            "en": "Wear Level",
+            "description": {
+              "zh": "请填写「磨损等级」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+              "en": "Provide a concrete value for Wear Level, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+            },
+            "cover_value": {
+              "zh": "中度使用痕迹集中在金属边缘和皮革握持区，玻璃主体保持完整透明，不出现随机裂纹",
+              "en": "Moderate wear limited to brass edges and leather grip zones, with intact transparent glass and no random cracks"
+            }
+          },
+          {
+            "id": "rarity_palette",
+            "zh": "稀有度色板",
+            "en": "Rarity Palette",
+            "description": {
+              "zh": "请给出「稀有度色板」的 2–4 个明确色名、主辅比例和使用位置；不要只写“高级”或“有氛围”。",
+              "en": "Specify 2–4 named colors, their primary/secondary balance, and where Rarity Palette appears; avoid vague terms such as “premium” or “atmospheric”."
+            },
+            "cover_value": {
+              "zh": "暗红占 45%，旧黄铜占 30%，炭黑占 20%，低亮青色轮廓光占 5%",
+              "en": "45% oxblood, 30% aged brass, 20% charcoal, and 5% low-intensity teal rim light"
+            }
+          }
+        ],
+        "text": {
+          "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「传奇药剂游戏道具」创作图像：通过清晰轮廓、可解释结构与 PBR 材质呈现可进入游戏资产流程的高等级药剂道具。\n\n## 必填需求字段\n- `{{prop_function}}`（道具功能）：传奇级治疗药剂，瓶体需要可安全抓握、可密封运输，并通过红色液体表达恢复生命的功能\n- `{{material_stack}}`（材质组合）：切面深红玻璃、做旧黄铜护笼、深棕皮革握带和暗红蜡封，所有连接点必须可制造\n- `{{wear_level}}`（磨损等级）：中度使用痕迹集中在金属边缘和皮革握持区，玻璃主体保持完整透明，不出现随机裂纹\n- `{{rarity_palette}}`（稀有度色板）：暗红占 45%，旧黄铜占 30%，炭黑占 20%，低亮青色轮廓光占 5%\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 保持商品几何、材质和尺度可信；商品必须是唯一焦点，用可控布光、接触阴影和文案留白替代无关道具。\n- 按可进入生产流程的游戏资产处理：轮廓完整、结构可解释、材质分区清楚、尺度可信，磨损必须与使用方式一致；不得用特效、标签或拼贴遮盖结构问题。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：这是未经验证的起始案例；在实际生产使用前，请人工复核生成结果、文字与品牌合规性。",
+          "en": "Design one production-ready fantasy game prop for {{prop_function}} using {{material_stack}}. Apply {{wear_level}} according to handling and contact logic, and use {{rarity_palette}} to communicate item tier without labels or interface effects. Present the complete silhouette in a centered three-quarter view on a restrained dark pedestal with physically based glass, metal, leather, wax, refraction, and contact shadow. Portrait 2:3, one object only, no character, no contact sheet, no readable text, no logo, and no watermark.\n\n## Production protocol\n\n### Brief integrity\n- `{{prop_function}}` (Prop Function): A legendary healing potion with a grippable, transport-safe sealed form and crimson liquid communicating health recovery\n- `{{material_stack}}` (Material Stack): Faceted crimson glass, aged brass protective cage, dark brown leather grip, and oxblood wax seal with manufacturable joints\n- `{{wear_level}}` (Wear Level): Moderate wear limited to brass edges and leather grip zones, with intact transparent glass and no random cracks\n- `{{rarity_palette}}` (Rarity Palette): 45% oxblood, 30% aged brass, 20% charcoal, and 5% low-intensity teal rim light\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Preserve product geometry, material, and believable scale. Make the product the unambiguous hero; support it with controlled lighting, contact shadow, and copy-safe space rather than unrelated props.\n- Design a production-credible game asset with a complete silhouette, explainable construction, readable material separation, believable scale, and wear tied to use. Do not hide structural problems behind effects, labels, or a presentation collage.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: Use the prompt as a starting point and review prop construction, glass refraction, and silhouette readability before production use."
+        }
+      },
+      "evaluation": {
+        "status": "draft",
+        "tested_models": [],
+        "last_verified": null,
+        "limitations": [
+          "Use the prompt as a starting point and review prop construction, glass refraction, and silhouette readability before production use."
+        ]
+      },
+      "limitations": {
+        "zh": [
+          "这是未经验证的起始案例；在实际生产使用前，请人工复核生成结果、文字与品牌合规性。"
+        ],
+        "en": [
+          "Use the prompt as a starting point and review prop construction, glass refraction, and silhouette readability before production use."
+        ]
+      },
+      "preview": "case-images/legendary-potion-game-prop.png",
+      "path": "library/cases/game-assets/legendary-potion-game-prop"
     },
     {
       "id": "supply-chain-map",
@@ -5930,6 +6082,159 @@
       },
       "preview": "case-images/real-estate-listing-hero.png",
       "path": "library/cases/finance/real-estate-listing-hero"
+    },
+    {
+      "id": "artisan-dessert-social-story",
+      "title": {
+        "zh": "手作甜点社媒故事封面",
+        "en": "Artisan Dessert Social Story"
+      },
+      "summary": {
+        "zh": "以真实食物质感、节制道具和明确文案留白构成适合餐饮品牌发布的竖版内容。",
+        "en": "Create one vertical social story image featuring {{hero_dessert}} in {{hospitality_setting}}."
+      },
+      "taxonomy": {
+        "deliverable": [
+          "social-content",
+          "product-commerce"
+        ],
+        "medium": [
+          "photography"
+        ],
+        "workflow": [
+          "text-to-image"
+        ],
+        "capability": [
+          "product-fidelity",
+          "layout-hierarchy",
+          "material-lighting",
+          "instruction-following"
+        ],
+        "model": [
+          "universal",
+          "gpt-image",
+          "midjourney"
+        ]
+      },
+      "tags": {
+        "zh": [
+          "餐饮社媒",
+          "甜点摄影",
+          "移动端内容",
+          "文案留白"
+        ],
+        "en": [
+          "Social Content",
+          "Product Commerce",
+          "Product Fidelity",
+          "Layout Hierarchy",
+          "Material Lighting",
+          "Instruction Following"
+        ]
+      },
+      "prompt": {
+        "language": "bilingual",
+        "variables": [
+          "hero_dessert",
+          "hospitality_setting",
+          "sensory_cues",
+          "copy_safe_zone"
+        ],
+        "cover_values": {
+          "hero_dessert": {
+            "zh": "一枚切开的黑芝麻慕斯蛋糕，亮面外层、浅灰芝麻慕斯、透明柚子夹心和黑色酥底层次清晰",
+            "en": "One cut black-sesame mousse cake with a glossy shell, pale sesame mousse, translucent yuzu center, and dark crumb base"
+          },
+          "hospitality_setting": {
+            "zh": "现代东方茶室木桌，深色手作陶盘、亚麻布和后景热茶构成克制的待客场景",
+            "en": "A modern East Asian tea-room table with a dark handmade ceramic plate, linen, and hot tea in the background"
+          },
+          "sensory_cues": {
+            "zh": "柚子切面保持湿润透光，茶杯有一缕真实蒸汽，柔和窗光表现慕斯与陶器的触感差异",
+            "en": "A moist translucent yuzu center, one natural curl of tea steam, and soft window light separating mousse and ceramic textures"
+          },
+          "copy_safe_zone": {
+            "zh": "画面左上约 30% 保持安静浅墙与植物影，不生成文字，供后期加入短标题",
+            "en": "Roughly 30% of the upper-left frame remains a quiet pale wall with branch shadow and no generated text for later copy"
+          }
+        },
+        "variable_labels": [
+          {
+            "id": "hero_dessert",
+            "zh": "主角甜点",
+            "en": "Hero Dessert",
+            "description": {
+              "zh": "请填写「主角甜点」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+              "en": "Provide a concrete value for Hero Dessert, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+            },
+            "cover_value": {
+              "zh": "一枚切开的黑芝麻慕斯蛋糕，亮面外层、浅灰芝麻慕斯、透明柚子夹心和黑色酥底层次清晰",
+              "en": "One cut black-sesame mousse cake with a glossy shell, pale sesame mousse, translucent yuzu center, and dark crumb base"
+            }
+          },
+          {
+            "id": "hospitality_setting",
+            "zh": "待客场景",
+            "en": "Hospitality Setting",
+            "description": {
+              "zh": "请明确「待客场景」的地点、时间、空间尺度、关键环境元素及其与主体的关系。",
+              "en": "Specify the place, time, scale, key environmental elements, and their relationship to the subject for Hospitality Setting."
+            },
+            "cover_value": {
+              "zh": "现代东方茶室木桌，深色手作陶盘、亚麻布和后景热茶构成克制的待客场景",
+              "en": "A modern East Asian tea-room table with a dark handmade ceramic plate, linen, and hot tea in the background"
+            }
+          },
+          {
+            "id": "sensory_cues",
+            "zh": "感官线索",
+            "en": "Sensory Cues",
+            "description": {
+              "zh": "请填写「感官线索」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+              "en": "Provide a concrete value for Sensory Cues, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+            },
+            "cover_value": {
+              "zh": "柚子切面保持湿润透光，茶杯有一缕真实蒸汽，柔和窗光表现慕斯与陶器的触感差异",
+              "en": "A moist translucent yuzu center, one natural curl of tea steam, and soft window light separating mousse and ceramic textures"
+            }
+          },
+          {
+            "id": "copy_safe_zone",
+            "zh": "文案安全区",
+            "en": "Copy Safe Zone",
+            "description": {
+              "zh": "请填写「文案安全区」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+              "en": "Provide a concrete value for Copy Safe Zone, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+            },
+            "cover_value": {
+              "zh": "画面左上约 30% 保持安静浅墙与植物影，不生成文字，供后期加入短标题",
+              "en": "Roughly 30% of the upper-left frame remains a quiet pale wall with branch shadow and no generated text for later copy"
+            }
+          }
+        ],
+        "text": {
+          "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「手作甜点社媒故事封面」创作图像：以真实食物质感、节制道具和明确文案留白构成适合餐饮品牌发布的竖版内容。\n\n## 必填需求字段\n- `{{hero_dessert}}`（主角甜点）：一枚切开的黑芝麻慕斯蛋糕，亮面外层、浅灰芝麻慕斯、透明柚子夹心和黑色酥底层次清晰\n- `{{hospitality_setting}}`（待客场景）：现代东方茶室木桌，深色手作陶盘、亚麻布和后景热茶构成克制的待客场景\n- `{{sensory_cues}}`（感官线索）：柚子切面保持湿润透光，茶杯有一缕真实蒸汽，柔和窗光表现慕斯与陶器的触感差异\n- `{{copy_safe_zone}}`（文案安全区）：画面左上约 30% 保持安静浅墙与植物影，不生成文字，供后期加入短标题\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 保持商品几何、材质和尺度可信；商品必须是唯一焦点，用可控布光、接触阴影和文案留白替代无关道具。\n- 按移动端缩略图优先设计：只保留一个核心信息、明确平台安全区与克制的文案区域；不得生成虚假平台界面、互动数据、账号名或未要求的宣传文字。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：这是未经验证的起始案例；在实际生产使用前，请人工复核生成结果、文字与品牌合规性。",
+          "en": "Create one vertical social story image featuring {{hero_dessert}} in {{hospitality_setting}}. Use {{sensory_cues}} to communicate temperature, moisture, softness, glaze, crumb, and ceramic texture without exaggeration. Preserve {{copy_safe_zone}} as quiet negative space for later typography while keeping the dessert as the single focal point. Portrait 2:3 editorial food photography, restrained props, no people, no generated text, no logos, no duplicate dishes, and no watermark.\n\n## Production protocol\n\n### Brief integrity\n- `{{hero_dessert}}` (Hero Dessert): One cut black-sesame mousse cake with a glossy shell, pale sesame mousse, translucent yuzu center, and dark crumb base\n- `{{hospitality_setting}}` (Hospitality Setting): A modern East Asian tea-room table with a dark handmade ceramic plate, linen, and hot tea in the background\n- `{{sensory_cues}}` (Sensory Cues): A moist translucent yuzu center, one natural curl of tea steam, and soft window light separating mousse and ceramic textures\n- `{{copy_safe_zone}}` (Copy Safe Zone): Roughly 30% of the upper-left frame remains a quiet pale wall with branch shadow and no generated text for later copy\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Preserve product geometry, material, and believable scale. Make the product the unambiguous hero; support it with controlled lighting, contact shadow, and copy-safe space rather than unrelated props.\n- Design for mobile-first thumbnail reading with one focal message, declared platform-safe zones, and a restrained copy area. Do not generate fake platform chrome, engagement metrics, handles, or unrequested promotional text.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: Use the prompt as a starting point and review food realism, edible texture, and copy-safe spacing before production use."
+        }
+      },
+      "evaluation": {
+        "status": "draft",
+        "tested_models": [],
+        "last_verified": null,
+        "limitations": [
+          "Use the prompt as a starting point and review food realism, edible texture, and copy-safe spacing before production use."
+        ]
+      },
+      "limitations": {
+        "zh": [
+          "这是未经验证的起始案例；在实际生产使用前，请人工复核生成结果、文字与品牌合规性。"
+        ],
+        "en": [
+          "Use the prompt as a starting point and review food realism, edible texture, and copy-safe spacing before production use."
+        ]
+      },
+      "preview": "case-images/artisan-dessert-social-story.png",
+      "path": "library/cases/social/artisan-dessert-social-story"
     },
     {
       "id": "investment-portfolio-story",
@@ -9964,6 +10269,161 @@
       "path": "library/cases/social/live-stream-overlay"
     },
     {
+      "id": "mineral-surface-library",
+      "title": {
+        "zh": "矿物建筑材质样板库",
+        "en": "Mineral Surface Library"
+      },
+      "summary": {
+        "zh": "以统一尺度、掠射光和差异明确的表面行为构成可比较的建筑材质样板集合。",
+        "en": "Create one coherent architectural material study containing {{surface_family}}."
+      },
+      "taxonomy": {
+        "deliverable": [
+          "surface-pattern",
+          "architecture-space"
+        ],
+        "medium": [
+          "3d-render",
+          "photography"
+        ],
+        "workflow": [
+          "text-to-image"
+        ],
+        "capability": [
+          "material-lighting",
+          "product-fidelity",
+          "layout-hierarchy",
+          "instruction-following"
+        ],
+        "model": [
+          "universal",
+          "gpt-image",
+          "midjourney",
+          "stable-diffusion"
+        ]
+      },
+      "tags": {
+        "zh": [
+          "材质样板",
+          "建筑表面",
+          "PBR 材质",
+          "工业设计"
+        ],
+        "en": [
+          "Surface Pattern",
+          "Architecture Space",
+          "Material Lighting",
+          "Product Fidelity",
+          "Layout Hierarchy",
+          "Instruction Following"
+        ]
+      },
+      "prompt": {
+        "language": "bilingual",
+        "variables": [
+          "surface_family",
+          "sample_count",
+          "material_contrast",
+          "lighting_setup"
+        ],
+        "cover_values": {
+          "surface_family": {
+            "zh": "黑曜石玻璃、烟晶树脂、氧化铜、浅色石灰岩、珠光陶瓷和炭黑水磨石六种原创建筑表面",
+            "en": "Six original architectural surfaces: obsidian glass, smoky quartz resin, oxidized copper, pale limestone, pearlescent ceramic, and charcoal terrazzo"
+          },
+          "sample_count": {
+            "zh": "固定六块等尺寸矩形样板，按两列三行排列，边距和间距一致，所有样板完整可见",
+            "en": "Exactly six equal rectangular samples arranged in a two-column by three-row grid with consistent margins and every sample fully visible"
+          },
+          "material_contrast": {
+            "zh": "同时覆盖高反射、半透明、氧化粗糙、多孔哑光、珠光起伏和骨料颗粒六种不同表面行为",
+            "en": "Six distinct surface behaviors: reflective, translucent, oxidized rough, porous matte, pearlescent relief, and aggregate grain"
+          },
+          "lighting_setup": {
+            "zh": "左上方大面积柔光提供基础亮度，右侧低角度掠射光专门揭示纹理深度，背景保持炭黑",
+            "en": "A large soft source from upper left establishes exposure while a low grazing light from the right reveals texture depth against charcoal"
+          }
+        },
+        "variable_labels": [
+          {
+            "id": "surface_family",
+            "zh": "表面材质组",
+            "en": "Surface Family",
+            "description": {
+              "zh": "请写清「表面材质组」的主要材质、表面状态、磨损或反射特征，以及它在画面中的重点部位。",
+              "en": "State the main materials, surface condition, wear or reflectance, and the focal placement of Surface Family."
+            },
+            "cover_value": {
+              "zh": "黑曜石玻璃、烟晶树脂、氧化铜、浅色石灰岩、珠光陶瓷和炭黑水磨石六种原创建筑表面",
+              "en": "Six original architectural surfaces: obsidian glass, smoky quartz resin, oxidized copper, pale limestone, pearlescent ceramic, and charcoal terrazzo"
+            }
+          },
+          {
+            "id": "sample_count",
+            "zh": "样板数量",
+            "en": "Sample Count",
+            "description": {
+              "zh": "请填写「样板数量」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+              "en": "Provide a concrete value for Sample Count, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+            },
+            "cover_value": {
+              "zh": "固定六块等尺寸矩形样板，按两列三行排列，边距和间距一致，所有样板完整可见",
+              "en": "Exactly six equal rectangular samples arranged in a two-column by three-row grid with consistent margins and every sample fully visible"
+            }
+          },
+          {
+            "id": "material_contrast",
+            "zh": "材质行为差异",
+            "en": "Material Contrast",
+            "description": {
+              "zh": "请写清「材质行为差异」的主要材质、表面状态、磨损或反射特征，以及它在画面中的重点部位。",
+              "en": "State the main materials, surface condition, wear or reflectance, and the focal placement of Material Contrast."
+            },
+            "cover_value": {
+              "zh": "同时覆盖高反射、半透明、氧化粗糙、多孔哑光、珠光起伏和骨料颗粒六种不同表面行为",
+              "en": "Six distinct surface behaviors: reflective, translucent, oxidized rough, porous matte, pearlescent relief, and aggregate grain"
+            }
+          },
+          {
+            "id": "lighting_setup",
+            "zh": "布光方案",
+            "en": "Lighting Setup",
+            "description": {
+              "zh": "请填写「布光方案」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+              "en": "Provide a concrete value for Lighting Setup, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+            },
+            "cover_value": {
+              "zh": "左上方大面积柔光提供基础亮度，右侧低角度掠射光专门揭示纹理深度，背景保持炭黑",
+              "en": "A large soft source from upper left establishes exposure while a low grazing light from the right reveals texture depth against charcoal"
+            }
+          }
+        ],
+        "text": {
+          "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「矿物建筑材质样板库」创作图像：以统一尺度、掠射光和差异明确的表面行为构成可比较的建筑材质样板集合。\n\n## 必填需求字段\n- `{{surface_family}}`（表面材质组）：黑曜石玻璃、烟晶树脂、氧化铜、浅色石灰岩、珠光陶瓷和炭黑水磨石六种原创建筑表面\n- `{{sample_count}}`（样板数量）：固定六块等尺寸矩形样板，按两列三行排列，边距和间距一致，所有样板完整可见\n- `{{material_contrast}}`（材质行为差异）：同时覆盖高反射、半透明、氧化粗糙、多孔哑光、珠光起伏和骨料颗粒六种不同表面行为\n- `{{lighting_setup}}`（布光方案）：左上方大面积柔光提供基础亮度，右侧低角度掠射光专门揭示纹理深度，背景保持炭黑\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 透视、动线、光向、家具尺度和材质交界必须可信；加入必要的人尺度线索，但不要把空间做成拼贴式生活方式图。\n- 让重复关系和材质行为可检查：明确母题尺度、边缘连续或样板数量、表面响应与目标承印材质；避免意外接缝、重复样板、不可制造浮雕和仅靠换色区分材质。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：这是未经验证的起始案例；在实际生产使用前，请人工复核生成结果、文字与品牌合规性。",
+          "en": "Create one coherent architectural material study containing {{surface_family}}. Show {{sample_count}} with identical scale, edge radius, spacing, and camera perspective, while {{material_contrast}} remains physically distinct rather than color-only variation. Use {{lighting_setup}} to reveal reflectance, translucency, pores, relief, oxidation, and aggregate depth. Portrait 2:3 presentation, all samples fully visible, no labels, no hands, no room mockup, no duplicate materials, no logo, and no watermark.\n\n## Production protocol\n\n### Brief integrity\n- `{{surface_family}}` (Surface Family): Six original architectural surfaces: obsidian glass, smoky quartz resin, oxidized copper, pale limestone, pearlescent ceramic, and charcoal terrazzo\n- `{{sample_count}}` (Sample Count): Exactly six equal rectangular samples arranged in a two-column by three-row grid with consistent margins and every sample fully visible\n- `{{material_contrast}}` (Material Contrast): Six distinct surface behaviors: reflective, translucent, oxidized rough, porous matte, pearlescent relief, and aggregate grain\n- `{{lighting_setup}}` (Lighting Setup): A large soft source from upper left establishes exposure while a low grazing light from the right reveals texture depth against charcoal\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Keep perspective, circulation, light direction, furniture scale, and material transitions physically believable. Include human-scale cues without turning the space into a lifestyle collage.\n- Make repetition and material behavior testable: define motif scale, edge continuity or sample count, surface response, and intended substrate. Avoid accidental seams, duplicate samples, unmanufacturable relief, and color-only material variation.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: Use the prompt as a starting point and review material plausibility, sample count, and texture uniqueness before production use."
+        }
+      },
+      "evaluation": {
+        "status": "draft",
+        "tested_models": [],
+        "last_verified": null,
+        "limitations": [
+          "Use the prompt as a starting point and review material plausibility, sample count, and texture uniqueness before production use."
+        ]
+      },
+      "limitations": {
+        "zh": [
+          "这是未经验证的起始案例；在实际生产使用前，请人工复核生成结果、文字与品牌合规性。"
+        ],
+        "en": [
+          "Use the prompt as a starting point and review material plausibility, sample count, and texture uniqueness before production use."
+        ]
+      },
+      "preview": "case-images/mineral-surface-library.png",
+      "path": "library/cases/surface/mineral-surface-library"
+    },
+    {
       "id": "social-quote-card",
       "title": {
         "zh": "社交媒体语录卡片",
@@ -11965,6 +12425,158 @@
       "path": "library/cases/commerce/tea-hero-still-life"
     },
     {
+      "id": "desert-scout-hoverbike",
+      "title": {
+        "zh": "荒漠侦察悬浮载具",
+        "en": "Desert Scout Hoverbike"
+      },
+      "summary": {
+        "zh": "用功能驱动的硬表面结构、磨损分布和完整轮廓建立原创科幻载具资产。",
+        "en": "Design one original {{vehicle_role}} whose form is driven by {{engineering_features}}."
+      },
+      "taxonomy": {
+        "deliverable": [
+          "game-asset"
+        ],
+        "medium": [
+          "3d-render"
+        ],
+        "workflow": [
+          "text-to-image"
+        ],
+        "capability": [
+          "product-fidelity",
+          "spatial-reasoning",
+          "material-lighting",
+          "instruction-following"
+        ],
+        "model": [
+          "universal",
+          "gpt-image",
+          "midjourney",
+          "stable-diffusion"
+        ]
+      },
+      "tags": {
+        "zh": [
+          "游戏载具",
+          "硬表面设计",
+          "科幻资产",
+          "荒漠探索"
+        ],
+        "en": [
+          "Game Asset",
+          "Product Fidelity",
+          "Spatial Reasoning",
+          "Material Lighting",
+          "Instruction Following"
+        ]
+      },
+      "prompt": {
+        "language": "bilingual",
+        "variables": [
+          "vehicle_role",
+          "engineering_features",
+          "surface_finish",
+          "environment_context"
+        ],
+        "cover_values": {
+          "vehicle_role": {
+            "zh": "单人荒漠侦察悬浮摩托，优先满足长距离勘察、轻量补给和快速撤离，不配置重型武器",
+            "en": "A single-seat desert scout hoverbike for long-range survey, light cargo, and rapid extraction, without heavy weapons"
+          },
+          "engineering_features": {
+            "zh": "中央涡轮悬浮单元、可折叠导航翼、前部防撞框、低重心座舱和两侧软质补给包",
+            "en": "A central lift turbine, foldable navigation fins, front crash frame, low-center cockpit, and side-mounted soft cargo bags"
+          },
+          "surface_finish": {
+            "zh": "沙色陶瓷装甲、石墨金属骨架与焦橙安全标识，磨损只出现在迎风边缘、踏板和维护面板",
+            "en": "Sand ceramic armor, graphite metal frame, and burnt-orange safety accents, with wear limited to leading edges, footrests, and maintenance panels"
+          },
+          "environment_context": {
+            "zh": "开放式暗色机库连接金色荒漠地平线，载具停在湿润维护平台上形成冷暖材质对比",
+            "en": "A dark open hangar facing a golden desert horizon, with the vehicle on a damp maintenance platform for warm-cool material contrast"
+          }
+        },
+        "variable_labels": [
+          {
+            "id": "vehicle_role",
+            "zh": "载具定位",
+            "en": "Vehicle Role",
+            "description": {
+              "zh": "请给出「载具定位」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+              "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Vehicle Role."
+            },
+            "cover_value": {
+              "zh": "单人荒漠侦察悬浮摩托，优先满足长距离勘察、轻量补给和快速撤离，不配置重型武器",
+              "en": "A single-seat desert scout hoverbike for long-range survey, light cargo, and rapid extraction, without heavy weapons"
+            }
+          },
+          {
+            "id": "engineering_features",
+            "zh": "工程结构特征",
+            "en": "Engineering Features",
+            "description": {
+              "zh": "请填写「工程结构特征」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+              "en": "Provide a concrete value for Engineering Features, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+            },
+            "cover_value": {
+              "zh": "中央涡轮悬浮单元、可折叠导航翼、前部防撞框、低重心座舱和两侧软质补给包",
+              "en": "A central lift turbine, foldable navigation fins, front crash frame, low-center cockpit, and side-mounted soft cargo bags"
+            }
+          },
+          {
+            "id": "surface_finish",
+            "zh": "表面处理",
+            "en": "Surface Finish",
+            "description": {
+              "zh": "请写清「表面处理」的主要材质、表面状态、磨损或反射特征，以及它在画面中的重点部位。",
+              "en": "State the main materials, surface condition, wear or reflectance, and the focal placement of Surface Finish."
+            },
+            "cover_value": {
+              "zh": "沙色陶瓷装甲、石墨金属骨架与焦橙安全标识，磨损只出现在迎风边缘、踏板和维护面板",
+              "en": "Sand ceramic armor, graphite metal frame, and burnt-orange safety accents, with wear limited to leading edges, footrests, and maintenance panels"
+            }
+          },
+          {
+            "id": "environment_context",
+            "zh": "环境语境",
+            "en": "Environment Context",
+            "description": {
+              "zh": "请明确「环境语境」的地点、时间、空间尺度、关键环境元素及其与主体的关系。",
+              "en": "Specify the place, time, scale, key environmental elements, and their relationship to the subject for Environment Context."
+            },
+            "cover_value": {
+              "zh": "开放式暗色机库连接金色荒漠地平线，载具停在湿润维护平台上形成冷暖材质对比",
+              "en": "A dark open hangar facing a golden desert horizon, with the vehicle on a damp maintenance platform for warm-cool material contrast"
+            }
+          }
+        ],
+        "text": {
+          "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「荒漠侦察悬浮载具」创作图像：用功能驱动的硬表面结构、磨损分布和完整轮廓建立原创科幻载具资产。\n\n## 必填需求字段\n- `{{vehicle_role}}`（载具定位）：单人荒漠侦察悬浮摩托，优先满足长距离勘察、轻量补给和快速撤离，不配置重型武器\n- `{{engineering_features}}`（工程结构特征）：中央涡轮悬浮单元、可折叠导航翼、前部防撞框、低重心座舱和两侧软质补给包\n- `{{surface_finish}}`（表面处理）：沙色陶瓷装甲、石墨金属骨架与焦橙安全标识，磨损只出现在迎风边缘、踏板和维护面板\n- `{{environment_context}}`（环境语境）：开放式暗色机库连接金色荒漠地平线，载具停在湿润维护平台上形成冷暖材质对比\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 按可进入生产流程的游戏资产处理：轮廓完整、结构可解释、材质分区清楚、尺度可信，磨损必须与使用方式一致；不得用特效、标签或拼贴遮盖结构问题。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：这是未经验证的起始案例；在实际生产使用前，请人工复核生成结果、文字与品牌合规性。",
+          "en": "Design one original {{vehicle_role}} whose form is driven by {{engineering_features}}. Render {{surface_finish}} with wear placed only where airflow, boots, cargo, and maintenance would create it. Stage the complete vehicle in {{environment_context}} at believable human scale, with coherent suspension or lift logic, access panels, controls, and center of gravity. Portrait 2:3 hard-surface concept render, no rider, no weapons beyond the brief, no exploded view, no labels, no logo, no watermark, and no recognizable franchise design.\n\n## Production protocol\n\n### Brief integrity\n- `{{vehicle_role}}` (Vehicle Role): A single-seat desert scout hoverbike for long-range survey, light cargo, and rapid extraction, without heavy weapons\n- `{{engineering_features}}` (Engineering Features): A central lift turbine, foldable navigation fins, front crash frame, low-center cockpit, and side-mounted soft cargo bags\n- `{{surface_finish}}` (Surface Finish): Sand ceramic armor, graphite metal frame, and burnt-orange safety accents, with wear limited to leading edges, footrests, and maintenance panels\n- `{{environment_context}}` (Environment Context): A dark open hangar facing a golden desert horizon, with the vehicle on a damp maintenance platform for warm-cool material contrast\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Design a production-credible game asset with a complete silhouette, explainable construction, readable material separation, believable scale, and wear tied to use. Do not hide structural problems behind effects, labels, or a presentation collage.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: Use the prompt as a starting point and review vehicle mechanics, scale, and repeated geometry before production use."
+        }
+      },
+      "evaluation": {
+        "status": "draft",
+        "tested_models": [],
+        "last_verified": null,
+        "limitations": [
+          "Use the prompt as a starting point and review vehicle mechanics, scale, and repeated geometry before production use."
+        ]
+      },
+      "limitations": {
+        "zh": [
+          "这是未经验证的起始案例；在实际生产使用前，请人工复核生成结果、文字与品牌合规性。"
+        ],
+        "en": [
+          "Use the prompt as a starting point and review vehicle mechanics, scale, and repeated geometry before production use."
+        ]
+      },
+      "preview": "case-images/desert-scout-hoverbike.png",
+      "path": "library/cases/game-assets/desert-scout-hoverbike"
+    },
+    {
       "id": "pharmacy-packaging-guide",
       "title": {
         "zh": "药品包装识别指南",
@@ -12380,6 +12992,160 @@
       },
       "preview": "case-images/streetwear-drop-poster.png",
       "path": "library/cases/fashion/streetwear-drop-poster"
+    },
+    {
+      "id": "streetwear-social-story",
+      "title": {
+        "zh": "街头鞋履社媒故事封面",
+        "en": "Streetwear Social Story"
+      },
+      "summary": {
+        "zh": "以移动端安全区、单品焦点和可控动态元素构成无需平台界面也能成立的社媒广告封面。",
+        "en": "Create one mobile-first social campaign cover for {{campaign_product}}, using {{motion_element}} as the only dynamic accent."
+      },
+      "taxonomy": {
+        "deliverable": [
+          "social-content",
+          "product-commerce"
+        ],
+        "medium": [
+          "photography",
+          "mixed-media"
+        ],
+        "workflow": [
+          "text-to-image"
+        ],
+        "capability": [
+          "product-fidelity",
+          "layout-hierarchy",
+          "material-lighting",
+          "instruction-following"
+        ],
+        "model": [
+          "universal",
+          "gpt-image",
+          "midjourney"
+        ]
+      },
+      "tags": {
+        "zh": [
+          "社媒广告",
+          "鞋履发布",
+          "移动端构图",
+          "商业摄影"
+        ],
+        "en": [
+          "Social Content",
+          "Product Commerce",
+          "Product Fidelity",
+          "Layout Hierarchy",
+          "Material Lighting",
+          "Instruction Following"
+        ]
+      },
+      "prompt": {
+        "language": "bilingual",
+        "variables": [
+          "campaign_product",
+          "motion_element",
+          "platform_safe_zone",
+          "campaign_palette"
+        ],
+        "cover_values": {
+          "campaign_product": {
+            "zh": "一只无品牌石墨黑街头运动鞋，鞋面织物、皮革覆片和厚底结构必须清晰且几何完整",
+            "en": "One unbranded graphite streetwear sneaker with clearly separated mesh, leather overlays, and intact sculpted sole geometry"
+          },
+          "motion_element": {
+            "zh": "一条电光绿色丝带围绕鞋体形成单次 S 形动势，不遮挡鞋头、鞋带和外底轮廓",
+            "en": "One electric-lime fabric ribbon forming a single S-curve around the shoe without hiding the toe, laces, or outsole silhouette"
+          },
+          "platform_safe_zone": {
+            "zh": "竖版 2:3 构图，上方 25% 保持低信息密度，主体位于中下区域，不渲染平台按钮或界面",
+            "en": "A portrait 2:3 frame with the upper 25% kept low-density, the product in the lower middle, and no platform buttons or interface chrome"
+          },
+          "campaign_palette": {
+            "zh": "黑与石墨灰占 75%，拉丝钢占 15%，电光绿占 10% 且只用于丝带与鞋底小面积强调",
+            "en": "75% black and graphite, 15% brushed steel, and 10% electric lime restricted to the ribbon and small sole accents"
+          }
+        },
+        "variable_labels": [
+          {
+            "id": "campaign_product",
+            "zh": "宣传商品",
+            "en": "Campaign Product",
+            "description": {
+              "zh": "请给出「宣传商品」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+              "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Campaign Product."
+            },
+            "cover_value": {
+              "zh": "一只无品牌石墨黑街头运动鞋，鞋面织物、皮革覆片和厚底结构必须清晰且几何完整",
+              "en": "One unbranded graphite streetwear sneaker with clearly separated mesh, leather overlays, and intact sculpted sole geometry"
+            }
+          },
+          {
+            "id": "motion_element",
+            "zh": "动态元素",
+            "en": "Motion Element",
+            "description": {
+              "zh": "请填写「动态元素」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+              "en": "Provide a concrete value for Motion Element, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+            },
+            "cover_value": {
+              "zh": "一条电光绿色丝带围绕鞋体形成单次 S 形动势，不遮挡鞋头、鞋带和外底轮廓",
+              "en": "One electric-lime fabric ribbon forming a single S-curve around the shoe without hiding the toe, laces, or outsole silhouette"
+            }
+          },
+          {
+            "id": "platform_safe_zone",
+            "zh": "平台安全区",
+            "en": "Platform Safe Zone",
+            "description": {
+              "zh": "请填写「平台安全区」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+              "en": "Provide a concrete value for Platform Safe Zone, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+            },
+            "cover_value": {
+              "zh": "竖版 2:3 构图，上方 25% 保持低信息密度，主体位于中下区域，不渲染平台按钮或界面",
+              "en": "A portrait 2:3 frame with the upper 25% kept low-density, the product in the lower middle, and no platform buttons or interface chrome"
+            }
+          },
+          {
+            "id": "campaign_palette",
+            "zh": "宣传色板",
+            "en": "Campaign Palette",
+            "description": {
+              "zh": "请给出「宣传色板」的 2–4 个明确色名、主辅比例和使用位置；不要只写“高级”或“有氛围”。",
+              "en": "Specify 2–4 named colors, their primary/secondary balance, and where Campaign Palette appears; avoid vague terms such as “premium” or “atmospheric”."
+            },
+            "cover_value": {
+              "zh": "黑与石墨灰占 75%，拉丝钢占 15%，电光绿占 10% 且只用于丝带与鞋底小面积强调",
+              "en": "75% black and graphite, 15% brushed steel, and 10% electric lime restricted to the ribbon and small sole accents"
+            }
+          }
+        ],
+        "text": {
+          "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「街头鞋履社媒故事封面」创作图像：以移动端安全区、单品焦点和可控动态元素构成无需平台界面也能成立的社媒广告封面。\n\n## 必填需求字段\n- `{{campaign_product}}`（宣传商品）：一只无品牌石墨黑街头运动鞋，鞋面织物、皮革覆片和厚底结构必须清晰且几何完整\n- `{{motion_element}}`（动态元素）：一条电光绿色丝带围绕鞋体形成单次 S 形动势，不遮挡鞋头、鞋带和外底轮廓\n- `{{platform_safe_zone}}`（平台安全区）：竖版 2:3 构图，上方 25% 保持低信息密度，主体位于中下区域，不渲染平台按钮或界面\n- `{{campaign_palette}}`（宣传色板）：黑与石墨灰占 75%，拉丝钢占 15%，电光绿占 10% 且只用于丝带与鞋底小面积强调\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 保持商品几何、材质和尺度可信；商品必须是唯一焦点，用可控布光、接触阴影和文案留白替代无关道具。\n- 按移动端缩略图优先设计：只保留一个核心信息、明确平台安全区与克制的文案区域；不得生成虚假平台界面、互动数据、账号名或未要求的宣传文字。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：这是未经验证的起始案例；在实际生产使用前，请人工复核生成结果、文字与品牌合规性。",
+          "en": "Create one mobile-first social campaign cover for {{campaign_product}}, using {{motion_element}} as the only dynamic accent. Respect {{platform_safe_zone}} and build the composition with {{campaign_palette}}, clean product separation, realistic material response, and a deliberate copy-safe area. The product must remain geometrically complete and immediately readable at thumbnail size. Portrait 2:3, one finished image, no platform UI, no generated copy, no second product, no people, no logo, and no watermark.\n\n## Production protocol\n\n### Brief integrity\n- `{{campaign_product}}` (Campaign Product): One unbranded graphite streetwear sneaker with clearly separated mesh, leather overlays, and intact sculpted sole geometry\n- `{{motion_element}}` (Motion Element): One electric-lime fabric ribbon forming a single S-curve around the shoe without hiding the toe, laces, or outsole silhouette\n- `{{platform_safe_zone}}` (Platform Safe Zone): A portrait 2:3 frame with the upper 25% kept low-density, the product in the lower middle, and no platform buttons or interface chrome\n- `{{campaign_palette}}` (Campaign Palette): 75% black and graphite, 15% brushed steel, and 10% electric lime restricted to the ribbon and small sole accents\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Preserve product geometry, material, and believable scale. Make the product the unambiguous hero; support it with controlled lighting, contact shadow, and copy-safe space rather than unrelated props.\n- Design for mobile-first thumbnail reading with one focal message, declared platform-safe zones, and a restrained copy area. Do not generate fake platform chrome, engagement metrics, handles, or unrequested promotional text.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: Use the prompt as a starting point and review product geometry, safe-zone spacing, and accidental branding before production use."
+        }
+      },
+      "evaluation": {
+        "status": "draft",
+        "tested_models": [],
+        "last_verified": null,
+        "limitations": [
+          "Use the prompt as a starting point and review product geometry, safe-zone spacing, and accidental branding before production use."
+        ]
+      },
+      "limitations": {
+        "zh": [
+          "这是未经验证的起始案例；在实际生产使用前，请人工复核生成结果、文字与品牌合规性。"
+        ],
+        "en": [
+          "Use the prompt as a starting point and review product geometry, safe-zone spacing, and accidental branding before production use."
+        ]
+      },
+      "preview": "case-images/streetwear-social-story.png",
+      "path": "library/cases/social/streetwear-social-story"
     },
     {
       "id": "character-turnaround",
@@ -13014,6 +13780,161 @@
       "path": "library/cases/commerce/sneaker-launch-hero"
     },
     {
+      "id": "cinematic-chase-keyframe",
+      "title": {
+        "zh": "近未来雨夜追逐关键帧",
+        "en": "Cinematic Chase Keyframe"
+      },
+      "summary": {
+        "zh": "用明确的追逐动作、空间纵深与冷暖光线建立可继续拆镜的电影叙事节点。",
+        "en": "Create one cinematic chase keyframe featuring {{character_identity}} at {{chase_location}}, reacting to {{pursuing_threat}}."
+      },
+      "taxonomy": {
+        "deliverable": [
+          "film-storyboard",
+          "scene-storytelling"
+        ],
+        "medium": [
+          "photography",
+          "mixed-media"
+        ],
+        "workflow": [
+          "text-to-image",
+          "series-consistency"
+        ],
+        "capability": [
+          "subject-consistency",
+          "spatial-reasoning",
+          "material-lighting",
+          "instruction-following"
+        ],
+        "model": [
+          "universal",
+          "gpt-image",
+          "midjourney"
+        ]
+      },
+      "tags": {
+        "zh": [
+          "影视分镜",
+          "动作关键帧",
+          "雨夜城市",
+          "电影感"
+        ],
+        "en": [
+          "Film Storyboard",
+          "Scene Storytelling",
+          "Subject Consistency",
+          "Spatial Reasoning",
+          "Material Lighting",
+          "Instruction Following"
+        ]
+      },
+      "prompt": {
+        "language": "bilingual",
+        "variables": [
+          "character_identity",
+          "chase_location",
+          "pursuing_threat",
+          "cinematic_palette"
+        ],
+        "cover_values": {
+          "character_identity": {
+            "zh": "一名穿炭黑长外套的东方女性信使，黑色短靴、斜挎包和湿发是连续镜头中不可改变的识别锚点",
+            "en": "An East Asian female courier in a charcoal long coat, black ankle boots, cross-body bag, and rain-wet hair as continuity anchors"
+          },
+          "chase_location": {
+            "zh": "近未来东亚城市的高架轨道站台，湿润钢材、驶过列车与多层高架共同形成强透视纵深",
+            "en": "An elevated rail platform in a near-future East Asian city, using wet steel, a passing train, and layered viaducts for deep perspective"
+          },
+          "pursuing_threat": {
+            "zh": "远处一架无人搜索机以窄束白光扫过站台，只作为追逐压力来源，不遮挡主角",
+            "en": "A distant unmanned search drone sweeping the platform with a narrow white beam, creating pressure without obscuring the protagonist"
+          },
+          "cinematic_palette": {
+            "zh": "深海军蓝与石墨灰占 70%，青色雨光占 20%，琥珀色站台灯占 10% 并标记逃跑方向",
+            "en": "70% deep navy and graphite, 20% cyan rain light, and 10% amber platform practicals marking the escape direction"
+          }
+        },
+        "variable_labels": [
+          {
+            "id": "character_identity",
+            "zh": "人物身份锚点",
+            "en": "Character Identity",
+            "description": {
+              "zh": "请定义「人物身份锚点」的身份、外观识别点、服装或姿态，以及必须在系列中保持不变的锚点。",
+              "en": "Define the identity, appearance anchors, wardrobe or pose, and the details that must remain stable across the series for Character Identity."
+            },
+            "cover_value": {
+              "zh": "一名穿炭黑长外套的东方女性信使，黑色短靴、斜挎包和湿发是连续镜头中不可改变的识别锚点",
+              "en": "An East Asian female courier in a charcoal long coat, black ankle boots, cross-body bag, and rain-wet hair as continuity anchors"
+            }
+          },
+          {
+            "id": "chase_location",
+            "zh": "追逐地点",
+            "en": "Chase Location",
+            "description": {
+              "zh": "请明确「追逐地点」的地点、时间、空间尺度、关键环境元素及其与主体的关系。",
+              "en": "Specify the place, time, scale, key environmental elements, and their relationship to the subject for Chase Location."
+            },
+            "cover_value": {
+              "zh": "近未来东亚城市的高架轨道站台，湿润钢材、驶过列车与多层高架共同形成强透视纵深",
+              "en": "An elevated rail platform in a near-future East Asian city, using wet steel, a passing train, and layered viaducts for deep perspective"
+            }
+          },
+          {
+            "id": "pursuing_threat",
+            "zh": "追击威胁",
+            "en": "Pursuing Threat",
+            "description": {
+              "zh": "请写明「追击威胁」发生了什么、谁在行动、动作结果或情绪转折是什么，确保画面有单一可读节点。",
+              "en": "State what happens in Pursuing Threat, who acts, and the resulting action or emotional turn so the image has one readable beat."
+            },
+            "cover_value": {
+              "zh": "远处一架无人搜索机以窄束白光扫过站台，只作为追逐压力来源，不遮挡主角",
+              "en": "A distant unmanned search drone sweeping the platform with a narrow white beam, creating pressure without obscuring the protagonist"
+            }
+          },
+          {
+            "id": "cinematic_palette",
+            "zh": "电影色板",
+            "en": "Cinematic Palette",
+            "description": {
+              "zh": "请给出「电影色板」的 2–4 个明确色名、主辅比例和使用位置；不要只写“高级”或“有氛围”。",
+              "en": "Specify 2–4 named colors, their primary/secondary balance, and where Cinematic Palette appears; avoid vague terms such as “premium” or “atmospheric”."
+            },
+            "cover_value": {
+              "zh": "深海军蓝与石墨灰占 70%，青色雨光占 20%，琥珀色站台灯占 10% 并标记逃跑方向",
+              "en": "70% deep navy and graphite, 20% cyan rain light, and 10% amber platform practicals marking the escape direction"
+            }
+          }
+        ],
+        "text": {
+          "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「近未来雨夜追逐关键帧」创作图像：用明确的追逐动作、空间纵深与冷暖光线建立可继续拆镜的电影叙事节点。\n\n## 必填需求字段\n- `{{character_identity}}`（人物身份锚点）：一名穿炭黑长外套的东方女性信使，黑色短靴、斜挎包和湿发是连续镜头中不可改变的识别锚点\n- `{{chase_location}}`（追逐地点）：近未来东亚城市的高架轨道站台，湿润钢材、驶过列车与多层高架共同形成强透视纵深\n- `{{pursuing_threat}}`（追击威胁）：远处一架无人搜索机以窄束白光扫过站台，只作为追逐压力来源，不遮挡主角\n- `{{cinematic_palette}}`（电影色板）：深海军蓝与石墨灰占 70%，青色雨光占 20%，琥珀色站台灯占 10% 并标记逃跑方向\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 通过前景、中景、远景和明确动作讲清叙事节点；系列中人物、道具和世界规则必须连续。\n- 按一个可拍摄镜头处理：明确镜头用途、景别、镜头透视、焦点动作、连续性锚点和有动机的光源；保持运动方向与空间关系，使前后镜头能够无冲突衔接。\n- 系列工作流先锁定主体比例、色彩角色、镜头语言与版式语法，再变化场景内容；每张图都必须属于同一视觉系统。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：这是未经验证的起始案例；在实际生产使用前，请人工复核生成结果、文字与品牌合规性。",
+          "en": "Create one cinematic chase keyframe featuring {{character_identity}} at {{chase_location}}, reacting to {{pursuing_threat}}. Build a decisive action beat with readable foreground, midground, and background; preserve the character's face, wardrobe, bag, footwear, and body proportions for continuation shots. Use {{cinematic_palette}} with physically consistent rain, reflections, motion blur, and practical light. Portrait 2:3 composition, one finished film still, no storyboard grid, no captions, no logos, no watermark, and no recognizable franchise design.\n\n## Production protocol\n\n### Brief integrity\n- `{{character_identity}}` (Character Identity): An East Asian female courier in a charcoal long coat, black ankle boots, cross-body bag, and rain-wet hair as continuity anchors\n- `{{chase_location}}` (Chase Location): An elevated rail platform in a near-future East Asian city, using wet steel, a passing train, and layered viaducts for deep perspective\n- `{{pursuing_threat}}` (Pursuing Threat): A distant unmanned search drone sweeping the platform with a narrow white beam, creating pressure without obscuring the protagonist\n- `{{cinematic_palette}}` (Cinematic Palette): 70% deep navy and graphite, 20% cyan rain light, and 10% amber platform practicals marking the escape direction\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Make the narrative beat legible through foreground, midground, background, and a clear focal action. Maintain continuity of subject, props, and world rules across any sequence.\n- Treat the image as one production-ready shot: state the shot purpose, camera distance, lens perspective, focal action, continuity anchors, and motivated light. Preserve screen direction and spatial geography so adjacent shots can be designed without contradiction.\n- For a series, lock the subject proportions, palette roles, lens language, and layout grammar before varying scene content. Every variation must remain recognizably in the same system.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: Use the prompt as a starting point and review character continuity, anatomy, and spatial logic before production use."
+        }
+      },
+      "evaluation": {
+        "status": "draft",
+        "tested_models": [],
+        "last_verified": null,
+        "limitations": [
+          "Use the prompt as a starting point and review character continuity, anatomy, and spatial logic before production use."
+        ]
+      },
+      "limitations": {
+        "zh": [
+          "这是未经验证的起始案例；在实际生产使用前，请人工复核生成结果、文字与品牌合规性。"
+        ],
+        "en": [
+          "Use the prompt as a starting point and review character continuity, anatomy, and spatial logic before production use."
+        ]
+      },
+      "preview": "case-images/cinematic-chase-keyframe.png",
+      "path": "library/cases/film/cinematic-chase-keyframe"
+    },
+    {
       "id": "newsletter-hero-banner",
       "title": {
         "zh": "邮件通讯头图",
@@ -13337,6 +14258,159 @@
       },
       "preview": "case-images/silver-age-closeup.png",
       "path": "library/cases/portrait/silver-age-closeup"
+    },
+    {
+      "id": "ginkgo-textile-repeat",
+      "title": {
+        "zh": "银杏丝绸连续纹样",
+        "en": "Ginkgo Textile Repeat"
+      },
+      "summary": {
+        "zh": "用明确重复单元、边缘衔接和受控色板建立可用于纺织印花的原创连续图案。",
+        "en": "Create one original seamless textile design using {{motif_family}} arranged through {{repeat_structure}}."
+      },
+      "taxonomy": {
+        "deliverable": [
+          "surface-pattern",
+          "illustration-art"
+        ],
+        "medium": [
+          "illustration"
+        ],
+        "workflow": [
+          "text-to-image",
+          "series-consistency"
+        ],
+        "capability": [
+          "subject-consistency",
+          "layout-hierarchy",
+          "instruction-following"
+        ],
+        "model": [
+          "universal",
+          "gpt-image",
+          "midjourney",
+          "stable-diffusion"
+        ]
+      },
+      "tags": {
+        "zh": [
+          "连续纹样",
+          "纺织印花",
+          "植物插画",
+          "图案设计"
+        ],
+        "en": [
+          "Surface Pattern",
+          "Illustration Art",
+          "Subject Consistency",
+          "Layout Hierarchy",
+          "Instruction Following"
+        ]
+      },
+      "prompt": {
+        "language": "bilingual",
+        "variables": [
+          "motif_family",
+          "repeat_structure",
+          "print_palette",
+          "substrate"
+        ],
+        "cover_values": {
+          "motif_family": {
+            "zh": "原创银杏叶、细长种荚、微型八芒星与墨线藤茎四组母题，比例分为大中小三级",
+            "en": "Four original motif families—ginkgo leaves, slender seed pods, tiny eight-point stars, and ink-like stems—at three scales"
+          },
+          "repeat_structure": {
+            "zh": "半落式连续排列，画布四边的叶片和藤茎必须无缝衔接，避免中央徽章式单点构图",
+            "en": "A half-drop seamless repeat with leaves and stems connecting across all four edges and no central medallion composition"
+          },
+          "print_palette": {
+            "zh": "深森林绿底占 65%，古金色叶片占 22%，骨白花苞占 8%，低饱和珊瑚种荚占 5%",
+            "en": "65% deep forest ground, 22% antique-gold leaves, 8% bone-white buds, and 5% muted coral seed pods"
+          },
+          "substrate": {
+            "zh": "面向高密度真丝斜纹印花，保留水粉笔触和轻微纸纹，但不表现布料褶皱或样机",
+            "en": "Designed for dense silk twill printing, retaining gouache brushwork and subtle paper grain without fabric folds or mockups"
+          }
+        },
+        "variable_labels": [
+          {
+            "id": "motif_family",
+            "zh": "母题系统",
+            "en": "Motif Family",
+            "description": {
+              "zh": "请填写「母题系统」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+              "en": "Provide a concrete value for Motif Family, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+            },
+            "cover_value": {
+              "zh": "原创银杏叶、细长种荚、微型八芒星与墨线藤茎四组母题，比例分为大中小三级",
+              "en": "Four original motif families—ginkgo leaves, slender seed pods, tiny eight-point stars, and ink-like stems—at three scales"
+            }
+          },
+          {
+            "id": "repeat_structure",
+            "zh": "重复结构",
+            "en": "Repeat Structure",
+            "description": {
+              "zh": "请填写「重复结构」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+              "en": "Provide a concrete value for Repeat Structure, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+            },
+            "cover_value": {
+              "zh": "半落式连续排列，画布四边的叶片和藤茎必须无缝衔接，避免中央徽章式单点构图",
+              "en": "A half-drop seamless repeat with leaves and stems connecting across all four edges and no central medallion composition"
+            }
+          },
+          {
+            "id": "print_palette",
+            "zh": "印花色板",
+            "en": "Print Palette",
+            "description": {
+              "zh": "请给出「印花色板」的 2–4 个明确色名、主辅比例和使用位置；不要只写“高级”或“有氛围”。",
+              "en": "Specify 2–4 named colors, their primary/secondary balance, and where Print Palette appears; avoid vague terms such as “premium” or “atmospheric”."
+            },
+            "cover_value": {
+              "zh": "深森林绿底占 65%，古金色叶片占 22%，骨白花苞占 8%，低饱和珊瑚种荚占 5%",
+              "en": "65% deep forest ground, 22% antique-gold leaves, 8% bone-white buds, and 5% muted coral seed pods"
+            }
+          },
+          {
+            "id": "substrate",
+            "zh": "承印材质",
+            "en": "Substrate",
+            "description": {
+              "zh": "请填写「承印材质」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+              "en": "Provide a concrete value for Substrate, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+            },
+            "cover_value": {
+              "zh": "面向高密度真丝斜纹印花，保留水粉笔触和轻微纸纹，但不表现布料褶皱或样机",
+              "en": "Designed for dense silk twill printing, retaining gouache brushwork and subtle paper grain without fabric folds or mockups"
+            }
+          }
+        ],
+        "text": {
+          "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「银杏丝绸连续纹样」创作图像：用明确重复单元、边缘衔接和受控色板建立可用于纺织印花的原创连续图案。\n\n## 必填需求字段\n- `{{motif_family}}`（母题系统）：原创银杏叶、细长种荚、微型八芒星与墨线藤茎四组母题，比例分为大中小三级\n- `{{repeat_structure}}`（重复结构）：半落式连续排列，画布四边的叶片和藤茎必须无缝衔接，避免中央徽章式单点构图\n- `{{print_palette}}`（印花色板）：深森林绿底占 65%，古金色叶片占 22%，骨白花苞占 8%，低饱和珊瑚种荚占 5%\n- `{{substrate}}`（承印材质）：面向高密度真丝斜纹印花，保留水粉笔触和轻微纸纹，但不表现布料褶皱或样机\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 让重复关系和材质行为可检查：明确母题尺度、边缘连续或样板数量、表面响应与目标承印材质；避免意外接缝、重复样板、不可制造浮雕和仅靠换色区分材质。\n- 让媒介特征体现在笔触、纹理、深度和边缘处理上；使用克制色板与单一焦点，不做无方向的风格拼贴。\n- 系列工作流先锁定主体比例、色彩角色、镜头语言与版式语法，再变化场景内容；每张图都必须属于同一视觉系统。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：这是未经验证的起始案例；在实际生产使用前，请人工复核生成结果、文字与品牌合规性。",
+          "en": "Create one original seamless textile design using {{motif_family}} arranged through {{repeat_structure}}. Apply {{print_palette}} with clear scale hierarchy, even visual weight, and enough negative space for {{substrate}}. Motifs crossing the left edge must continue from the right edge, and motifs crossing the top must continue from the bottom; avoid visible seams, accidental tangencies, central emblems, and directional dead ends. Full-bleed portrait 2:3 pattern artwork, no mockup, no fabric folds, no border, no text, no logo, and no watermark.\n\n## Production protocol\n\n### Brief integrity\n- `{{motif_family}}` (Motif Family): Four original motif families—ginkgo leaves, slender seed pods, tiny eight-point stars, and ink-like stems—at three scales\n- `{{repeat_structure}}` (Repeat Structure): A half-drop seamless repeat with leaves and stems connecting across all four edges and no central medallion composition\n- `{{print_palette}}` (Print Palette): 65% deep forest ground, 22% antique-gold leaves, 8% bone-white buds, and 5% muted coral seed pods\n- `{{substrate}}` (Substrate): Designed for dense silk twill printing, retaining gouache brushwork and subtle paper grain without fabric folds or mockups\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Make repetition and material behavior testable: define motif scale, edge continuity or sample count, surface response, and intended substrate. Avoid accidental seams, duplicate samples, unmanufacturable relief, and color-only material variation.\n- Make the chosen medium visible in mark-making, texture, depth, and edge treatment. Use a restrained palette and a single focal hierarchy rather than an undirected style collage.\n- For a series, lock the subject proportions, palette roles, lens language, and layout grammar before varying scene content. Every variation must remain recognizably in the same system.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: Use the prompt as a starting point and verify true edge tiling, motif collisions, and print gamut before production use."
+        }
+      },
+      "evaluation": {
+        "status": "draft",
+        "tested_models": [],
+        "last_verified": null,
+        "limitations": [
+          "Use the prompt as a starting point and verify true edge tiling, motif collisions, and print gamut before production use."
+        ]
+      },
+      "limitations": {
+        "zh": [
+          "这是未经验证的起始案例；在实际生产使用前，请人工复核生成结果、文字与品牌合规性。"
+        ],
+        "en": [
+          "Use the prompt as a starting point and verify true edge tiling, motif collisions, and print gamut before production use."
+        ]
+      },
+      "preview": "case-images/ginkgo-textile-repeat.png",
+      "path": "library/cases/surface/ginkgo-textile-repeat"
     },
     {
       "id": "sales-pipeline-dashboard",
@@ -13873,6 +14947,158 @@
       },
       "preview": "case-images/music-festival-poster.png",
       "path": "library/cases/posters/music-festival-poster"
+    },
+    {
+      "id": "observatory-storm-establishing-shot",
+      "title": {
+        "zh": "风暴前观星台建立镜头",
+        "en": "Observatory Storm Establishing Shot"
+      },
+      "summary": {
+        "zh": "以观星仪、灯路和山海层次构成历史题材的宏观建立镜头，强调时代可信度与叙事预兆。",
+        "en": "Create one historical drama establishing shot set in {{historical_setting}} at {{narrative_moment}}."
+      },
+      "taxonomy": {
+        "deliverable": [
+          "film-storyboard",
+          "scene-storytelling"
+        ],
+        "medium": [
+          "photography",
+          "mixed-media"
+        ],
+        "workflow": [
+          "text-to-image"
+        ],
+        "capability": [
+          "spatial-reasoning",
+          "material-lighting",
+          "instruction-following"
+        ],
+        "model": [
+          "universal",
+          "gpt-image",
+          "midjourney"
+        ]
+      },
+      "tags": {
+        "zh": [
+          "历史场景",
+          "建立镜头",
+          "制作设计",
+          "风暴氛围"
+        ],
+        "en": [
+          "Film Storyboard",
+          "Scene Storytelling",
+          "Spatial Reasoning",
+          "Material Lighting",
+          "Instruction Following"
+        ]
+      },
+      "prompt": {
+        "language": "bilingual",
+        "variables": [
+          "historical_setting",
+          "narrative_moment",
+          "production_details",
+          "light_weather"
+        ],
+        "cover_values": {
+          "historical_setting": {
+            "zh": "架空东方山巅观星台，层叠瓦顶、石砌平台和云海共同建立宏大尺度，不使用可识别朝代徽记",
+            "en": "A fictional East Asian mountain observatory with layered tiled roofs, stone terraces, and a sea of clouds, without dynasty-specific insignia"
+          },
+          "narrative_moment": {
+            "zh": "风暴到来前，观星官在青铜浑仪旁记录天象，侍从沿平台依次点亮灯笼形成事件倒计时",
+            "en": "Before the storm, an astronomer records the sky beside a bronze armillary sphere while attendants light a countdown-like path of lanterns"
+          },
+          "production_details": {
+            "zh": "青铜浑仪、湿石地面、木构檐口、纸灯与克制的时代服装均按真实尺度和材料节点呈现",
+            "en": "A bronze armillary sphere, wet stone, timber eaves, paper lanterns, and restrained period clothing rendered at believable scale and construction detail"
+          },
+          "light_weather": {
+            "zh": "冷蓝风暴云占据天空，远方落日形成微弱暖边，灯笼反光沿湿地面引导视线",
+            "en": "Cool blue storm clouds dominate the sky, a faint warm horizon remains, and lantern reflections guide the eye across wet stone"
+          }
+        },
+        "variable_labels": [
+          {
+            "id": "historical_setting",
+            "zh": "历史场景设定",
+            "en": "Historical Setting",
+            "description": {
+              "zh": "请明确「历史场景设定」的地点、时间、空间尺度、关键环境元素及其与主体的关系。",
+              "en": "Specify the place, time, scale, key environmental elements, and their relationship to the subject for Historical Setting."
+            },
+            "cover_value": {
+              "zh": "架空东方山巅观星台，层叠瓦顶、石砌平台和云海共同建立宏大尺度，不使用可识别朝代徽记",
+              "en": "A fictional East Asian mountain observatory with layered tiled roofs, stone terraces, and a sea of clouds, without dynasty-specific insignia"
+            }
+          },
+          {
+            "id": "narrative_moment",
+            "zh": "叙事时刻",
+            "en": "Narrative Moment",
+            "description": {
+              "zh": "请写明「叙事时刻」发生了什么、谁在行动、动作结果或情绪转折是什么，确保画面有单一可读节点。",
+              "en": "State what happens in Narrative Moment, who acts, and the resulting action or emotional turn so the image has one readable beat."
+            },
+            "cover_value": {
+              "zh": "风暴到来前，观星官在青铜浑仪旁记录天象，侍从沿平台依次点亮灯笼形成事件倒计时",
+              "en": "Before the storm, an astronomer records the sky beside a bronze armillary sphere while attendants light a countdown-like path of lanterns"
+            }
+          },
+          {
+            "id": "production_details",
+            "zh": "制作设计细节",
+            "en": "Production Details",
+            "description": {
+              "zh": "请填写「制作设计细节」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+              "en": "Provide a concrete value for Production Details, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+            },
+            "cover_value": {
+              "zh": "青铜浑仪、湿石地面、木构檐口、纸灯与克制的时代服装均按真实尺度和材料节点呈现",
+              "en": "A bronze armillary sphere, wet stone, timber eaves, paper lanterns, and restrained period clothing rendered at believable scale and construction detail"
+            }
+          },
+          {
+            "id": "light_weather",
+            "zh": "光线与天气",
+            "en": "Light Weather",
+            "description": {
+              "zh": "请填写「光线与天气」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+              "en": "Provide a concrete value for Light Weather, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+            },
+            "cover_value": {
+              "zh": "冷蓝风暴云占据天空，远方落日形成微弱暖边，灯笼反光沿湿地面引导视线",
+              "en": "Cool blue storm clouds dominate the sky, a faint warm horizon remains, and lantern reflections guide the eye across wet stone"
+            }
+          }
+        ],
+        "text": {
+          "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「风暴前观星台建立镜头」创作图像：以观星仪、灯路和山海层次构成历史题材的宏观建立镜头，强调时代可信度与叙事预兆。\n\n## 必填需求字段\n- `{{historical_setting}}`（历史场景设定）：架空东方山巅观星台，层叠瓦顶、石砌平台和云海共同建立宏大尺度，不使用可识别朝代徽记\n- `{{narrative_moment}}`（叙事时刻）：风暴到来前，观星官在青铜浑仪旁记录天象，侍从沿平台依次点亮灯笼形成事件倒计时\n- `{{production_details}}`（制作设计细节）：青铜浑仪、湿石地面、木构檐口、纸灯与克制的时代服装均按真实尺度和材料节点呈现\n- `{{light_weather}}`（光线与天气）：冷蓝风暴云占据天空，远方落日形成微弱暖边，灯笼反光沿湿地面引导视线\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 通过前景、中景、远景和明确动作讲清叙事节点；系列中人物、道具和世界规则必须连续。\n- 按一个可拍摄镜头处理：明确镜头用途、景别、镜头透视、焦点动作、连续性锚点和有动机的光源；保持运动方向与空间关系，使前后镜头能够无冲突衔接。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：这是未经验证的起始案例；在实际生产使用前，请人工复核生成结果、文字与品牌合规性。",
+          "en": "Create one historical drama establishing shot set in {{historical_setting}} at {{narrative_moment}}. Make {{production_details}} physically credible in construction, scale, wear, and period use. Direct {{light_weather}} so the architecture, instrument, figures, and distant landscape form a clear reading path and narrative omen. Portrait 2:3 composition with a wide sense of scale, no close-up portrait, no modern objects, no dynasty-specific insignia, no fantasy effects, no text, no logo, and no watermark.\n\n## Production protocol\n\n### Brief integrity\n- `{{historical_setting}}` (Historical Setting): A fictional East Asian mountain observatory with layered tiled roofs, stone terraces, and a sea of clouds, without dynasty-specific insignia\n- `{{narrative_moment}}` (Narrative Moment): Before the storm, an astronomer records the sky beside a bronze armillary sphere while attendants light a countdown-like path of lanterns\n- `{{production_details}}` (Production Details): A bronze armillary sphere, wet stone, timber eaves, paper lanterns, and restrained period clothing rendered at believable scale and construction detail\n- `{{light_weather}}` (Light Weather): Cool blue storm clouds dominate the sky, a faint warm horizon remains, and lantern reflections guide the eye across wet stone\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Make the narrative beat legible through foreground, midground, background, and a clear focal action. Maintain continuity of subject, props, and world rules across any sequence.\n- Treat the image as one production-ready shot: state the shot purpose, camera distance, lens perspective, focal action, continuity anchors, and motivated light. Preserve screen direction and spatial geography so adjacent shots can be designed without contradiction.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: Use the prompt as a starting point and review historical consistency, architecture, and object geometry before production use."
+        }
+      },
+      "evaluation": {
+        "status": "draft",
+        "tested_models": [],
+        "last_verified": null,
+        "limitations": [
+          "Use the prompt as a starting point and review historical consistency, architecture, and object geometry before production use."
+        ]
+      },
+      "limitations": {
+        "zh": [
+          "这是未经验证的起始案例；在实际生产使用前，请人工复核生成结果、文字与品牌合规性。"
+        ],
+        "en": [
+          "Use the prompt as a starting point and review historical consistency, architecture, and object geometry before production use."
+        ]
+      },
+      "preview": "case-images/observatory-storm-establishing-shot.png",
+      "path": "library/cases/film/observatory-storm-establishing-shot"
     },
     {
       "id": "food-packaging-launch",

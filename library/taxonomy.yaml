@@ -16,6 +16,10 @@ dimensions:
       - comic-drama
       - avatar-expression
       - aigc-creation
+      - film-storyboard
+      - game-asset
+      - social-content
+      - surface-pattern
       - illustration-art
       - document-publishing
       - educational-visual

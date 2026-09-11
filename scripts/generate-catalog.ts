@@ -38,6 +38,38 @@ const VARIABLE_LABEL_OVERRIDES: Record<string, string> = {
   character_role: '角色定位',
   value_proposition: '价值主张',
   visual_metaphor: '视觉隐喻',
+  character_identity: '人物身份锚点',
+  chase_location: '追逐地点',
+  pursuing_threat: '追击威胁',
+  cinematic_palette: '电影色板',
+  historical_setting: '历史场景设定',
+  narrative_moment: '叙事时刻',
+  production_details: '制作设计细节',
+  light_weather: '光线与天气',
+  prop_function: '道具功能',
+  material_stack: '材质组合',
+  wear_level: '磨损等级',
+  rarity_palette: '稀有度色板',
+  vehicle_role: '载具定位',
+  engineering_features: '工程结构特征',
+  surface_finish: '表面处理',
+  environment_context: '环境语境',
+  campaign_product: '宣传商品',
+  motion_element: '动态元素',
+  platform_safe_zone: '平台安全区',
+  campaign_palette: '宣传色板',
+  hero_dessert: '主角甜点',
+  hospitality_setting: '待客场景',
+  sensory_cues: '感官线索',
+  copy_safe_zone: '文案安全区',
+  motif_family: '母题系统',
+  repeat_structure: '重复结构',
+  print_palette: '印花色板',
+  substrate: '承印材质',
+  surface_family: '表面材质组',
+  sample_count: '样板数量',
+  material_contrast: '材质行为差异',
+  lighting_setup: '布光方案',
 };
 
 const VARIABLE_TERMS: Record<string, string> = {
@@ -101,6 +133,18 @@ function deliverableRequirements(taxonomy: Record<string, string[]>): string[] {
   if (includes(taxonomy, 'deliverable', 'aigc-creation')) {
     requirements.push('Make the AI-assisted creative workflow concrete: identify the human decision, the AI step, the input artifact, the review point, and the usable output. Use honest capability boundaries, controlled information hierarchy, and product-realistic interaction states; do not imply unsupported automation, fabricated metrics, or autonomous claims.');
   }
+  if (includes(taxonomy, 'deliverable', 'film-storyboard')) {
+    requirements.push('Treat the image as one production-ready shot: state the shot purpose, camera distance, lens perspective, focal action, continuity anchors, and motivated light. Preserve screen direction and spatial geography so adjacent shots can be designed without contradiction.');
+  }
+  if (includes(taxonomy, 'deliverable', 'game-asset')) {
+    requirements.push('Design a production-credible game asset with a complete silhouette, explainable construction, readable material separation, believable scale, and wear tied to use. Do not hide structural problems behind effects, labels, or a presentation collage.');
+  }
+  if (includes(taxonomy, 'deliverable', 'social-content')) {
+    requirements.push('Design for mobile-first thumbnail reading with one focal message, declared platform-safe zones, and a restrained copy area. Do not generate fake platform chrome, engagement metrics, handles, or unrequested promotional text.');
+  }
+  if (includes(taxonomy, 'deliverable', 'surface-pattern')) {
+    requirements.push('Make repetition and material behavior testable: define motif scale, edge continuity or sample count, surface response, and intended substrate. Avoid accidental seams, duplicate samples, unmanufacturable relief, and color-only material variation.');
+  }
   if (includes(taxonomy, 'deliverable', 'illustration-art')) {
     requirements.push('Make the chosen medium visible in mark-making, texture, depth, and edge treatment. Use a restrained palette and a single focal hierarchy rather than an undirected style collage.');
   }
@@ -135,6 +179,10 @@ function deliverableRequirementsZh(taxonomy: Record<string, string[]>): string[]
   if (includes(taxonomy, 'deliverable', 'comic-drama')) requirements.push('制作一张竖屏 9:16 的漫剧关键帧：情绪节点、主角和本集视觉钩子必须一眼可读；整个系列的人物设计、服装锚点、场景规则与光线连续。不得添加未要求的对白、字幕、平台界面或水印。');
   if (includes(taxonomy, 'deliverable', 'avatar-expression')) requirements.push('在小尺寸头像中让身份、眼神、表情、发型和裁切一眼可辨；保持自然五官结构与统一色彩。若需求是表情包，只变化指定情绪，所有格子必须保持同一张脸、服装、光线、机位和背景。');
   if (includes(taxonomy, 'deliverable', 'aigc-creation')) requirements.push('将 AI 辅助创作工作流做具体：明确人的决策、AI 步骤、输入素材、审核节点和可用输出；使用诚实的能力边界、受控的信息层级和可信产品状态，不得暗示不具备的自动化能力、虚构数据或自治主张。');
+  if (includes(taxonomy, 'deliverable', 'film-storyboard')) requirements.push('按一个可拍摄镜头处理：明确镜头用途、景别、镜头透视、焦点动作、连续性锚点和有动机的光源；保持运动方向与空间关系，使前后镜头能够无冲突衔接。');
+  if (includes(taxonomy, 'deliverable', 'game-asset')) requirements.push('按可进入生产流程的游戏资产处理：轮廓完整、结构可解释、材质分区清楚、尺度可信，磨损必须与使用方式一致；不得用特效、标签或拼贴遮盖结构问题。');
+  if (includes(taxonomy, 'deliverable', 'social-content')) requirements.push('按移动端缩略图优先设计：只保留一个核心信息、明确平台安全区与克制的文案区域；不得生成虚假平台界面、互动数据、账号名或未要求的宣传文字。');
+  if (includes(taxonomy, 'deliverable', 'surface-pattern')) requirements.push('让重复关系和材质行为可检查：明确母题尺度、边缘连续或样板数量、表面响应与目标承印材质；避免意外接缝、重复样板、不可制造浮雕和仅靠换色区分材质。');
   if (includes(taxonomy, 'deliverable', 'illustration-art')) requirements.push('让媒介特征体现在笔触、纹理、深度和边缘处理上；使用克制色板与单一焦点，不做无方向的风格拼贴。');
   return requirements;
 }
