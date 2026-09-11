@@ -1,0 +1,30 @@
+id: desert-caravan-aerial-shot
+title: 盐湖车队航拍建立镜头
+summary: 以车队轨迹、盐湖尺度和崖壁城市建立宏大的远征地理关系。
+taxonomy:
+  deliverable: [film-storyboard, scene-storytelling]
+  medium: [photography, mixed-media]
+  workflow: [text-to-image, series-consistency]
+  capability: [spatial-reasoning, material-lighting, instruction-following]
+  model: [universal, gpt-image, midjourney]
+tags: [影视分镜, 航拍镜头, 沙漠远征, 世界观]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [shot_subject, scene_geography, camera_light]
+  cover_values:
+    shot_subject:
+      zh: 四辆带太阳能顶板的白色远征卡车沿弧形车辙驶向崖壁聚落，车距与朝向保持队列逻辑
+      en: Four white expedition trucks with solar roofs follow curved tracks toward a cliff settlement, maintaining believable spacing and direction
+    scene_geography:
+      zh: 白色盐湖占画面下半部，橙色岩壁城市位于远景右上方，山口是唯一可进入路线并与车辙连通
+      en: A white salt flat fills the lower half, an orange cliff city sits in the upper-right distance, and the only pass connects logically to the vehicle tracks
+    camera_light:
+      zh: 无人机 24mm 高位斜俯视，日出从左后方拉出长阴影，金色岩壁与冷蓝盐面形成清晰冷暖分层
+      en: A high oblique 24mm drone view at sunrise, with long shadows from rear-left and a clear warm-cliff versus cool-salt color separation
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Use the prompt as a starting point and review continuity, anatomy, spatial logic, and lighting before production use.]

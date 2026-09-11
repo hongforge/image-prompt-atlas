@@ -1,0 +1,30 @@
+id: midnight-kitchen-dialogue-shot
+title: 午夜厨房家庭对白镜头
+summary: 通过人物距离、未拆信封和雨夜环境完成克制而紧张的家庭对白场面。
+taxonomy:
+  deliverable: [film-storyboard, scene-storytelling]
+  medium: [photography]
+  workflow: [text-to-image, series-consistency]
+  capability: [subject-consistency, spatial-reasoning, material-lighting]
+  model: [universal, gpt-image, midjourney]
+tags: [影视分镜, 对白场面, 家庭剧情, 情绪叙事]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [shot_subject, scene_geography, camera_light]
+  cover_values:
+    shot_subject:
+      zh: 白发老厨师与三十岁左右的女儿隔着不锈钢桌相对而坐，两人都看向桌中央尚未拆开的牛皮信封
+      en: An elderly white-haired chef and his adult daughter sit across a stainless table, both looking at an unopened kraft envelope between them
+    scene_geography:
+      zh: 老厨房操作台形成左右边界，人物保持正反打所需的同一轴线，雨窗位于后景且信封始终处于两人视线交点
+      en: Old kitchen counters frame both sides, the characters stay on a consistent dialogue axis, and a rainy window sits behind them while the envelope anchors both eyelines
+    camera_light:
+      zh: 50mm 双人中景平视机位，顶部荧光灯提供冷灰基调，窗外蓝雨光勾边，桌面小灯给予信封局部暖光
+      en: An eye-level 50mm two-shot with cool overhead fluorescent ambience, blue rainy rim light, and a small warm pool of light on the envelope
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Use the prompt as a starting point and review continuity, anatomy, spatial logic, and lighting before production use.]

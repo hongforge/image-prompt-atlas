@@ -1,0 +1,30 @@
+id: steampunk-survey-airship-asset
+title: 蒸汽勘测飞艇载具
+summary: 用气囊骨架、观测舱和折叠尾翼建立可解释的轻型勘测载具。
+taxonomy:
+  deliverable: [game-asset]
+  medium: [3d-render, mixed-media]
+  workflow: [text-to-image]
+  capability: [product-fidelity, spatial-reasoning, material-lighting]
+  model: [universal, gpt-image, midjourney]
+tags: [游戏资产, 飞艇载具, 蒸汽幻想, 载具设计]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [asset_identity, construction_logic, material_presentation]
+  cover_values:
+    asset_identity:
+      zh: 小型蒸汽勘测飞艇，深青椭圆气囊、黄铜玻璃观测舱、双侧涡轮和折叠尾翼形成完整识别轮廓
+      en: A compact survey airship defined by a dark-teal oval balloon, brass-and-glass observation gondola, twin side turbines, and folding tail fins
+    construction_logic:
+      zh: 黄铜肋条约束气囊，六根张力索连接观测舱，涡轮固定在独立桁架上，尾翼铰链与控制杆必须可见
+      en: Brass ribs constrain the balloon, six tension cables support the gondola, turbines mount on separate trusses, and fin hinges and control rods remain visible
+    material_presentation:
+      zh: 粗织深青气囊、旧黄铜、铆接黑铁和弧面玻璃分区清晰，在中性云层背景中以暖侧逆光展示
+      en: Clearly separate coarse teal fabric, aged brass, riveted black iron, and curved glass against neutral clouds with warm side backlight
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Use the prompt as a starting point and review silhouette, construction, scale, and material separation before production use.]

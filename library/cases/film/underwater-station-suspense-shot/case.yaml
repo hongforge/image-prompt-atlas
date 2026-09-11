@@ -1,0 +1,30 @@
+id: underwater-station-suspense-shot
+title: 深海站走廊悬疑镜头
+summary: 用受压走廊、窗外巨影与应急灯建立封闭空间中的未知威胁。
+taxonomy:
+  deliverable: [film-storyboard, scene-storytelling]
+  medium: [photography, mixed-media]
+  workflow: [text-to-image, series-consistency]
+  capability: [subject-consistency, spatial-reasoning, material-lighting]
+  model: [universal, gpt-image, midjourney]
+tags: [影视分镜, 深海科幻, 悬疑镜头, 空间叙事]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [shot_subject, scene_geography, camera_light]
+  cover_values:
+    shot_subject:
+      zh: 穿黄色耐压服的深海工程师停在半淹没走廊中央，右手握检修灯，透过观察窗发现一条鲸形巨影
+      en: A deep-sea engineer in a yellow pressure suit stops in a half-flooded corridor, holding an inspection lamp while seeing a whale-like shadow beyond the window
+    scene_geography:
+      zh: 狭长金属走廊从前景积水延伸至后方气密门，左侧连续观察窗连接黑暗海域，逃生方向必须清晰
+      en: A narrow metal corridor runs from foreground floodwater to a rear pressure door, with observation windows on the left opening to the dark ocean and a clear escape direction
+    camera_light:
+      zh: 35mm 中近景低机位，冷青海水光占 70%，红色应急灯占 20%，手灯暖白光占 10% 并照亮人物面罩
+      en: A low 35mm medium-close shot with 70% cold cyan ocean light, 20% red emergency light, and 10% warm-white lamp light revealing the visor
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Use the prompt as a starting point and review continuity, anatomy, spatial logic, and lighting before production use.]

@@ -1,0 +1,24 @@
+id: children-space-pattern-repeat
+title: 儿童太空主题连续纹样
+summary: 以圆润火箭、行星和天文台组成友好、清晰且适合儿童用品的图案。
+taxonomy:
+  deliverable: [surface-pattern, illustration-art]
+  medium: [illustration, vector-graphic]
+  workflow: [text-to-image, series-consistency]
+  capability: [layout-hierarchy, instruction-following, subject-consistency]
+  model: [universal, gpt-image, midjourney]
+tags: [纹样设计, 儿童图案, 太空主题, 无缝重复]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [motif_system, surface_behavior, production_constraints]
+  cover_values:
+    motif_system: { zh: 圆角小火箭、环形行星、月亮、天文台和星群按大中小三级分布，每类母题至少三种旋转方向, en: Rounded rockets, ringed planets, moons, observatories, and star clusters distributed at three size levels with at least three rotations per motif family }
+    surface_behavior: { zh: 深海军蓝哑光底搭配芥末黄、珊瑚橙、浅薄荷和暖白平涂色块，保留轻微绘本颗粒, en: Matte deep-navy ground with flat mustard, coral, pale mint, and warm-white shapes plus subtle picture-book grain }
+    production_constraints: { zh: 半落重复，母题间最小间距为最大火箭宽度三分之一，四边连续，限制五色且避免过小星点, en: Half-drop repeat with minimum spacing of one-third the largest rocket width, continuous edges, a five-color limit, and no overly tiny stars }
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Review repeat continuity, motif spacing, small-part safety, color separation, and age appropriateness before production use.]

@@ -1,0 +1,30 @@
+id: modular-sci-fi-cargo-crate
+title: 模块化科幻货运箱
+summary: 以可替换护角、机械锁扣和使用磨损构建可信的硬表面场景道具。
+taxonomy:
+  deliverable: [game-asset]
+  medium: [3d-render]
+  workflow: [text-to-image]
+  capability: [product-fidelity, material-lighting, spatial-reasoning]
+  model: [universal, gpt-image, midjourney]
+tags: [游戏资产, 科幻道具, 硬表面设计, 模块化]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [asset_identity, construction_logic, material_presentation]
+  cover_values:
+    asset_identity:
+      zh: 中型近未来货运箱，矮宽箱体、八个可替换护角和前后双机械锁扣构成固定识别轮廓
+      en: A medium near-future cargo crate with a low wide body, eight replaceable corner guards, and paired front-and-rear mechanical latches
+    construction_logic:
+      zh: 箱盖沿中央分缝开启，护角通过外露螺栓固定，锁扣嵌入石墨框架，底部留出叉车和机械臂搬运槽
+      en: The lid opens along a central seam, guards bolt to the frame, latches recess into graphite rails, and the base includes forklift and robotic handling slots
+    material_presentation:
+      zh: 橙色陶瓷装甲板、枪灰金属骨架和暖白状态灯清楚分区，边缘仅有符合装卸使用的划痕
+      en: Separate orange ceramic armor, gunmetal structure, and warm-white status lights, with scratches limited to handling edges
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Use the prompt as a starting point and review silhouette, construction, scale, and material separation before production use.]

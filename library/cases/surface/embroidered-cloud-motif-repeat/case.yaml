@@ -1,0 +1,24 @@
+id: embroidered-cloud-motif-repeat
+title: 云纹刺绣连续图案
+summary: 用缎面针迹、抬高轮廓和现代云带节奏构建可生产的高端织物纹样。
+taxonomy:
+  deliverable: [surface-pattern]
+  medium: [photography, illustration]
+  workflow: [text-to-image, series-consistency]
+  capability: [material-lighting, layout-hierarchy, instruction-following]
+  model: [universal, gpt-image, midjourney]
+tags: [纹样设计, 刺绣云纹, 纺织品, 无缝重复]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [motif_system, surface_behavior, production_constraints]
+  cover_values:
+    motif_system: { zh: 珍珠白和雾蓝云团由柔长带状曲线连接，金线只勾勒约三分之一外轮廓，母题大小按 5:3:2 分级, en: Pearl-white and mist-blue cloud clusters connect through long ribbons, gold outlines only one-third of edges, and motif sizes follow a 5:3:2 hierarchy }
+    surface_behavior: { zh: 深墨蓝细纹布底，云团使用致密缎面绣，带状曲线使用顺向长针，金线略高于其他线层, en: Deep ink-blue fine-weave base, dense satin stitch clouds, directional long-stitch ribbons, and gold thread raised slightly above other layers }
+    production_constraints: { zh: 半落连续重复，针脚方向随曲线转动，最窄绣区不少于 2 毫米，避免过密叠线和四边断裂, en: Half-drop seamless repeat with stitch direction following curves, minimum embroidered width of 2 mm, avoiding dense overlaps and broken edges }
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Review repeat continuity, stitch direction, relief, minimum detail size, and embroidery feasibility before production use.]

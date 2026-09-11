@@ -22,8 +22,8 @@ describe('prompt library cases', () => {
     }
   });
 
-  it('ships 131 distinct cases across deliverables', () => {
-    expect(caseDirs.length).toBe(131);
+  it('ships 163 distinct cases across deliverables', () => {
+    expect(caseDirs.length).toBe(163);
   });
 
   it.each(caseDirs)('%s conforms to the case contract', (directory) => {

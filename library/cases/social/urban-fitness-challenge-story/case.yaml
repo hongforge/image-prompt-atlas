@@ -1,0 +1,24 @@
+id: urban-fitness-challenge-story
+title: 城市体能挑战故事封面
+summary: 以真实运动人物、城市阶梯与蓝调时刻构成具有冲刺感的竖屏视觉。
+taxonomy:
+  deliverable: [social-content, portrait-character]
+  medium: [photography]
+  workflow: [text-to-image]
+  capability: [subject-consistency, material-lighting, layout-hierarchy]
+  model: [universal, gpt-image, midjourney]
+tags: [社交内容, 运动广告, 城市跑步, 人物动作]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [campaign_subject, visual_system, mobile_layout]
+  cover_values:
+    campaign_subject: { zh: 二十多岁的东方女性运动员冲上城市混凝土阶梯，黑色高马尾、珊瑚色运动背心和跑鞋为连续内容锚点, en: An East Asian female athlete in her late twenties sprints up concrete city stairs, anchored by a black ponytail, coral sports top, and running shoes }
+    visual_system: { zh: 蓝调时刻城市灯光为冷色背景，珊瑚运动服为唯一高饱和色，皮肤汗光与阶梯侧灯保持真实, en: Blue-hour city lights form a cool background, coral sportswear is the sole saturated color, and skin perspiration plus stair lights remain realistic }
+    mobile_layout: { zh: 竖版 2:3，人物采用膝上近景占画面中央 55%，顶部天空留出 20% 低细节区域，脸与前脚不得被裁切, en: Portrait 2:3 with a knee-up athlete filling the central 55%, 20% low-detail sky above, and neither face nor leading foot cropped }
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Use the prompt as a starting point and review anatomy, motion, mobile hierarchy, safe zones, and platform compliance before production use.]

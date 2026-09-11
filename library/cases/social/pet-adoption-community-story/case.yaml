@@ -1,0 +1,24 @@
+id: pet-adoption-community-story
+title: 宠物领养社区故事
+summary: 以救助犬眼神、志愿者互动和日光庭院传达真实友好的领养主题。
+taxonomy:
+  deliverable: [social-content, portrait-character]
+  medium: [photography]
+  workflow: [text-to-image]
+  capability: [subject-consistency, layout-hierarchy, instruction-following]
+  model: [universal, gpt-image, midjourney]
+tags: [社交内容, 宠物领养, 公益传播, 纪实人像]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [campaign_subject, visual_system, mobile_layout]
+  cover_values:
+    campaign_subject: { zh: 一只左耳竖起、右耳自然下垂的棕白混种救助犬坐在庭院中，蓝衣女性志愿者蹲在右侧轻扶胸前, en: A brown-and-white mixed-breed rescue dog with one upright and one relaxed ear sits in a courtyard while a female volunteer in blue kneels right and gently supports its chest }
+    visual_system: { zh: 杏色地面、浅蓝衣服和晴空构成温暖清爽色板，使用自然晨光并保留真实毛发、皮肤与环境, en: Apricot ground, pale-blue clothing, and clear sky create a warm clean palette under natural morning light with realistic fur, skin, and surroundings }
+    mobile_layout: { zh: 竖版 2:3，犬脸位于中央偏左且占主视觉，志愿者脸位于右上次级位置，左上保留 18% 简洁天空, en: Portrait 2:3 with the dog's face primary center-left, volunteer face secondary upper-right, and 18% simple sky reserved upper-left }
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Use the prompt as a starting point and review animal anatomy, human interaction, mobile hierarchy, and platform compliance before production use.]

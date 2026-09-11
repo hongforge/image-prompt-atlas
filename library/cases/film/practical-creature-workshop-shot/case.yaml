@@ -1,0 +1,30 @@
+id: practical-creature-workshop-shot
+title: 实体特效生物工坊镜头
+summary: 以机械眼调试、材料痕迹和团队工作环境呈现幕后制作的真实质感。
+taxonomy:
+  deliverable: [film-storyboard, scene-storytelling]
+  medium: [photography]
+  workflow: [text-to-image]
+  capability: [material-lighting, spatial-reasoning, instruction-following]
+  model: [universal, gpt-image, midjourney]
+tags: [影视分镜, 实体特效, 生物道具, 幕后制作]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [shot_subject, scene_geography, camera_light]
+  cover_values:
+    shot_subject:
+      zh: 中年实体特效师用精密工具调整森林生物傀儡的机械右眼，傀儡露出树皮皮肤、硅胶眼睑和内部金属连杆
+      en: A middle-aged practical-effects fabricator adjusts the mechanical right eye of a forest-creature puppet, revealing bark skin, silicone eyelids, and metal linkages
+    scene_geography:
+      zh: 半身傀儡固定在中央工作台，特效师位于左前方，工具墙和模具架在后景分层排列但不形成杂乱拼贴
+      en: The half-body puppet is fixed at the center bench, the fabricator works from front-left, and tool walls and mold shelves layer the background without collage-like clutter
+    camera_light:
+      zh: 50mm 中近景，顶部软箱提供中性主光，工作台暖灯照亮机械结构，背景保留低饱和青灰环境光
+      en: A 50mm medium-close view with neutral overhead softbox key, warm bench light on the mechanism, and subdued cyan-gray ambient background
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Use the prompt as a starting point and review continuity, anatomy, spatial logic, and lighting before production use.]

@@ -1,0 +1,30 @@
+id: forest-guardian-creature-asset
+title: 森林守护兽角色资产
+summary: 以树皮骨架、石甲分区和琥珀眼睛建立可动画化的原创生物角色。
+taxonomy:
+  deliverable: [game-asset, portrait-character]
+  medium: [3d-render, mixed-media]
+  workflow: [text-to-image, series-consistency]
+  capability: [subject-consistency, material-lighting, spatial-reasoning]
+  model: [universal, gpt-image, midjourney]
+tags: [游戏资产, 生物角色, 森林守护兽, 角色设计]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [asset_identity, construction_logic, material_presentation]
+  cover_values:
+    asset_identity:
+      zh: 鹿形比例的四足森林守护兽，长枝角、楔形石面甲与一对琥珀发光眼是固定身份锚点
+      en: A deer-proportioned quadruped forest guardian with branching antlers, a wedge-shaped stone faceplate, and amber luminous eyes as fixed identity anchors
+    construction_logic:
+      zh: 树干骨架形成四肢和躯干，薄石板沿肌肉方向叠成护甲，肩、髋、膝与颈部保留明确活动间隙
+      en: A timber frame forms limbs and torso, thin stone plates follow muscle flow, and shoulders, hips, knees, and neck retain visible articulation gaps
+    material_presentation:
+      zh: 干燥树皮、浅灰页岩、湿润苔藓和琥珀眼光明确分离，站在简洁林地底座上以暖侧光展示全身
+      en: Clearly separate dry bark, pale slate, damp moss, and amber eye glow, showing the full body on a simple forest pedestal under warm side light
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Use the prompt as a starting point and review silhouette, construction, scale, and material separation before production use.]

@@ -1,0 +1,24 @@
+id: recycled-terrazzo-surface-study
+title: 再生水磨石材质样板
+summary: 用可追溯骨料比例、均匀分布和漫反射表面定义可制造的环保水磨石。
+taxonomy:
+  deliverable: [surface-pattern, architecture-space]
+  medium: [photography, 3d-render]
+  workflow: [text-to-image]
+  capability: [material-lighting, instruction-following, product-fidelity]
+  model: [universal, gpt-image, midjourney]
+tags: [材质设计, 再生水磨石, 室内表面, 可持续材料]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [motif_system, surface_behavior, production_constraints]
+  cover_values:
+    motif_system: { zh: 暖灰矿物基底中混合海玻璃绿、陶土橙、炭黑石和少量黄铜色碎片，大中小骨料比例为 2:3:5, en: Warm-gray mineral base with sea-glass green, terracotta, charcoal stone, and sparse brass-toned chips in a 2:3:5 large-medium-small ratio }
+    surface_behavior: { zh: 哑光精磨表面，玻璃骨料轻微透光，石材完全漫反射，金属碎片只出现克制点状高光, en: Matte honed finish with slight translucency in glass, fully diffuse stone, and restrained point highlights on metallic chips }
+    production_constraints: { zh: 骨料均匀但不机械重复，最大碎片不超过成品宽度 6%，不出现裂缝、孔洞、边框或明显拼接, en: Even but non-mechanical aggregate distribution, largest chips below 6% of final width, with no cracks, voids, borders, or obvious tiling }
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Review aggregate scale, distribution, edge continuity, material response, and manufacturing feasibility before production use.]

@@ -1,0 +1,24 @@
+id: dichroic-glass-gradient-library
+title: 二向色玻璃渐变材质
+summary: 用连续光谱过渡、折射焦散与轻微表面波纹定义可复用的玻璃视觉系统。
+taxonomy:
+  deliverable: [surface-pattern, architecture-space]
+  medium: [photography, 3d-render]
+  workflow: [text-to-image]
+  capability: [material-lighting, instruction-following, product-fidelity]
+  model: [universal, gpt-image, midjourney]
+tags: [材质设计, 二向色玻璃, 渐变表面, 光学材质]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [motif_system, surface_behavior, production_constraints]
+  cover_values:
+    motif_system: { zh: 青色从左侧进入，经中央紫罗兰区域平滑过渡至右侧琥珀橙，三条柔和波脊形成连续对角流向, en: Cyan enters from the left, transitions smoothly through violet at center to amber-orange on the right, with three soft ridges forming a continuous diagonal flow }
+    surface_behavior: { zh: 透明建筑玻璃呈二向色薄膜反射，内部折射焦散清楚但不过曝，微波纹改变光路而不造成乳浊, en: Transparent architectural glass shows dichroic-film reflection with clear non-clipped caustics, while micro-ripples bend light without cloudiness }
+    production_constraints: { zh: 全画面保持同一玻璃厚度与透明度，颜色连续无断带，边缘可平铺且不得出现框架、气泡或物体倒影, en: Uniform glass thickness and transparency, uninterrupted color bands, tileable edges, and no frame, bubbles, or reflected objects }
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Review optical plausibility, color continuity, edge tiling, transparency, and fabrication constraints before production use.]

@@ -1,0 +1,24 @@
+id: indie-music-festival-social-poster
+title: 独立音乐节社交海报
+summary: 用发光织物舞台、观众剪影与可控光束形成高能且可排版的活动主视觉。
+taxonomy:
+  deliverable: [social-content, poster-editorial]
+  medium: [photography, mixed-media]
+  workflow: [text-to-image]
+  capability: [layout-hierarchy, material-lighting, instruction-following]
+  model: [universal, gpt-image, midjourney]
+tags: [社交内容, 音乐节海报, 活动视觉, 夜间舞台]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [campaign_subject, visual_system, mobile_layout]
+  cover_values:
+    campaign_subject: { zh: 湖畔夜间独立音乐节，半透明张拉织物组成未来舞台，前景为举手欢呼的多元观众剪影, en: An independent lakeside night festival with a futuristic tensile-fabric stage and diverse cheering crowd silhouettes in front }
+    visual_system: { zh: 电光蓝与洋红光束穿过轻雾，舞台中央圆形光门是唯一最亮焦点，远山和湖面保持深蓝背景, en: Electric-blue and magenta beams cross light haze, a circular stage portal is the sole brightest focus, and mountains and lake remain deep blue }
+    mobile_layout: { zh: 竖版 2:3，观众占下方 35%，舞台位于中部，顶部 22% 夜空及左右边缘保留后期信息安全区, en: Portrait 2:3 with crowd in the lower 35%, stage centered, and the top 22% sky plus side edges reserved as later information-safe areas }
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Use the prompt as a starting point and review crowd anatomy, mobile hierarchy, safe zones, and platform compliance before production use.]

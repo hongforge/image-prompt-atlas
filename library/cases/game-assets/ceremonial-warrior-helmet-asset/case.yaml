@@ -1,0 +1,30 @@
+id: ceremonial-warrior-helmet-asset
+title: 漆艺仪典武士头盔
+summary: 在原创浪形冠饰、漆面盔体和编绳结构中平衡文化气质与游戏识别度。
+taxonomy:
+  deliverable: [game-asset]
+  medium: [3d-render]
+  workflow: [text-to-image]
+  capability: [product-fidelity, material-lighting, instruction-following]
+  model: [universal, gpt-image, midjourney]
+tags: [游戏资产, 头盔装备, 漆艺设计, 仪典道具]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [asset_identity, construction_logic, material_presentation]
+  cover_values:
+    asset_identity:
+      zh: 原创仪典战士头盔，深朱红圆盔、抽象升浪形青铜冠饰和宽大分片护颈构成固定轮廓
+      en: An original ceremonial warrior helmet defined by a deep vermilion bowl, abstract rising-wave bronze crest, and broad segmented neck guard
+    construction_logic:
+      zh: 冠饰以三点铆接固定，护颈甲片通过黑色编绳串联，盔内可见织物衬垫与下颌系带
+      en: The crest uses three-point riveting, neck plates connect with black braided cord, and the interior shows fabric padding and a chin tie
+    material_presentation:
+      zh: 高光旧漆、氧化青铜、哑光编绳和织锦内衬形成四级材质对比，置于深色博物馆底座
+      en: Glossy aged lacquer, oxidized bronze, matte cord, and brocade lining create four material levels on a dark museum pedestal
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Use the prompt as a starting point and review silhouette, construction, scale, and material separation before production use.]

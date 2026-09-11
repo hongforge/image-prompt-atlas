@@ -1,0 +1,24 @@
+id: botanical-leather-emboss-surface
+title: 植物压花皮革表面
+summary: 以蕨叶和种荚低浮雕、自然毛孔与旧化边缘定义奢华皮革材质。
+taxonomy:
+  deliverable: [surface-pattern, product-commerce]
+  medium: [photography, 3d-render]
+  workflow: [text-to-image]
+  capability: [material-lighting, product-fidelity, instruction-following]
+  model: [universal, gpt-image, midjourney]
+tags: [材质设计, 压花皮革, 植物纹样, 奢华表面]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [motif_system, surface_behavior, production_constraints]
+  cover_values:
+    motif_system: { zh: 蕨叶主枝以对角线舒展，圆润种荚作为小型节奏点，叶片大小分三级且相邻主枝方向交替, en: Fern branches sweep diagonally with rounded seed pods as small rhythm points, using three leaf scales and alternating neighboring branch directions }
+    surface_behavior: { zh: 深牛血红植鞣皮保留细毛孔和轻微色差，低浮雕边缘圆润，斜侧光只在凸起最高点形成柔和亮边, en: Deep oxblood vegetable-tanned leather retains pores and slight tonal variation, with rounded low-relief edges and soft highlights only on raised peaks }
+    production_constraints: { zh: 压花深度约 0.6 毫米，最窄凹槽不少于 1.2 毫米，连续图案四边可拼接且不得出现尖锐薄片, en: Emboss depth about 0.6 mm, minimum groove width 1.2 mm, seamless edges, and no sharp thin relief features }
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: [Review emboss depth, groove width, edge continuity, leather behavior, and manufacturing feasibility before production use.]
