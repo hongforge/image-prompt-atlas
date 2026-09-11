@@ -56,12 +56,12 @@
   <tr>
     <td width="33%" align="center" valign="top"><a href="docs/gallery.md#ui-interface"><img src="site/public/case-images/fintech-analytics-dashboard.png" alt="UI 与界面" height="288"></a><br><strong>🧩 UI 与界面</strong><br><sub>12 个主分类案例</sub></td>
     <td width="33%" align="center" valign="top"><a href="docs/gallery.md#product-commerce"><img src="site/public/case-images/watch-campaign-image.png" alt="商品与电商视觉" height="288"></a><br><strong>🛍️ 商品与电商视觉</strong><br><sub>11 个主分类案例</sub></td>
-    <td width="33%" align="center" valign="top"><a href="docs/gallery.md#portrait-character"><img src="site/public/case-images/east-asian-neon-closeup.png" alt="人像与角色" height="288"></a><br><strong>🧍 人像与角色</strong><br><sub>19 个主分类案例</sub></td>
+    <td width="33%" align="center" valign="top"><a href="docs/gallery.md#architecture-space"><img src="site/public/case-images/eco-hotel-exterior.png" alt="建筑与空间" height="288"></a><br><strong>🏛️ 建筑与空间</strong><br><sub>4 个主分类案例</sub></td>
   </tr>
   <tr>
     <td width="33%" align="center" valign="top"><a href="docs/gallery.md#aigc-creation"><img src="site/public/case-images/aigc-game-boss-arena.png" alt="AICG 游戏与动漫" height="288"></a><br><strong>⚡ AICG 游戏与动漫</strong><br><sub>9 个主分类案例</sub></td>
-    <td width="33%" align="center" valign="top"><a href="docs/gallery.md#comic-drama"><img src="site/public/case-images/comic-drama-conflict-closeup.png" alt="漫剧关键帧" height="288"></a><br><strong>🎞️ 漫剧关键帧</strong><br><sub>5 个主分类案例</sub></td>
-    <td width="33%" align="center" valign="top"><a href="docs/gallery.md#avatar-expression"><img src="site/public/case-images/professional-avatar.png" alt="头像与表情" height="288"></a><br><strong>😀 头像与表情</strong><br><sub>5 个主分类案例</sub></td>
+    <td width="33%" align="center" valign="top"><a href="docs/gallery.md#comic-drama"><img src="site/public/case-images/comic-drama-turning-point-scene.png" alt="漫剧关键帧" height="288"></a><br><strong>🎞️ 漫剧关键帧</strong><br><sub>5 个主分类案例</sub></td>
+    <td width="33%" align="center" valign="top"><a href="docs/gallery.md#portrait-character"><img src="site/public/case-images/east-asian-neon-closeup.png" alt="人像与角色" height="288"></a><br><strong>🧍 人像与角色</strong><br><sub>19 个主分类案例</sub></td>
   </tr>
 </table>
 
