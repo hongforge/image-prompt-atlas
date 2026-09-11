@@ -1,0 +1,30 @@
+id: detergent-refill-packaging
+title: "家清补充装包装系统"
+summary: "用单一材料补充袋和可重复使用金属瓶建立清晰、可信的循环包装关系。"
+taxonomy:
+  deliverable: [packaging-design]
+  medium: ["photography","3d-render"]
+  workflow: [text-to-image]
+  capability: ["product-fidelity","instruction-following","material-lighting"]
+  model: [universal, gpt-image, midjourney]
+tags: ["包装设计","补充装","可持续包装","家清产品"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [package_object, structural_system, material_graphics]
+  cover_values:
+    package_object:
+      zh: "一只粉白色稳定底补充袋与一只拉丝铝泵瓶组成同系列，容量比例为 2:1，水滴形图形位置保持一致"
+      en: "A stable-bottom off-white refill pouch and brushed-aluminum pump bottle in one family, with a 2:1 capacity ratio and aligned droplet motif"
+    structural_system:
+      zh: "补充袋使用同材质旋盖、顶部热封和圆角底褶，泵瓶可旋开补充且泵头具锁止结构，所有接合处必须可见"
+      en: "The pouch uses a mono-material spout, top heat seal, and rounded gusset; the bottle opens for refill and has a locking pump, with all joints visible"
+    material_graphics:
+      zh: "粉白、海玻璃绿和裸铝形成三色系统，图形只表达液体流动和补充关系，不生成环保声明或说明文字"
+      en: "Off-white, sea-glass green, and bare aluminum form a three-color system; graphics express liquid flow and refill logic without claims or copy"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"]

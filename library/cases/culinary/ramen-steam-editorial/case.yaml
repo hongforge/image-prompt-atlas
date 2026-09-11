@@ -1,0 +1,30 @@
+id: ramen-steam-editorial
+title: "清汤拉面蒸汽特写"
+summary: "通过清澈汤底、手切面条和自然蒸汽表现刚出锅的温度与餐厅现场感"
+taxonomy:
+  deliverable: [food-beverage]
+  medium: ["photography"]
+  workflow: [text-to-image]
+  capability: ["material-lighting","subject-consistency","instruction-following"]
+  model: [universal, gpt-image, midjourney]
+tags: ["餐饮美食","拉面摄影","蒸汽特写","餐厅现场"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [hero_food, serving_context, food_styling]
+  cover_values:
+    hero_food:
+      zh: "一碗清鸡汤手切拉面，包含三片炙烤鸡肉、半颗溏心蛋、葱丝和均匀细小的香味油珠"
+      en: "One bowl of clear chicken ramen with hand-cut noodles, three seared chicken slices, half a soft egg, scallion threads, and fine aromatic oil droplets"
+    serving_context:
+      zh: "粗陶面碗被厨师单手放到深色木吧台，后方开放厨房以暖光虚化，手臂只从左侧边缘进入"
+      en: "A rustic ceramic bowl placed on a dark wood counter by one chef hand entering from the left, with a warm softly blurred open kitchen behind"
+    food_styling:
+      zh: "面条保持自然卷曲并浸入清汤，配料集中于中央三角区，蒸汽连续向上且不遮挡蛋和鸡肉"
+      en: "Noodles curl naturally within clear broth, toppings form a central triangle, and continuous steam rises without obscuring egg or chicken"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"]

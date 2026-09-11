@@ -1,0 +1,30 @@
+id: mens-tailoring-atelier-portrait
+title: "男装裁缝工坊人像"
+summary: "以半成品西装、量体工具和清楚手部动作呈现专业定制男装过程"
+taxonomy:
+  deliverable: [fashion-editorial]
+  medium: ["photography"]
+  workflow: [text-to-image]
+  capability: ["subject-consistency","spatial-reasoning","material-lighting"]
+  model: [universal, gpt-image, midjourney]
+tags: ["时尚造型","男装定制","裁缝工艺","工坊人像"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [fashion_subject, garment_construction, editorial_direction]
+  cover_values:
+    fashion_subject:
+      zh: "成年东方男性裁缝穿炭灰三件套西装，颈挂量尺，右手持粉笔调整人台上的米白半成品夹克，面部清晰"
+      en: "An adult East Asian male tailor in a charcoal three-piece suit with measuring tape, chalking a cream half-finished jacket on a dress form, face clear"
+    garment_construction:
+      zh: "裁缝自身西装肩线、驳领和腰省合体；人台夹克显示麻衬、手工疏缝、袋位和一侧未完成袖窿"
+      en: "The tailor's suit has precise shoulders, lapels, and waist suppression; the toile shows canvas, basting, pocket position, and one unfinished armhole"
+    editorial_direction:
+      zh: "深木护墙工坊，50mm 腰上至膝部编辑人像，左侧北窗柔光为主，桌面剪刀和布样只作前景尺度参照"
+      en: "Dark wood-paneled atelier, 50mm editorial portrait from waist to knees, soft north-window key from left, with scissors and swatches as foreground scale cues"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"]

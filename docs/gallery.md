@@ -4,7 +4,7 @@
 
 [返回项目首页](../README.md) · [English](gallery.en.md) · [工业模板](templates.md) · [在线浏览](https://hongforge.github.io/image-prompt-atlas/)
 
-这里展示 163 个原创案例。封面用于快速判断视觉方向，案例文件提供完整变量、对应封面值、生产级提示词与限制说明。
+这里展示 193 个原创案例。封面用于快速判断视觉方向，案例文件提供完整变量、对应封面值、生产级提示词与限制说明。
 
 ## 分类导航
 
@@ -22,6 +22,9 @@
 - [🎮 游戏资产与道具（10）](#game-asset)
 - [📱 社交媒体内容（10）](#social-content)
 - [🧵 纹样与材质设计（10）](#surface-pattern)
+- [📦 包装与包装系统（10）](#packaging-design)
+- [🍽️ 餐饮与美食视觉（10）](#food-beverage)
+- [👗 时尚造型与编辑片（10）](#fashion-editorial)
 - [🎬 场景与叙事（8）](#scene-storytelling)
 - [🎨 插画与艺术实验（5）](#illustration-art)
 - [📚 文档与出版（8）](#document-publishing)
@@ -1243,6 +1246,285 @@
 <sub>将锦鲤与抽象水流组织为中尺度、边缘连续且色彩克制的壁纸纹样。</sub><br>
 <sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
 <a href="../library/cases/surface/koi-geometric-wallpaper-repeat/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%"></td>
+<td width="33%"></td>
+</tr>
+</table>
+
+[返回分类导航](#分类导航)
+
+---
+
+<a id="packaging-design"></a>
+
+## 📦 包装与包装系统
+
+> 10 个案例；点击封面进入对应提示词文件。
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/packaging/astronomy-kit-packaging/prompt.md"><img src="../site/public/case-images/astronomy-kit-packaging.png" alt="儿童天文实验套件包装" width="240"></a><br>
+<strong>儿童天文实验套件包装</strong><br>
+<sub>以手提箱纸盒、安全分仓和可搭建器材建立教育玩具的完整包装体验。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/packaging/astronomy-kit-packaging/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/packaging/frozen-dumpling-carton/prompt.md"><img src="../site/public/case-images/frozen-dumpling-carton.png" alt="冷冻水饺纸盒包装" width="240"></a><br>
+<strong>冷冻水饺纸盒包装</strong><br>
+<sub>通过冷链纸盒、可堆叠结构和透明窗口同时解决产品可见性与运输保护。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/packaging/frozen-dumpling-carton/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/packaging/cosmetic-ampoule-packaging/prompt.md"><img src="../site/public/case-images/cosmetic-ampoule-packaging.png" alt="安瓶精华保护包装" width="240"></a><br>
+<strong>安瓶精华保护包装</strong><br>
+<sub>以玻璃安瓶、纤维内托和防拆封套构成卫生、紧凑且可回收的护理包装。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/packaging/cosmetic-ampoule-packaging/prompt.md">查看提示词与变量</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/packaging/pet-nutrition-packaging/prompt.md"><img src="../site/public/case-images/pet-nutrition-packaging.png" alt="宠物营养食品包装" width="240"></a><br>
+<strong>宠物营养食品包装</strong><br>
+<sub>以稳定底纸袋、可重复封口和真实食材关系构建亲和而专业的宠物食品包装。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/packaging/pet-nutrition-packaging/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/packaging/detergent-refill-packaging/prompt.md"><img src="../site/public/case-images/detergent-refill-packaging.png" alt="家清补充装包装系统" width="240"></a><br>
+<strong>家清补充装包装系统</strong><br>
+<sub>用单一材料补充袋和可重复使用金属瓶建立清晰、可信的循环包装关系。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/packaging/detergent-refill-packaging/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/packaging/niche-fragrance-packaging/prompt.md"><img src="../site/public/case-images/niche-fragrance-packaging.png" alt="小众香氛瓶盒设计" width="240"></a><br>
+<strong>小众香氛瓶盒设计</strong><br>
+<sub>通过切面玻璃、结构折线与克制材质建立香氛瓶和外盒的一体化语言。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/packaging/niche-fragrance-packaging/prompt.md">查看提示词与变量</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/packaging/tea-gift-box-system/prompt.md"><img src="../site/public/case-images/tea-gift-box-system.png" alt="山水茶礼盒包装系统" width="240"></a><br>
+<strong>山水茶礼盒包装系统</strong><br>
+<sub>以三罐分仓、磁吸硬盒和层叠纸雕建立完整的高端茶礼赠开箱体验。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/packaging/tea-gift-box-system/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/packaging/jewelry-presentation-box/prompt.md"><img src="../site/public/case-images/jewelry-presentation-box.png" alt="珠宝折叠展示盒" width="240"></a><br>
+<strong>珠宝折叠展示盒</strong><br>
+<sub>用八边形硬盒、隐藏铰链和分层软垫建立仪式感与运输保护兼具的珠宝包装。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/packaging/jewelry-presentation-box/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/packaging/craft-chocolate-collection/prompt.md"><img src="../site/public/case-images/craft-chocolate-collection.png" alt="精品巧克力系列包装" width="240"></a><br>
+<strong>精品巧克力系列包装</strong><br>
+<sub>以纸套、内托和几何巧克力组合呈现清楚的口味分级与手工质感。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/packaging/craft-chocolate-collection/prompt.md">查看提示词与变量</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/packaging/keyboard-switch-kit-packaging/prompt.md"><img src="../site/public/case-images/keyboard-switch-kit-packaging.png" alt="键盘轴体套件包装" width="240"></a><br>
+<strong>键盘轴体套件包装</strong><br>
+<sub>以抽屉盒、模塑纸浆内托和工具分仓呈现精密电子配件的开箱秩序。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/packaging/keyboard-switch-kit-packaging/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%"></td>
+<td width="33%"></td>
+</tr>
+</table>
+
+[返回分类导航](#分类导航)
+
+---
+
+<a id="food-beverage"></a>
+
+## 🍽️ 餐饮与美食视觉
+
+> 10 个案例；点击封面进入对应提示词文件。
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/culinary/summer-sparkling-tea-campaign/prompt.md"><img src="../site/public/case-images/summer-sparkling-tea-campaign.png" alt="夏日茉莉气泡茶视觉" width="240"></a><br>
+<strong>夏日茉莉气泡茶视觉</strong><br>
+<sub>以透明饮品、青梅与水光焦散建立清爽且产品结构可信的夏季饮品主视觉</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/culinary/summer-sparkling-tea-campaign/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/culinary/sichuan-banquet-overhead/prompt.md"><img src="../site/public/case-images/sichuan-banquet-overhead.png" alt="川味家宴俯拍视觉" width="240"></a><br>
+<strong>川味家宴俯拍视觉</strong><br>
+<sub>以八道不同菜品和中央鸳鸯铜锅建立真实、丰富且不重复的共享餐桌</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/culinary/sichuan-banquet-overhead/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/culinary/fine-dining-scallop-plate/prompt.md"><img src="../site/public/case-images/fine-dining-scallop-plate.png" alt="扇贝精致餐饮摆盘" width="240"></a><br>
+<strong>扇贝精致餐饮摆盘</strong><br>
+<sub>以三颗煎扇贝、梨片与香草油建立克制、可复刻的高端餐盘结构</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/culinary/fine-dining-scallop-plate/prompt.md">查看提示词与变量</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/culinary/artisan-bread-process/prompt.md"><img src="../site/public/case-images/artisan-bread-process.png" alt="手工酸种面包制作过程" width="240"></a><br>
+<strong>手工酸种面包制作过程</strong><br>
+<sub>以割包动作、发酵篮和成品面包清楚讲述烘焙生产节点</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/culinary/artisan-bread-process/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/culinary/matcha-dessert-tasting-set/prompt.md"><img src="../site/public/case-images/matcha-dessert-tasting-set.png" alt="抹茶甜点品鉴组合" width="240"></a><br>
+<strong>抹茶甜点品鉴组合</strong><br>
+<sub>以不同质地的抹茶甜点和手作茶杯建立精致但不繁复的品鉴视觉</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/culinary/matcha-dessert-tasting-set/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/culinary/ramen-steam-editorial/prompt.md"><img src="../site/public/case-images/ramen-steam-editorial.png" alt="清汤拉面蒸汽特写" width="240"></a><br>
+<strong>清汤拉面蒸汽特写</strong><br>
+<sub>通过清澈汤底、手切面条和自然蒸汽表现刚出锅的温度与餐厅现场感</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/culinary/ramen-steam-editorial/prompt.md">查看提示词与变量</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/culinary/coffee-roasting-process/prompt.md"><img src="../site/public/case-images/coffee-roasting-process.png" alt="精品咖啡烘豆过程" width="240"></a><br>
+<strong>精品咖啡烘豆过程</strong><br>
+<sub>通过冷却盘、取样勺和铜制烘豆机呈现可理解的烘焙生产环节</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/culinary/coffee-roasting-process/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/culinary/night-market-skewer-scene/prompt.md"><img src="../site/public/case-images/night-market-skewer-scene.png" alt="雨夜炭烤串制作现场" width="240"></a><br>
+<strong>雨夜炭烤串制作现场</strong><br>
+<sub>以刷酱动作、炭火和雨夜市场背景呈现有温度的街头美食过程</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/culinary/night-market-skewer-scene/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/culinary/zero-waste-vegetable-still-life/prompt.md"><img src="../site/public/case-images/zero-waste-vegetable-still-life.png" alt="零浪费蔬菜食材视觉" width="240"></a><br>
+<strong>零浪费蔬菜食材视觉</strong><br>
+<sub>用根茎、菜叶与果皮的完整利用关系表达可持续厨房理念</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/culinary/zero-waste-vegetable-still-life/prompt.md">查看提示词与变量</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/culinary/black-sesame-gelato-macro/prompt.md"><img src="../site/public/case-images/black-sesame-gelato-macro.png" alt="黑芝麻意式冰淇淋微距" width="240"></a><br>
+<strong>黑芝麻意式冰淇淋微距</strong><br>
+<sub>以舀取瞬间、芝麻颗粒与脆片表现浓郁、真实且可食用的冷冻甜品质感</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/culinary/black-sesame-gelato-macro/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%"></td>
+<td width="33%"></td>
+</tr>
+</table>
+
+[返回分类导航](#分类导航)
+
+---
+
+<a id="fashion-editorial"></a>
+
+## 👗 时尚造型与编辑片
+
+> 10 个案例；点击封面进入对应提示词文件。
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/fashion-editorial/avant-garde-handbag-still-life/prompt.md"><img src="../site/public/case-images/avant-garde-handbag-still-life.png" alt="先锋褶裥手袋静物" width="240"></a><br>
+<strong>先锋褶裥手袋静物</strong><br>
+<sub>以弧形皮革体量、黄铜脊骨和隐藏闭合结构建立原创奢华配饰形象</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/fashion-editorial/avant-garde-handbag-still-life/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/fashion-editorial/recycled-denim-lookbook/prompt.md"><img src="../site/public/case-images/recycled-denim-lookbook.png" alt="再生牛仔拼接造型册" width="240"></a><br>
+<strong>再生牛仔拼接造型册</strong><br>
+<sub>以三色旧牛仔、可见修补线和明亮工坊场景讲清服装循环设计</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/fashion-editorial/recycled-denim-lookbook/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/fashion-editorial/urban-techwear-lookbook/prompt.md"><img src="../site/public/case-images/urban-techwear-lookbook.png" alt="城市机能服造型册" width="240"></a><br>
+<strong>城市机能服造型册</strong><br>
+<sub>以模块化外套、层叠背心和雨后交通空间呈现完整可读的机能穿搭</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/fashion-editorial/urban-techwear-lookbook/prompt.md">查看提示词与变量</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/fashion-editorial/architectural-sneaker-material-shot/prompt.md"><img src="../site/public/case-images/architectural-sneaker-material-shot.png" alt="建筑感运动鞋材质视觉" width="240"></a><br>
+<strong>建筑感运动鞋材质视觉</strong><br>
+<sub>用再生针织、透明支撑笼和藻基泡棉展示原创鞋履的材料与受力结构</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/fashion-editorial/architectural-sneaker-material-shot/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/fashion-editorial/modern-oriental-evening-look/prompt.md"><img src="../site/public/case-images/modern-oriental-evening-look.png" alt="现代东方晚装人像" width="240"></a><br>
+<strong>现代东方晚装人像</strong><br>
+<sub>以非历史化立领、烟灰透明袖与梅枝刺绣建立现代东方晚装语言</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/fashion-editorial/modern-oriental-evening-look/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/fashion-editorial/mens-tailoring-atelier-portrait/prompt.md"><img src="../site/public/case-images/mens-tailoring-atelier-portrait.png" alt="男装裁缝工坊人像" width="240"></a><br>
+<strong>男装裁缝工坊人像</strong><br>
+<sub>以半成品西装、量体工具和清楚手部动作呈现专业定制男装过程</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/fashion-editorial/mens-tailoring-atelier-portrait/prompt.md">查看提示词与变量</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/fashion-editorial/runway-backstage-documentary/prompt.md"><img src="../site/public/case-images/runway-backstage-documentary.png" alt="秀场后台准备纪实" width="240"></a><br>
+<strong>秀场后台准备纪实</strong><br>
+<sub>用造型师与化妆师的同步动作呈现走秀前一刻的真实工作张力</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/fashion-editorial/runway-backstage-documentary/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/fashion-editorial/silver-jewelry-beauty-editorial/prompt.md"><img src="../site/public/case-images/silver-jewelry-beauty-editorial.png" alt="银饰美妆特写" width="240"></a><br>
+<strong>银饰美妆特写</strong><br>
+<sub>以真实深色皮肤、雕塑银饰和锐利眼神建立高端珠宝美妆视觉</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/fashion-editorial/silver-jewelry-beauty-editorial/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/fashion-editorial/sculptural-couture-portrait/prompt.md"><img src="../site/public/case-images/sculptural-couture-portrait.png" alt="雕塑感高定人像" width="240"></a><br>
+<strong>雕塑感高定人像</strong><br>
+<sub>用透明欧根纱褶裥和清晰面部建立克制而有结构张力的高定编辑片</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/fashion-editorial/sculptural-couture-portrait/prompt.md">查看提示词与变量</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/fashion-editorial/alpine-outerwear-campaign/prompt.md"><img src="../site/public/case-images/alpine-outerwear-campaign.png" alt="高山户外服装广告" width="240"></a><br>
+<strong>高山户外服装广告</strong><br>
+<sub>以清晰面部、结霜面料和真实攀登装备呈现极端环境中的服装性能</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/fashion-editorial/alpine-outerwear-campaign/prompt.md">查看提示词与变量</a>
 </td>
 <td width="33%"></td>
 <td width="33%"></td>

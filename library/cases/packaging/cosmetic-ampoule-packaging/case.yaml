@@ -1,0 +1,30 @@
+id: cosmetic-ampoule-packaging
+title: "安瓶精华保护包装"
+summary: "以玻璃安瓶、纤维内托和防拆封套构成卫生、紧凑且可回收的护理包装。"
+taxonomy:
+  deliverable: [packaging-design]
+  medium: ["photography","3d-render"]
+  workflow: [text-to-image]
+  capability: ["product-fidelity","instruction-following","layout-hierarchy"]
+  model: [universal, gpt-image, midjourney]
+tags: ["包装设计","安瓶包装","美妆护理","保护结构"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [package_object, structural_system, material_graphics]
+  cover_values:
+    package_object:
+      zh: "五支同规格琥珀玻璃安瓶横向固定于白色纤维内托，外部为浅蓝色抽拉纸套和圆形防拆封纸贴"
+      en: "Five equal amber-glass ampoules held horizontally in a white fiber tray, enclosed by a pale-blue sliding sleeve and circular tamper paper seal"
+    structural_system:
+      zh: "每支安瓶拥有独立颈部与底部卡位，内托两侧留取出指槽，纸套端部限位并通过一次性断裂纸贴封闭"
+      en: "Each ampoule has separate neck and base restraints, the tray includes finger notches, sleeve stops prevent over-travel, and a breakable paper seal closes the pack"
+    material_graphics:
+      zh: "琥珀玻璃、白色纤维和浅蓝细纹纸形成临床清洁感，图形仅使用细圆弧，不出现剂量、功效或医疗文字"
+      en: "Amber glass, white fiber, and pale-blue textured paper create clinical clarity, using only fine arcs without dosage, efficacy, or medical copy"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"]

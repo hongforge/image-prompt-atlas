@@ -82,6 +82,15 @@ const VARIABLE_LABEL_OVERRIDES: Record<string, string> = {
   motif_system: '母题系统',
   surface_behavior: '表面行为',
   production_constraints: '生产约束',
+  package_object: '包装对象',
+  structural_system: '结构系统',
+  material_graphics: '材料与图形',
+  hero_food: '主角食物',
+  serving_context: '呈现环境',
+  food_styling: '食物造型',
+  fashion_subject: '时尚主体',
+  garment_construction: '服装结构',
+  editorial_direction: '编辑方向',
 };
 
 const VARIABLE_TERMS: Record<string, string> = {
@@ -157,6 +166,15 @@ function deliverableRequirements(taxonomy: Record<string, string[]>): string[] {
   if (includes(taxonomy, 'deliverable', 'surface-pattern')) {
     requirements.push('Make repetition and material behavior testable: define motif scale, edge continuity or sample count, surface response, and intended substrate. Avoid accidental seams, duplicate samples, unmanufacturable relief, and color-only material variation.');
   }
+  if (includes(taxonomy, 'deliverable', 'packaging-design')) {
+    requirements.push('Treat the package as a manufacturable system: preserve product dimensions, opening sequence, closure, protective clearances, inserts, material thickness, print zones, and shelf-facing hierarchy. Do not invent copy, logos, barcodes, certifications, or environmental and medical claims.');
+  }
+  if (includes(taxonomy, 'deliverable', 'food-beverage')) {
+    requirements.push('Keep every edible element physically credible: specify preparation state, doneness, moisture, temperature cues, serving scale, vessel contact, and intentional garnish placement. Avoid plastic texture, impossible stacking, duplicated ingredients, unsafe handling, and decorative elements that look inedible.');
+  }
+  if (includes(taxonomy, 'deliverable', 'fashion-editorial')) {
+    requirements.push('Preserve identity, anatomy, garment construction, fit, seams, closures, material weight, styling logic, and crop. Direct pose, lens, lighting, and location as one editorial statement; do not hide broken hands, warped accessories, or impossible clothing joins behind motion or effects.');
+  }
   if (includes(taxonomy, 'deliverable', 'illustration-art')) {
     requirements.push('Make the chosen medium visible in mark-making, texture, depth, and edge treatment. Use a restrained palette and a single focal hierarchy rather than an undirected style collage.');
   }
@@ -195,6 +213,9 @@ function deliverableRequirementsZh(taxonomy: Record<string, string[]>): string[]
   if (includes(taxonomy, 'deliverable', 'game-asset')) requirements.push('按可进入生产流程的游戏资产处理：轮廓完整、结构可解释、材质分区清楚、尺度可信，磨损必须与使用方式一致；不得用特效、标签或拼贴遮盖结构问题。');
   if (includes(taxonomy, 'deliverable', 'social-content')) requirements.push('按移动端缩略图优先设计：只保留一个核心信息、明确平台安全区与克制的文案区域；不得生成虚假平台界面、互动数据、账号名或未要求的宣传文字。');
   if (includes(taxonomy, 'deliverable', 'surface-pattern')) requirements.push('让重复关系和材质行为可检查：明确母题尺度、边缘连续或样板数量、表面响应与目标承印材质；避免意外接缝、重复样板、不可制造浮雕和仅靠换色区分材质。');
+  if (includes(taxonomy, 'deliverable', 'packaging-design')) requirements.push('按可制造的包装系统处理：保持产品尺寸、开合顺序、闭合方式、保护间隙、内托、材料厚度、印刷区域与货架正面层级可信；不得自行生成文案、商标、条码、认证图标、环保或医疗声称。');
+  if (includes(taxonomy, 'deliverable', 'food-beverage')) requirements.push('所有可食用元素都必须符合真实状态：明确烹饪程度、熟度、含水感、温度线索、份量尺度、器皿接触和有意图的装饰位置；避免塑料质感、不可能堆叠、食材复制、不安全操作和看似不可食用的装饰。');
+  if (includes(taxonomy, 'deliverable', 'fashion-editorial')) requirements.push('保持人物身份、人体结构、服装版型、合体关系、缝线、闭合件、材质重量、造型逻辑与画面裁切一致；姿势、镜头、布光和地点必须共同表达一个编辑主题，不得用动态或特效遮盖错误手部、变形配饰和不可能的服装连接。');
   if (includes(taxonomy, 'deliverable', 'illustration-art')) requirements.push('让媒介特征体现在笔触、纹理、深度和边缘处理上；使用克制色板与单一焦点，不做无方向的风格拼贴。');
   return requirements;
 }

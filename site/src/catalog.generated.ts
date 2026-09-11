@@ -3068,6 +3068,138 @@ export const catalog = [
     "path": "library/cases/health/wellness-habit-tracker"
   },
   {
+    "id": "astronomy-kit-packaging",
+    "title": {
+      "zh": "儿童天文实验套件包装",
+      "en": "Astronomy Kit Packaging"
+    },
+    "summary": {
+      "zh": "以手提箱纸盒、安全分仓和可搭建器材建立教育玩具的完整包装体验。",
+      "en": "设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "packaging-design"
+      ],
+      "medium": [
+        "photography",
+        "3d-render"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "spatial-reasoning",
+        "product-fidelity",
+        "instruction-following"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "包装设计",
+        "教育玩具",
+        "儿童科学",
+        "套件包装"
+      ],
+      "en": [
+        "Packaging Design",
+        "Spatial Reasoning",
+        "Product Fidelity",
+        "Instruction Following"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "package_object",
+        "structural_system",
+        "material_graphics"
+      ],
+      "cover_values": {
+        "package_object": {
+          "zh": "一只可重复使用的再生纸板手提箱盒，打开后包含小型望远镜、三脚架、星盘、镜片和连接件",
+          "en": "A reusable recycled-cardboard suitcase box containing a small telescope, tripod, star wheel, lenses, and connectors"
+        },
+        "structural_system": {
+          "zh": "模塑纸浆内托按装配顺序分仓，镜片有独立软圈保护，小零件槽带防脱盖，纸板提手与双插舌锁扣可承重",
+          "en": "Molded-pulp compartments follow assembly order, lenses have soft protective rings, small parts use covered cells, and the board handle plus twin tabs carry the load"
+        },
+        "material_graphics": {
+          "zh": "午夜蓝、芥末黄、珊瑚橙和薄荷绿构成儿童友好色板，星空插画只用于盒盖内外且不生成说明文字",
+          "en": "Midnight blue, mustard, coral, and mint form a child-friendly palette; star illustrations stay on the lid without generated instructions"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "package_object",
+          "zh": "包装对象",
+          "en": "Package Object",
+          "description": {
+            "zh": "请给出「包装对象」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Package Object."
+          },
+          "cover_value": {
+            "zh": "一只可重复使用的再生纸板手提箱盒，打开后包含小型望远镜、三脚架、星盘、镜片和连接件",
+            "en": "A reusable recycled-cardboard suitcase box containing a small telescope, tripod, star wheel, lenses, and connectors"
+          }
+        },
+        {
+          "id": "structural_system",
+          "zh": "结构系统",
+          "en": "Structural System",
+          "description": {
+            "zh": "请填写「结构系统」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Structural System, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "模塑纸浆内托按装配顺序分仓，镜片有独立软圈保护，小零件槽带防脱盖，纸板提手与双插舌锁扣可承重",
+            "en": "Molded-pulp compartments follow assembly order, lenses have soft protective rings, small parts use covered cells, and the board handle plus twin tabs carry the load"
+          }
+        },
+        {
+          "id": "material_graphics",
+          "zh": "材料与图形",
+          "en": "Material Graphics",
+          "description": {
+            "zh": "请写清「材料与图形」的主要材质、表面状态、磨损或反射特征，以及它在画面中的重点部位。",
+            "en": "State the main materials, surface condition, wear or reflectance, and the focal placement of Material Graphics."
+          },
+          "cover_value": {
+            "zh": "午夜蓝、芥末黄、珊瑚橙和薄荷绿构成儿童友好色板，星空插画只用于盒盖内外且不生成说明文字",
+            "en": "Midnight blue, mustard, coral, and mint form a child-friendly palette; star illustrations stay on the lid without generated instructions"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「儿童天文实验套件包装」创作图像：以手提箱纸盒、安全分仓和可搭建器材建立教育玩具的完整包装体验。\n\n## 必填需求字段\n- `{{package_object}}`（包装对象）：一只可重复使用的再生纸板手提箱盒，打开后包含小型望远镜、三脚架、星盘、镜片和连接件\n- `{{structural_system}}`（结构系统）：模塑纸浆内托按装配顺序分仓，镜片有独立软圈保护，小零件槽带防脱盖，纸板提手与双插舌锁扣可承重\n- `{{material_graphics}}`（材料与图形）：午夜蓝、芥末黄、珊瑚橙和薄荷绿构成儿童友好色板，星空插画只用于盒盖内外且不生成说明文字\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 按可制造的包装系统处理：保持产品尺寸、开合顺序、闭合方式、保护间隙、内托、材料厚度、印刷区域与货架正面层级可信；不得自行生成文案、商标、条码、认证图标、环保或医疗声称。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。",
+        "en": "设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与产品尺度必须可解释。竖版 2:3，单一完整方案，不做接触表，不生成文字、商标、条码、认证图标、医疗或环保声称，不要品牌和水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{package_object}}` (Package Object): A reusable recycled-cardboard suitcase box containing a small telescope, tripod, star wheel, lenses, and connectors\n- `{{structural_system}}` (Structural System): Molded-pulp compartments follow assembly order, lenses have soft protective rings, small parts use covered cells, and the board handle plus twin tabs carry the load\n- `{{material_graphics}}` (Material Graphics): Midnight blue, mustard, coral, and mint form a child-friendly palette; star illustrations stay on the lid without generated instructions\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Treat the package as a manufacturable system: preserve product dimensions, opening sequence, closure, protective clearances, inserts, material thickness, print zones, and shelf-facing hierarchy. Do not invent copy, logos, barcodes, certifications, or environmental and medical claims.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ],
+      "en": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ]
+    },
+    "preview": "case-images/astronomy-kit-packaging.png",
+    "path": "library/cases/packaging/astronomy-kit-packaging"
+  },
+  {
     "id": "children-space-pattern-repeat",
     "title": {
       "zh": "儿童太空主题连续纹样",
@@ -3336,6 +3468,138 @@ export const catalog = [
     "path": "library/cases/storytelling/childrens-book-spread"
   },
   {
+    "id": "avant-garde-handbag-still-life",
+    "title": {
+      "zh": "先锋褶裥手袋静物",
+      "en": "Avant Garde Handbag Still Life"
+    },
+    "summary": {
+      "zh": "以弧形皮革体量、黄铜脊骨和隐藏闭合结构建立原创奢华配饰形象",
+      "en": "制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "fashion-editorial"
+      ],
+      "medium": [
+        "photography",
+        "3d-render"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "product-fidelity",
+        "material-lighting",
+        "spatial-reasoning"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "时尚造型",
+        "手袋设计",
+        "配饰静物",
+        "皮革工艺"
+      ],
+      "en": [
+        "Fashion Editorial",
+        "Product Fidelity",
+        "Material Lighting",
+        "Spatial Reasoning"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "fashion_subject",
+        "garment_construction",
+        "editorial_direction"
+      ],
+      "cover_values": {
+        "fashion_subject": {
+          "zh": "一只原创深酒红弧形手袋，扇形皮革褶裥从底部向上收束，拉丝黄铜脊骨连接两端并配可拆窄肩带",
+          "en": "One original deep-burgundy curved handbag with fan pleats rising from the base, joined by a brushed-brass spine and detachable narrow strap"
+        },
+        "garment_construction": {
+          "zh": "皮革褶片缝合于隐藏内胆，黄铜脊骨承担提握与开口支撑，暗扣位于上缘内侧，肩带通过两只旋转扣连接",
+          "en": "Leather pleats stitch to a hidden lining; the brass spine supports grip and opening, a concealed clasp sits inside the top edge, and two swivel hooks attach the strap"
+        },
+        "editorial_direction": {
+          "zh": "黑色粗石台与深黑背景，70mm 静物三分之四机位，左上窄束暖光强调褶裥和金属曲线，阴影保留完整包形",
+          "en": "Black rough-stone pedestal and dark background, 70mm three-quarter still life, narrow warm beam upper-left defining pleats and metal curve while preserving silhouette"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "fashion_subject",
+          "zh": "时尚主体",
+          "en": "Fashion Subject",
+          "description": {
+            "zh": "请填写「时尚主体」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Fashion Subject, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "一只原创深酒红弧形手袋，扇形皮革褶裥从底部向上收束，拉丝黄铜脊骨连接两端并配可拆窄肩带",
+            "en": "One original deep-burgundy curved handbag with fan pleats rising from the base, joined by a brushed-brass spine and detachable narrow strap"
+          }
+        },
+        {
+          "id": "garment_construction",
+          "zh": "服装结构",
+          "en": "Garment Construction",
+          "description": {
+            "zh": "请给出「服装结构」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Garment Construction."
+          },
+          "cover_value": {
+            "zh": "皮革褶片缝合于隐藏内胆，黄铜脊骨承担提握与开口支撑，暗扣位于上缘内侧，肩带通过两只旋转扣连接",
+            "en": "Leather pleats stitch to a hidden lining; the brass spine supports grip and opening, a concealed clasp sits inside the top edge, and two swivel hooks attach the strap"
+          }
+        },
+        {
+          "id": "editorial_direction",
+          "zh": "编辑方向",
+          "en": "Editorial Direction",
+          "description": {
+            "zh": "请填写「编辑方向」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Editorial Direction, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "黑色粗石台与深黑背景，70mm 静物三分之四机位，左上窄束暖光强调褶裥和金属曲线，阴影保留完整包形",
+            "en": "Black rough-stone pedestal and dark background, 70mm three-quarter still life, narrow warm beam upper-left defining pleats and metal curve while preserving silhouette"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「先锋褶裥手袋静物」创作图像：以弧形皮革体量、黄铜脊骨和隐藏闭合结构建立原创奢华配饰形象\n\n## 必填需求字段\n- `{{fashion_subject}}`（时尚主体）：一只原创深酒红弧形手袋，扇形皮革褶裥从底部向上收束，拉丝黄铜脊骨连接两端并配可拆窄肩带\n- `{{garment_construction}}`（服装结构）：皮革褶片缝合于隐藏内胆，黄铜脊骨承担提握与开口支撑，暗扣位于上缘内侧，肩带通过两只旋转扣连接\n- `{{editorial_direction}}`（编辑方向）：黑色粗石台与深黑背景，70mm 静物三分之四机位，左上窄束暖光强调褶裥和金属曲线，阴影保留完整包形\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 保持人物身份、人体结构、服装版型、合体关系、缝线、闭合件、材质重量、造型逻辑与画面裁切一致；姿势、镜头、布光和地点必须共同表达一个编辑主题，不得用动态或特效遮盖错误手部、变形配饰和不可能的服装连接。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。",
+        "en": "制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力、姿态与缝制节点共同决定；不得用夸张光效掩盖结构。竖版 2:3，单一完整视觉，不生成文字、商标、既有设计师标志、品牌或水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{fashion_subject}}` (Fashion Subject): One original deep-burgundy curved handbag with fan pleats rising from the base, joined by a brushed-brass spine and detachable narrow strap\n- `{{garment_construction}}` (Garment Construction): Leather pleats stitch to a hidden lining; the brass spine supports grip and opening, a concealed clasp sits inside the top edge, and two swivel hooks attach the strap\n- `{{editorial_direction}}` (Editorial Direction): Black rough-stone pedestal and dark background, 70mm three-quarter still life, narrow warm beam upper-left defining pleats and metal curve while preserving silhouette\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Preserve identity, anatomy, garment construction, fit, seams, closures, material weight, styling logic, and crop. Direct pose, lens, lighting, and location as one editorial statement; do not hide broken hands, warped accessories, or impossible clothing joins behind motion or effects.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ],
+      "en": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ]
+    },
+    "preview": "case-images/avant-garde-handbag-still-life.png",
+    "path": "library/cases/fashion-editorial/avant-garde-handbag-still-life"
+  },
+  {
     "id": "recycled-terrazzo-surface-study",
     "title": {
       "zh": "再生水磨石材质样板",
@@ -3496,6 +3760,137 @@ export const catalog = [
     },
     "preview": "case-images/recycled-terrazzo-surface-study.png",
     "path": "library/cases/surface/recycled-terrazzo-surface-study"
+  },
+  {
+    "id": "recycled-denim-lookbook",
+    "title": {
+      "zh": "再生牛仔拼接造型册",
+      "en": "Recycled Denim Lookbook"
+    },
+    "summary": {
+      "zh": "以三色旧牛仔、可见修补线和明亮工坊场景讲清服装循环设计",
+      "en": "制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "fashion-editorial"
+      ],
+      "medium": [
+        "photography"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "subject-consistency",
+        "material-lighting",
+        "instruction-following"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "时尚造型",
+        "再生牛仔",
+        "女装型录",
+        "可持续时尚"
+      ],
+      "en": [
+        "Fashion Editorial",
+        "Subject Consistency",
+        "Material Lighting",
+        "Instruction Following"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "fashion_subject",
+        "garment_construction",
+        "editorial_direction"
+      ],
+      "cover_values": {
+        "fashion_subject": {
+          "zh": "成年东方女性穿短款牛仔夹克与及踝长拼接裙，深蓝、中蓝和浅蓝三种旧牛仔形成整套造型，完整展示全身",
+          "en": "An adult East Asian woman in a cropped denim jacket and ankle-length panel skirt using dark, mid, and pale reclaimed denim, shown full body"
+        },
+        "garment_construction": {
+          "zh": "夹克使用错位口袋和补丁明线，长裙由纵向梯形裁片组成并保留包边和修补痕迹，腰部结构可实际穿着",
+          "en": "The jacket uses offset pockets and visible repair stitching; the skirt uses vertical trapezoid panels with bound edges and wearable waist construction"
+        },
+        "editorial_direction": {
+          "zh": "明亮纺织工坊自然窗光，45mm 平视全身构图，背景仅保留缝纫机、布卷和样片墙，人物姿态自然放松",
+          "en": "Bright textile workshop in window light, eye-level 45mm full-body frame, with only sewing machine, fabric rolls, and swatch wall behind"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "fashion_subject",
+          "zh": "时尚主体",
+          "en": "Fashion Subject",
+          "description": {
+            "zh": "请填写「时尚主体」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Fashion Subject, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "成年东方女性穿短款牛仔夹克与及踝长拼接裙，深蓝、中蓝和浅蓝三种旧牛仔形成整套造型，完整展示全身",
+            "en": "An adult East Asian woman in a cropped denim jacket and ankle-length panel skirt using dark, mid, and pale reclaimed denim, shown full body"
+          }
+        },
+        {
+          "id": "garment_construction",
+          "zh": "服装结构",
+          "en": "Garment Construction",
+          "description": {
+            "zh": "请给出「服装结构」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Garment Construction."
+          },
+          "cover_value": {
+            "zh": "夹克使用错位口袋和补丁明线，长裙由纵向梯形裁片组成并保留包边和修补痕迹，腰部结构可实际穿着",
+            "en": "The jacket uses offset pockets and visible repair stitching; the skirt uses vertical trapezoid panels with bound edges and wearable waist construction"
+          }
+        },
+        {
+          "id": "editorial_direction",
+          "zh": "编辑方向",
+          "en": "Editorial Direction",
+          "description": {
+            "zh": "请填写「编辑方向」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Editorial Direction, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "明亮纺织工坊自然窗光，45mm 平视全身构图，背景仅保留缝纫机、布卷和样片墙，人物姿态自然放松",
+            "en": "Bright textile workshop in window light, eye-level 45mm full-body frame, with only sewing machine, fabric rolls, and swatch wall behind"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「再生牛仔拼接造型册」创作图像：以三色旧牛仔、可见修补线和明亮工坊场景讲清服装循环设计\n\n## 必填需求字段\n- `{{fashion_subject}}`（时尚主体）：成年东方女性穿短款牛仔夹克与及踝长拼接裙，深蓝、中蓝和浅蓝三种旧牛仔形成整套造型，完整展示全身\n- `{{garment_construction}}`（服装结构）：夹克使用错位口袋和补丁明线，长裙由纵向梯形裁片组成并保留包边和修补痕迹，腰部结构可实际穿着\n- `{{editorial_direction}}`（编辑方向）：明亮纺织工坊自然窗光，45mm 平视全身构图，背景仅保留缝纫机、布卷和样片墙，人物姿态自然放松\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 保持人物身份、人体结构、服装版型、合体关系、缝线、闭合件、材质重量、造型逻辑与画面裁切一致；姿势、镜头、布光和地点必须共同表达一个编辑主题，不得用动态或特效遮盖错误手部、变形配饰和不可能的服装连接。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。",
+        "en": "制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力、姿态与缝制节点共同决定；不得用夸张光效掩盖结构。竖版 2:3，单一完整视觉，不生成文字、商标、既有设计师标志、品牌或水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{fashion_subject}}` (Fashion Subject): An adult East Asian woman in a cropped denim jacket and ankle-length panel skirt using dark, mid, and pale reclaimed denim, shown full body\n- `{{garment_construction}}` (Garment Construction): The jacket uses offset pockets and visible repair stitching; the skirt uses vertical trapezoid panels with bound edges and wearable waist construction\n- `{{editorial_direction}}` (Editorial Direction): Bright textile workshop in window light, eye-level 45mm full-body frame, with only sewing machine, fabric rolls, and swatch wall behind\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Preserve identity, anatomy, garment construction, fit, seams, closures, material weight, styling logic, and crop. Direct pose, lens, lighting, and location as one editorial statement; do not hide broken hands, warped accessories, or impossible clothing joins behind motion or effects.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ],
+      "en": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ]
+    },
+    "preview": "case-images/recycled-denim-lookbook.png",
+    "path": "library/cases/fashion-editorial/recycled-denim-lookbook"
   },
   {
     "id": "farm-to-table-story",
@@ -4000,6 +4395,138 @@ export const catalog = [
     },
     "preview": "case-images/decision-tree-diagram.png",
     "path": "library/cases/visuals/decision-tree-diagram"
+  },
+  {
+    "id": "frozen-dumpling-carton",
+    "title": {
+      "zh": "冷冻水饺纸盒包装",
+      "en": "Frozen Dumpling Carton"
+    },
+    "summary": {
+      "zh": "通过冷链纸盒、可堆叠结构和透明窗口同时解决产品可见性与运输保护。",
+      "en": "设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "packaging-design"
+      ],
+      "medium": [
+        "photography",
+        "3d-render"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "product-fidelity",
+        "material-lighting",
+        "spatial-reasoning"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "包装设计",
+        "冷冻食品",
+        "水饺包装",
+        "冷链包装"
+      ],
+      "en": [
+        "Packaging Design",
+        "Product Fidelity",
+        "Material Lighting",
+        "Spatial Reasoning"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "package_object",
+        "structural_system",
+        "material_graphics"
+      ],
+      "cover_values": {
+        "package_object": {
+          "zh": "一只靛蓝与暖白冷冻水饺纸盒，正面圆角窗口可见整齐排布的水饺，盒体覆有自然冷凝与薄霜",
+          "en": "An indigo-and-warm-white frozen dumpling carton with a rounded window revealing neatly arranged dumplings and realistic condensation"
+        },
+        "structural_system": {
+          "zh": "纸盒使用防潮涂层、锁底和双层侧壁，窗口膜固定于内侧，水饺置于浅托盘中避免挤压并支持冷柜堆叠",
+          "en": "Moisture-resistant coating, locking base, double sidewalls, internally fixed window film, and a shallow tray prevent crushing and support freezer stacking"
+        },
+        "material_graphics": {
+          "zh": "靛蓝波形占 40%、暖白占 60%，蒸汽盲压只用于右上区域，窗口周围保持高对比但不生成商品文字",
+          "en": "Indigo waves occupy 40% and warm white 60%; steam blind emboss stays upper-right and the window maintains contrast without product copy"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "package_object",
+          "zh": "包装对象",
+          "en": "Package Object",
+          "description": {
+            "zh": "请给出「包装对象」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Package Object."
+          },
+          "cover_value": {
+            "zh": "一只靛蓝与暖白冷冻水饺纸盒，正面圆角窗口可见整齐排布的水饺，盒体覆有自然冷凝与薄霜",
+            "en": "An indigo-and-warm-white frozen dumpling carton with a rounded window revealing neatly arranged dumplings and realistic condensation"
+          }
+        },
+        {
+          "id": "structural_system",
+          "zh": "结构系统",
+          "en": "Structural System",
+          "description": {
+            "zh": "请填写「结构系统」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Structural System, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "纸盒使用防潮涂层、锁底和双层侧壁，窗口膜固定于内侧，水饺置于浅托盘中避免挤压并支持冷柜堆叠",
+            "en": "Moisture-resistant coating, locking base, double sidewalls, internally fixed window film, and a shallow tray prevent crushing and support freezer stacking"
+          }
+        },
+        {
+          "id": "material_graphics",
+          "zh": "材料与图形",
+          "en": "Material Graphics",
+          "description": {
+            "zh": "请写清「材料与图形」的主要材质、表面状态、磨损或反射特征，以及它在画面中的重点部位。",
+            "en": "State the main materials, surface condition, wear or reflectance, and the focal placement of Material Graphics."
+          },
+          "cover_value": {
+            "zh": "靛蓝波形占 40%、暖白占 60%，蒸汽盲压只用于右上区域，窗口周围保持高对比但不生成商品文字",
+            "en": "Indigo waves occupy 40% and warm white 60%; steam blind emboss stays upper-right and the window maintains contrast without product copy"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「冷冻水饺纸盒包装」创作图像：通过冷链纸盒、可堆叠结构和透明窗口同时解决产品可见性与运输保护。\n\n## 必填需求字段\n- `{{package_object}}`（包装对象）：一只靛蓝与暖白冷冻水饺纸盒，正面圆角窗口可见整齐排布的水饺，盒体覆有自然冷凝与薄霜\n- `{{structural_system}}`（结构系统）：纸盒使用防潮涂层、锁底和双层侧壁，窗口膜固定于内侧，水饺置于浅托盘中避免挤压并支持冷柜堆叠\n- `{{material_graphics}}`（材料与图形）：靛蓝波形占 40%、暖白占 60%，蒸汽盲压只用于右上区域，窗口周围保持高对比但不生成商品文字\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 按可制造的包装系统处理：保持产品尺寸、开合顺序、闭合方式、保护间隙、内托、材料厚度、印刷区域与货架正面层级可信；不得自行生成文案、商标、条码、认证图标、环保或医疗声称。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。",
+        "en": "设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与产品尺度必须可解释。竖版 2:3，单一完整方案，不做接触表，不生成文字、商标、条码、认证图标、医疗或环保声称，不要品牌和水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{package_object}}` (Package Object): An indigo-and-warm-white frozen dumpling carton with a rounded window revealing neatly arranged dumplings and realistic condensation\n- `{{structural_system}}` (Structural System): Moisture-resistant coating, locking base, double sidewalls, internally fixed window film, and a shallow tray prevent crushing and support freezer stacking\n- `{{material_graphics}}` (Material Graphics): Indigo waves occupy 40% and warm white 60%; steam blind emboss stays upper-right and the window maintains contrast without product copy\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Treat the package as a manufacturable system: preserve product dimensions, opening sequence, closure, protective clearances, inserts, material thickness, print zones, and shelf-facing hierarchy. Do not invent copy, logos, barcodes, certifications, or environmental and medical claims.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ],
+      "en": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ]
+    },
+    "preview": "case-images/frozen-dumpling-carton.png",
+    "path": "library/cases/packaging/frozen-dumpling-carton"
   },
   {
     "id": "creator-media-kit",
@@ -5675,6 +6202,268 @@ export const catalog = [
     "path": "library/cases/visuals/city-guide-map"
   },
   {
+    "id": "urban-techwear-lookbook",
+    "title": {
+      "zh": "城市机能服造型册",
+      "en": "Urban Techwear Lookbook"
+    },
+    "summary": {
+      "zh": "以模块化外套、层叠背心和雨后交通空间呈现完整可读的机能穿搭",
+      "en": "制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "fashion-editorial"
+      ],
+      "medium": [
+        "photography"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "subject-consistency",
+        "spatial-reasoning",
+        "material-lighting"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "时尚造型",
+        "机能服",
+        "男装造型",
+        "城市型录"
+      ],
+      "en": [
+        "Fashion Editorial",
+        "Subject Consistency",
+        "Spatial Reasoning",
+        "Material Lighting"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "fashion_subject",
+        "garment_construction",
+        "editorial_direction"
+      ],
+      "cover_values": {
+        "fashion_subject": {
+          "zh": "成年男性模特穿石墨灰防水外套、非对称工具背心、黑色阔腿长裤和哑光防水靴，完整展示从头到脚",
+          "en": "An adult male model in graphite waterproof shell, asymmetric utility vest, black wide trousers, and matte boots, shown fully head to toe"
+        },
+        "garment_construction": {
+          "zh": "外套具高领风帽、压胶拉链和腋下透气结构，背心口袋通过织带固定，长裤膝部与裤脚有可调节结构",
+          "en": "The shell has a high hood, taped zippers, and underarm ventilation; vest pockets attach through webbing and trousers include knee and hem adjustments"
+        },
+        "editorial_direction": {
+          "zh": "雨后混凝土交通廊道，35mm 略低全身机位，冷灰天光配少量青色设施灯，湿地反射不得遮住鞋底轮廓",
+          "en": "Rainy concrete transit canopy, slightly low 35mm full-body framing, cool gray daylight with restrained cyan practicals, keeping footwear silhouette clear"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "fashion_subject",
+          "zh": "时尚主体",
+          "en": "Fashion Subject",
+          "description": {
+            "zh": "请填写「时尚主体」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Fashion Subject, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "成年男性模特穿石墨灰防水外套、非对称工具背心、黑色阔腿长裤和哑光防水靴，完整展示从头到脚",
+            "en": "An adult male model in graphite waterproof shell, asymmetric utility vest, black wide trousers, and matte boots, shown fully head to toe"
+          }
+        },
+        {
+          "id": "garment_construction",
+          "zh": "服装结构",
+          "en": "Garment Construction",
+          "description": {
+            "zh": "请给出「服装结构」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Garment Construction."
+          },
+          "cover_value": {
+            "zh": "外套具高领风帽、压胶拉链和腋下透气结构，背心口袋通过织带固定，长裤膝部与裤脚有可调节结构",
+            "en": "The shell has a high hood, taped zippers, and underarm ventilation; vest pockets attach through webbing and trousers include knee and hem adjustments"
+          }
+        },
+        {
+          "id": "editorial_direction",
+          "zh": "编辑方向",
+          "en": "Editorial Direction",
+          "description": {
+            "zh": "请填写「编辑方向」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Editorial Direction, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "雨后混凝土交通廊道，35mm 略低全身机位，冷灰天光配少量青色设施灯，湿地反射不得遮住鞋底轮廓",
+            "en": "Rainy concrete transit canopy, slightly low 35mm full-body framing, cool gray daylight with restrained cyan practicals, keeping footwear silhouette clear"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「城市机能服造型册」创作图像：以模块化外套、层叠背心和雨后交通空间呈现完整可读的机能穿搭\n\n## 必填需求字段\n- `{{fashion_subject}}`（时尚主体）：成年男性模特穿石墨灰防水外套、非对称工具背心、黑色阔腿长裤和哑光防水靴，完整展示从头到脚\n- `{{garment_construction}}`（服装结构）：外套具高领风帽、压胶拉链和腋下透气结构，背心口袋通过织带固定，长裤膝部与裤脚有可调节结构\n- `{{editorial_direction}}`（编辑方向）：雨后混凝土交通廊道，35mm 略低全身机位，冷灰天光配少量青色设施灯，湿地反射不得遮住鞋底轮廓\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 保持人物身份、人体结构、服装版型、合体关系、缝线、闭合件、材质重量、造型逻辑与画面裁切一致；姿势、镜头、布光和地点必须共同表达一个编辑主题，不得用动态或特效遮盖错误手部、变形配饰和不可能的服装连接。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。",
+        "en": "制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力、姿态与缝制节点共同决定；不得用夸张光效掩盖结构。竖版 2:3，单一完整视觉，不生成文字、商标、既有设计师标志、品牌或水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{fashion_subject}}` (Fashion Subject): An adult male model in graphite waterproof shell, asymmetric utility vest, black wide trousers, and matte boots, shown fully head to toe\n- `{{garment_construction}}` (Garment Construction): The shell has a high hood, taped zippers, and underarm ventilation; vest pockets attach through webbing and trousers include knee and hem adjustments\n- `{{editorial_direction}}` (Editorial Direction): Rainy concrete transit canopy, slightly low 35mm full-body framing, cool gray daylight with restrained cyan practicals, keeping footwear silhouette clear\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Preserve identity, anatomy, garment construction, fit, seams, closures, material weight, styling logic, and crop. Direct pose, lens, lighting, and location as one editorial statement; do not hide broken hands, warped accessories, or impossible clothing joins behind motion or effects.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ],
+      "en": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ]
+    },
+    "preview": "case-images/urban-techwear-lookbook.png",
+    "path": "library/cases/fashion-editorial/urban-techwear-lookbook"
+  },
+  {
+    "id": "summer-sparkling-tea-campaign",
+    "title": {
+      "zh": "夏日茉莉气泡茶视觉",
+      "en": "Summer Sparkling Tea Campaign"
+    },
+    "summary": {
+      "zh": "以透明饮品、青梅与水光焦散建立清爽且产品结构可信的夏季饮品主视觉",
+      "en": "制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "food-beverage"
+      ],
+      "medium": [
+        "photography"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "product-fidelity",
+        "material-lighting",
+        "layout-hierarchy"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "餐饮美食",
+        "气泡茶",
+        "饮品广告",
+        "夏季视觉"
+      ],
+      "en": [
+        "Food Beverage",
+        "Product Fidelity",
+        "Material Lighting",
+        "Layout Hierarchy"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "hero_food",
+        "serving_context",
+        "food_styling"
+      ],
+      "cover_values": {
+        "hero_food": {
+          "zh": "一只无标透明长颈玻璃瓶装浅金色茉莉气泡茶，旁边一杯加冰饮品内含一片青梅，气泡细密上升",
+          "en": "An unlabeled clear long-neck bottle of pale-gold jasmine sparkling tea beside one iced glass with a green-plum slice and fine rising bubbles"
+        },
+        "serving_context": {
+          "zh": "瓶和杯置于浅色湿石台，背景为半透明水蓝光幕，周围只放茉莉花枝与两颗完整青梅",
+          "en": "Bottle and glass sit on pale wet stone against a translucent aqua light screen, accompanied only by jasmine branches and two whole green plums"
+        },
+        "food_styling": {
+          "zh": "瓶为右侧主焦点、杯为左侧次焦点，冷凝水珠细小真实，水光焦散方向统一且不遮盖玻璃轮廓",
+          "en": "Bottle is primary right and glass secondary left; condensation is fine and realistic, with consistent water caustics that do not obscure glass edges"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "hero_food",
+          "zh": "主角食物",
+          "en": "Hero Food",
+          "description": {
+            "zh": "请给出「主角食物」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Hero Food."
+          },
+          "cover_value": {
+            "zh": "一只无标透明长颈玻璃瓶装浅金色茉莉气泡茶，旁边一杯加冰饮品内含一片青梅，气泡细密上升",
+            "en": "An unlabeled clear long-neck bottle of pale-gold jasmine sparkling tea beside one iced glass with a green-plum slice and fine rising bubbles"
+          }
+        },
+        {
+          "id": "serving_context",
+          "zh": "呈现环境",
+          "en": "Serving Context",
+          "description": {
+            "zh": "请填写「呈现环境」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Serving Context, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "瓶和杯置于浅色湿石台，背景为半透明水蓝光幕，周围只放茉莉花枝与两颗完整青梅",
+            "en": "Bottle and glass sit on pale wet stone against a translucent aqua light screen, accompanied only by jasmine branches and two whole green plums"
+          }
+        },
+        {
+          "id": "food_styling",
+          "zh": "食物造型",
+          "en": "Food Styling",
+          "description": {
+            "zh": "请说明「食物造型」的媒介、时代或审美方向、情绪强度与细节密度，并给出 1–2 个可见特征。",
+            "en": "Describe the medium, era or aesthetic direction, emotional intensity, detail density, and 1–2 visible cues for Food Styling."
+          },
+          "cover_value": {
+            "zh": "瓶为右侧主焦点、杯为左侧次焦点，冷凝水珠细小真实，水光焦散方向统一且不遮盖玻璃轮廓",
+            "en": "Bottle is primary right and glass secondary left; condensation is fine and realistic, with consistent water caustics that do not obscure glass edges"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「夏日茉莉气泡茶视觉」创作图像：以透明饮品、青梅与水光焦散建立清爽且产品结构可信的夏季饮品主视觉\n\n## 必填需求字段\n- `{{hero_food}}`（主角食物）：一只无标透明长颈玻璃瓶装浅金色茉莉气泡茶，旁边一杯加冰饮品内含一片青梅，气泡细密上升\n- `{{serving_context}}`（呈现环境）：瓶和杯置于浅色湿石台，背景为半透明水蓝光幕，周围只放茉莉花枝与两颗完整青梅\n- `{{food_styling}}`（食物造型）：瓶为右侧主焦点、杯为左侧次焦点，冷凝水珠细小真实，水光焦散方向统一且不遮盖玻璃轮廓\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 所有可食用元素都必须符合真实状态：明确烹饪程度、熟度、含水感、温度线索、份量尺度、器皿接触和有意图的装饰位置；避免塑料质感、不可能堆叠、食材复制、不安全操作和看似不可食用的装饰。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。",
+        "en": "制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或不可解释装饰制造“诱人感”。竖版 2:3，单一完整视觉，不生成文字、菜单、商标、价格、品牌或水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{hero_food}}` (Hero Food): An unlabeled clear long-neck bottle of pale-gold jasmine sparkling tea beside one iced glass with a green-plum slice and fine rising bubbles\n- `{{serving_context}}` (Serving Context): Bottle and glass sit on pale wet stone against a translucent aqua light screen, accompanied only by jasmine branches and two whole green plums\n- `{{food_styling}}` (Food Styling): Bottle is primary right and glass secondary left; condensation is fine and realistic, with consistent water caustics that do not obscure glass edges\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Keep every edible element physically credible: specify preparation state, doneness, moisture, temperature cues, serving scale, vessel contact, and intentional garnish placement. Avoid plastic texture, impossible stacking, duplicated ingredients, unsafe handling, and decorative elements that look inedible.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ],
+      "en": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ]
+    },
+    "preview": "case-images/summer-sparkling-tea-campaign.png",
+    "path": "library/cases/culinary/summer-sparkling-tea-campaign"
+  },
+  {
     "id": "east-asian-neon-closeup",
     "title": {
       "zh": "夜景霓虹东方女性特写",
@@ -6110,6 +6899,138 @@ export const catalog = [
     "path": "library/cases/education/student-portfolio-cover"
   },
   {
+    "id": "cosmetic-ampoule-packaging",
+    "title": {
+      "zh": "安瓶精华保护包装",
+      "en": "Cosmetic Ampoule Packaging"
+    },
+    "summary": {
+      "zh": "以玻璃安瓶、纤维内托和防拆封套构成卫生、紧凑且可回收的护理包装。",
+      "en": "设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "packaging-design"
+      ],
+      "medium": [
+        "photography",
+        "3d-render"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "product-fidelity",
+        "instruction-following",
+        "layout-hierarchy"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "包装设计",
+        "安瓶包装",
+        "美妆护理",
+        "保护结构"
+      ],
+      "en": [
+        "Packaging Design",
+        "Product Fidelity",
+        "Instruction Following",
+        "Layout Hierarchy"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "package_object",
+        "structural_system",
+        "material_graphics"
+      ],
+      "cover_values": {
+        "package_object": {
+          "zh": "五支同规格琥珀玻璃安瓶横向固定于白色纤维内托，外部为浅蓝色抽拉纸套和圆形防拆封纸贴",
+          "en": "Five equal amber-glass ampoules held horizontally in a white fiber tray, enclosed by a pale-blue sliding sleeve and circular tamper paper seal"
+        },
+        "structural_system": {
+          "zh": "每支安瓶拥有独立颈部与底部卡位，内托两侧留取出指槽，纸套端部限位并通过一次性断裂纸贴封闭",
+          "en": "Each ampoule has separate neck and base restraints, the tray includes finger notches, sleeve stops prevent over-travel, and a breakable paper seal closes the pack"
+        },
+        "material_graphics": {
+          "zh": "琥珀玻璃、白色纤维和浅蓝细纹纸形成临床清洁感，图形仅使用细圆弧，不出现剂量、功效或医疗文字",
+          "en": "Amber glass, white fiber, and pale-blue textured paper create clinical clarity, using only fine arcs without dosage, efficacy, or medical copy"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "package_object",
+          "zh": "包装对象",
+          "en": "Package Object",
+          "description": {
+            "zh": "请给出「包装对象」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Package Object."
+          },
+          "cover_value": {
+            "zh": "五支同规格琥珀玻璃安瓶横向固定于白色纤维内托，外部为浅蓝色抽拉纸套和圆形防拆封纸贴",
+            "en": "Five equal amber-glass ampoules held horizontally in a white fiber tray, enclosed by a pale-blue sliding sleeve and circular tamper paper seal"
+          }
+        },
+        {
+          "id": "structural_system",
+          "zh": "结构系统",
+          "en": "Structural System",
+          "description": {
+            "zh": "请填写「结构系统」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Structural System, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "每支安瓶拥有独立颈部与底部卡位，内托两侧留取出指槽，纸套端部限位并通过一次性断裂纸贴封闭",
+            "en": "Each ampoule has separate neck and base restraints, the tray includes finger notches, sleeve stops prevent over-travel, and a breakable paper seal closes the pack"
+          }
+        },
+        {
+          "id": "material_graphics",
+          "zh": "材料与图形",
+          "en": "Material Graphics",
+          "description": {
+            "zh": "请写清「材料与图形」的主要材质、表面状态、磨损或反射特征，以及它在画面中的重点部位。",
+            "en": "State the main materials, surface condition, wear or reflectance, and the focal placement of Material Graphics."
+          },
+          "cover_value": {
+            "zh": "琥珀玻璃、白色纤维和浅蓝细纹纸形成临床清洁感，图形仅使用细圆弧，不出现剂量、功效或医疗文字",
+            "en": "Amber glass, white fiber, and pale-blue textured paper create clinical clarity, using only fine arcs without dosage, efficacy, or medical copy"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「安瓶精华保护包装」创作图像：以玻璃安瓶、纤维内托和防拆封套构成卫生、紧凑且可回收的护理包装。\n\n## 必填需求字段\n- `{{package_object}}`（包装对象）：五支同规格琥珀玻璃安瓶横向固定于白色纤维内托，外部为浅蓝色抽拉纸套和圆形防拆封纸贴\n- `{{structural_system}}`（结构系统）：每支安瓶拥有独立颈部与底部卡位，内托两侧留取出指槽，纸套端部限位并通过一次性断裂纸贴封闭\n- `{{material_graphics}}`（材料与图形）：琥珀玻璃、白色纤维和浅蓝细纹纸形成临床清洁感，图形仅使用细圆弧，不出现剂量、功效或医疗文字\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 按可制造的包装系统处理：保持产品尺寸、开合顺序、闭合方式、保护间隙、内托、材料厚度、印刷区域与货架正面层级可信；不得自行生成文案、商标、条码、认证图标、环保或医疗声称。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。",
+        "en": "设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与产品尺度必须可解释。竖版 2:3，单一完整方案，不做接触表，不生成文字、商标、条码、认证图标、医疗或环保声称，不要品牌和水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{package_object}}` (Package Object): Five equal amber-glass ampoules held horizontally in a white fiber tray, enclosed by a pale-blue sliding sleeve and circular tamper paper seal\n- `{{structural_system}}` (Structural System): Each ampoule has separate neck and base restraints, the tray includes finger notches, sleeve stops prevent over-travel, and a breakable paper seal closes the pack\n- `{{material_graphics}}` (Material Graphics): Amber glass, white fiber, and pale-blue textured paper create clinical clarity, using only fine arcs without dosage, efficacy, or medical copy\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Treat the package as a manufacturable system: preserve product dimensions, opening sequence, closure, protective clearances, inserts, material thickness, print zones, and shelf-facing hierarchy. Do not invent copy, logos, barcodes, certifications, or environmental and medical claims.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ],
+      "en": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ]
+    },
+    "preview": "case-images/cosmetic-ampoule-packaging.png",
+    "path": "library/cases/packaging/cosmetic-ampoule-packaging"
+  },
+  {
     "id": "practical-creature-workshop-shot",
     "title": {
       "zh": "实体特效生物工坊镜头",
@@ -6247,6 +7168,137 @@ export const catalog = [
     },
     "preview": "case-images/practical-creature-workshop-shot.png",
     "path": "library/cases/film/practical-creature-workshop-shot"
+  },
+  {
+    "id": "pet-nutrition-packaging",
+    "title": {
+      "zh": "宠物营养食品包装",
+      "en": "Pet Nutrition Packaging"
+    },
+    "summary": {
+      "zh": "以稳定底纸袋、可重复封口和真实食材关系构建亲和而专业的宠物食品包装。",
+      "en": "设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "packaging-design"
+      ],
+      "medium": [
+        "photography"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "product-fidelity",
+        "layout-hierarchy",
+        "instruction-following"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "包装设计",
+        "宠物食品",
+        "食品包装",
+        "货架视觉"
+      ],
+      "en": [
+        "Packaging Design",
+        "Product Fidelity",
+        "Layout Hierarchy",
+        "Instruction Following"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "package_object",
+        "structural_system",
+        "material_graphics"
+      ],
+      "cover_values": {
+        "package_object": {
+          "zh": "一只中号牛皮纸宠物干粮袋，顶部带圆角提手和可重复封口，前景配不锈钢食盆展示颗粒实际尺度",
+          "en": "A medium kraft pet-food bag with rounded carry handle and reclosure, paired with a stainless bowl showing true kibble scale"
+        },
+        "structural_system": {
+          "zh": "袋体使用侧褶与平底承重，提手下方设置双层加固，密封条位于撕口下方且不与手孔冲突",
+          "en": "Side gussets and a flat base carry weight, the handle area is double reinforced, and the zipper sits below the tear line without conflicting with the hand hole"
+        },
+        "material_graphics": {
+          "zh": "牛皮原色配陶土橙与森林绿大色块，以抽象田野和叶片表达食材来源，不画动物吉祥物、不生成营养声称",
+          "en": "Natural kraft with terracotta and forest-green color fields; abstract fields and leaves suggest ingredient origin without mascots or nutrition claims"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "package_object",
+          "zh": "包装对象",
+          "en": "Package Object",
+          "description": {
+            "zh": "请给出「包装对象」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Package Object."
+          },
+          "cover_value": {
+            "zh": "一只中号牛皮纸宠物干粮袋，顶部带圆角提手和可重复封口，前景配不锈钢食盆展示颗粒实际尺度",
+            "en": "A medium kraft pet-food bag with rounded carry handle and reclosure, paired with a stainless bowl showing true kibble scale"
+          }
+        },
+        {
+          "id": "structural_system",
+          "zh": "结构系统",
+          "en": "Structural System",
+          "description": {
+            "zh": "请填写「结构系统」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Structural System, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "袋体使用侧褶与平底承重，提手下方设置双层加固，密封条位于撕口下方且不与手孔冲突",
+            "en": "Side gussets and a flat base carry weight, the handle area is double reinforced, and the zipper sits below the tear line without conflicting with the hand hole"
+          }
+        },
+        {
+          "id": "material_graphics",
+          "zh": "材料与图形",
+          "en": "Material Graphics",
+          "description": {
+            "zh": "请写清「材料与图形」的主要材质、表面状态、磨损或反射特征，以及它在画面中的重点部位。",
+            "en": "State the main materials, surface condition, wear or reflectance, and the focal placement of Material Graphics."
+          },
+          "cover_value": {
+            "zh": "牛皮原色配陶土橙与森林绿大色块，以抽象田野和叶片表达食材来源，不画动物吉祥物、不生成营养声称",
+            "en": "Natural kraft with terracotta and forest-green color fields; abstract fields and leaves suggest ingredient origin without mascots or nutrition claims"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「宠物营养食品包装」创作图像：以稳定底纸袋、可重复封口和真实食材关系构建亲和而专业的宠物食品包装。\n\n## 必填需求字段\n- `{{package_object}}`（包装对象）：一只中号牛皮纸宠物干粮袋，顶部带圆角提手和可重复封口，前景配不锈钢食盆展示颗粒实际尺度\n- `{{structural_system}}`（结构系统）：袋体使用侧褶与平底承重，提手下方设置双层加固，密封条位于撕口下方且不与手孔冲突\n- `{{material_graphics}}`（材料与图形）：牛皮原色配陶土橙与森林绿大色块，以抽象田野和叶片表达食材来源，不画动物吉祥物、不生成营养声称\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 按可制造的包装系统处理：保持产品尺寸、开合顺序、闭合方式、保护间隙、内托、材料厚度、印刷区域与货架正面层级可信；不得自行生成文案、商标、条码、认证图标、环保或医疗声称。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。",
+        "en": "设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与产品尺度必须可解释。竖版 2:3，单一完整方案，不做接触表，不生成文字、商标、条码、认证图标、医疗或环保声称，不要品牌和水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{package_object}}` (Package Object): A medium kraft pet-food bag with rounded carry handle and reclosure, paired with a stainless bowl showing true kibble scale\n- `{{structural_system}}` (Structural System): Side gussets and a flat base carry weight, the handle area is double reinforced, and the zipper sits below the tear line without conflicting with the hand hole\n- `{{material_graphics}}` (Material Graphics): Natural kraft with terracotta and forest-green color fields; abstract fields and leaves suggest ingredient origin without mascots or nutrition claims\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Treat the package as a manufacturable system: preserve product dimensions, opening sequence, closure, protective clearances, inserts, material thickness, print zones, and shelf-facing hierarchy. Do not invent copy, logos, barcodes, certifications, or environmental and medical claims.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ],
+      "en": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ]
+    },
+    "preview": "case-images/pet-nutrition-packaging.png",
+    "path": "library/cases/packaging/pet-nutrition-packaging"
   },
   {
     "id": "pet-adoption-community-story",
@@ -6611,6 +7663,533 @@ export const catalog = [
     "path": "library/cases/commerce/furniture-lifestyle-scene"
   },
   {
+    "id": "detergent-refill-packaging",
+    "title": {
+      "zh": "家清补充装包装系统",
+      "en": "Detergent Refill Packaging"
+    },
+    "summary": {
+      "zh": "用单一材料补充袋和可重复使用金属瓶建立清晰、可信的循环包装关系。",
+      "en": "设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "packaging-design"
+      ],
+      "medium": [
+        "photography",
+        "3d-render"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "product-fidelity",
+        "instruction-following",
+        "material-lighting"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "包装设计",
+        "补充装",
+        "可持续包装",
+        "家清产品"
+      ],
+      "en": [
+        "Packaging Design",
+        "Product Fidelity",
+        "Instruction Following",
+        "Material Lighting"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "package_object",
+        "structural_system",
+        "material_graphics"
+      ],
+      "cover_values": {
+        "package_object": {
+          "zh": "一只粉白色稳定底补充袋与一只拉丝铝泵瓶组成同系列，容量比例为 2:1，水滴形图形位置保持一致",
+          "en": "A stable-bottom off-white refill pouch and brushed-aluminum pump bottle in one family, with a 2:1 capacity ratio and aligned droplet motif"
+        },
+        "structural_system": {
+          "zh": "补充袋使用同材质旋盖、顶部热封和圆角底褶，泵瓶可旋开补充且泵头具锁止结构，所有接合处必须可见",
+          "en": "The pouch uses a mono-material spout, top heat seal, and rounded gusset; the bottle opens for refill and has a locking pump, with all joints visible"
+        },
+        "material_graphics": {
+          "zh": "粉白、海玻璃绿和裸铝形成三色系统，图形只表达液体流动和补充关系，不生成环保声明或说明文字",
+          "en": "Off-white, sea-glass green, and bare aluminum form a three-color system; graphics express liquid flow and refill logic without claims or copy"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "package_object",
+          "zh": "包装对象",
+          "en": "Package Object",
+          "description": {
+            "zh": "请给出「包装对象」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Package Object."
+          },
+          "cover_value": {
+            "zh": "一只粉白色稳定底补充袋与一只拉丝铝泵瓶组成同系列，容量比例为 2:1，水滴形图形位置保持一致",
+            "en": "A stable-bottom off-white refill pouch and brushed-aluminum pump bottle in one family, with a 2:1 capacity ratio and aligned droplet motif"
+          }
+        },
+        {
+          "id": "structural_system",
+          "zh": "结构系统",
+          "en": "Structural System",
+          "description": {
+            "zh": "请填写「结构系统」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Structural System, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "补充袋使用同材质旋盖、顶部热封和圆角底褶，泵瓶可旋开补充且泵头具锁止结构，所有接合处必须可见",
+            "en": "The pouch uses a mono-material spout, top heat seal, and rounded gusset; the bottle opens for refill and has a locking pump, with all joints visible"
+          }
+        },
+        {
+          "id": "material_graphics",
+          "zh": "材料与图形",
+          "en": "Material Graphics",
+          "description": {
+            "zh": "请写清「材料与图形」的主要材质、表面状态、磨损或反射特征，以及它在画面中的重点部位。",
+            "en": "State the main materials, surface condition, wear or reflectance, and the focal placement of Material Graphics."
+          },
+          "cover_value": {
+            "zh": "粉白、海玻璃绿和裸铝形成三色系统，图形只表达液体流动和补充关系，不生成环保声明或说明文字",
+            "en": "Off-white, sea-glass green, and bare aluminum form a three-color system; graphics express liquid flow and refill logic without claims or copy"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「家清补充装包装系统」创作图像：用单一材料补充袋和可重复使用金属瓶建立清晰、可信的循环包装关系。\n\n## 必填需求字段\n- `{{package_object}}`（包装对象）：一只粉白色稳定底补充袋与一只拉丝铝泵瓶组成同系列，容量比例为 2:1，水滴形图形位置保持一致\n- `{{structural_system}}`（结构系统）：补充袋使用同材质旋盖、顶部热封和圆角底褶，泵瓶可旋开补充且泵头具锁止结构，所有接合处必须可见\n- `{{material_graphics}}`（材料与图形）：粉白、海玻璃绿和裸铝形成三色系统，图形只表达液体流动和补充关系，不生成环保声明或说明文字\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 按可制造的包装系统处理：保持产品尺寸、开合顺序、闭合方式、保护间隙、内托、材料厚度、印刷区域与货架正面层级可信；不得自行生成文案、商标、条码、认证图标、环保或医疗声称。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。",
+        "en": "设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与产品尺度必须可解释。竖版 2:3，单一完整方案，不做接触表，不生成文字、商标、条码、认证图标、医疗或环保声称，不要品牌和水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{package_object}}` (Package Object): A stable-bottom off-white refill pouch and brushed-aluminum pump bottle in one family, with a 2:1 capacity ratio and aligned droplet motif\n- `{{structural_system}}` (Structural System): The pouch uses a mono-material spout, top heat seal, and rounded gusset; the bottle opens for refill and has a locking pump, with all joints visible\n- `{{material_graphics}}` (Material Graphics): Off-white, sea-glass green, and bare aluminum form a three-color system; graphics express liquid flow and refill logic without claims or copy\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Treat the package as a manufacturable system: preserve product dimensions, opening sequence, closure, protective clearances, inserts, material thickness, print zones, and shelf-facing hierarchy. Do not invent copy, logos, barcodes, certifications, or environmental and medical claims.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ],
+      "en": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ]
+    },
+    "preview": "case-images/detergent-refill-packaging.png",
+    "path": "library/cases/packaging/detergent-refill-packaging"
+  },
+  {
+    "id": "niche-fragrance-packaging",
+    "title": {
+      "zh": "小众香氛瓶盒设计",
+      "en": "Niche Fragrance Packaging"
+    },
+    "summary": {
+      "zh": "通过切面玻璃、结构折线与克制材质建立香氛瓶和外盒的一体化语言。",
+      "en": "设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "packaging-design"
+      ],
+      "medium": [
+        "photography",
+        "3d-render"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "product-fidelity",
+        "material-lighting",
+        "instruction-following"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "包装设计",
+        "香水包装",
+        "玻璃瓶",
+        "高端美妆"
+      ],
+      "en": [
+        "Packaging Design",
+        "Product Fidelity",
+        "Material Lighting",
+        "Instruction Following"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "package_object",
+        "structural_system",
+        "material_graphics"
+      ],
+      "cover_values": {
+        "package_object": {
+          "zh": "一只切面透明玻璃香水瓶装烟紫色液体，配拉丝锡灰瓶盖和一只等高窄长折叠纸盒",
+          "en": "A faceted clear-glass fragrance bottle with smoky violet liquid, brushed pewter cap, and a matching tall narrow folding carton"
+        },
+        "structural_system": {
+          "zh": "瓶底厚重稳定，泵头隐藏于可拔瓶盖内；纸盒以对角压线形成缓冲角柱，底部插舌闭合且能保护玻璃四角",
+          "en": "A weighted bottle base supports a pump under a removable cap; diagonal carton scores create protective corner columns with a locking bottom tab"
+        },
+        "material_graphics": {
+          "zh": "透明玻璃、烟紫液体、拉丝金属和炭黑纹理纸形成四级材质，外盒仅有植物盲压和几何折线",
+          "en": "Clear glass, smoky violet liquid, brushed metal, and charcoal textured paper form four material levels, with only botanical blind emboss and structural diagonals"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "package_object",
+          "zh": "包装对象",
+          "en": "Package Object",
+          "description": {
+            "zh": "请给出「包装对象」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Package Object."
+          },
+          "cover_value": {
+            "zh": "一只切面透明玻璃香水瓶装烟紫色液体，配拉丝锡灰瓶盖和一只等高窄长折叠纸盒",
+            "en": "A faceted clear-glass fragrance bottle with smoky violet liquid, brushed pewter cap, and a matching tall narrow folding carton"
+          }
+        },
+        {
+          "id": "structural_system",
+          "zh": "结构系统",
+          "en": "Structural System",
+          "description": {
+            "zh": "请填写「结构系统」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Structural System, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "瓶底厚重稳定，泵头隐藏于可拔瓶盖内；纸盒以对角压线形成缓冲角柱，底部插舌闭合且能保护玻璃四角",
+            "en": "A weighted bottle base supports a pump under a removable cap; diagonal carton scores create protective corner columns with a locking bottom tab"
+          }
+        },
+        {
+          "id": "material_graphics",
+          "zh": "材料与图形",
+          "en": "Material Graphics",
+          "description": {
+            "zh": "请写清「材料与图形」的主要材质、表面状态、磨损或反射特征，以及它在画面中的重点部位。",
+            "en": "State the main materials, surface condition, wear or reflectance, and the focal placement of Material Graphics."
+          },
+          "cover_value": {
+            "zh": "透明玻璃、烟紫液体、拉丝金属和炭黑纹理纸形成四级材质，外盒仅有植物盲压和几何折线",
+            "en": "Clear glass, smoky violet liquid, brushed metal, and charcoal textured paper form four material levels, with only botanical blind emboss and structural diagonals"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「小众香氛瓶盒设计」创作图像：通过切面玻璃、结构折线与克制材质建立香氛瓶和外盒的一体化语言。\n\n## 必填需求字段\n- `{{package_object}}`（包装对象）：一只切面透明玻璃香水瓶装烟紫色液体，配拉丝锡灰瓶盖和一只等高窄长折叠纸盒\n- `{{structural_system}}`（结构系统）：瓶底厚重稳定，泵头隐藏于可拔瓶盖内；纸盒以对角压线形成缓冲角柱，底部插舌闭合且能保护玻璃四角\n- `{{material_graphics}}`（材料与图形）：透明玻璃、烟紫液体、拉丝金属和炭黑纹理纸形成四级材质，外盒仅有植物盲压和几何折线\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 按可制造的包装系统处理：保持产品尺寸、开合顺序、闭合方式、保护间隙、内托、材料厚度、印刷区域与货架正面层级可信；不得自行生成文案、商标、条码、认证图标、环保或医疗声称。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。",
+        "en": "设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与产品尺度必须可解释。竖版 2:3，单一完整方案，不做接触表，不生成文字、商标、条码、认证图标、医疗或环保声称，不要品牌和水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{package_object}}` (Package Object): A faceted clear-glass fragrance bottle with smoky violet liquid, brushed pewter cap, and a matching tall narrow folding carton\n- `{{structural_system}}` (Structural System): A weighted bottle base supports a pump under a removable cap; diagonal carton scores create protective corner columns with a locking bottom tab\n- `{{material_graphics}}` (Material Graphics): Clear glass, smoky violet liquid, brushed metal, and charcoal textured paper form four material levels, with only botanical blind emboss and structural diagonals\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Treat the package as a manufacturable system: preserve product dimensions, opening sequence, closure, protective clearances, inserts, material thickness, print zones, and shelf-facing hierarchy. Do not invent copy, logos, barcodes, certifications, or environmental and medical claims.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ],
+      "en": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ]
+    },
+    "preview": "case-images/niche-fragrance-packaging.png",
+    "path": "library/cases/packaging/niche-fragrance-packaging"
+  },
+  {
+    "id": "tea-gift-box-system",
+    "title": {
+      "zh": "山水茶礼盒包装系统",
+      "en": "Tea Gift Box System"
+    },
+    "summary": {
+      "zh": "以三罐分仓、磁吸硬盒和层叠纸雕建立完整的高端茶礼赠开箱体验。",
+      "en": "设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "packaging-design"
+      ],
+      "medium": [
+        "photography",
+        "3d-render"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "product-fidelity",
+        "material-lighting",
+        "layout-hierarchy"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "包装设计",
+        "茶礼盒",
+        "礼赠系统",
+        "纸艺结构"
+      ],
+      "en": [
+        "Packaging Design",
+        "Product Fidelity",
+        "Material Lighting",
+        "Layout Hierarchy"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "package_object",
+        "structural_system",
+        "material_graphics"
+      ],
+      "cover_values": {
+        "package_object": {
+          "zh": "一只深松绿色磁吸翻盖硬盒，开启后容纳三只圆柱茶罐，罐体高宽一致并可单独取出",
+          "en": "A deep pine-green magnetic rigid box holding three removable cylindrical tea tins of equal proportions"
+        },
+        "structural_system": {
+          "zh": "盒盖与盒身使用隐藏磁吸和布带限位，三孔纸浆内托紧固茶罐，预留指槽且罐间保持 8 毫米保护距离",
+          "en": "Hidden magnets and a ribbon stop connect lid and base; a three-cavity pulp tray secures tins with finger notches and 8 mm protective spacing"
+        },
+        "material_graphics": {
+          "zh": "松绿与暖象牙纸张为主，层叠山水纸雕提供深度，铜箔仅用于圆形日轮和细边，不出现文字或商标",
+          "en": "Pine green and warm ivory papers with layered landscape cutouts; copper foil is limited to a sun disc and fine edges, without text or branding"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "package_object",
+          "zh": "包装对象",
+          "en": "Package Object",
+          "description": {
+            "zh": "请给出「包装对象」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Package Object."
+          },
+          "cover_value": {
+            "zh": "一只深松绿色磁吸翻盖硬盒，开启后容纳三只圆柱茶罐，罐体高宽一致并可单独取出",
+            "en": "A deep pine-green magnetic rigid box holding three removable cylindrical tea tins of equal proportions"
+          }
+        },
+        {
+          "id": "structural_system",
+          "zh": "结构系统",
+          "en": "Structural System",
+          "description": {
+            "zh": "请填写「结构系统」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Structural System, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "盒盖与盒身使用隐藏磁吸和布带限位，三孔纸浆内托紧固茶罐，预留指槽且罐间保持 8 毫米保护距离",
+            "en": "Hidden magnets and a ribbon stop connect lid and base; a three-cavity pulp tray secures tins with finger notches and 8 mm protective spacing"
+          }
+        },
+        {
+          "id": "material_graphics",
+          "zh": "材料与图形",
+          "en": "Material Graphics",
+          "description": {
+            "zh": "请写清「材料与图形」的主要材质、表面状态、磨损或反射特征，以及它在画面中的重点部位。",
+            "en": "State the main materials, surface condition, wear or reflectance, and the focal placement of Material Graphics."
+          },
+          "cover_value": {
+            "zh": "松绿与暖象牙纸张为主，层叠山水纸雕提供深度，铜箔仅用于圆形日轮和细边，不出现文字或商标",
+            "en": "Pine green and warm ivory papers with layered landscape cutouts; copper foil is limited to a sun disc and fine edges, without text or branding"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「山水茶礼盒包装系统」创作图像：以三罐分仓、磁吸硬盒和层叠纸雕建立完整的高端茶礼赠开箱体验。\n\n## 必填需求字段\n- `{{package_object}}`（包装对象）：一只深松绿色磁吸翻盖硬盒，开启后容纳三只圆柱茶罐，罐体高宽一致并可单独取出\n- `{{structural_system}}`（结构系统）：盒盖与盒身使用隐藏磁吸和布带限位，三孔纸浆内托紧固茶罐，预留指槽且罐间保持 8 毫米保护距离\n- `{{material_graphics}}`（材料与图形）：松绿与暖象牙纸张为主，层叠山水纸雕提供深度，铜箔仅用于圆形日轮和细边，不出现文字或商标\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 按可制造的包装系统处理：保持产品尺寸、开合顺序、闭合方式、保护间隙、内托、材料厚度、印刷区域与货架正面层级可信；不得自行生成文案、商标、条码、认证图标、环保或医疗声称。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。",
+        "en": "设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与产品尺度必须可解释。竖版 2:3，单一完整方案，不做接触表，不生成文字、商标、条码、认证图标、医疗或环保声称，不要品牌和水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{package_object}}` (Package Object): A deep pine-green magnetic rigid box holding three removable cylindrical tea tins of equal proportions\n- `{{structural_system}}` (Structural System): Hidden magnets and a ribbon stop connect lid and base; a three-cavity pulp tray secures tins with finger notches and 8 mm protective spacing\n- `{{material_graphics}}` (Material Graphics): Pine green and warm ivory papers with layered landscape cutouts; copper foil is limited to a sun disc and fine edges, without text or branding\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Treat the package as a manufacturable system: preserve product dimensions, opening sequence, closure, protective clearances, inserts, material thickness, print zones, and shelf-facing hierarchy. Do not invent copy, logos, barcodes, certifications, or environmental and medical claims.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ],
+      "en": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ]
+    },
+    "preview": "case-images/tea-gift-box-system.png",
+    "path": "library/cases/packaging/tea-gift-box-system"
+  },
+  {
+    "id": "sichuan-banquet-overhead",
+    "title": {
+      "zh": "川味家宴俯拍视觉",
+      "en": "Sichuan Banquet Overhead"
+    },
+    "summary": {
+      "zh": "以八道不同菜品和中央鸳鸯铜锅建立真实、丰富且不重复的共享餐桌",
+      "en": "制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "food-beverage"
+      ],
+      "medium": [
+        "photography"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "layout-hierarchy",
+        "spatial-reasoning",
+        "material-lighting"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "餐饮美食",
+        "川菜家宴",
+        "俯拍构图",
+        "地方美食"
+      ],
+      "en": [
+        "Food Beverage",
+        "Layout Hierarchy",
+        "Spatial Reasoning",
+        "Material Lighting"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "hero_food",
+        "serving_context",
+        "food_styling"
+      ],
+      "cover_values": {
+        "hero_food": {
+          "zh": "中央一只鸳鸯铜锅，周围八道不同川菜包含麻婆豆腐、辣子鸡、红油抄手、清炒时蔬、回锅肉、椒麻鱼和两道凉菜",
+          "en": "One divided copper hot pot centered among eight distinct Sichuan dishes including mapo tofu, chili chicken, wontons, greens, twice-cooked pork, pepper fish, and two cold plates"
+        },
+        "serving_context": {
+          "zh": "深色旧木圆桌配四套餐具和米饭碗，碗碟尺寸符合四人家宴，不出现人物或多余装饰",
+          "en": "A dark aged round wood table with four place settings and rice bowls scaled for a four-person family meal, without people or excess decoration"
+        },
+        "food_styling": {
+          "zh": "红油菜、清淡菜和绿色蔬菜交替分布，中央锅最大，外围菜盘大小有三级变化且同类器皿不重复",
+          "en": "Red-oil, light, and green dishes alternate; the central pot is largest and surrounding plates use three size levels without duplicate vessels"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "hero_food",
+          "zh": "主角食物",
+          "en": "Hero Food",
+          "description": {
+            "zh": "请给出「主角食物」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Hero Food."
+          },
+          "cover_value": {
+            "zh": "中央一只鸳鸯铜锅，周围八道不同川菜包含麻婆豆腐、辣子鸡、红油抄手、清炒时蔬、回锅肉、椒麻鱼和两道凉菜",
+            "en": "One divided copper hot pot centered among eight distinct Sichuan dishes including mapo tofu, chili chicken, wontons, greens, twice-cooked pork, pepper fish, and two cold plates"
+          }
+        },
+        {
+          "id": "serving_context",
+          "zh": "呈现环境",
+          "en": "Serving Context",
+          "description": {
+            "zh": "请填写「呈现环境」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Serving Context, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "深色旧木圆桌配四套餐具和米饭碗，碗碟尺寸符合四人家宴，不出现人物或多余装饰",
+            "en": "A dark aged round wood table with four place settings and rice bowls scaled for a four-person family meal, without people or excess decoration"
+          }
+        },
+        {
+          "id": "food_styling",
+          "zh": "食物造型",
+          "en": "Food Styling",
+          "description": {
+            "zh": "请说明「食物造型」的媒介、时代或审美方向、情绪强度与细节密度，并给出 1–2 个可见特征。",
+            "en": "Describe the medium, era or aesthetic direction, emotional intensity, detail density, and 1–2 visible cues for Food Styling."
+          },
+          "cover_value": {
+            "zh": "红油菜、清淡菜和绿色蔬菜交替分布，中央锅最大，外围菜盘大小有三级变化且同类器皿不重复",
+            "en": "Red-oil, light, and green dishes alternate; the central pot is largest and surrounding plates use three size levels without duplicate vessels"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「川味家宴俯拍视觉」创作图像：以八道不同菜品和中央鸳鸯铜锅建立真实、丰富且不重复的共享餐桌\n\n## 必填需求字段\n- `{{hero_food}}`（主角食物）：中央一只鸳鸯铜锅，周围八道不同川菜包含麻婆豆腐、辣子鸡、红油抄手、清炒时蔬、回锅肉、椒麻鱼和两道凉菜\n- `{{serving_context}}`（呈现环境）：深色旧木圆桌配四套餐具和米饭碗，碗碟尺寸符合四人家宴，不出现人物或多余装饰\n- `{{food_styling}}`（食物造型）：红油菜、清淡菜和绿色蔬菜交替分布，中央锅最大，外围菜盘大小有三级变化且同类器皿不重复\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 所有可食用元素都必须符合真实状态：明确烹饪程度、熟度、含水感、温度线索、份量尺度、器皿接触和有意图的装饰位置；避免塑料质感、不可能堆叠、食材复制、不安全操作和看似不可食用的装饰。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。",
+        "en": "制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或不可解释装饰制造“诱人感”。竖版 2:3，单一完整视觉，不生成文字、菜单、商标、价格、品牌或水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{hero_food}}` (Hero Food): One divided copper hot pot centered among eight distinct Sichuan dishes including mapo tofu, chili chicken, wontons, greens, twice-cooked pork, pepper fish, and two cold plates\n- `{{serving_context}}` (Serving Context): A dark aged round wood table with four place settings and rice bowls scaled for a four-person family meal, without people or excess decoration\n- `{{food_styling}}` (Food Styling): Red-oil, light, and green dishes alternate; the central pot is largest and surrounding plates use three size levels without duplicate vessels\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Keep every edible element physically credible: specify preparation state, doneness, moisture, temperature cues, serving scale, vessel contact, and intentional garnish placement. Avoid plastic texture, impossible stacking, duplicated ingredients, unsafe handling, and decorative elements that look inedible.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ],
+      "en": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ]
+    },
+    "preview": "case-images/sichuan-banquet-overhead.png",
+    "path": "library/cases/culinary/sichuan-banquet-overhead"
+  },
+  {
     "id": "interactive-workshop-board",
     "title": {
       "zh": "工作坊协作白板",
@@ -6921,6 +8500,138 @@ export const catalog = [
     },
     "preview": "case-images/annual-report-cover.png",
     "path": "library/cases/publishing/annual-report-cover"
+  },
+  {
+    "id": "architectural-sneaker-material-shot",
+    "title": {
+      "zh": "建筑感运动鞋材质视觉",
+      "en": "Architectural Sneaker Material Shot"
+    },
+    "summary": {
+      "zh": "用再生针织、透明支撑笼和藻基泡棉展示原创鞋履的材料与受力结构",
+      "en": "制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "fashion-editorial"
+      ],
+      "medium": [
+        "photography",
+        "3d-render"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "product-fidelity",
+        "material-lighting",
+        "spatial-reasoning"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "时尚造型",
+        "鞋履设计",
+        "材质展示",
+        "可持续产品"
+      ],
+      "en": [
+        "Fashion Editorial",
+        "Product Fidelity",
+        "Material Lighting",
+        "Spatial Reasoning"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "fashion_subject",
+        "garment_construction",
+        "editorial_direction"
+      ],
+      "cover_values": {
+        "fashion_subject": {
+          "zh": "一双原创低帮运动鞋，米白再生针织鞋面、半透明琥珀支撑笼和炭灰藻基泡棉厚底为固定识别点",
+          "en": "One original low-top sneaker pair defined by off-white recycled knit, a translucent amber support cage, and charcoal algae-foam sole"
+        },
+        "garment_construction": {
+          "zh": "针织密度随脚背和鞋头受力区变化，支撑笼连接鞋带孔与后跟杯，中底孔隙和外底接地纹路完整可见",
+          "en": "Knit density changes by load zone, the cage links eyelets to heel cup, and midsole pores plus outsole contact tread remain fully visible"
+        },
+        "editorial_direction": {
+          "zh": "双鞋悬于暖灰混凝土台上方，50mm 三分之四产品机位，单一左上硬柔混合光形成准确悬浮阴影和材质分区",
+          "en": "Both shoes hover above warm-gray concrete, shot at 50mm three-quarter angle with one upper-left semi-hard light producing accurate shadows and material separation"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "fashion_subject",
+          "zh": "时尚主体",
+          "en": "Fashion Subject",
+          "description": {
+            "zh": "请填写「时尚主体」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Fashion Subject, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "一双原创低帮运动鞋，米白再生针织鞋面、半透明琥珀支撑笼和炭灰藻基泡棉厚底为固定识别点",
+            "en": "One original low-top sneaker pair defined by off-white recycled knit, a translucent amber support cage, and charcoal algae-foam sole"
+          }
+        },
+        {
+          "id": "garment_construction",
+          "zh": "服装结构",
+          "en": "Garment Construction",
+          "description": {
+            "zh": "请给出「服装结构」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Garment Construction."
+          },
+          "cover_value": {
+            "zh": "针织密度随脚背和鞋头受力区变化，支撑笼连接鞋带孔与后跟杯，中底孔隙和外底接地纹路完整可见",
+            "en": "Knit density changes by load zone, the cage links eyelets to heel cup, and midsole pores plus outsole contact tread remain fully visible"
+          }
+        },
+        {
+          "id": "editorial_direction",
+          "zh": "编辑方向",
+          "en": "Editorial Direction",
+          "description": {
+            "zh": "请填写「编辑方向」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Editorial Direction, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "双鞋悬于暖灰混凝土台上方，50mm 三分之四产品机位，单一左上硬柔混合光形成准确悬浮阴影和材质分区",
+            "en": "Both shoes hover above warm-gray concrete, shot at 50mm three-quarter angle with one upper-left semi-hard light producing accurate shadows and material separation"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「建筑感运动鞋材质视觉」创作图像：用再生针织、透明支撑笼和藻基泡棉展示原创鞋履的材料与受力结构\n\n## 必填需求字段\n- `{{fashion_subject}}`（时尚主体）：一双原创低帮运动鞋，米白再生针织鞋面、半透明琥珀支撑笼和炭灰藻基泡棉厚底为固定识别点\n- `{{garment_construction}}`（服装结构）：针织密度随脚背和鞋头受力区变化，支撑笼连接鞋带孔与后跟杯，中底孔隙和外底接地纹路完整可见\n- `{{editorial_direction}}`（编辑方向）：双鞋悬于暖灰混凝土台上方，50mm 三分之四产品机位，单一左上硬柔混合光形成准确悬浮阴影和材质分区\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 保持人物身份、人体结构、服装版型、合体关系、缝线、闭合件、材质重量、造型逻辑与画面裁切一致；姿势、镜头、布光和地点必须共同表达一个编辑主题，不得用动态或特效遮盖错误手部、变形配饰和不可能的服装连接。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。",
+        "en": "制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力、姿态与缝制节点共同决定；不得用夸张光效掩盖结构。竖版 2:3，单一完整视觉，不生成文字、商标、既有设计师标志、品牌或水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{fashion_subject}}` (Fashion Subject): One original low-top sneaker pair defined by off-white recycled knit, a translucent amber support cage, and charcoal algae-foam sole\n- `{{garment_construction}}` (Garment Construction): Knit density changes by load zone, the cage links eyelets to heel cup, and midsole pores plus outsole contact tread remain fully visible\n- `{{editorial_direction}}` (Editorial Direction): Both shoes hover above warm-gray concrete, shot at 50mm three-quarter angle with one upper-left semi-hard light producing accurate shadows and material separation\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Preserve identity, anatomy, garment construction, fit, seams, closures, material weight, styling logic, and crop. Direct pose, lens, lighting, and location as one editorial statement; do not hide broken hands, warped accessories, or impossible clothing joins behind motion or effects.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ],
+      "en": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ]
+    },
+    "preview": "case-images/architectural-sneaker-material-shot.png",
+    "path": "library/cases/fashion-editorial/architectural-sneaker-material-shot"
   },
   {
     "id": "developer-ops-console",
@@ -7728,6 +9439,137 @@ export const catalog = [
     "path": "library/cases/finance/real-estate-listing-hero"
   },
   {
+    "id": "fine-dining-scallop-plate",
+    "title": {
+      "zh": "扇贝精致餐饮摆盘",
+      "en": "Fine Dining Scallop Plate"
+    },
+    "summary": {
+      "zh": "以三颗煎扇贝、梨片与香草油建立克制、可复刻的高端餐盘结构",
+      "en": "制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "food-beverage"
+      ],
+      "medium": [
+        "photography"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "material-lighting",
+        "layout-hierarchy",
+        "instruction-following"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "餐饮美食",
+        "精致摆盘",
+        "扇贝料理",
+        "餐厅摄影"
+      ],
+      "en": [
+        "Food Beverage",
+        "Material Lighting",
+        "Layout Hierarchy",
+        "Instruction Following"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "hero_food",
+        "serving_context",
+        "food_styling"
+      ],
+      "cover_values": {
+        "hero_food": {
+          "zh": "三颗焦化表面均匀的煎扇贝，搭配半透明青梨薄片、浅色贝类酱汁、香草油和少量海岸香草",
+          "en": "Three evenly seared scallops with translucent green-pear ribbons, pale shellfish sauce, herb oil, and sparse coastal herbs"
+        },
+        "serving_context": {
+          "zh": "哑光炭黑浅盘置于深色石桌，右上角仅保留一只虚化白葡萄酒杯作为用餐尺度参照",
+          "en": "A matte charcoal shallow plate on dark stone, with only one softly blurred white-wine glass upper-right as dining-scale context"
+        },
+        "food_styling": {
+          "zh": "三颗扇贝沿柔和对角线排列，梨片形成高低起伏，酱汁控制在食材周围并保留 45% 盘面留白",
+          "en": "Scallops follow a soft diagonal, pear ribbons add height, sauce stays close to ingredients, and 45% of the plate remains empty"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "hero_food",
+          "zh": "主角食物",
+          "en": "Hero Food",
+          "description": {
+            "zh": "请给出「主角食物」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Hero Food."
+          },
+          "cover_value": {
+            "zh": "三颗焦化表面均匀的煎扇贝，搭配半透明青梨薄片、浅色贝类酱汁、香草油和少量海岸香草",
+            "en": "Three evenly seared scallops with translucent green-pear ribbons, pale shellfish sauce, herb oil, and sparse coastal herbs"
+          }
+        },
+        {
+          "id": "serving_context",
+          "zh": "呈现环境",
+          "en": "Serving Context",
+          "description": {
+            "zh": "请填写「呈现环境」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Serving Context, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "哑光炭黑浅盘置于深色石桌，右上角仅保留一只虚化白葡萄酒杯作为用餐尺度参照",
+            "en": "A matte charcoal shallow plate on dark stone, with only one softly blurred white-wine glass upper-right as dining-scale context"
+          }
+        },
+        {
+          "id": "food_styling",
+          "zh": "食物造型",
+          "en": "Food Styling",
+          "description": {
+            "zh": "请说明「食物造型」的媒介、时代或审美方向、情绪强度与细节密度，并给出 1–2 个可见特征。",
+            "en": "Describe the medium, era or aesthetic direction, emotional intensity, detail density, and 1–2 visible cues for Food Styling."
+          },
+          "cover_value": {
+            "zh": "三颗扇贝沿柔和对角线排列，梨片形成高低起伏，酱汁控制在食材周围并保留 45% 盘面留白",
+            "en": "Scallops follow a soft diagonal, pear ribbons add height, sauce stays close to ingredients, and 45% of the plate remains empty"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「扇贝精致餐饮摆盘」创作图像：以三颗煎扇贝、梨片与香草油建立克制、可复刻的高端餐盘结构\n\n## 必填需求字段\n- `{{hero_food}}`（主角食物）：三颗焦化表面均匀的煎扇贝，搭配半透明青梨薄片、浅色贝类酱汁、香草油和少量海岸香草\n- `{{serving_context}}`（呈现环境）：哑光炭黑浅盘置于深色石桌，右上角仅保留一只虚化白葡萄酒杯作为用餐尺度参照\n- `{{food_styling}}`（食物造型）：三颗扇贝沿柔和对角线排列，梨片形成高低起伏，酱汁控制在食材周围并保留 45% 盘面留白\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 所有可食用元素都必须符合真实状态：明确烹饪程度、熟度、含水感、温度线索、份量尺度、器皿接触和有意图的装饰位置；避免塑料质感、不可能堆叠、食材复制、不安全操作和看似不可食用的装饰。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。",
+        "en": "制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或不可解释装饰制造“诱人感”。竖版 2:3，单一完整视觉，不生成文字、菜单、商标、价格、品牌或水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{hero_food}}` (Hero Food): Three evenly seared scallops with translucent green-pear ribbons, pale shellfish sauce, herb oil, and sparse coastal herbs\n- `{{serving_context}}` (Serving Context): A matte charcoal shallow plate on dark stone, with only one softly blurred white-wine glass upper-right as dining-scale context\n- `{{food_styling}}` (Food Styling): Scallops follow a soft diagonal, pear ribbons add height, sauce stays close to ingredients, and 45% of the plate remains empty\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Keep every edible element physically credible: specify preparation state, doneness, moisture, temperature cues, serving scale, vessel contact, and intentional garnish placement. Avoid plastic texture, impossible stacking, duplicated ingredients, unsafe handling, and decorative elements that look inedible.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ],
+      "en": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ]
+    },
+    "preview": "case-images/fine-dining-scallop-plate.png",
+    "path": "library/cases/culinary/fine-dining-scallop-plate"
+  },
+  {
     "id": "artisan-dessert-social-story",
     "title": {
       "zh": "手作甜点社媒故事封面",
@@ -7879,6 +9721,137 @@ export const catalog = [
     },
     "preview": "case-images/artisan-dessert-social-story.png",
     "path": "library/cases/social/artisan-dessert-social-story"
+  },
+  {
+    "id": "artisan-bread-process",
+    "title": {
+      "zh": "手工酸种面包制作过程",
+      "en": "Artisan Bread Process"
+    },
+    "summary": {
+      "zh": "以割包动作、发酵篮和成品面包清楚讲述烘焙生产节点",
+      "en": "制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "food-beverage"
+      ],
+      "medium": [
+        "photography"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "subject-consistency",
+        "material-lighting",
+        "spatial-reasoning"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "餐饮美食",
+        "烘焙过程",
+        "酸种面包",
+        "手作纪实"
+      ],
+      "en": [
+        "Food Beverage",
+        "Subject Consistency",
+        "Material Lighting",
+        "Spatial Reasoning"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "hero_food",
+        "serving_context",
+        "food_styling"
+      ],
+      "cover_values": {
+        "hero_food": {
+          "zh": "一枚长椭圆酸种面团正在被面包师用割包刀划出单一主切口，表面张力、面粉层和发酵气泡清晰",
+          "en": "One long oval sourdough loaf being scored with a single main cut, showing clear surface tension, flour coating, and fermentation bubbles"
+        },
+        "serving_context": {
+          "zh": "撒粉旧木工作台上放两只藤制发酵篮，左后方有一枚烤好的深褐成品，晨光从左窗进入",
+          "en": "A floured aged-wood bench with two cane proofing baskets and one dark baked loaf rear-left under morning window light"
+        },
+        "food_styling": {
+          "zh": "双手握刀与扶面团动作符合安全角度，面团占前景中心，背景发酵篮与成品按制作顺序向后排列",
+          "en": "Hands hold blade and dough at a safe angle; dough anchors foreground and proofing baskets plus finished loaf recede in process order"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "hero_food",
+          "zh": "主角食物",
+          "en": "Hero Food",
+          "description": {
+            "zh": "请给出「主角食物」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Hero Food."
+          },
+          "cover_value": {
+            "zh": "一枚长椭圆酸种面团正在被面包师用割包刀划出单一主切口，表面张力、面粉层和发酵气泡清晰",
+            "en": "One long oval sourdough loaf being scored with a single main cut, showing clear surface tension, flour coating, and fermentation bubbles"
+          }
+        },
+        {
+          "id": "serving_context",
+          "zh": "呈现环境",
+          "en": "Serving Context",
+          "description": {
+            "zh": "请填写「呈现环境」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Serving Context, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "撒粉旧木工作台上放两只藤制发酵篮，左后方有一枚烤好的深褐成品，晨光从左窗进入",
+            "en": "A floured aged-wood bench with two cane proofing baskets and one dark baked loaf rear-left under morning window light"
+          }
+        },
+        {
+          "id": "food_styling",
+          "zh": "食物造型",
+          "en": "Food Styling",
+          "description": {
+            "zh": "请说明「食物造型」的媒介、时代或审美方向、情绪强度与细节密度，并给出 1–2 个可见特征。",
+            "en": "Describe the medium, era or aesthetic direction, emotional intensity, detail density, and 1–2 visible cues for Food Styling."
+          },
+          "cover_value": {
+            "zh": "双手握刀与扶面团动作符合安全角度，面团占前景中心，背景发酵篮与成品按制作顺序向后排列",
+            "en": "Hands hold blade and dough at a safe angle; dough anchors foreground and proofing baskets plus finished loaf recede in process order"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「手工酸种面包制作过程」创作图像：以割包动作、发酵篮和成品面包清楚讲述烘焙生产节点\n\n## 必填需求字段\n- `{{hero_food}}`（主角食物）：一枚长椭圆酸种面团正在被面包师用割包刀划出单一主切口，表面张力、面粉层和发酵气泡清晰\n- `{{serving_context}}`（呈现环境）：撒粉旧木工作台上放两只藤制发酵篮，左后方有一枚烤好的深褐成品，晨光从左窗进入\n- `{{food_styling}}`（食物造型）：双手握刀与扶面团动作符合安全角度，面团占前景中心，背景发酵篮与成品按制作顺序向后排列\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 所有可食用元素都必须符合真实状态：明确烹饪程度、熟度、含水感、温度线索、份量尺度、器皿接触和有意图的装饰位置；避免塑料质感、不可能堆叠、食材复制、不安全操作和看似不可食用的装饰。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。",
+        "en": "制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或不可解释装饰制造“诱人感”。竖版 2:3，单一完整视觉，不生成文字、菜单、商标、价格、品牌或水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{hero_food}}` (Hero Food): One long oval sourdough loaf being scored with a single main cut, showing clear surface tension, flour coating, and fermentation bubbles\n- `{{serving_context}}` (Serving Context): A floured aged-wood bench with two cane proofing baskets and one dark baked loaf rear-left under morning window light\n- `{{food_styling}}` (Food Styling): Hands hold blade and dough at a safe angle; dough anchors foreground and proofing baskets plus finished loaf recede in process order\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Keep every edible element physically credible: specify preparation state, doneness, moisture, temperature cues, serving scale, vessel contact, and intentional garnish placement. Avoid plastic texture, impossible stacking, duplicated ingredients, unsafe handling, and decorative elements that look inedible.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ],
+      "en": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ]
+    },
+    "preview": "case-images/artisan-bread-process.png",
+    "path": "library/cases/culinary/artisan-bread-process"
   },
   {
     "id": "investment-portfolio-story",
@@ -8239,6 +10212,137 @@ export const catalog = [
     },
     "preview": "case-images/skincare-brand-system.png",
     "path": "library/cases/brand/skincare-brand-system"
+  },
+  {
+    "id": "matcha-dessert-tasting-set",
+    "title": {
+      "zh": "抹茶甜点品鉴组合",
+      "en": "Matcha Dessert Tasting Set"
+    },
+    "summary": {
+      "zh": "以不同质地的抹茶甜点和手作茶杯建立精致但不繁复的品鉴视觉",
+      "en": "制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "food-beverage"
+      ],
+      "medium": [
+        "photography"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "material-lighting",
+        "layout-hierarchy",
+        "product-fidelity"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "餐饮美食",
+        "抹茶甜点",
+        "品鉴组合",
+        "甜品摄影"
+      ],
+      "en": [
+        "Food Beverage",
+        "Material Lighting",
+        "Layout Hierarchy",
+        "Product Fidelity"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "hero_food",
+        "serving_context",
+        "food_styling"
+      ],
+      "cover_values": {
+        "hero_food": {
+          "zh": "一颗镜面抹茶慕斯半球、一枚白色花形和果子、一片薄抹茶饼干和一杯清茶，四种质地均清晰可辨",
+          "en": "A glossy matcha mousse dome, white flower wagashi, thin matcha biscuit, and cup of clear tea with four distinct textures"
+        },
+        "serving_context": {
+          "zh": "所有甜点置于深色长方石托盘，背景只有柔焦苔藓和浅木窗框，使用安静午后自然光",
+          "en": "All items sit on a dark rectangular stone tray against only soft moss and a pale wood window frame in quiet afternoon daylight"
+        },
+        "food_styling": {
+          "zh": "慕斯作为左侧最大焦点，茶杯位于右后，和果子与饼干形成前后小三角，装饰仅限少量抹茶粉和一片茶叶",
+          "en": "Mousse is the largest focus left, teacup rear-right, wagashi and biscuit form a small depth triangle, with only sparse matcha powder and one tea leaf"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "hero_food",
+          "zh": "主角食物",
+          "en": "Hero Food",
+          "description": {
+            "zh": "请给出「主角食物」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Hero Food."
+          },
+          "cover_value": {
+            "zh": "一颗镜面抹茶慕斯半球、一枚白色花形和果子、一片薄抹茶饼干和一杯清茶，四种质地均清晰可辨",
+            "en": "A glossy matcha mousse dome, white flower wagashi, thin matcha biscuit, and cup of clear tea with four distinct textures"
+          }
+        },
+        {
+          "id": "serving_context",
+          "zh": "呈现环境",
+          "en": "Serving Context",
+          "description": {
+            "zh": "请填写「呈现环境」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Serving Context, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "所有甜点置于深色长方石托盘，背景只有柔焦苔藓和浅木窗框，使用安静午后自然光",
+            "en": "All items sit on a dark rectangular stone tray against only soft moss and a pale wood window frame in quiet afternoon daylight"
+          }
+        },
+        {
+          "id": "food_styling",
+          "zh": "食物造型",
+          "en": "Food Styling",
+          "description": {
+            "zh": "请说明「食物造型」的媒介、时代或审美方向、情绪强度与细节密度，并给出 1–2 个可见特征。",
+            "en": "Describe the medium, era or aesthetic direction, emotional intensity, detail density, and 1–2 visible cues for Food Styling."
+          },
+          "cover_value": {
+            "zh": "慕斯作为左侧最大焦点，茶杯位于右后，和果子与饼干形成前后小三角，装饰仅限少量抹茶粉和一片茶叶",
+            "en": "Mousse is the largest focus left, teacup rear-right, wagashi and biscuit form a small depth triangle, with only sparse matcha powder and one tea leaf"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「抹茶甜点品鉴组合」创作图像：以不同质地的抹茶甜点和手作茶杯建立精致但不繁复的品鉴视觉\n\n## 必填需求字段\n- `{{hero_food}}`（主角食物）：一颗镜面抹茶慕斯半球、一枚白色花形和果子、一片薄抹茶饼干和一杯清茶，四种质地均清晰可辨\n- `{{serving_context}}`（呈现环境）：所有甜点置于深色长方石托盘，背景只有柔焦苔藓和浅木窗框，使用安静午后自然光\n- `{{food_styling}}`（食物造型）：慕斯作为左侧最大焦点，茶杯位于右后，和果子与饼干形成前后小三角，装饰仅限少量抹茶粉和一片茶叶\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 所有可食用元素都必须符合真实状态：明确烹饪程度、熟度、含水感、温度线索、份量尺度、器皿接触和有意图的装饰位置；避免塑料质感、不可能堆叠、食材复制、不安全操作和看似不可食用的装饰。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。",
+        "en": "制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或不可解释装饰制造“诱人感”。竖版 2:3，单一完整视觉，不生成文字、菜单、商标、价格、品牌或水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{hero_food}}` (Hero Food): A glossy matcha mousse dome, white flower wagashi, thin matcha biscuit, and cup of clear tea with four distinct textures\n- `{{serving_context}}` (Serving Context): All items sit on a dark rectangular stone tray against only soft moss and a pale wood window frame in quiet afternoon daylight\n- `{{food_styling}}` (Food Styling): Mousse is the largest focus left, teacup rear-right, wagashi and biscuit form a small depth triangle, with only sparse matcha powder and one tea leaf\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Keep every edible element physically credible: specify preparation state, doneness, moisture, temperature cues, serving scale, vessel contact, and intentional garnish placement. Avoid plastic texture, impossible stacking, duplicated ingredients, unsafe handling, and decorative elements that look inedible.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ],
+      "en": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ]
+    },
+    "preview": "case-images/matcha-dessert-tasting-set.png",
+    "path": "library/cases/culinary/matcha-dessert-tasting-set"
   },
   {
     "id": "abstract-material-study",
@@ -11294,6 +13398,137 @@ export const catalog = [
     "path": "library/cases/film/underwater-station-suspense-shot"
   },
   {
+    "id": "ramen-steam-editorial",
+    "title": {
+      "zh": "清汤拉面蒸汽特写",
+      "en": "Ramen Steam Editorial"
+    },
+    "summary": {
+      "zh": "通过清澈汤底、手切面条和自然蒸汽表现刚出锅的温度与餐厅现场感",
+      "en": "制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "food-beverage"
+      ],
+      "medium": [
+        "photography"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "material-lighting",
+        "subject-consistency",
+        "instruction-following"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "餐饮美食",
+        "拉面摄影",
+        "蒸汽特写",
+        "餐厅现场"
+      ],
+      "en": [
+        "Food Beverage",
+        "Material Lighting",
+        "Subject Consistency",
+        "Instruction Following"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "hero_food",
+        "serving_context",
+        "food_styling"
+      ],
+      "cover_values": {
+        "hero_food": {
+          "zh": "一碗清鸡汤手切拉面，包含三片炙烤鸡肉、半颗溏心蛋、葱丝和均匀细小的香味油珠",
+          "en": "One bowl of clear chicken ramen with hand-cut noodles, three seared chicken slices, half a soft egg, scallion threads, and fine aromatic oil droplets"
+        },
+        "serving_context": {
+          "zh": "粗陶面碗被厨师单手放到深色木吧台，后方开放厨房以暖光虚化，手臂只从左侧边缘进入",
+          "en": "A rustic ceramic bowl placed on a dark wood counter by one chef hand entering from the left, with a warm softly blurred open kitchen behind"
+        },
+        "food_styling": {
+          "zh": "面条保持自然卷曲并浸入清汤，配料集中于中央三角区，蒸汽连续向上且不遮挡蛋和鸡肉",
+          "en": "Noodles curl naturally within clear broth, toppings form a central triangle, and continuous steam rises without obscuring egg or chicken"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "hero_food",
+          "zh": "主角食物",
+          "en": "Hero Food",
+          "description": {
+            "zh": "请给出「主角食物」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Hero Food."
+          },
+          "cover_value": {
+            "zh": "一碗清鸡汤手切拉面，包含三片炙烤鸡肉、半颗溏心蛋、葱丝和均匀细小的香味油珠",
+            "en": "One bowl of clear chicken ramen with hand-cut noodles, three seared chicken slices, half a soft egg, scallion threads, and fine aromatic oil droplets"
+          }
+        },
+        {
+          "id": "serving_context",
+          "zh": "呈现环境",
+          "en": "Serving Context",
+          "description": {
+            "zh": "请填写「呈现环境」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Serving Context, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "粗陶面碗被厨师单手放到深色木吧台，后方开放厨房以暖光虚化，手臂只从左侧边缘进入",
+            "en": "A rustic ceramic bowl placed on a dark wood counter by one chef hand entering from the left, with a warm softly blurred open kitchen behind"
+          }
+        },
+        {
+          "id": "food_styling",
+          "zh": "食物造型",
+          "en": "Food Styling",
+          "description": {
+            "zh": "请说明「食物造型」的媒介、时代或审美方向、情绪强度与细节密度，并给出 1–2 个可见特征。",
+            "en": "Describe the medium, era or aesthetic direction, emotional intensity, detail density, and 1–2 visible cues for Food Styling."
+          },
+          "cover_value": {
+            "zh": "面条保持自然卷曲并浸入清汤，配料集中于中央三角区，蒸汽连续向上且不遮挡蛋和鸡肉",
+            "en": "Noodles curl naturally within clear broth, toppings form a central triangle, and continuous steam rises without obscuring egg or chicken"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「清汤拉面蒸汽特写」创作图像：通过清澈汤底、手切面条和自然蒸汽表现刚出锅的温度与餐厅现场感\n\n## 必填需求字段\n- `{{hero_food}}`（主角食物）：一碗清鸡汤手切拉面，包含三片炙烤鸡肉、半颗溏心蛋、葱丝和均匀细小的香味油珠\n- `{{serving_context}}`（呈现环境）：粗陶面碗被厨师单手放到深色木吧台，后方开放厨房以暖光虚化，手臂只从左侧边缘进入\n- `{{food_styling}}`（食物造型）：面条保持自然卷曲并浸入清汤，配料集中于中央三角区，蒸汽连续向上且不遮挡蛋和鸡肉\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 所有可食用元素都必须符合真实状态：明确烹饪程度、熟度、含水感、温度线索、份量尺度、器皿接触和有意图的装饰位置；避免塑料质感、不可能堆叠、食材复制、不安全操作和看似不可食用的装饰。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。",
+        "en": "制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或不可解释装饰制造“诱人感”。竖版 2:3，单一完整视觉，不生成文字、菜单、商标、价格、品牌或水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{hero_food}}` (Hero Food): One bowl of clear chicken ramen with hand-cut noodles, three seared chicken slices, half a soft egg, scallion threads, and fine aromatic oil droplets\n- `{{serving_context}}` (Serving Context): A rustic ceramic bowl placed on a dark wood counter by one chef hand entering from the left, with a warm softly blurred open kitchen behind\n- `{{food_styling}}` (Food Styling): Noodles curl naturally within clear broth, toppings form a central triangle, and continuous steam rises without obscuring egg or chicken\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Keep every edible element physically credible: specify preparation state, doneness, moisture, temperature cues, serving scale, vessel contact, and intentional garnish placement. Avoid plastic texture, impossible stacking, duplicated ingredients, unsafe handling, and decorative elements that look inedible.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ],
+      "en": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ]
+    },
+    "preview": "case-images/ramen-steam-editorial.png",
+    "path": "library/cases/culinary/ramen-steam-editorial"
+  },
+  {
     "id": "ceremonial-warrior-helmet-asset",
     "title": {
       "zh": "漆艺仪典武士头盔",
@@ -13292,6 +15527,137 @@ export const catalog = [
     "path": "library/cases/social/indie-music-festival-social-poster"
   },
   {
+    "id": "modern-oriental-evening-look",
+    "title": {
+      "zh": "现代东方晚装人像",
+      "en": "Modern Oriental Evening Look"
+    },
+    "summary": {
+      "zh": "以非历史化立领、烟灰透明袖与梅枝刺绣建立现代东方晚装语言",
+      "en": "制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "fashion-editorial"
+      ],
+      "medium": [
+        "photography"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "subject-consistency",
+        "material-lighting",
+        "instruction-following"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "时尚造型",
+        "东方晚装",
+        "女性人像",
+        "刺绣设计"
+      ],
+      "en": [
+        "Fashion Editorial",
+        "Subject Consistency",
+        "Material Lighting",
+        "Instruction Following"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "fashion_subject",
+        "garment_construction",
+        "editorial_direction"
+      ],
+      "cover_values": {
+        "fashion_subject": {
+          "zh": "成年东方女性穿墨黑非对称立领晚礼服，烟灰透明长袖和手绣绯红梅枝为固定造型锚点，取坐姿半身",
+          "en": "An adult East Asian woman in an ink-black evening gown with asymmetric standing collar, smoke-gray sheer sleeves, and crimson plum embroidery, seated half-length"
+        },
+        "garment_construction": {
+          "zh": "立领在左侧斜向闭合，不对称肩线连接贴身黑色主衣，透明袖由肩部独立接合，梅枝刺绣沿结构线延伸",
+          "en": "The collar closes diagonally left, asymmetric shoulder joins a fitted black body, sheer sleeves attach independently, and plum embroidery follows seam lines"
+        },
+        "editorial_direction": {
+          "zh": "极简深色漆木室内，70mm 半身坐姿，左侧暖灯边光配右侧冷窗填光，背景梅枝只作低对比呼应",
+          "en": "Minimal dark lacquer interior, 70mm seated half portrait, warm lamp edge from left and cool window fill from right, with background plum branches kept low contrast"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "fashion_subject",
+          "zh": "时尚主体",
+          "en": "Fashion Subject",
+          "description": {
+            "zh": "请填写「时尚主体」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Fashion Subject, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "成年东方女性穿墨黑非对称立领晚礼服，烟灰透明长袖和手绣绯红梅枝为固定造型锚点，取坐姿半身",
+            "en": "An adult East Asian woman in an ink-black evening gown with asymmetric standing collar, smoke-gray sheer sleeves, and crimson plum embroidery, seated half-length"
+          }
+        },
+        {
+          "id": "garment_construction",
+          "zh": "服装结构",
+          "en": "Garment Construction",
+          "description": {
+            "zh": "请给出「服装结构」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Garment Construction."
+          },
+          "cover_value": {
+            "zh": "立领在左侧斜向闭合，不对称肩线连接贴身黑色主衣，透明袖由肩部独立接合，梅枝刺绣沿结构线延伸",
+            "en": "The collar closes diagonally left, asymmetric shoulder joins a fitted black body, sheer sleeves attach independently, and plum embroidery follows seam lines"
+          }
+        },
+        {
+          "id": "editorial_direction",
+          "zh": "编辑方向",
+          "en": "Editorial Direction",
+          "description": {
+            "zh": "请填写「编辑方向」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Editorial Direction, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "极简深色漆木室内，70mm 半身坐姿，左侧暖灯边光配右侧冷窗填光，背景梅枝只作低对比呼应",
+            "en": "Minimal dark lacquer interior, 70mm seated half portrait, warm lamp edge from left and cool window fill from right, with background plum branches kept low contrast"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「现代东方晚装人像」创作图像：以非历史化立领、烟灰透明袖与梅枝刺绣建立现代东方晚装语言\n\n## 必填需求字段\n- `{{fashion_subject}}`（时尚主体）：成年东方女性穿墨黑非对称立领晚礼服，烟灰透明长袖和手绣绯红梅枝为固定造型锚点，取坐姿半身\n- `{{garment_construction}}`（服装结构）：立领在左侧斜向闭合，不对称肩线连接贴身黑色主衣，透明袖由肩部独立接合，梅枝刺绣沿结构线延伸\n- `{{editorial_direction}}`（编辑方向）：极简深色漆木室内，70mm 半身坐姿，左侧暖灯边光配右侧冷窗填光，背景梅枝只作低对比呼应\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 保持人物身份、人体结构、服装版型、合体关系、缝线、闭合件、材质重量、造型逻辑与画面裁切一致；姿势、镜头、布光和地点必须共同表达一个编辑主题，不得用动态或特效遮盖错误手部、变形配饰和不可能的服装连接。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。",
+        "en": "制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力、姿态与缝制节点共同决定；不得用夸张光效掩盖结构。竖版 2:3，单一完整视觉，不生成文字、商标、既有设计师标志、品牌或水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{fashion_subject}}` (Fashion Subject): An adult East Asian woman in an ink-black evening gown with asymmetric standing collar, smoke-gray sheer sleeves, and crimson plum embroidery, seated half-length\n- `{{garment_construction}}` (Garment Construction): The collar closes diagonally left, asymmetric shoulder joins a fitted black body, sheer sleeves attach independently, and plum embroidery follows seam lines\n- `{{editorial_direction}}` (Editorial Direction): Minimal dark lacquer interior, 70mm seated half portrait, warm lamp edge from left and cool window fill from right, with background plum branches kept low contrast\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Preserve identity, anatomy, garment construction, fit, seams, closures, material weight, styling logic, and crop. Direct pose, lens, lighting, and location as one editorial statement; do not hide broken hands, warped accessories, or impossible clothing joins behind motion or effects.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ],
+      "en": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ]
+    },
+    "preview": "case-images/modern-oriental-evening-look.png",
+    "path": "library/cases/fashion-editorial/modern-oriental-evening-look"
+  },
+  {
     "id": "east-asian-pearls-closeup",
     "title": {
       "zh": "珍珠耳饰东方女性特写",
@@ -13512,6 +15878,138 @@ export const catalog = [
     },
     "preview": "case-images/jewelry-macro-detail.png",
     "path": "library/cases/commerce/jewelry-macro-detail"
+  },
+  {
+    "id": "jewelry-presentation-box",
+    "title": {
+      "zh": "珠宝折叠展示盒",
+      "en": "Jewelry Presentation Box"
+    },
+    "summary": {
+      "zh": "用八边形硬盒、隐藏铰链和分层软垫建立仪式感与运输保护兼具的珠宝包装。",
+      "en": "设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "packaging-design"
+      ],
+      "medium": [
+        "photography",
+        "3d-render"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "product-fidelity",
+        "material-lighting",
+        "spatial-reasoning"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "包装设计",
+        "珠宝盒",
+        "奢侈品包装",
+        "展示结构"
+      ],
+      "en": [
+        "Packaging Design",
+        "Product Fidelity",
+        "Material Lighting",
+        "Spatial Reasoning"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "package_object",
+        "structural_system",
+        "material_graphics"
+      ],
+      "cover_values": {
+        "package_object": {
+          "zh": "一只深牛血红八边形珠宝盒，开启后以象牙色软垫托住一枚无标银色水滴吊坠，链条收纳整齐",
+          "en": "A deep oxblood octagonal jewelry box holding one unbranded silver drop pendant on an ivory insert with the chain neatly managed"
+        },
+        "structural_system": {
+          "zh": "盒盖使用隐藏金属铰链与限位带，内托分为首饰台、链槽和可抽取底层，前侧织带拉手控制开盒方向",
+          "en": "A hidden hinge and stop ribbon support the lid; the insert separates jewelry deck, chain channel, and removable lower layer, with a front ribbon controlling opening"
+        },
+        "material_graphics": {
+          "zh": "牛血红纹理纸、象牙超细纤维与银色金属构成三层材质，外表无印刷，仅靠八边轮廓和细压边识别",
+          "en": "Oxblood textured paper, ivory microfiber, and silver metal form three material levels; the exterior relies on octagonal form and fine debossed edges without print"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "package_object",
+          "zh": "包装对象",
+          "en": "Package Object",
+          "description": {
+            "zh": "请给出「包装对象」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Package Object."
+          },
+          "cover_value": {
+            "zh": "一只深牛血红八边形珠宝盒，开启后以象牙色软垫托住一枚无标银色水滴吊坠，链条收纳整齐",
+            "en": "A deep oxblood octagonal jewelry box holding one unbranded silver drop pendant on an ivory insert with the chain neatly managed"
+          }
+        },
+        {
+          "id": "structural_system",
+          "zh": "结构系统",
+          "en": "Structural System",
+          "description": {
+            "zh": "请填写「结构系统」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Structural System, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "盒盖使用隐藏金属铰链与限位带，内托分为首饰台、链槽和可抽取底层，前侧织带拉手控制开盒方向",
+            "en": "A hidden hinge and stop ribbon support the lid; the insert separates jewelry deck, chain channel, and removable lower layer, with a front ribbon controlling opening"
+          }
+        },
+        {
+          "id": "material_graphics",
+          "zh": "材料与图形",
+          "en": "Material Graphics",
+          "description": {
+            "zh": "请写清「材料与图形」的主要材质、表面状态、磨损或反射特征，以及它在画面中的重点部位。",
+            "en": "State the main materials, surface condition, wear or reflectance, and the focal placement of Material Graphics."
+          },
+          "cover_value": {
+            "zh": "牛血红纹理纸、象牙超细纤维与银色金属构成三层材质，外表无印刷，仅靠八边轮廓和细压边识别",
+            "en": "Oxblood textured paper, ivory microfiber, and silver metal form three material levels; the exterior relies on octagonal form and fine debossed edges without print"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「珠宝折叠展示盒」创作图像：用八边形硬盒、隐藏铰链和分层软垫建立仪式感与运输保护兼具的珠宝包装。\n\n## 必填需求字段\n- `{{package_object}}`（包装对象）：一只深牛血红八边形珠宝盒，开启后以象牙色软垫托住一枚无标银色水滴吊坠，链条收纳整齐\n- `{{structural_system}}`（结构系统）：盒盖使用隐藏金属铰链与限位带，内托分为首饰台、链槽和可抽取底层，前侧织带拉手控制开盒方向\n- `{{material_graphics}}`（材料与图形）：牛血红纹理纸、象牙超细纤维与银色金属构成三层材质，外表无印刷，仅靠八边轮廓和细压边识别\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 按可制造的包装系统处理：保持产品尺寸、开合顺序、闭合方式、保护间隙、内托、材料厚度、印刷区域与货架正面层级可信；不得自行生成文案、商标、条码、认证图标、环保或医疗声称。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。",
+        "en": "设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与产品尺度必须可解释。竖版 2:3，单一完整方案，不做接触表，不生成文字、商标、条码、认证图标、医疗或环保声称，不要品牌和水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{package_object}}` (Package Object): A deep oxblood octagonal jewelry box holding one unbranded silver drop pendant on an ivory insert with the chain neatly managed\n- `{{structural_system}}` (Structural System): A hidden hinge and stop ribbon support the lid; the insert separates jewelry deck, chain channel, and removable lower layer, with a front ribbon controlling opening\n- `{{material_graphics}}` (Material Graphics): Oxblood textured paper, ivory microfiber, and silver metal form three material levels; the exterior relies on octagonal form and fine debossed edges without print\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Treat the package as a manufacturable system: preserve product dimensions, opening sequence, closure, protective clearances, inserts, material thickness, print zones, and shelf-facing hierarchy. Do not invent copy, logos, barcodes, certifications, or environmental and medical claims.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ],
+      "en": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ]
+    },
+    "preview": "case-images/jewelry-presentation-box.png",
+    "path": "library/cases/packaging/jewelry-presentation-box"
   },
   {
     "id": "eco-hotel-exterior",
@@ -14059,6 +16557,137 @@ export const catalog = [
     },
     "preview": "case-images/cinematic-storyboard-sequence.png",
     "path": "library/cases/storytelling/cinematic-storyboard-sequence"
+  },
+  {
+    "id": "mens-tailoring-atelier-portrait",
+    "title": {
+      "zh": "男装裁缝工坊人像",
+      "en": "Mens Tailoring Atelier Portrait"
+    },
+    "summary": {
+      "zh": "以半成品西装、量体工具和清楚手部动作呈现专业定制男装过程",
+      "en": "制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "fashion-editorial"
+      ],
+      "medium": [
+        "photography"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "subject-consistency",
+        "spatial-reasoning",
+        "material-lighting"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "时尚造型",
+        "男装定制",
+        "裁缝工艺",
+        "工坊人像"
+      ],
+      "en": [
+        "Fashion Editorial",
+        "Subject Consistency",
+        "Spatial Reasoning",
+        "Material Lighting"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "fashion_subject",
+        "garment_construction",
+        "editorial_direction"
+      ],
+      "cover_values": {
+        "fashion_subject": {
+          "zh": "成年东方男性裁缝穿炭灰三件套西装，颈挂量尺，右手持粉笔调整人台上的米白半成品夹克，面部清晰",
+          "en": "An adult East Asian male tailor in a charcoal three-piece suit with measuring tape, chalking a cream half-finished jacket on a dress form, face clear"
+        },
+        "garment_construction": {
+          "zh": "裁缝自身西装肩线、驳领和腰省合体；人台夹克显示麻衬、手工疏缝、袋位和一侧未完成袖窿",
+          "en": "The tailor's suit has precise shoulders, lapels, and waist suppression; the toile shows canvas, basting, pocket position, and one unfinished armhole"
+        },
+        "editorial_direction": {
+          "zh": "深木护墙工坊，50mm 腰上至膝部编辑人像，左侧北窗柔光为主，桌面剪刀和布样只作前景尺度参照",
+          "en": "Dark wood-paneled atelier, 50mm editorial portrait from waist to knees, soft north-window key from left, with scissors and swatches as foreground scale cues"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "fashion_subject",
+          "zh": "时尚主体",
+          "en": "Fashion Subject",
+          "description": {
+            "zh": "请填写「时尚主体」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Fashion Subject, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "成年东方男性裁缝穿炭灰三件套西装，颈挂量尺，右手持粉笔调整人台上的米白半成品夹克，面部清晰",
+            "en": "An adult East Asian male tailor in a charcoal three-piece suit with measuring tape, chalking a cream half-finished jacket on a dress form, face clear"
+          }
+        },
+        {
+          "id": "garment_construction",
+          "zh": "服装结构",
+          "en": "Garment Construction",
+          "description": {
+            "zh": "请给出「服装结构」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Garment Construction."
+          },
+          "cover_value": {
+            "zh": "裁缝自身西装肩线、驳领和腰省合体；人台夹克显示麻衬、手工疏缝、袋位和一侧未完成袖窿",
+            "en": "The tailor's suit has precise shoulders, lapels, and waist suppression; the toile shows canvas, basting, pocket position, and one unfinished armhole"
+          }
+        },
+        {
+          "id": "editorial_direction",
+          "zh": "编辑方向",
+          "en": "Editorial Direction",
+          "description": {
+            "zh": "请填写「编辑方向」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Editorial Direction, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "深木护墙工坊，50mm 腰上至膝部编辑人像，左侧北窗柔光为主，桌面剪刀和布样只作前景尺度参照",
+            "en": "Dark wood-paneled atelier, 50mm editorial portrait from waist to knees, soft north-window key from left, with scissors and swatches as foreground scale cues"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「男装裁缝工坊人像」创作图像：以半成品西装、量体工具和清楚手部动作呈现专业定制男装过程\n\n## 必填需求字段\n- `{{fashion_subject}}`（时尚主体）：成年东方男性裁缝穿炭灰三件套西装，颈挂量尺，右手持粉笔调整人台上的米白半成品夹克，面部清晰\n- `{{garment_construction}}`（服装结构）：裁缝自身西装肩线、驳领和腰省合体；人台夹克显示麻衬、手工疏缝、袋位和一侧未完成袖窿\n- `{{editorial_direction}}`（编辑方向）：深木护墙工坊，50mm 腰上至膝部编辑人像，左侧北窗柔光为主，桌面剪刀和布样只作前景尺度参照\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 保持人物身份、人体结构、服装版型、合体关系、缝线、闭合件、材质重量、造型逻辑与画面裁切一致；姿势、镜头、布光和地点必须共同表达一个编辑主题，不得用动态或特效遮盖错误手部、变形配饰和不可能的服装连接。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。",
+        "en": "制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力、姿态与缝制节点共同决定；不得用夸张光效掩盖结构。竖版 2:3，单一完整视觉，不生成文字、商标、既有设计师标志、品牌或水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{fashion_subject}}` (Fashion Subject): An adult East Asian male tailor in a charcoal three-piece suit with measuring tape, chalking a cream half-finished jacket on a dress form, face clear\n- `{{garment_construction}}` (Garment Construction): The tailor's suit has precise shoulders, lapels, and waist suppression; the toile shows canvas, basting, pocket position, and one unfinished armhole\n- `{{editorial_direction}}` (Editorial Direction): Dark wood-paneled atelier, 50mm editorial portrait from waist to knees, soft north-window key from left, with scissors and swatches as foreground scale cues\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Preserve identity, anatomy, garment construction, fit, seams, closures, material weight, styling logic, and crop. Direct pose, lens, lighting, and location as one editorial statement; do not hide broken hands, warped accessories, or impossible clothing joins behind motion or effects.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ],
+      "en": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ]
+    },
+    "preview": "case-images/mens-tailoring-atelier-portrait.png",
+    "path": "library/cases/fashion-editorial/mens-tailoring-atelier-portrait"
   },
   {
     "id": "object-removal-cleanup",
@@ -14880,6 +17509,137 @@ export const catalog = [
     "path": "library/cases/social/community-event-card"
   },
   {
+    "id": "runway-backstage-documentary",
+    "title": {
+      "zh": "秀场后台准备纪实",
+      "en": "Runway Backstage Documentary"
+    },
+    "summary": {
+      "zh": "用造型师与化妆师的同步动作呈现走秀前一刻的真实工作张力",
+      "en": "制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "fashion-editorial"
+      ],
+      "medium": [
+        "photography"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "subject-consistency",
+        "spatial-reasoning",
+        "instruction-following"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "时尚造型",
+        "秀场后台",
+        "纪实摄影",
+        "团队协作"
+      ],
+      "en": [
+        "Fashion Editorial",
+        "Subject Consistency",
+        "Spatial Reasoning",
+        "Instruction Following"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "fashion_subject",
+        "garment_construction",
+        "editorial_direction"
+      ],
+      "cover_values": {
+        "fashion_subject": {
+          "zh": "成年女性模特穿钴蓝雕塑感大衣，腰上构图直视镜头；左侧造型师调整领口，右侧化妆师完成眼线",
+          "en": "An adult female model in a cobalt sculptural coat, framed waist-up facing camera while a stylist adjusts the collar left and makeup artist finishes eyeliner right"
+        },
+        "garment_construction": {
+          "zh": "大衣由宽大翻折领、隐藏门襟、腰带和弧形肩部组成，工作人员只接触领口与眼部，不遮挡主要结构",
+          "en": "The coat uses broad folded lapels, concealed front, belt, and curved shoulders; crew touch only collar and eye without obscuring the main structure"
+        },
+        "editorial_direction": {
+          "zh": "真实后台化妆镜与衣架虚化在后，50mm 平视纪实机位，暖镜前灯与冷工作灯混合，三人手部数量和归属清楚",
+          "en": "Authentic backstage mirror and rack softly behind, eye-level 50mm documentary view, mixed warm vanity and cool work light, with clear ownership and count of every hand"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "fashion_subject",
+          "zh": "时尚主体",
+          "en": "Fashion Subject",
+          "description": {
+            "zh": "请填写「时尚主体」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Fashion Subject, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "成年女性模特穿钴蓝雕塑感大衣，腰上构图直视镜头；左侧造型师调整领口，右侧化妆师完成眼线",
+            "en": "An adult female model in a cobalt sculptural coat, framed waist-up facing camera while a stylist adjusts the collar left and makeup artist finishes eyeliner right"
+          }
+        },
+        {
+          "id": "garment_construction",
+          "zh": "服装结构",
+          "en": "Garment Construction",
+          "description": {
+            "zh": "请给出「服装结构」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Garment Construction."
+          },
+          "cover_value": {
+            "zh": "大衣由宽大翻折领、隐藏门襟、腰带和弧形肩部组成，工作人员只接触领口与眼部，不遮挡主要结构",
+            "en": "The coat uses broad folded lapels, concealed front, belt, and curved shoulders; crew touch only collar and eye without obscuring the main structure"
+          }
+        },
+        {
+          "id": "editorial_direction",
+          "zh": "编辑方向",
+          "en": "Editorial Direction",
+          "description": {
+            "zh": "请填写「编辑方向」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Editorial Direction, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "真实后台化妆镜与衣架虚化在后，50mm 平视纪实机位，暖镜前灯与冷工作灯混合，三人手部数量和归属清楚",
+            "en": "Authentic backstage mirror and rack softly behind, eye-level 50mm documentary view, mixed warm vanity and cool work light, with clear ownership and count of every hand"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「秀场后台准备纪实」创作图像：用造型师与化妆师的同步动作呈现走秀前一刻的真实工作张力\n\n## 必填需求字段\n- `{{fashion_subject}}`（时尚主体）：成年女性模特穿钴蓝雕塑感大衣，腰上构图直视镜头；左侧造型师调整领口，右侧化妆师完成眼线\n- `{{garment_construction}}`（服装结构）：大衣由宽大翻折领、隐藏门襟、腰带和弧形肩部组成，工作人员只接触领口与眼部，不遮挡主要结构\n- `{{editorial_direction}}`（编辑方向）：真实后台化妆镜与衣架虚化在后，50mm 平视纪实机位，暖镜前灯与冷工作灯混合，三人手部数量和归属清楚\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 保持人物身份、人体结构、服装版型、合体关系、缝线、闭合件、材质重量、造型逻辑与画面裁切一致；姿势、镜头、布光和地点必须共同表达一个编辑主题，不得用动态或特效遮盖错误手部、变形配饰和不可能的服装连接。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。",
+        "en": "制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力、姿态与缝制节点共同决定；不得用夸张光效掩盖结构。竖版 2:3，单一完整视觉，不生成文字、商标、既有设计师标志、品牌或水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{fashion_subject}}` (Fashion Subject): An adult female model in a cobalt sculptural coat, framed waist-up facing camera while a stylist adjusts the collar left and makeup artist finishes eyeliner right\n- `{{garment_construction}}` (Garment Construction): The coat uses broad folded lapels, concealed front, belt, and curved shoulders; crew touch only collar and eye without obscuring the main structure\n- `{{editorial_direction}}` (Editorial Direction): Authentic backstage mirror and rack softly behind, eye-level 50mm documentary view, mixed warm vanity and cool work light, with clear ownership and count of every hand\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Preserve identity, anatomy, garment construction, fit, seams, closures, material weight, styling logic, and crop. Direct pose, lens, lighting, and location as one editorial statement; do not hide broken hands, warped accessories, or impossible clothing joins behind motion or effects.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ],
+      "en": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ]
+    },
+    "preview": "case-images/runway-backstage-documentary.png",
+    "path": "library/cases/fashion-editorial/runway-backstage-documentary"
+  },
+  {
     "id": "science-process-poster",
     "title": {
       "zh": "科学过程海报",
@@ -15314,6 +18074,268 @@ export const catalog = [
     },
     "preview": "case-images/isometric-game-environment.png",
     "path": "library/cases/game/isometric-game-environment"
+  },
+  {
+    "id": "coffee-roasting-process",
+    "title": {
+      "zh": "精品咖啡烘豆过程",
+      "en": "Coffee Roasting Process"
+    },
+    "summary": {
+      "zh": "通过冷却盘、取样勺和铜制烘豆机呈现可理解的烘焙生产环节",
+      "en": "制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "food-beverage"
+      ],
+      "medium": [
+        "photography"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "material-lighting",
+        "spatial-reasoning",
+        "subject-consistency"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "餐饮美食",
+        "咖啡烘焙",
+        "生产纪实",
+        "精品咖啡"
+      ],
+      "en": [
+        "Food Beverage",
+        "Material Lighting",
+        "Spatial Reasoning",
+        "Subject Consistency"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "hero_food",
+        "serving_context",
+        "food_styling"
+      ],
+      "cover_values": {
+        "hero_food": {
+          "zh": "刚出炉的中深烘咖啡豆铺满圆形金属冷却盘，烘豆师用黄铜取样勺检查一小批豆子和银皮",
+          "en": "Fresh medium-dark roasted beans fill a circular cooling tray while the roaster inspects a small sample and chaff with a brass scoop"
+        },
+        "serving_context": {
+          "zh": "大型铜制滚筒烘豆机位于右后方，麻袋堆在远景，烘豆师半身位于左侧并保持操作区域清晰",
+          "en": "A large copper drum roaster sits rear-right, sacks stay distant, and the roaster's half body occupies left without blocking the workspace"
+        },
+        "food_styling": {
+          "zh": "豆色保持自然差异但无焦黑，冷却搅拌臂结构完整，晨间侧光显示豆面油脂、金属和飞散银皮",
+          "en": "Beans show natural tonal variation without burning; the cooling arm remains intact and morning side light reveals oils, metal, and drifting chaff"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "hero_food",
+          "zh": "主角食物",
+          "en": "Hero Food",
+          "description": {
+            "zh": "请给出「主角食物」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Hero Food."
+          },
+          "cover_value": {
+            "zh": "刚出炉的中深烘咖啡豆铺满圆形金属冷却盘，烘豆师用黄铜取样勺检查一小批豆子和银皮",
+            "en": "Fresh medium-dark roasted beans fill a circular cooling tray while the roaster inspects a small sample and chaff with a brass scoop"
+          }
+        },
+        {
+          "id": "serving_context",
+          "zh": "呈现环境",
+          "en": "Serving Context",
+          "description": {
+            "zh": "请填写「呈现环境」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Serving Context, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "大型铜制滚筒烘豆机位于右后方，麻袋堆在远景，烘豆师半身位于左侧并保持操作区域清晰",
+            "en": "A large copper drum roaster sits rear-right, sacks stay distant, and the roaster's half body occupies left without blocking the workspace"
+          }
+        },
+        {
+          "id": "food_styling",
+          "zh": "食物造型",
+          "en": "Food Styling",
+          "description": {
+            "zh": "请说明「食物造型」的媒介、时代或审美方向、情绪强度与细节密度，并给出 1–2 个可见特征。",
+            "en": "Describe the medium, era or aesthetic direction, emotional intensity, detail density, and 1–2 visible cues for Food Styling."
+          },
+          "cover_value": {
+            "zh": "豆色保持自然差异但无焦黑，冷却搅拌臂结构完整，晨间侧光显示豆面油脂、金属和飞散银皮",
+            "en": "Beans show natural tonal variation without burning; the cooling arm remains intact and morning side light reveals oils, metal, and drifting chaff"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「精品咖啡烘豆过程」创作图像：通过冷却盘、取样勺和铜制烘豆机呈现可理解的烘焙生产环节\n\n## 必填需求字段\n- `{{hero_food}}`（主角食物）：刚出炉的中深烘咖啡豆铺满圆形金属冷却盘，烘豆师用黄铜取样勺检查一小批豆子和银皮\n- `{{serving_context}}`（呈现环境）：大型铜制滚筒烘豆机位于右后方，麻袋堆在远景，烘豆师半身位于左侧并保持操作区域清晰\n- `{{food_styling}}`（食物造型）：豆色保持自然差异但无焦黑，冷却搅拌臂结构完整，晨间侧光显示豆面油脂、金属和飞散银皮\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 所有可食用元素都必须符合真实状态：明确烹饪程度、熟度、含水感、温度线索、份量尺度、器皿接触和有意图的装饰位置；避免塑料质感、不可能堆叠、食材复制、不安全操作和看似不可食用的装饰。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。",
+        "en": "制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或不可解释装饰制造“诱人感”。竖版 2:3，单一完整视觉，不生成文字、菜单、商标、价格、品牌或水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{hero_food}}` (Hero Food): Fresh medium-dark roasted beans fill a circular cooling tray while the roaster inspects a small sample and chaff with a brass scoop\n- `{{serving_context}}` (Serving Context): A large copper drum roaster sits rear-right, sacks stay distant, and the roaster's half body occupies left without blocking the workspace\n- `{{food_styling}}` (Food Styling): Beans show natural tonal variation without burning; the cooling arm remains intact and morning side light reveals oils, metal, and drifting chaff\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Keep every edible element physically credible: specify preparation state, doneness, moisture, temperature cues, serving scale, vessel contact, and intentional garnish placement. Avoid plastic texture, impossible stacking, duplicated ingredients, unsafe handling, and decorative elements that look inedible.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ],
+      "en": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ]
+    },
+    "preview": "case-images/coffee-roasting-process.png",
+    "path": "library/cases/culinary/coffee-roasting-process"
+  },
+  {
+    "id": "craft-chocolate-collection",
+    "title": {
+      "zh": "精品巧克力系列包装",
+      "en": "Craft Chocolate Collection"
+    },
+    "summary": {
+      "zh": "以纸套、内托和几何巧克力组合呈现清楚的口味分级与手工质感。",
+      "en": "设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "packaging-design"
+      ],
+      "medium": [
+        "photography"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "product-fidelity",
+        "material-lighting",
+        "layout-hierarchy"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "包装设计",
+        "巧克力包装",
+        "食品系列",
+        "纸张工艺"
+      ],
+      "en": [
+        "Packaging Design",
+        "Product Fidelity",
+        "Material Lighting",
+        "Layout Hierarchy"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "package_object",
+        "structural_system",
+        "material_graphics"
+      ],
+      "cover_values": {
+        "package_object": {
+          "zh": "一只开启的六格巧克力纸套与两只闭合的同系列长盒，六颗巧克力形状不同但尺寸和间距统一",
+          "en": "One open six-piece chocolate sleeve and two closed sibling bars, with six distinct chocolate shapes held at consistent size and spacing"
+        },
+        "structural_system": {
+          "zh": "抽屉式纸套包住食品级深棕内托，侧边保留拇指缺口，巧克力与盒壁间有防碰间隙且开盒方向清晰",
+          "en": "A drawer-style sleeve encloses a food-safe dark-brown tray with a thumb notch, impact spacing, and an unambiguous opening direction"
+        },
+        "material_graphics": {
+          "zh": "可可棕、柔和珊瑚和奶油白三色未涂布纸，使用可可荚盲压纹区分系列，不使用可读文字或金属塑料装饰",
+          "en": "Cocoa brown, muted coral, and cream uncoated papers, differentiated by blind-embossed cacao pods without readable copy, metal, or plastic decoration"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "package_object",
+          "zh": "包装对象",
+          "en": "Package Object",
+          "description": {
+            "zh": "请给出「包装对象」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Package Object."
+          },
+          "cover_value": {
+            "zh": "一只开启的六格巧克力纸套与两只闭合的同系列长盒，六颗巧克力形状不同但尺寸和间距统一",
+            "en": "One open six-piece chocolate sleeve and two closed sibling bars, with six distinct chocolate shapes held at consistent size and spacing"
+          }
+        },
+        {
+          "id": "structural_system",
+          "zh": "结构系统",
+          "en": "Structural System",
+          "description": {
+            "zh": "请填写「结构系统」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Structural System, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "抽屉式纸套包住食品级深棕内托，侧边保留拇指缺口，巧克力与盒壁间有防碰间隙且开盒方向清晰",
+            "en": "A drawer-style sleeve encloses a food-safe dark-brown tray with a thumb notch, impact spacing, and an unambiguous opening direction"
+          }
+        },
+        {
+          "id": "material_graphics",
+          "zh": "材料与图形",
+          "en": "Material Graphics",
+          "description": {
+            "zh": "请写清「材料与图形」的主要材质、表面状态、磨损或反射特征，以及它在画面中的重点部位。",
+            "en": "State the main materials, surface condition, wear or reflectance, and the focal placement of Material Graphics."
+          },
+          "cover_value": {
+            "zh": "可可棕、柔和珊瑚和奶油白三色未涂布纸，使用可可荚盲压纹区分系列，不使用可读文字或金属塑料装饰",
+            "en": "Cocoa brown, muted coral, and cream uncoated papers, differentiated by blind-embossed cacao pods without readable copy, metal, or plastic decoration"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「精品巧克力系列包装」创作图像：以纸套、内托和几何巧克力组合呈现清楚的口味分级与手工质感。\n\n## 必填需求字段\n- `{{package_object}}`（包装对象）：一只开启的六格巧克力纸套与两只闭合的同系列长盒，六颗巧克力形状不同但尺寸和间距统一\n- `{{structural_system}}`（结构系统）：抽屉式纸套包住食品级深棕内托，侧边保留拇指缺口，巧克力与盒壁间有防碰间隙且开盒方向清晰\n- `{{material_graphics}}`（材料与图形）：可可棕、柔和珊瑚和奶油白三色未涂布纸，使用可可荚盲压纹区分系列，不使用可读文字或金属塑料装饰\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 按可制造的包装系统处理：保持产品尺寸、开合顺序、闭合方式、保护间隙、内托、材料厚度、印刷区域与货架正面层级可信；不得自行生成文案、商标、条码、认证图标、环保或医疗声称。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。",
+        "en": "设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与产品尺度必须可解释。竖版 2:3，单一完整方案，不做接触表，不生成文字、商标、条码、认证图标、医疗或环保声称，不要品牌和水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{package_object}}` (Package Object): One open six-piece chocolate sleeve and two closed sibling bars, with six distinct chocolate shapes held at consistent size and spacing\n- `{{structural_system}}` (Structural System): A drawer-style sleeve encloses a food-safe dark-brown tray with a thumb notch, impact spacing, and an unambiguous opening direction\n- `{{material_graphics}}` (Material Graphics): Cocoa brown, muted coral, and cream uncoated papers, differentiated by blind-embossed cacao pods without readable copy, metal, or plastic decoration\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Treat the package as a manufacturable system: preserve product dimensions, opening sequence, closure, protective clearances, inserts, material thickness, print zones, and shelf-facing hierarchy. Do not invent copy, logos, barcodes, certifications, or environmental and medical claims.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ],
+      "en": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ]
+    },
+    "preview": "case-images/craft-chocolate-collection.png",
+    "path": "library/cases/packaging/craft-chocolate-collection"
   },
   {
     "id": "boutique-window-display",
@@ -18801,6 +21823,137 @@ export const catalog = [
     "path": "library/cases/surface/ginkgo-textile-repeat"
   },
   {
+    "id": "silver-jewelry-beauty-editorial",
+    "title": {
+      "zh": "银饰美妆特写",
+      "en": "Silver Jewelry Beauty Editorial"
+    },
+    "summary": {
+      "zh": "以真实深色皮肤、雕塑银饰和锐利眼神建立高端珠宝美妆视觉",
+      "en": "制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "fashion-editorial"
+      ],
+      "medium": [
+        "photography"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "subject-consistency",
+        "product-fidelity",
+        "material-lighting"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "时尚造型",
+        "珠宝摄影",
+        "美妆特写",
+        "真实皮肤"
+      ],
+      "en": [
+        "Fashion Editorial",
+        "Subject Consistency",
+        "Product Fidelity",
+        "Material Lighting"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "fashion_subject",
+        "garment_construction",
+        "editorial_direction"
+      ],
+      "cover_values": {
+        "fashion_subject": {
+          "zh": "成年深色皮肤女性，剃短发，佩戴原创拉丝银耳骨夹与宽弧形银项圈，脸部占画面约 70%",
+          "en": "An adult dark-skinned woman with shaved hair wearing an original brushed-silver ear cuff and broad curved collar, face filling roughly 70% of frame"
+        },
+        "garment_construction": {
+          "zh": "耳夹沿耳廓外缘固定且不穿透皮肤，项圈贴合锁骨并在后颈留开口，金属厚度和重量感保持一致",
+          "en": "The cuff follows the outer ear without piercing skin; the collar tracks the clavicle with a rear opening and consistent metal thickness and weight"
+        },
+        "editorial_direction": {
+          "zh": "深钴蓝纯色背景，100mm 微距人像，正前大柔光保留毛孔，右后银色轮廓光强调首饰边缘，双眼锐利对焦",
+          "en": "Deep cobalt background, 100mm beauty close-up, large frontal soft light retaining pores and a silver rear-right rim defining jewelry, with both eyes sharp"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "fashion_subject",
+          "zh": "时尚主体",
+          "en": "Fashion Subject",
+          "description": {
+            "zh": "请填写「时尚主体」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Fashion Subject, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "成年深色皮肤女性，剃短发，佩戴原创拉丝银耳骨夹与宽弧形银项圈，脸部占画面约 70%",
+            "en": "An adult dark-skinned woman with shaved hair wearing an original brushed-silver ear cuff and broad curved collar, face filling roughly 70% of frame"
+          }
+        },
+        {
+          "id": "garment_construction",
+          "zh": "服装结构",
+          "en": "Garment Construction",
+          "description": {
+            "zh": "请给出「服装结构」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Garment Construction."
+          },
+          "cover_value": {
+            "zh": "耳夹沿耳廓外缘固定且不穿透皮肤，项圈贴合锁骨并在后颈留开口，金属厚度和重量感保持一致",
+            "en": "The cuff follows the outer ear without piercing skin; the collar tracks the clavicle with a rear opening and consistent metal thickness and weight"
+          }
+        },
+        {
+          "id": "editorial_direction",
+          "zh": "编辑方向",
+          "en": "Editorial Direction",
+          "description": {
+            "zh": "请填写「编辑方向」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Editorial Direction, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "深钴蓝纯色背景，100mm 微距人像，正前大柔光保留毛孔，右后银色轮廓光强调首饰边缘，双眼锐利对焦",
+            "en": "Deep cobalt background, 100mm beauty close-up, large frontal soft light retaining pores and a silver rear-right rim defining jewelry, with both eyes sharp"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「银饰美妆特写」创作图像：以真实深色皮肤、雕塑银饰和锐利眼神建立高端珠宝美妆视觉\n\n## 必填需求字段\n- `{{fashion_subject}}`（时尚主体）：成年深色皮肤女性，剃短发，佩戴原创拉丝银耳骨夹与宽弧形银项圈，脸部占画面约 70%\n- `{{garment_construction}}`（服装结构）：耳夹沿耳廓外缘固定且不穿透皮肤，项圈贴合锁骨并在后颈留开口，金属厚度和重量感保持一致\n- `{{editorial_direction}}`（编辑方向）：深钴蓝纯色背景，100mm 微距人像，正前大柔光保留毛孔，右后银色轮廓光强调首饰边缘，双眼锐利对焦\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 保持人物身份、人体结构、服装版型、合体关系、缝线、闭合件、材质重量、造型逻辑与画面裁切一致；姿势、镜头、布光和地点必须共同表达一个编辑主题，不得用动态或特效遮盖错误手部、变形配饰和不可能的服装连接。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。",
+        "en": "制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力、姿态与缝制节点共同决定；不得用夸张光效掩盖结构。竖版 2:3，单一完整视觉，不生成文字、商标、既有设计师标志、品牌或水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{fashion_subject}}` (Fashion Subject): An adult dark-skinned woman with shaved hair wearing an original brushed-silver ear cuff and broad curved collar, face filling roughly 70% of frame\n- `{{garment_construction}}` (Garment Construction): The cuff follows the outer ear without piercing skin; the collar tracks the clavicle with a rear opening and consistent metal thickness and weight\n- `{{editorial_direction}}` (Editorial Direction): Deep cobalt background, 100mm beauty close-up, large frontal soft light retaining pores and a silver rear-right rim defining jewelry, with both eyes sharp\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Preserve identity, anatomy, garment construction, fit, seams, closures, material weight, styling logic, and crop. Direct pose, lens, lighting, and location as one editorial statement; do not hide broken hands, warped accessories, or impossible clothing joins behind motion or effects.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ],
+      "en": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ]
+    },
+    "preview": "case-images/silver-jewelry-beauty-editorial.png",
+    "path": "library/cases/fashion-editorial/silver-jewelry-beauty-editorial"
+  },
+  {
     "id": "sales-pipeline-dashboard",
     "title": {
       "zh": "销售漏斗看板",
@@ -19054,6 +22207,138 @@ export const catalog = [
     "path": "library/cases/surface/koi-geometric-wallpaper-repeat"
   },
   {
+    "id": "keyboard-switch-kit-packaging",
+    "title": {
+      "zh": "键盘轴体套件包装",
+      "en": "Keyboard Switch Kit Packaging"
+    },
+    "summary": {
+      "zh": "以抽屉盒、模塑纸浆内托和工具分仓呈现精密电子配件的开箱秩序。",
+      "en": "设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "packaging-design"
+      ],
+      "medium": [
+        "photography",
+        "3d-render"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "product-fidelity",
+        "spatial-reasoning",
+        "layout-hierarchy"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "包装设计",
+        "数码配件",
+        "开箱结构",
+        "模塑纸浆"
+      ],
+      "en": [
+        "Packaging Design",
+        "Product Fidelity",
+        "Spatial Reasoning",
+        "Layout Hierarchy"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "package_object",
+        "structural_system",
+        "material_graphics"
+      ],
+      "cover_values": {
+        "package_object": {
+          "zh": "一只石墨灰抽屉盒开启后展示二十枚透明键盘轴和一把拔轴工具，轴体按白红蓝黄紫五组排列",
+          "en": "A graphite drawer box displaying twenty transparent keyboard switches and one puller, arranged in five white, red, blue, yellow, and violet groups"
+        },
+        "structural_system": {
+          "zh": "模塑纸浆内托提供二十个等距卡位和一条独立工具槽，青色织带负责抽拉，外套与抽屉间隙均匀",
+          "en": "A molded-pulp tray provides twenty equal cavities and a separate tool channel, with a cyan ribbon pull and consistent sleeve-to-drawer clearance"
+        },
+        "material_graphics": {
+          "zh": "外部哑光石墨、内部电光青、灰色纸浆与彩色轴芯构成层级，包装表面保持无字、无图标的工业风",
+          "en": "Matte graphite exterior, electric-cyan interior, gray pulp, and colored switch stems create hierarchy in a wordless icon-free industrial system"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "package_object",
+          "zh": "包装对象",
+          "en": "Package Object",
+          "description": {
+            "zh": "请给出「包装对象」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Package Object."
+          },
+          "cover_value": {
+            "zh": "一只石墨灰抽屉盒开启后展示二十枚透明键盘轴和一把拔轴工具，轴体按白红蓝黄紫五组排列",
+            "en": "A graphite drawer box displaying twenty transparent keyboard switches and one puller, arranged in five white, red, blue, yellow, and violet groups"
+          }
+        },
+        {
+          "id": "structural_system",
+          "zh": "结构系统",
+          "en": "Structural System",
+          "description": {
+            "zh": "请填写「结构系统」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Structural System, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "模塑纸浆内托提供二十个等距卡位和一条独立工具槽，青色织带负责抽拉，外套与抽屉间隙均匀",
+            "en": "A molded-pulp tray provides twenty equal cavities and a separate tool channel, with a cyan ribbon pull and consistent sleeve-to-drawer clearance"
+          }
+        },
+        {
+          "id": "material_graphics",
+          "zh": "材料与图形",
+          "en": "Material Graphics",
+          "description": {
+            "zh": "请写清「材料与图形」的主要材质、表面状态、磨损或反射特征，以及它在画面中的重点部位。",
+            "en": "State the main materials, surface condition, wear or reflectance, and the focal placement of Material Graphics."
+          },
+          "cover_value": {
+            "zh": "外部哑光石墨、内部电光青、灰色纸浆与彩色轴芯构成层级，包装表面保持无字、无图标的工业风",
+            "en": "Matte graphite exterior, electric-cyan interior, gray pulp, and colored switch stems create hierarchy in a wordless icon-free industrial system"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「键盘轴体套件包装」创作图像：以抽屉盒、模塑纸浆内托和工具分仓呈现精密电子配件的开箱秩序。\n\n## 必填需求字段\n- `{{package_object}}`（包装对象）：一只石墨灰抽屉盒开启后展示二十枚透明键盘轴和一把拔轴工具，轴体按白红蓝黄紫五组排列\n- `{{structural_system}}`（结构系统）：模塑纸浆内托提供二十个等距卡位和一条独立工具槽，青色织带负责抽拉，外套与抽屉间隙均匀\n- `{{material_graphics}}`（材料与图形）：外部哑光石墨、内部电光青、灰色纸浆与彩色轴芯构成层级，包装表面保持无字、无图标的工业风\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 按可制造的包装系统处理：保持产品尺寸、开合顺序、闭合方式、保护间隙、内托、材料厚度、印刷区域与货架正面层级可信；不得自行生成文案、商标、条码、认证图标、环保或医疗声称。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。",
+        "en": "设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与产品尺度必须可解释。竖版 2:3，单一完整方案，不做接触表，不生成文字、商标、条码、认证图标、医疗或环保声称，不要品牌和水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{package_object}}` (Package Object): A graphite drawer box displaying twenty transparent keyboard switches and one puller, arranged in five white, red, blue, yellow, and violet groups\n- `{{structural_system}}` (Structural System): A molded-pulp tray provides twenty equal cavities and a separate tool channel, with a cyan ribbon pull and consistent sleeve-to-drawer clearance\n- `{{material_graphics}}` (Material Graphics): Matte graphite exterior, electric-cyan interior, gray pulp, and colored switch stems create hierarchy in a wordless icon-free industrial system\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Treat the package as a manufacturable system: preserve product dimensions, opening sequence, closure, protective clearances, inserts, material thickness, print zones, and shelf-facing hierarchy. Do not invent copy, logos, barcodes, certifications, or environmental and medical claims.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ],
+      "en": [
+        "使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"
+      ]
+    },
+    "preview": "case-images/keyboard-switch-kit-packaging.png",
+    "path": "library/cases/packaging/keyboard-switch-kit-packaging"
+  },
+  {
     "id": "ceramic-sculpture-study",
     "title": {
       "zh": "陶瓷雕塑研究",
@@ -19158,6 +22443,137 @@ export const catalog = [
     },
     "preview": "case-images/ceramic-sculpture-study.png",
     "path": "library/cases/creative/ceramic-sculpture-study"
+  },
+  {
+    "id": "sculptural-couture-portrait",
+    "title": {
+      "zh": "雕塑感高定人像",
+      "en": "Sculptural Couture Portrait"
+    },
+    "summary": {
+      "zh": "用透明欧根纱褶裥和清晰面部建立克制而有结构张力的高定编辑片",
+      "en": "制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "fashion-editorial"
+      ],
+      "medium": [
+        "photography"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "subject-consistency",
+        "material-lighting",
+        "instruction-following"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "时尚造型",
+        "高定人像",
+        "东方女性",
+        "编辑摄影"
+      ],
+      "en": [
+        "Fashion Editorial",
+        "Subject Consistency",
+        "Material Lighting",
+        "Instruction Following"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "fashion_subject",
+        "garment_construction",
+        "editorial_direction"
+      ],
+      "cover_values": {
+        "fashion_subject": {
+          "zh": "成年东方女性，湿感后梳黑发，穿象牙白雕塑感礼服，画面只取头肩至上胸且双眼和自然皮肤纹理清晰",
+          "en": "An adult East Asian woman with slicked-back wet-look hair in an ivory sculptural gown, cropped head-and-shoulders with sharp eyes and natural skin"
+        },
+        "garment_construction": {
+          "zh": "礼服以半透明欧根纱放射褶裥构成肩部与领部花瓣体块，内层不透明胸衣提供支撑，所有褶线从固定接点展开",
+          "en": "Translucent organza radial pleats form petal-like shoulders and collar over an opaque structured bodice, with every fold emerging from visible anchor points"
+        },
+        "editorial_direction": {
+          "zh": "浅石灰棚景，85mm 近景，左前柔光与右后弱轮廓光，象牙白占 80%，肤色和黑发提供自然对比",
+          "en": "Pale limestone studio, 85mm close portrait, soft front-left key and subtle rear-right rim, with 80% ivory balanced by skin and black hair"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "fashion_subject",
+          "zh": "时尚主体",
+          "en": "Fashion Subject",
+          "description": {
+            "zh": "请填写「时尚主体」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Fashion Subject, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "成年东方女性，湿感后梳黑发，穿象牙白雕塑感礼服，画面只取头肩至上胸且双眼和自然皮肤纹理清晰",
+            "en": "An adult East Asian woman with slicked-back wet-look hair in an ivory sculptural gown, cropped head-and-shoulders with sharp eyes and natural skin"
+          }
+        },
+        {
+          "id": "garment_construction",
+          "zh": "服装结构",
+          "en": "Garment Construction",
+          "description": {
+            "zh": "请给出「服装结构」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Garment Construction."
+          },
+          "cover_value": {
+            "zh": "礼服以半透明欧根纱放射褶裥构成肩部与领部花瓣体块，内层不透明胸衣提供支撑，所有褶线从固定接点展开",
+            "en": "Translucent organza radial pleats form petal-like shoulders and collar over an opaque structured bodice, with every fold emerging from visible anchor points"
+          }
+        },
+        {
+          "id": "editorial_direction",
+          "zh": "编辑方向",
+          "en": "Editorial Direction",
+          "description": {
+            "zh": "请填写「编辑方向」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Editorial Direction, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "浅石灰棚景，85mm 近景，左前柔光与右后弱轮廓光，象牙白占 80%，肤色和黑发提供自然对比",
+            "en": "Pale limestone studio, 85mm close portrait, soft front-left key and subtle rear-right rim, with 80% ivory balanced by skin and black hair"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「雕塑感高定人像」创作图像：用透明欧根纱褶裥和清晰面部建立克制而有结构张力的高定编辑片\n\n## 必填需求字段\n- `{{fashion_subject}}`（时尚主体）：成年东方女性，湿感后梳黑发，穿象牙白雕塑感礼服，画面只取头肩至上胸且双眼和自然皮肤纹理清晰\n- `{{garment_construction}}`（服装结构）：礼服以半透明欧根纱放射褶裥构成肩部与领部花瓣体块，内层不透明胸衣提供支撑，所有褶线从固定接点展开\n- `{{editorial_direction}}`（编辑方向）：浅石灰棚景，85mm 近景，左前柔光与右后弱轮廓光，象牙白占 80%，肤色和黑发提供自然对比\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 保持人物身份、人体结构、服装版型、合体关系、缝线、闭合件、材质重量、造型逻辑与画面裁切一致；姿势、镜头、布光和地点必须共同表达一个编辑主题，不得用动态或特效遮盖错误手部、变形配饰和不可能的服装连接。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。",
+        "en": "制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力、姿态与缝制节点共同决定；不得用夸张光效掩盖结构。竖版 2:3，单一完整视觉，不生成文字、商标、既有设计师标志、品牌或水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{fashion_subject}}` (Fashion Subject): An adult East Asian woman with slicked-back wet-look hair in an ivory sculptural gown, cropped head-and-shoulders with sharp eyes and natural skin\n- `{{garment_construction}}` (Garment Construction): Translucent organza radial pleats form petal-like shoulders and collar over an opaque structured bodice, with every fold emerging from visible anchor points\n- `{{editorial_direction}}` (Editorial Direction): Pale limestone studio, 85mm close portrait, soft front-left key and subtle rear-right rim, with 80% ivory balanced by skin and black hair\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Preserve identity, anatomy, garment construction, fit, seams, closures, material weight, styling logic, and crop. Direct pose, lens, lighting, and location as one editorial statement; do not hide broken hands, warped accessories, or impossible clothing joins behind motion or effects.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ],
+      "en": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ]
+    },
+    "preview": "case-images/sculptural-couture-portrait.png",
+    "path": "library/cases/fashion-editorial/sculptural-couture-portrait"
   },
   {
     "id": "east-asian-rain-street-closeup",
@@ -19278,6 +22694,137 @@ export const catalog = [
     "path": "library/cases/portrait/east-asian-rain-street-closeup"
   },
   {
+    "id": "night-market-skewer-scene",
+    "title": {
+      "zh": "雨夜炭烤串制作现场",
+      "en": "Night Market Skewer Scene"
+    },
+    "summary": {
+      "zh": "以刷酱动作、炭火和雨夜市场背景呈现有温度的街头美食过程",
+      "en": "制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "food-beverage"
+      ],
+      "medium": [
+        "photography"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "subject-consistency",
+        "material-lighting",
+        "spatial-reasoning"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "餐饮美食",
+        "夜市烧烤",
+        "街头纪实",
+        "制作过程"
+      ],
+      "en": [
+        "Food Beverage",
+        "Subject Consistency",
+        "Material Lighting",
+        "Spatial Reasoning"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "hero_food",
+        "serving_context",
+        "food_styling"
+      ],
+      "cover_values": {
+        "hero_food": {
+          "zh": "炭火烤架上分别排列香菇串与鸡肉葱段串，摊主右手用木柄刷均匀涂酱，食材表面出现真实焦边",
+          "en": "Charcoal grill with separate mushroom and chicken-scallion skewers while the vendor's right hand applies glaze using a wooden brush, showing realistic char"
+        },
+        "serving_context": {
+          "zh": "不锈钢食材盘围绕方形炭炉，雨夜市场和撑伞人群仅在后景虚化，顶灯从右上照亮操作区",
+          "en": "Stainless ingredient trays surround a square charcoal grill while rainy market umbrellas remain softly behind and a task lamp lights from upper-right"
+        },
+        "food_styling": {
+          "zh": "生食盘、烤制区与熟食等待区前后分开，烟雾顺同一方向上升，双手数量和工具握持必须准确",
+          "en": "Raw trays, cooking zone, and finished holding area stay separated; smoke rises consistently and hand count plus tool grip remain accurate"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "hero_food",
+          "zh": "主角食物",
+          "en": "Hero Food",
+          "description": {
+            "zh": "请给出「主角食物」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Hero Food."
+          },
+          "cover_value": {
+            "zh": "炭火烤架上分别排列香菇串与鸡肉葱段串，摊主右手用木柄刷均匀涂酱，食材表面出现真实焦边",
+            "en": "Charcoal grill with separate mushroom and chicken-scallion skewers while the vendor's right hand applies glaze using a wooden brush, showing realistic char"
+          }
+        },
+        {
+          "id": "serving_context",
+          "zh": "呈现环境",
+          "en": "Serving Context",
+          "description": {
+            "zh": "请填写「呈现环境」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Serving Context, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "不锈钢食材盘围绕方形炭炉，雨夜市场和撑伞人群仅在后景虚化，顶灯从右上照亮操作区",
+            "en": "Stainless ingredient trays surround a square charcoal grill while rainy market umbrellas remain softly behind and a task lamp lights from upper-right"
+          }
+        },
+        {
+          "id": "food_styling",
+          "zh": "食物造型",
+          "en": "Food Styling",
+          "description": {
+            "zh": "请说明「食物造型」的媒介、时代或审美方向、情绪强度与细节密度，并给出 1–2 个可见特征。",
+            "en": "Describe the medium, era or aesthetic direction, emotional intensity, detail density, and 1–2 visible cues for Food Styling."
+          },
+          "cover_value": {
+            "zh": "生食盘、烤制区与熟食等待区前后分开，烟雾顺同一方向上升，双手数量和工具握持必须准确",
+            "en": "Raw trays, cooking zone, and finished holding area stay separated; smoke rises consistently and hand count plus tool grip remain accurate"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「雨夜炭烤串制作现场」创作图像：以刷酱动作、炭火和雨夜市场背景呈现有温度的街头美食过程\n\n## 必填需求字段\n- `{{hero_food}}`（主角食物）：炭火烤架上分别排列香菇串与鸡肉葱段串，摊主右手用木柄刷均匀涂酱，食材表面出现真实焦边\n- `{{serving_context}}`（呈现环境）：不锈钢食材盘围绕方形炭炉，雨夜市场和撑伞人群仅在后景虚化，顶灯从右上照亮操作区\n- `{{food_styling}}`（食物造型）：生食盘、烤制区与熟食等待区前后分开，烟雾顺同一方向上升，双手数量和工具握持必须准确\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 所有可食用元素都必须符合真实状态：明确烹饪程度、熟度、含水感、温度线索、份量尺度、器皿接触和有意图的装饰位置；避免塑料质感、不可能堆叠、食材复制、不安全操作和看似不可食用的装饰。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。",
+        "en": "制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或不可解释装饰制造“诱人感”。竖版 2:3，单一完整视觉，不生成文字、菜单、商标、价格、品牌或水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{hero_food}}` (Hero Food): Charcoal grill with separate mushroom and chicken-scallion skewers while the vendor's right hand applies glaze using a wooden brush, showing realistic char\n- `{{serving_context}}` (Serving Context): Stainless ingredient trays surround a square charcoal grill while rainy market umbrellas remain softly behind and a task lamp lights from upper-right\n- `{{food_styling}}` (Food Styling): Raw trays, cooking zone, and finished holding area stay separated; smoke rises consistently and hand count plus tool grip remain accurate\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Keep every edible element physically credible: specify preparation state, doneness, moisture, temperature cues, serving scale, vessel contact, and intentional garnish placement. Avoid plastic texture, impossible stacking, duplicated ingredients, unsafe handling, and decorative elements that look inedible.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ],
+      "en": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ]
+    },
+    "preview": "case-images/night-market-skewer-scene.png",
+    "path": "library/cases/culinary/night-market-skewer-scene"
+  },
+  {
     "id": "retail-interior-concept",
     "title": {
       "zh": "零售店室内概念",
@@ -19380,6 +22927,137 @@ export const catalog = [
     },
     "preview": "case-images/retail-interior-concept.png",
     "path": "library/cases/spaces/retail-interior-concept"
+  },
+  {
+    "id": "zero-waste-vegetable-still-life",
+    "title": {
+      "zh": "零浪费蔬菜食材视觉",
+      "en": "Zero Waste Vegetable Still Life"
+    },
+    "summary": {
+      "zh": "用根茎、菜叶与果皮的完整利用关系表达可持续厨房理念",
+      "en": "制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "food-beverage"
+      ],
+      "medium": [
+        "photography"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "layout-hierarchy",
+        "material-lighting",
+        "instruction-following"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "餐饮美食",
+        "零浪费料理",
+        "食材静物",
+        "可持续餐饮"
+      ],
+      "en": [
+        "Food Beverage",
+        "Layout Hierarchy",
+        "Material Lighting",
+        "Instruction Following"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "hero_food",
+        "serving_context",
+        "food_styling"
+      ],
+      "cover_values": {
+        "hero_food": {
+          "zh": "带叶彩色胡萝卜、完整甜菜叶、茴香梗、西兰花茎、香草根和柑橘皮按可食用部位完整展示",
+          "en": "Leaf-on multicolor carrots, beet greens, fennel stems, broccoli stalks, herb roots, and citrus peels shown as usable ingredients"
+        },
+        "serving_context": {
+          "zh": "回收石材工作台靠近自然窗，右上放一只装有修整菜料的玻璃密封罐，右下只有一把厨刀",
+          "en": "A reclaimed-stone worktop by a natural window, with one glass jar of trimmings upper-right and one chef knife lower-right"
+        },
+        "food_styling": {
+          "zh": "根茎由左下向中央聚合，绿色茎叶延伸到上方，橙黄果皮作为亮点，所有材料保持未清洗过度的真实状态",
+          "en": "Roots gather from lower-left to center, green stems extend upward, orange-yellow peels accent the field, and ingredients retain natural imperfect surfaces"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "hero_food",
+          "zh": "主角食物",
+          "en": "Hero Food",
+          "description": {
+            "zh": "请给出「主角食物」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Hero Food."
+          },
+          "cover_value": {
+            "zh": "带叶彩色胡萝卜、完整甜菜叶、茴香梗、西兰花茎、香草根和柑橘皮按可食用部位完整展示",
+            "en": "Leaf-on multicolor carrots, beet greens, fennel stems, broccoli stalks, herb roots, and citrus peels shown as usable ingredients"
+          }
+        },
+        {
+          "id": "serving_context",
+          "zh": "呈现环境",
+          "en": "Serving Context",
+          "description": {
+            "zh": "请填写「呈现环境」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Serving Context, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "回收石材工作台靠近自然窗，右上放一只装有修整菜料的玻璃密封罐，右下只有一把厨刀",
+            "en": "A reclaimed-stone worktop by a natural window, with one glass jar of trimmings upper-right and one chef knife lower-right"
+          }
+        },
+        {
+          "id": "food_styling",
+          "zh": "食物造型",
+          "en": "Food Styling",
+          "description": {
+            "zh": "请说明「食物造型」的媒介、时代或审美方向、情绪强度与细节密度，并给出 1–2 个可见特征。",
+            "en": "Describe the medium, era or aesthetic direction, emotional intensity, detail density, and 1–2 visible cues for Food Styling."
+          },
+          "cover_value": {
+            "zh": "根茎由左下向中央聚合，绿色茎叶延伸到上方，橙黄果皮作为亮点，所有材料保持未清洗过度的真实状态",
+            "en": "Roots gather from lower-left to center, green stems extend upward, orange-yellow peels accent the field, and ingredients retain natural imperfect surfaces"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「零浪费蔬菜食材视觉」创作图像：用根茎、菜叶与果皮的完整利用关系表达可持续厨房理念\n\n## 必填需求字段\n- `{{hero_food}}`（主角食物）：带叶彩色胡萝卜、完整甜菜叶、茴香梗、西兰花茎、香草根和柑橘皮按可食用部位完整展示\n- `{{serving_context}}`（呈现环境）：回收石材工作台靠近自然窗，右上放一只装有修整菜料的玻璃密封罐，右下只有一把厨刀\n- `{{food_styling}}`（食物造型）：根茎由左下向中央聚合，绿色茎叶延伸到上方，橙黄果皮作为亮点，所有材料保持未清洗过度的真实状态\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 所有可食用元素都必须符合真实状态：明确烹饪程度、熟度、含水感、温度线索、份量尺度、器皿接触和有意图的装饰位置；避免塑料质感、不可能堆叠、食材复制、不安全操作和看似不可食用的装饰。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。",
+        "en": "制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或不可解释装饰制造“诱人感”。竖版 2:3，单一完整视觉，不生成文字、菜单、商标、价格、品牌或水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{hero_food}}` (Hero Food): Leaf-on multicolor carrots, beet greens, fennel stems, broccoli stalks, herb roots, and citrus peels shown as usable ingredients\n- `{{serving_context}}` (Serving Context): A reclaimed-stone worktop by a natural window, with one glass jar of trimmings upper-right and one chef knife lower-right\n- `{{food_styling}}` (Food Styling): Roots gather from lower-left to center, green stems extend upward, orange-yellow peels accent the field, and ingredients retain natural imperfect surfaces\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Keep every edible element physically credible: specify preparation state, doneness, moisture, temperature cues, serving scale, vessel contact, and intentional garnish placement. Avoid plastic texture, impossible stacking, duplicated ingredients, unsafe handling, and decorative elements that look inedible.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ],
+      "en": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ]
+    },
+    "preview": "case-images/zero-waste-vegetable-still-life.png",
+    "path": "library/cases/culinary/zero-waste-vegetable-still-life"
   },
   {
     "id": "music-festival-poster",
@@ -19847,6 +23525,137 @@ export const catalog = [
     "path": "library/cases/food/restaurant-menu-cover"
   },
   {
+    "id": "alpine-outerwear-campaign",
+    "title": {
+      "zh": "高山户外服装广告",
+      "en": "Alpine Outerwear Campaign"
+    },
+    "summary": {
+      "zh": "以清晰面部、结霜面料和真实攀登装备呈现极端环境中的服装性能",
+      "en": "制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "fashion-editorial"
+      ],
+      "medium": [
+        "photography"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "subject-consistency",
+        "material-lighting",
+        "spatial-reasoning"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "时尚造型",
+        "户外服装",
+        "女性登山",
+        "广告摄影"
+      ],
+      "en": [
+        "Fashion Editorial",
+        "Subject Consistency",
+        "Material Lighting",
+        "Spatial Reasoning"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "fashion_subject",
+        "garment_construction",
+        "editorial_direction"
+      ],
+      "cover_values": {
+        "fashion_subject": {
+          "zh": "成年女性登山者穿藏红花黄色硬壳、板岩灰背带裤、冰川镜和紧凑攀登包，取上膝以上动作人像且面部清晰",
+          "en": "An adult female mountaineer in saffron shell, slate bib trousers, glacier glasses, and compact climbing pack, framed above-knee with a clear face"
+        },
+        "garment_construction": {
+          "zh": "硬壳具高领风帽、防水拉链、腋下开口和可调下摆，背包胸带、腰带与冰镐固定点均正确受力",
+          "en": "The shell includes high hood, waterproof zips, pit vents, and adjustable hem; pack sternum strap, hip belt, and ice-axe points carry load correctly"
+        },
+        "editorial_direction": {
+          "zh": "日出高山脊与云海，35mm 近距离广角，暖逆光描边、冷天光照面，冰晶附着在迎风肩部但不遮挡服装结构",
+          "en": "Sunrise alpine ridge above clouds, close 35mm wide view, warm rim and cool facial fill, with ice crystals on windward shoulders without hiding construction"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "fashion_subject",
+          "zh": "时尚主体",
+          "en": "Fashion Subject",
+          "description": {
+            "zh": "请填写「时尚主体」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Fashion Subject, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "成年女性登山者穿藏红花黄色硬壳、板岩灰背带裤、冰川镜和紧凑攀登包，取上膝以上动作人像且面部清晰",
+            "en": "An adult female mountaineer in saffron shell, slate bib trousers, glacier glasses, and compact climbing pack, framed above-knee with a clear face"
+          }
+        },
+        {
+          "id": "garment_construction",
+          "zh": "服装结构",
+          "en": "Garment Construction",
+          "description": {
+            "zh": "请给出「服装结构」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Garment Construction."
+          },
+          "cover_value": {
+            "zh": "硬壳具高领风帽、防水拉链、腋下开口和可调下摆，背包胸带、腰带与冰镐固定点均正确受力",
+            "en": "The shell includes high hood, waterproof zips, pit vents, and adjustable hem; pack sternum strap, hip belt, and ice-axe points carry load correctly"
+          }
+        },
+        {
+          "id": "editorial_direction",
+          "zh": "编辑方向",
+          "en": "Editorial Direction",
+          "description": {
+            "zh": "请填写「编辑方向」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Editorial Direction, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "日出高山脊与云海，35mm 近距离广角，暖逆光描边、冷天光照面，冰晶附着在迎风肩部但不遮挡服装结构",
+            "en": "Sunrise alpine ridge above clouds, close 35mm wide view, warm rim and cool facial fill, with ice crystals on windward shoulders without hiding construction"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「高山户外服装广告」创作图像：以清晰面部、结霜面料和真实攀登装备呈现极端环境中的服装性能\n\n## 必填需求字段\n- `{{fashion_subject}}`（时尚主体）：成年女性登山者穿藏红花黄色硬壳、板岩灰背带裤、冰川镜和紧凑攀登包，取上膝以上动作人像且面部清晰\n- `{{garment_construction}}`（服装结构）：硬壳具高领风帽、防水拉链、腋下开口和可调下摆，背包胸带、腰带与冰镐固定点均正确受力\n- `{{editorial_direction}}`（编辑方向）：日出高山脊与云海，35mm 近距离广角，暖逆光描边、冷天光照面，冰晶附着在迎风肩部但不遮挡服装结构\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 保持人物身份、人体结构、服装版型、合体关系、缝线、闭合件、材质重量、造型逻辑与画面裁切一致；姿势、镜头、布光和地点必须共同表达一个编辑主题，不得用动态或特效遮盖错误手部、变形配饰和不可能的服装连接。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。",
+        "en": "制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力、姿态与缝制节点共同决定；不得用夸张光效掩盖结构。竖版 2:3，单一完整视觉，不生成文字、商标、既有设计师标志、品牌或水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{fashion_subject}}` (Fashion Subject): An adult female mountaineer in saffron shell, slate bib trousers, glacier glasses, and compact climbing pack, framed above-knee with a clear face\n- `{{garment_construction}}` (Garment Construction): The shell includes high hood, waterproof zips, pit vents, and adjustable hem; pack sternum strap, hip belt, and ice-axe points carry load correctly\n- `{{editorial_direction}}` (Editorial Direction): Sunrise alpine ridge above clouds, close 35mm wide view, warm rim and cool facial fill, with ice crystals on windward shoulders without hiding construction\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Preserve identity, anatomy, garment construction, fit, seams, closures, material weight, styling logic, and crop. Direct pose, lens, lighting, and location as one editorial statement; do not hide broken hands, warped accessories, or impossible clothing joins behind motion or effects.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ],
+      "en": [
+        "使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"
+      ]
+    },
+    "preview": "case-images/alpine-outerwear-campaign.png",
+    "path": "library/cases/fashion-editorial/alpine-outerwear-campaign"
+  },
+  {
     "id": "alpine-rescue-climax-shot",
     "title": {
       "zh": "高山救援高潮镜头",
@@ -20090,6 +23899,137 @@ export const catalog = [
     },
     "preview": "case-images/cocktail-campaign-shot.png",
     "path": "library/cases/food/cocktail-campaign-shot"
+  },
+  {
+    "id": "black-sesame-gelato-macro",
+    "title": {
+      "zh": "黑芝麻意式冰淇淋微距",
+      "en": "Black Sesame Gelato Macro"
+    },
+    "summary": {
+      "zh": "以舀取瞬间、芝麻颗粒与脆片表现浓郁、真实且可食用的冷冻甜品质感",
+      "en": "制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "food-beverage"
+      ],
+      "medium": [
+        "photography"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "material-lighting",
+        "product-fidelity",
+        "instruction-following"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "餐饮美食",
+        "冰淇淋摄影",
+        "黑芝麻甜品",
+        "微距特写"
+      ],
+      "en": [
+        "Food Beverage",
+        "Material Lighting",
+        "Product Fidelity",
+        "Instruction Following"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "hero_food",
+        "serving_context",
+        "food_styling"
+      ],
+      "cover_values": {
+        "hero_food": {
+          "zh": "三球炭灰色黑芝麻意式冰淇淋叠入深色手工蛋筒，表面有细小芝麻点，顶部插一片焦糖芝麻脆片",
+          "en": "Three charcoal-gray black-sesame gelato scoops stacked in a dark handmade cone, with fine sesame specks and one caramel sesame brittle shard"
+        },
+        "serving_context": {
+          "zh": "深酒红无缝背景，右上金属冰淇淋勺停留在刚舀起的位置，画面不出现其他食品或容器",
+          "en": "A deep burgundy seamless background with a metal scoop paused upper-right after serving, without other foods or containers"
+        },
+        "food_styling": {
+          "zh": "冰淇淋保持细腻乳脂纹理、自然融化边缘和轻微冷凝，脆片只作为单一暖色点并清楚显示可食用颗粒",
+          "en": "Gelato retains creamy texture, naturally softening edges, and slight condensation; the brittle is the sole warm accent with visibly edible seeds"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "hero_food",
+          "zh": "主角食物",
+          "en": "Hero Food",
+          "description": {
+            "zh": "请给出「主角食物」的具体对象、外形或功能、关键材质与不可改变的识别特征。",
+            "en": "Provide the specific object, form or function, key materials, and non-negotiable identity features for Hero Food."
+          },
+          "cover_value": {
+            "zh": "三球炭灰色黑芝麻意式冰淇淋叠入深色手工蛋筒，表面有细小芝麻点，顶部插一片焦糖芝麻脆片",
+            "en": "Three charcoal-gray black-sesame gelato scoops stacked in a dark handmade cone, with fine sesame specks and one caramel sesame brittle shard"
+          }
+        },
+        {
+          "id": "serving_context",
+          "zh": "呈现环境",
+          "en": "Serving Context",
+          "description": {
+            "zh": "请填写「呈现环境」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Serving Context, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "深酒红无缝背景，右上金属冰淇淋勺停留在刚舀起的位置，画面不出现其他食品或容器",
+            "en": "A deep burgundy seamless background with a metal scoop paused upper-right after serving, without other foods or containers"
+          }
+        },
+        {
+          "id": "food_styling",
+          "zh": "食物造型",
+          "en": "Food Styling",
+          "description": {
+            "zh": "请说明「食物造型」的媒介、时代或审美方向、情绪强度与细节密度，并给出 1–2 个可见特征。",
+            "en": "Describe the medium, era or aesthetic direction, emotional intensity, detail density, and 1–2 visible cues for Food Styling."
+          },
+          "cover_value": {
+            "zh": "冰淇淋保持细腻乳脂纹理、自然融化边缘和轻微冷凝，脆片只作为单一暖色点并清楚显示可食用颗粒",
+            "en": "Gelato retains creamy texture, naturally softening edges, and slight condensation; the brittle is the sole warm accent with visibly edible seeds"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「黑芝麻意式冰淇淋微距」创作图像：以舀取瞬间、芝麻颗粒与脆片表现浓郁、真实且可食用的冷冻甜品质感\n\n## 必填需求字段\n- `{{hero_food}}`（主角食物）：三球炭灰色黑芝麻意式冰淇淋叠入深色手工蛋筒，表面有细小芝麻点，顶部插一片焦糖芝麻脆片\n- `{{serving_context}}`（呈现环境）：深酒红无缝背景，右上金属冰淇淋勺停留在刚舀起的位置，画面不出现其他食品或容器\n- `{{food_styling}}`（食物造型）：冰淇淋保持细腻乳脂纹理、自然融化边缘和轻微冷凝，脆片只作为单一暖色点并清楚显示可食用颗粒\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 所有可食用元素都必须符合真实状态：明确烹饪程度、熟度、含水感、温度线索、份量尺度、器皿接触和有意图的装饰位置；避免塑料质感、不可能堆叠、食材复制、不安全操作和看似不可食用的装饰。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。",
+        "en": "制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或不可解释装饰制造“诱人感”。竖版 2:3，单一完整视觉，不生成文字、菜单、商标、价格、品牌或水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{hero_food}}` (Hero Food): Three charcoal-gray black-sesame gelato scoops stacked in a dark handmade cone, with fine sesame specks and one caramel sesame brittle shard\n- `{{serving_context}}` (Serving Context): A deep burgundy seamless background with a metal scoop paused upper-right after serving, without other foods or containers\n- `{{food_styling}}` (Food Styling): Gelato retains creamy texture, naturally softening edges, and slight condensation; the brittle is the sole warm accent with visibly edible seeds\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Keep every edible element physically credible: specify preparation state, doneness, moisture, temperature cues, serving scale, vessel contact, and intentional garnish placement. Avoid plastic texture, impossible stacking, duplicated ingredients, unsafe handling, and decorative elements that look inedible.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ],
+      "en": [
+        "使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"
+      ]
+    },
+    "preview": "case-images/black-sesame-gelato-macro.png",
+    "path": "library/cases/culinary/black-sesame-gelato-macro"
   }
 ] as const;
 

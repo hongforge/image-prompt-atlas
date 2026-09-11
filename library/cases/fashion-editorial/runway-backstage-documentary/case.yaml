@@ -1,0 +1,30 @@
+id: runway-backstage-documentary
+title: "秀场后台准备纪实"
+summary: "用造型师与化妆师的同步动作呈现走秀前一刻的真实工作张力"
+taxonomy:
+  deliverable: [fashion-editorial]
+  medium: ["photography"]
+  workflow: [text-to-image]
+  capability: ["subject-consistency","spatial-reasoning","instruction-following"]
+  model: [universal, gpt-image, midjourney]
+tags: ["时尚造型","秀场后台","纪实摄影","团队协作"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [fashion_subject, garment_construction, editorial_direction]
+  cover_values:
+    fashion_subject:
+      zh: "成年女性模特穿钴蓝雕塑感大衣，腰上构图直视镜头；左侧造型师调整领口，右侧化妆师完成眼线"
+      en: "An adult female model in a cobalt sculptural coat, framed waist-up facing camera while a stylist adjusts the collar left and makeup artist finishes eyeliner right"
+    garment_construction:
+      zh: "大衣由宽大翻折领、隐藏门襟、腰带和弧形肩部组成，工作人员只接触领口与眼部，不遮挡主要结构"
+      en: "The coat uses broad folded lapels, concealed front, belt, and curved shoulders; crew touch only collar and eye without obscuring the main structure"
+    editorial_direction:
+      zh: "真实后台化妆镜与衣架虚化在后，50mm 平视纪实机位，暖镜前灯与冷工作灯混合，三人手部数量和归属清楚"
+      en: "Authentic backstage mirror and rack softly behind, eye-level 50mm documentary view, mixed warm vanity and cool work light, with clear ownership and count of every hand"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"]

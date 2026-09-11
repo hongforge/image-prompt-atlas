@@ -1,0 +1,30 @@
+id: silver-jewelry-beauty-editorial
+title: "银饰美妆特写"
+summary: "以真实深色皮肤、雕塑银饰和锐利眼神建立高端珠宝美妆视觉"
+taxonomy:
+  deliverable: [fashion-editorial]
+  medium: ["photography"]
+  workflow: [text-to-image]
+  capability: ["subject-consistency","product-fidelity","material-lighting"]
+  model: [universal, gpt-image, midjourney]
+tags: ["时尚造型","珠宝摄影","美妆特写","真实皮肤"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [fashion_subject, garment_construction, editorial_direction]
+  cover_values:
+    fashion_subject:
+      zh: "成年深色皮肤女性，剃短发，佩戴原创拉丝银耳骨夹与宽弧形银项圈，脸部占画面约 70%"
+      en: "An adult dark-skinned woman with shaved hair wearing an original brushed-silver ear cuff and broad curved collar, face filling roughly 70% of frame"
+    garment_construction:
+      zh: "耳夹沿耳廓外缘固定且不穿透皮肤，项圈贴合锁骨并在后颈留开口，金属厚度和重量感保持一致"
+      en: "The cuff follows the outer ear without piercing skin; the collar tracks the clavicle with a rear opening and consistent metal thickness and weight"
+    editorial_direction:
+      zh: "深钴蓝纯色背景，100mm 微距人像，正前大柔光保留毛孔，右后银色轮廓光强调首饰边缘，双眼锐利对焦"
+      en: "Deep cobalt background, 100mm beauty close-up, large frontal soft light retaining pores and a silver rear-right rim defining jewelry, with both eyes sharp"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"]

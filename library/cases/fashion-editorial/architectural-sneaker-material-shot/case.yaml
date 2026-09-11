@@ -1,0 +1,30 @@
+id: architectural-sneaker-material-shot
+title: "建筑感运动鞋材质视觉"
+summary: "用再生针织、透明支撑笼和藻基泡棉展示原创鞋履的材料与受力结构"
+taxonomy:
+  deliverable: [fashion-editorial]
+  medium: ["photography","3d-render"]
+  workflow: [text-to-image]
+  capability: ["product-fidelity","material-lighting","spatial-reasoning"]
+  model: [universal, gpt-image, midjourney]
+tags: ["时尚造型","鞋履设计","材质展示","可持续产品"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [fashion_subject, garment_construction, editorial_direction]
+  cover_values:
+    fashion_subject:
+      zh: "一双原创低帮运动鞋，米白再生针织鞋面、半透明琥珀支撑笼和炭灰藻基泡棉厚底为固定识别点"
+      en: "One original low-top sneaker pair defined by off-white recycled knit, a translucent amber support cage, and charcoal algae-foam sole"
+    garment_construction:
+      zh: "针织密度随脚背和鞋头受力区变化，支撑笼连接鞋带孔与后跟杯，中底孔隙和外底接地纹路完整可见"
+      en: "Knit density changes by load zone, the cage links eyelets to heel cup, and midsole pores plus outsole contact tread remain fully visible"
+    editorial_direction:
+      zh: "双鞋悬于暖灰混凝土台上方，50mm 三分之四产品机位，单一左上硬柔混合光形成准确悬浮阴影和材质分区"
+      en: "Both shoes hover above warm-gray concrete, shot at 50mm three-quarter angle with one upper-left semi-hard light producing accurate shadows and material separation"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"]

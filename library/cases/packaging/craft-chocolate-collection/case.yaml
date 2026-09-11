@@ -1,0 +1,30 @@
+id: craft-chocolate-collection
+title: "精品巧克力系列包装"
+summary: "以纸套、内托和几何巧克力组合呈现清楚的口味分级与手工质感。"
+taxonomy:
+  deliverable: [packaging-design]
+  medium: ["photography"]
+  workflow: [text-to-image]
+  capability: ["product-fidelity","material-lighting","layout-hierarchy"]
+  model: [universal, gpt-image, midjourney]
+tags: ["包装设计","巧克力包装","食品系列","纸张工艺"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [package_object, structural_system, material_graphics]
+  cover_values:
+    package_object:
+      zh: "一只开启的六格巧克力纸套与两只闭合的同系列长盒，六颗巧克力形状不同但尺寸和间距统一"
+      en: "One open six-piece chocolate sleeve and two closed sibling bars, with six distinct chocolate shapes held at consistent size and spacing"
+    structural_system:
+      zh: "抽屉式纸套包住食品级深棕内托，侧边保留拇指缺口，巧克力与盒壁间有防碰间隙且开盒方向清晰"
+      en: "A drawer-style sleeve encloses a food-safe dark-brown tray with a thumb notch, impact spacing, and an unambiguous opening direction"
+    material_graphics:
+      zh: "可可棕、柔和珊瑚和奶油白三色未涂布纸，使用可可荚盲压纹区分系列，不使用可读文字或金属塑料装饰"
+      en: "Cocoa brown, muted coral, and cream uncoated papers, differentiated by blind-embossed cacao pods without readable copy, metal, or plastic decoration"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"]

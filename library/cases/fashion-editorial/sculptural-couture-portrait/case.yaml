@@ -1,0 +1,30 @@
+id: sculptural-couture-portrait
+title: "雕塑感高定人像"
+summary: "用透明欧根纱褶裥和清晰面部建立克制而有结构张力的高定编辑片"
+taxonomy:
+  deliverable: [fashion-editorial]
+  medium: ["photography"]
+  workflow: [text-to-image]
+  capability: ["subject-consistency","material-lighting","instruction-following"]
+  model: [universal, gpt-image, midjourney]
+tags: ["时尚造型","高定人像","东方女性","编辑摄影"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [fashion_subject, garment_construction, editorial_direction]
+  cover_values:
+    fashion_subject:
+      zh: "成年东方女性，湿感后梳黑发，穿象牙白雕塑感礼服，画面只取头肩至上胸且双眼和自然皮肤纹理清晰"
+      en: "An adult East Asian woman with slicked-back wet-look hair in an ivory sculptural gown, cropped head-and-shoulders with sharp eyes and natural skin"
+    garment_construction:
+      zh: "礼服以半透明欧根纱放射褶裥构成肩部与领部花瓣体块，内层不透明胸衣提供支撑，所有褶线从固定接点展开"
+      en: "Translucent organza radial pleats form petal-like shoulders and collar over an opaque structured bodice, with every fold emerging from visible anchor points"
+    editorial_direction:
+      zh: "浅石灰棚景，85mm 近景，左前柔光与右后弱轮廓光，象牙白占 80%，肤色和黑发提供自然对比"
+      en: "Pale limestone studio, 85mm close portrait, soft front-left key and subtle rear-right rim, with 80% ivory balanced by skin and black hair"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"]

@@ -19,7 +19,7 @@ describe('agent-ready prompt library data', () => {
     const data = JSON.parse(fs.readFileSync(dataFile, 'utf8')) as AgentCatalog;
     expect(data.schema_version).toBe(1);
     expect(data.project).toBe('image-prompt-atlas');
-    expect(data.counts).toEqual({ cases: 163, templates: 30 });
+    expect(data.counts).toEqual({ cases: 193, templates: 30 });
     expect(data.cases).toHaveLength(data.counts.cases);
     expect(data.templates).toHaveLength(data.counts.templates);
     expect(data.cases.every((entry) => entry.prompt.text.zh.length > 0 && entry.prompt.text.en.length > 0)).toBe(true);
@@ -45,7 +45,7 @@ describe('agent-ready prompt library data', () => {
 describe('GitHub-native documentation', () => {
   it.each(['docs/gallery.md', 'docs/gallery.en.md'])('%s contains every visual case', (relativePath) => {
     const body = fs.readFileSync(path.join(REPO_ROOT, relativePath), 'utf8');
-    expect(body.match(/<img src=/g)).toHaveLength(163);
+    expect(body.match(/<img src=/g)).toHaveLength(193);
     expect(body).toContain('scripts/generate-docs.ts');
   });
 

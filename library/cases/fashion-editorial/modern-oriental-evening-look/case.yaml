@@ -1,0 +1,30 @@
+id: modern-oriental-evening-look
+title: "现代东方晚装人像"
+summary: "以非历史化立领、烟灰透明袖与梅枝刺绣建立现代东方晚装语言"
+taxonomy:
+  deliverable: [fashion-editorial]
+  medium: ["photography"]
+  workflow: [text-to-image]
+  capability: ["subject-consistency","material-lighting","instruction-following"]
+  model: [universal, gpt-image, midjourney]
+tags: ["时尚造型","东方晚装","女性人像","刺绣设计"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [fashion_subject, garment_construction, editorial_direction]
+  cover_values:
+    fashion_subject:
+      zh: "成年东方女性穿墨黑非对称立领晚礼服，烟灰透明长袖和手绣绯红梅枝为固定造型锚点，取坐姿半身"
+      en: "An adult East Asian woman in an ink-black evening gown with asymmetric standing collar, smoke-gray sheer sleeves, and crimson plum embroidery, seated half-length"
+    garment_construction:
+      zh: "立领在左侧斜向闭合，不对称肩线连接贴身黑色主衣，透明袖由肩部独立接合，梅枝刺绣沿结构线延伸"
+      en: "The collar closes diagonally left, asymmetric shoulder joins a fitted black body, sheer sleeves attach independently, and plum embroidery follows seam lines"
+    editorial_direction:
+      zh: "极简深色漆木室内，70mm 半身坐姿，左侧暖灯边光配右侧冷窗填光，背景梅枝只作低对比呼应"
+      en: "Minimal dark lacquer interior, 70mm seated half portrait, warm lamp edge from left and cool window fill from right, with background plum branches kept low contrast"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"]

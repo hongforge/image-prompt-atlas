@@ -1,0 +1,30 @@
+id: black-sesame-gelato-macro
+title: "黑芝麻意式冰淇淋微距"
+summary: "以舀取瞬间、芝麻颗粒与脆片表现浓郁、真实且可食用的冷冻甜品质感"
+taxonomy:
+  deliverable: [food-beverage]
+  medium: ["photography"]
+  workflow: [text-to-image]
+  capability: ["material-lighting","product-fidelity","instruction-following"]
+  model: [universal, gpt-image, midjourney]
+tags: ["餐饮美食","冰淇淋摄影","黑芝麻甜品","微距特写"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [hero_food, serving_context, food_styling]
+  cover_values:
+    hero_food:
+      zh: "三球炭灰色黑芝麻意式冰淇淋叠入深色手工蛋筒，表面有细小芝麻点，顶部插一片焦糖芝麻脆片"
+      en: "Three charcoal-gray black-sesame gelato scoops stacked in a dark handmade cone, with fine sesame specks and one caramel sesame brittle shard"
+    serving_context:
+      zh: "深酒红无缝背景，右上金属冰淇淋勺停留在刚舀起的位置，画面不出现其他食品或容器"
+      en: "A deep burgundy seamless background with a metal scoop paused upper-right after serving, without other foods or containers"
+    food_styling:
+      zh: "冰淇淋保持细腻乳脂纹理、自然融化边缘和轻微冷凝，脆片只作为单一暖色点并清楚显示可食用颗粒"
+      en: "Gelato retains creamy texture, naturally softening edges, and slight condensation; the brittle is the sole warm accent with visibly edible seeds"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"]

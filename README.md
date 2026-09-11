@@ -8,7 +8,7 @@
   <a href="https://github.com/hongforge/image-prompt-atlas/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/hongforge/image-prompt-atlas/ci.yml?branch=main&style=flat-square&label=CI" alt="CI"></a>
   <a href="https://github.com/hongforge/image-prompt-atlas/stargazers"><img src="https://img.shields.io/github/stars/hongforge/image-prompt-atlas?style=flat-square" alt="Stars"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-c5ff6f?style=flat-square" alt="MIT License"></a>
-  <a href="docs/gallery.md"><img src="https://img.shields.io/badge/案例-163-755bff?style=flat-square" alt="163 cases"></a>
+  <a href="docs/gallery.md"><img src="https://img.shields.io/badge/案例-193-755bff?style=flat-square" alt="193 cases"></a>
   <a href="docs/templates.md"><img src="https://img.shields.io/badge/工业模板-30-19856e?style=flat-square" alt="30 templates"></a>
 </p>
 
@@ -30,7 +30,7 @@
 
 | 入口 | 内容 | 适合谁 |
 | --- | --- | --- |
-| [完整案例画廊](docs/gallery.md) | 163 张效果图、案例说明与提示词入口 | 创作者、设计师 |
+| [完整案例画廊](docs/gallery.md) | 193 张效果图、案例说明与提示词入口 | 创作者、设计师 |
 | [工业提示词模板](docs/templates.md) | 30 套必填字段、输出契约、质量门槛与避坑检查 | 生产团队、Agent |
 | [在线浏览站点](https://hongforge.github.io/image-prompt-atlas/) | 搜索、筛选、卡片预览、提示词复制 | 所有使用者 |
 | [Agent 可用 JSON](data/prompt-library.json) | 案例、模板、变量、分类与限制的统一数据 | Agent、自动化程序 |
@@ -76,6 +76,14 @@
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td width="33%" align="center" valign="top"><a href="docs/gallery.md#packaging-design"><img src="site/public/case-images/tea-gift-box-system.png" alt="包装与包装系统" height="288"></a><br><strong>📦 包装与包装系统</strong><br><sub>10 个案例</sub></td>
+    <td width="33%" align="center" valign="top"><a href="docs/gallery.md#food-beverage"><img src="site/public/case-images/fine-dining-scallop-plate.png" alt="餐饮与美食视觉" height="288"></a><br><strong>🍽️ 餐饮与美食视觉</strong><br><sub>10 个案例</sub></td>
+    <td width="33%" align="center" valign="top"><a href="docs/gallery.md#fashion-editorial"><img src="site/public/case-images/sculptural-couture-portrait.png" alt="时尚造型与编辑片" height="288"></a><br><strong>👗 时尚造型与编辑片</strong><br><sub>10 个案例</sub></td>
+  </tr>
+</table>
+
 | 分类 | 案例数 | 分类 | 案例数 |
 | --- | ---: | --- | ---: |
 | [UI 与界面](docs/gallery.md#ui-interface) | 12 | [图表与信息可视化](docs/gallery.md#infographic) | 10 |
@@ -87,6 +95,8 @@
 | [文档与出版](docs/gallery.md#document-publishing) | 8 | [教育与知识视觉](docs/gallery.md#educational-visual) | 10 |
 | [影视分镜与镜头](docs/gallery.md#film-storyboard) | 10 | [游戏资产与道具](docs/gallery.md#game-asset) | 10 |
 | [社交媒体内容](docs/gallery.md#social-content) | 10 | [纹样与材质设计](docs/gallery.md#surface-pattern) | 10 |
+| [包装与包装系统](docs/gallery.md#packaging-design) | 10 | [餐饮与美食视觉](docs/gallery.md#food-beverage) | 10 |
+| [时尚造型与编辑片](docs/gallery.md#fashion-editorial) | 10 |  |  |
 
 ## 🧩 工业模板
 
