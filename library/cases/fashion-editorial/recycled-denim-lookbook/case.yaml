@@ -1,0 +1,30 @@
+id: recycled-denim-lookbook
+title: "再生牛仔拼接造型册"
+summary: "以三色旧牛仔、可见修补线和明亮工坊场景讲清服装循环设计"
+taxonomy:
+  deliverable: [fashion-editorial]
+  medium: ["photography"]
+  workflow: [text-to-image]
+  capability: ["subject-consistency","material-lighting","instruction-following"]
+  model: [universal, gpt-image, midjourney]
+tags: ["时尚造型","再生牛仔","女装型录","可持续时尚"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [fashion_subject, garment_construction, editorial_direction]
+  cover_values:
+    fashion_subject:
+      zh: "成年东方女性穿短款牛仔夹克与及踝长拼接裙，深蓝、中蓝和浅蓝三种旧牛仔形成整套造型，完整展示全身"
+      en: "An adult East Asian woman in a cropped denim jacket and ankle-length panel skirt using dark, mid, and pale reclaimed denim, shown full body"
+    garment_construction:
+      zh: "夹克使用错位口袋和补丁明线，长裙由纵向梯形裁片组成并保留包边和修补痕迹，腰部结构可实际穿着"
+      en: "The jacket uses offset pockets and visible repair stitching; the skirt uses vertical trapezoid panels with bound edges and wearable waist construction"
+    editorial_direction:
+      zh: "明亮纺织工坊自然窗光，45mm 平视全身构图，背景仅保留缝纫机、布卷和样片墙，人物姿态自然放松"
+      en: "Bright textile workshop in window light, eye-level 45mm full-body frame, with only sewing machine, fabric rolls, and swatch wall behind"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"]

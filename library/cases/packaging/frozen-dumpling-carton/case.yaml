@@ -1,0 +1,30 @@
+id: frozen-dumpling-carton
+title: "冷冻水饺纸盒包装"
+summary: "通过冷链纸盒、可堆叠结构和透明窗口同时解决产品可见性与运输保护。"
+taxonomy:
+  deliverable: [packaging-design]
+  medium: ["photography","3d-render"]
+  workflow: [text-to-image]
+  capability: ["product-fidelity","material-lighting","spatial-reasoning"]
+  model: [universal, gpt-image, midjourney]
+tags: ["包装设计","冷冻食品","水饺包装","冷链包装"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [package_object, structural_system, material_graphics]
+  cover_values:
+    package_object:
+      zh: "一只靛蓝与暖白冷冻水饺纸盒，正面圆角窗口可见整齐排布的水饺，盒体覆有自然冷凝与薄霜"
+      en: "An indigo-and-warm-white frozen dumpling carton with a rounded window revealing neatly arranged dumplings and realistic condensation"
+    structural_system:
+      zh: "纸盒使用防潮涂层、锁底和双层侧壁，窗口膜固定于内侧，水饺置于浅托盘中避免挤压并支持冷柜堆叠"
+      en: "Moisture-resistant coating, locking base, double sidewalls, internally fixed window film, and a shallow tray prevent crushing and support freezer stacking"
+    material_graphics:
+      zh: "靛蓝波形占 40%、暖白占 60%，蒸汽盲压只用于右上区域，窗口周围保持高对比但不生成商品文字"
+      en: "Indigo waves occupy 40% and warm white 60%; steam blind emboss stays upper-right and the window maintains contrast without product copy"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"]

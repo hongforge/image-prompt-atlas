@@ -1,0 +1,30 @@
+id: astronomy-kit-packaging
+title: "儿童天文实验套件包装"
+summary: "以手提箱纸盒、安全分仓和可搭建器材建立教育玩具的完整包装体验。"
+taxonomy:
+  deliverable: [packaging-design]
+  medium: ["photography","3d-render"]
+  workflow: [text-to-image]
+  capability: ["spatial-reasoning","product-fidelity","instruction-following"]
+  model: [universal, gpt-image, midjourney]
+tags: ["包装设计","教育玩具","儿童科学","套件包装"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [package_object, structural_system, material_graphics]
+  cover_values:
+    package_object:
+      zh: "一只可重复使用的再生纸板手提箱盒，打开后包含小型望远镜、三脚架、星盘、镜片和连接件"
+      en: "A reusable recycled-cardboard suitcase box containing a small telescope, tripod, star wheel, lenses, and connectors"
+    structural_system:
+      zh: "模塑纸浆内托按装配顺序分仓，镜片有独立软圈保护，小零件槽带防脱盖，纸板提手与双插舌锁扣可承重"
+      en: "Molded-pulp compartments follow assembly order, lenses have soft protective rings, small parts use covered cells, and the board handle plus twin tabs carry the load"
+    material_graphics:
+      zh: "午夜蓝、芥末黄、珊瑚橙和薄荷绿构成儿童友好色板，星空插画只用于盒盖内外且不生成说明文字"
+      en: "Midnight blue, mustard, coral, and mint form a child-friendly palette; star illustrations stay on the lid without generated instructions"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"]

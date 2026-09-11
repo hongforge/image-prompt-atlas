@@ -1,0 +1,30 @@
+id: matcha-dessert-tasting-set
+title: "抹茶甜点品鉴组合"
+summary: "以不同质地的抹茶甜点和手作茶杯建立精致但不繁复的品鉴视觉"
+taxonomy:
+  deliverable: [food-beverage]
+  medium: ["photography"]
+  workflow: [text-to-image]
+  capability: ["material-lighting","layout-hierarchy","product-fidelity"]
+  model: [universal, gpt-image, midjourney]
+tags: ["餐饮美食","抹茶甜点","品鉴组合","甜品摄影"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [hero_food, serving_context, food_styling]
+  cover_values:
+    hero_food:
+      zh: "一颗镜面抹茶慕斯半球、一枚白色花形和果子、一片薄抹茶饼干和一杯清茶，四种质地均清晰可辨"
+      en: "A glossy matcha mousse dome, white flower wagashi, thin matcha biscuit, and cup of clear tea with four distinct textures"
+    serving_context:
+      zh: "所有甜点置于深色长方石托盘，背景只有柔焦苔藓和浅木窗框，使用安静午后自然光"
+      en: "All items sit on a dark rectangular stone tray against only soft moss and a pale wood window frame in quiet afternoon daylight"
+    food_styling:
+      zh: "慕斯作为左侧最大焦点，茶杯位于右后，和果子与饼干形成前后小三角，装饰仅限少量抹茶粉和一片茶叶"
+      en: "Mousse is the largest focus left, teacup rear-right, wagashi and biscuit form a small depth triangle, with only sparse matcha powder and one tea leaf"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"]

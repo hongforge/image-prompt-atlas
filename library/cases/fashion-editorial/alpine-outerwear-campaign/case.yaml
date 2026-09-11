@@ -1,0 +1,30 @@
+id: alpine-outerwear-campaign
+title: "高山户外服装广告"
+summary: "以清晰面部、结霜面料和真实攀登装备呈现极端环境中的服装性能"
+taxonomy:
+  deliverable: [fashion-editorial]
+  medium: ["photography"]
+  workflow: [text-to-image]
+  capability: ["subject-consistency","material-lighting","spatial-reasoning"]
+  model: [universal, gpt-image, midjourney]
+tags: ["时尚造型","户外服装","女性登山","广告摄影"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [fashion_subject, garment_construction, editorial_direction]
+  cover_values:
+    fashion_subject:
+      zh: "成年女性登山者穿藏红花黄色硬壳、板岩灰背带裤、冰川镜和紧凑攀登包，取上膝以上动作人像且面部清晰"
+      en: "An adult female mountaineer in saffron shell, slate bib trousers, glacier glasses, and compact climbing pack, framed above-knee with a clear face"
+    garment_construction:
+      zh: "硬壳具高领风帽、防水拉链、腋下开口和可调下摆，背包胸带、腰带与冰镐固定点均正确受力"
+      en: "The shell includes high hood, waterproof zips, pit vents, and adjustable hem; pack sternum strap, hip belt, and ice-axe points carry load correctly"
+    editorial_direction:
+      zh: "日出高山脊与云海，35mm 近距离广角，暖逆光描边、冷天光照面，冰晶附着在迎风肩部但不遮挡服装结构"
+      en: "Sunrise alpine ridge above clouds, close 35mm wide view, warm rim and cool facial fill, with ice crystals on windward shoulders without hiding construction"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"]

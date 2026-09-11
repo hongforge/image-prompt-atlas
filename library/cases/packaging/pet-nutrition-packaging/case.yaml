@@ -1,0 +1,30 @@
+id: pet-nutrition-packaging
+title: "宠物营养食品包装"
+summary: "以稳定底纸袋、可重复封口和真实食材关系构建亲和而专业的宠物食品包装。"
+taxonomy:
+  deliverable: [packaging-design]
+  medium: ["photography"]
+  workflow: [text-to-image]
+  capability: ["product-fidelity","layout-hierarchy","instruction-following"]
+  model: [universal, gpt-image, midjourney]
+tags: ["包装设计","宠物食品","食品包装","货架视觉"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [package_object, structural_system, material_graphics]
+  cover_values:
+    package_object:
+      zh: "一只中号牛皮纸宠物干粮袋，顶部带圆角提手和可重复封口，前景配不锈钢食盆展示颗粒实际尺度"
+      en: "A medium kraft pet-food bag with rounded carry handle and reclosure, paired with a stainless bowl showing true kibble scale"
+    structural_system:
+      zh: "袋体使用侧褶与平底承重，提手下方设置双层加固，密封条位于撕口下方且不与手孔冲突"
+      en: "Side gussets and a flat base carry weight, the handle area is double reinforced, and the zipper sits below the tear line without conflicting with the hand hole"
+    material_graphics:
+      zh: "牛皮原色配陶土橙与森林绿大色块，以抽象田野和叶片表达食材来源，不画动物吉祥物、不生成营养声称"
+      en: "Natural kraft with terracotta and forest-green color fields; abstract fields and leaves suggest ingredient origin without mascots or nutrition claims"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"]

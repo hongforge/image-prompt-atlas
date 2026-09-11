@@ -1,0 +1,30 @@
+id: avant-garde-handbag-still-life
+title: "先锋褶裥手袋静物"
+summary: "以弧形皮革体量、黄铜脊骨和隐藏闭合结构建立原创奢华配饰形象"
+taxonomy:
+  deliverable: [fashion-editorial]
+  medium: ["photography","3d-render"]
+  workflow: [text-to-image]
+  capability: ["product-fidelity","material-lighting","spatial-reasoning"]
+  model: [universal, gpt-image, midjourney]
+tags: ["时尚造型","手袋设计","配饰静物","皮革工艺"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [fashion_subject, garment_construction, editorial_direction]
+  cover_values:
+    fashion_subject:
+      zh: "一只原创深酒红弧形手袋，扇形皮革褶裥从底部向上收束，拉丝黄铜脊骨连接两端并配可拆窄肩带"
+      en: "One original deep-burgundy curved handbag with fan pleats rising from the base, joined by a brushed-brass spine and detachable narrow strap"
+    garment_construction:
+      zh: "皮革褶片缝合于隐藏内胆，黄铜脊骨承担提握与开口支撑，暗扣位于上缘内侧，肩带通过两只旋转扣连接"
+      en: "Leather pleats stitch to a hidden lining; the brass spine supports grip and opening, a concealed clasp sits inside the top edge, and two swivel hooks attach the strap"
+    editorial_direction:
+      zh: "黑色粗石台与深黑背景，70mm 静物三分之四机位，左上窄束暖光强调褶裥和金属曲线，阴影保留完整包形"
+      en: "Black rough-stone pedestal and dark background, 70mm three-quarter still life, narrow warm beam upper-left defining pleats and metal curve while preserving silhouette"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核人物身份、人体与手部、服装受力、材质真实性、裁切范围和商业使用边界。"]

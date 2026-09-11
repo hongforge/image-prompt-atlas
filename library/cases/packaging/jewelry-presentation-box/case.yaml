@@ -1,0 +1,30 @@
+id: jewelry-presentation-box
+title: "珠宝折叠展示盒"
+summary: "用八边形硬盒、隐藏铰链和分层软垫建立仪式感与运输保护兼具的珠宝包装。"
+taxonomy:
+  deliverable: [packaging-design]
+  medium: ["photography","3d-render"]
+  workflow: [text-to-image]
+  capability: ["product-fidelity","material-lighting","spatial-reasoning"]
+  model: [universal, gpt-image, midjourney]
+tags: ["包装设计","珠宝盒","奢侈品包装","展示结构"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [package_object, structural_system, material_graphics]
+  cover_values:
+    package_object:
+      zh: "一只深牛血红八边形珠宝盒，开启后以象牙色软垫托住一枚无标银色水滴吊坠，链条收纳整齐"
+      en: "A deep oxblood octagonal jewelry box holding one unbranded silver drop pendant on an ivory insert with the chain neatly managed"
+    structural_system:
+      zh: "盒盖使用隐藏金属铰链与限位带，内托分为首饰台、链槽和可抽取底层，前侧织带拉手控制开盒方向"
+      en: "A hidden hinge and stop ribbon support the lid; the insert separates jewelry deck, chain channel, and removable lower layer, with a front ribbon controlling opening"
+    material_graphics:
+      zh: "牛血红纹理纸、象牙超细纤维与银色金属构成三层材质，外表无印刷，仅靠八边轮廓和细压边识别"
+      en: "Oxblood textured paper, ivory microfiber, and silver metal form three material levels; the exterior relies on octagonal form and fine debossed edges without print"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核包装尺寸、开合路径、保护间隙、材料合规性和实际生产工艺。"]

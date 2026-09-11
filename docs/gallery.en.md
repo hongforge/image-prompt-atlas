@@ -4,7 +4,7 @@
 
 [Project home](../README.en.md) · [中文](gallery.md) · [Industrial templates](templates.en.md) · [Live gallery](https://hongforge.github.io/image-prompt-atlas/)
 
-Browse 163 original cases. Covers communicate the visual direction; each case file contains complete variables, cover-specific values, a production prompt, and limitations.
+Browse 193 original cases. Covers communicate the visual direction; each case file contains complete variables, cover-specific values, a production prompt, and limitations.
 
 ## Category navigation
 
@@ -22,6 +22,9 @@ Browse 163 original cases. Covers communicate the visual direction; each case fi
 - [🎮 Game Assets & Props (10)](#game-asset)
 - [📱 Social Media Content (10)](#social-content)
 - [🧵 Patterns & Surface Design (10)](#surface-pattern)
+- [📦 Packaging & Packaging Systems (10)](#packaging-design)
+- [🍽️ Food & Beverage Visuals (10)](#food-beverage)
+- [👗 Fashion Styling & Editorial (10)](#fashion-editorial)
 - [🎬 Scenes & Storytelling (8)](#scene-storytelling)
 - [🎨 Illustration & Art (5)](#illustration-art)
 - [📚 Documents & Publishing (8)](#document-publishing)
@@ -1243,6 +1246,285 @@ Browse 163 original cases. Covers communicate the visual direction; each case fi
 <sub>制作一张可测试重复的壁纸纹样。母题系统为 {{motif_system}}，表面视觉采用 {{surface_behavior}}，生产约束严格遵循 {{production_constraints}}。让主要锦鲤、次级水流和小型花朵形成明确层级，检查上下左右边缘连续、母题间距和旋转节奏；输出整幅纹样平面，不做室内样机。竖版 2:3，不要边框、文字、品牌或水</sub><br>
 <sub>universal · gpt-image · midjourney · text-to-image · series-consistency</sub><br>
 <a href="../library/cases/surface/koi-geometric-wallpaper-repeat/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%"></td>
+<td width="33%"></td>
+</tr>
+</table>
+
+[Back to category navigation](#category-navigation)
+
+---
+
+<a id="packaging-design"></a>
+
+## 📦 Packaging & Packaging Systems
+
+> 10 cases. Select a cover to open its prompt file.
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/packaging/astronomy-kit-packaging/prompt.md"><img src="../site/public/case-images/astronomy-kit-packaging.png" alt="Astronomy Kit Packaging" width="240"></a><br>
+<strong>Astronomy Kit Packaging</strong><br>
+<sub>设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/packaging/astronomy-kit-packaging/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/packaging/frozen-dumpling-carton/prompt.md"><img src="../site/public/case-images/frozen-dumpling-carton.png" alt="Frozen Dumpling Carton" width="240"></a><br>
+<strong>Frozen Dumpling Carton</strong><br>
+<sub>设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/packaging/frozen-dumpling-carton/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/packaging/cosmetic-ampoule-packaging/prompt.md"><img src="../site/public/case-images/cosmetic-ampoule-packaging.png" alt="Cosmetic Ampoule Packaging" width="240"></a><br>
+<strong>Cosmetic Ampoule Packaging</strong><br>
+<sub>设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/packaging/cosmetic-ampoule-packaging/prompt.md">Open prompt and variables</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/packaging/pet-nutrition-packaging/prompt.md"><img src="../site/public/case-images/pet-nutrition-packaging.png" alt="Pet Nutrition Packaging" width="240"></a><br>
+<strong>Pet Nutrition Packaging</strong><br>
+<sub>设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/packaging/pet-nutrition-packaging/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/packaging/detergent-refill-packaging/prompt.md"><img src="../site/public/case-images/detergent-refill-packaging.png" alt="Detergent Refill Packaging" width="240"></a><br>
+<strong>Detergent Refill Packaging</strong><br>
+<sub>设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/packaging/detergent-refill-packaging/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/packaging/niche-fragrance-packaging/prompt.md"><img src="../site/public/case-images/niche-fragrance-packaging.png" alt="Niche Fragrance Packaging" width="240"></a><br>
+<strong>Niche Fragrance Packaging</strong><br>
+<sub>设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/packaging/niche-fragrance-packaging/prompt.md">Open prompt and variables</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/packaging/tea-gift-box-system/prompt.md"><img src="../site/public/case-images/tea-gift-box-system.png" alt="Tea Gift Box System" width="240"></a><br>
+<strong>Tea Gift Box System</strong><br>
+<sub>设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/packaging/tea-gift-box-system/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/packaging/jewelry-presentation-box/prompt.md"><img src="../site/public/case-images/jewelry-presentation-box.png" alt="Jewelry Presentation Box" width="240"></a><br>
+<strong>Jewelry Presentation Box</strong><br>
+<sub>设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/packaging/jewelry-presentation-box/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/packaging/craft-chocolate-collection/prompt.md"><img src="../site/public/case-images/craft-chocolate-collection.png" alt="Craft Chocolate Collection" width="240"></a><br>
+<strong>Craft Chocolate Collection</strong><br>
+<sub>设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/packaging/craft-chocolate-collection/prompt.md">Open prompt and variables</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/packaging/keyboard-switch-kit-packaging/prompt.md"><img src="../site/public/case-images/keyboard-switch-kit-packaging.png" alt="Keyboard Switch Kit Packaging" width="240"></a><br>
+<strong>Keyboard Switch Kit Packaging</strong><br>
+<sub>设计一套可进入结构打样和视觉评审的专业包装。包装对象与成套关系为 {{package_object}}；开合、承重、缓冲、取用与运输逻辑严格遵循 {{structural_system}}；纸张、容器、表面工艺、色彩比例与图形层级采用 {{material_graphics}}。完整展示包装正面、关键侧面和一次真实开箱状态，所有折线、插舌、铰链、密封、内托与</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/packaging/keyboard-switch-kit-packaging/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%"></td>
+<td width="33%"></td>
+</tr>
+</table>
+
+[Back to category navigation](#category-navigation)
+
+---
+
+<a id="food-beverage"></a>
+
+## 🍽️ Food & Beverage Visuals
+
+> 10 cases. Select a cover to open its prompt file.
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/culinary/summer-sparkling-tea-campaign/prompt.md"><img src="../site/public/case-images/summer-sparkling-tea-campaign.png" alt="Summer Sparkling Tea Campaign" width="240"></a><br>
+<strong>Summer Sparkling Tea Campaign</strong><br>
+<sub>制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/culinary/summer-sparkling-tea-campaign/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/culinary/sichuan-banquet-overhead/prompt.md"><img src="../site/public/case-images/sichuan-banquet-overhead.png" alt="Sichuan Banquet Overhead" width="240"></a><br>
+<strong>Sichuan Banquet Overhead</strong><br>
+<sub>制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/culinary/sichuan-banquet-overhead/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/culinary/fine-dining-scallop-plate/prompt.md"><img src="../site/public/case-images/fine-dining-scallop-plate.png" alt="Fine Dining Scallop Plate" width="240"></a><br>
+<strong>Fine Dining Scallop Plate</strong><br>
+<sub>制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/culinary/fine-dining-scallop-plate/prompt.md">Open prompt and variables</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/culinary/artisan-bread-process/prompt.md"><img src="../site/public/case-images/artisan-bread-process.png" alt="Artisan Bread Process" width="240"></a><br>
+<strong>Artisan Bread Process</strong><br>
+<sub>制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/culinary/artisan-bread-process/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/culinary/matcha-dessert-tasting-set/prompt.md"><img src="../site/public/case-images/matcha-dessert-tasting-set.png" alt="Matcha Dessert Tasting Set" width="240"></a><br>
+<strong>Matcha Dessert Tasting Set</strong><br>
+<sub>制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/culinary/matcha-dessert-tasting-set/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/culinary/ramen-steam-editorial/prompt.md"><img src="../site/public/case-images/ramen-steam-editorial.png" alt="Ramen Steam Editorial" width="240"></a><br>
+<strong>Ramen Steam Editorial</strong><br>
+<sub>制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/culinary/ramen-steam-editorial/prompt.md">Open prompt and variables</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/culinary/coffee-roasting-process/prompt.md"><img src="../site/public/case-images/coffee-roasting-process.png" alt="Coffee Roasting Process" width="240"></a><br>
+<strong>Coffee Roasting Process</strong><br>
+<sub>制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/culinary/coffee-roasting-process/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/culinary/night-market-skewer-scene/prompt.md"><img src="../site/public/case-images/night-market-skewer-scene.png" alt="Night Market Skewer Scene" width="240"></a><br>
+<strong>Night Market Skewer Scene</strong><br>
+<sub>制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/culinary/night-market-skewer-scene/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/culinary/zero-waste-vegetable-still-life/prompt.md"><img src="../site/public/case-images/zero-waste-vegetable-still-life.png" alt="Zero Waste Vegetable Still Life" width="240"></a><br>
+<strong>Zero Waste Vegetable Still Life</strong><br>
+<sub>制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/culinary/zero-waste-vegetable-still-life/prompt.md">Open prompt and variables</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/culinary/black-sesame-gelato-macro/prompt.md"><img src="../site/public/case-images/black-sesame-gelato-macro.png" alt="Black Sesame Gelato Macro" width="240"></a><br>
+<strong>Black Sesame Gelato Macro</strong><br>
+<sub>制作一张专业、真实且可用于商业评审的餐饮美食视觉。核心食品与明确构成为 {{hero_food}}；器皿、桌面、人物边界、制作阶段和环境关系采用 {{serving_context}}；摆盘结构、份量、色彩节奏、温度状态与表面质感严格遵循 {{food_styling}}。优先保证食材新鲜度、可食用性、烹饪痕迹、重力、液体和蒸汽逻辑，不用过量油亮、重复配料或</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/culinary/black-sesame-gelato-macro/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%"></td>
+<td width="33%"></td>
+</tr>
+</table>
+
+[Back to category navigation](#category-navigation)
+
+---
+
+<a id="fashion-editorial"></a>
+
+## 👗 Fashion Styling & Editorial
+
+> 10 cases. Select a cover to open its prompt file.
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/fashion-editorial/avant-garde-handbag-still-life/prompt.md"><img src="../site/public/case-images/avant-garde-handbag-still-life.png" alt="Avant Garde Handbag Still Life" width="240"></a><br>
+<strong>Avant Garde Handbag Still Life</strong><br>
+<sub>制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/fashion-editorial/avant-garde-handbag-still-life/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/fashion-editorial/recycled-denim-lookbook/prompt.md"><img src="../site/public/case-images/recycled-denim-lookbook.png" alt="Recycled Denim Lookbook" width="240"></a><br>
+<strong>Recycled Denim Lookbook</strong><br>
+<sub>制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/fashion-editorial/recycled-denim-lookbook/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/fashion-editorial/urban-techwear-lookbook/prompt.md"><img src="../site/public/case-images/urban-techwear-lookbook.png" alt="Urban Techwear Lookbook" width="240"></a><br>
+<strong>Urban Techwear Lookbook</strong><br>
+<sub>制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/fashion-editorial/urban-techwear-lookbook/prompt.md">Open prompt and variables</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/fashion-editorial/architectural-sneaker-material-shot/prompt.md"><img src="../site/public/case-images/architectural-sneaker-material-shot.png" alt="Architectural Sneaker Material Shot" width="240"></a><br>
+<strong>Architectural Sneaker Material Shot</strong><br>
+<sub>制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/fashion-editorial/architectural-sneaker-material-shot/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/fashion-editorial/modern-oriental-evening-look/prompt.md"><img src="../site/public/case-images/modern-oriental-evening-look.png" alt="Modern Oriental Evening Look" width="240"></a><br>
+<strong>Modern Oriental Evening Look</strong><br>
+<sub>制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/fashion-editorial/modern-oriental-evening-look/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/fashion-editorial/mens-tailoring-atelier-portrait/prompt.md"><img src="../site/public/case-images/mens-tailoring-atelier-portrait.png" alt="Mens Tailoring Atelier Portrait" width="240"></a><br>
+<strong>Mens Tailoring Atelier Portrait</strong><br>
+<sub>制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/fashion-editorial/mens-tailoring-atelier-portrait/prompt.md">Open prompt and variables</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/fashion-editorial/runway-backstage-documentary/prompt.md"><img src="../site/public/case-images/runway-backstage-documentary.png" alt="Runway Backstage Documentary" width="240"></a><br>
+<strong>Runway Backstage Documentary</strong><br>
+<sub>制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/fashion-editorial/runway-backstage-documentary/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/fashion-editorial/silver-jewelry-beauty-editorial/prompt.md"><img src="../site/public/case-images/silver-jewelry-beauty-editorial.png" alt="Silver Jewelry Beauty Editorial" width="240"></a><br>
+<strong>Silver Jewelry Beauty Editorial</strong><br>
+<sub>制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/fashion-editorial/silver-jewelry-beauty-editorial/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/fashion-editorial/sculptural-couture-portrait/prompt.md"><img src="../site/public/case-images/sculptural-couture-portrait.png" alt="Sculptural Couture Portrait" width="240"></a><br>
+<strong>Sculptural Couture Portrait</strong><br>
+<sub>制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/fashion-editorial/sculptural-couture-portrait/prompt.md">Open prompt and variables</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/fashion-editorial/alpine-outerwear-campaign/prompt.md"><img src="../site/public/case-images/alpine-outerwear-campaign.png" alt="Alpine Outerwear Campaign" width="240"></a><br>
+<strong>Alpine Outerwear Campaign</strong><br>
+<sub>制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/fashion-editorial/alpine-outerwear-campaign/prompt.md">Open prompt and variables</a>
 </td>
 <td width="33%"></td>
 <td width="33%"></td>

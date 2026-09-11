@@ -1,0 +1,30 @@
+id: zero-waste-vegetable-still-life
+title: "零浪费蔬菜食材视觉"
+summary: "用根茎、菜叶与果皮的完整利用关系表达可持续厨房理念"
+taxonomy:
+  deliverable: [food-beverage]
+  medium: ["photography"]
+  workflow: [text-to-image]
+  capability: ["layout-hierarchy","material-lighting","instruction-following"]
+  model: [universal, gpt-image, midjourney]
+tags: ["餐饮美食","零浪费料理","食材静物","可持续餐饮"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [hero_food, serving_context, food_styling]
+  cover_values:
+    hero_food:
+      zh: "带叶彩色胡萝卜、完整甜菜叶、茴香梗、西兰花茎、香草根和柑橘皮按可食用部位完整展示"
+      en: "Leaf-on multicolor carrots, beet greens, fennel stems, broccoli stalks, herb roots, and citrus peels shown as usable ingredients"
+    serving_context:
+      zh: "回收石材工作台靠近自然窗，右上放一只装有修整菜料的玻璃密封罐，右下只有一把厨刀"
+      en: "A reclaimed-stone worktop by a natural window, with one glass jar of trimmings upper-right and one chef knife lower-right"
+    food_styling:
+      zh: "根茎由左下向中央聚合，绿色茎叶延伸到上方，橙黄果皮作为亮点，所有材料保持未清洗过度的真实状态"
+      en: "Roots gather from lower-left to center, green stems extend upward, orange-yellow peels accent the field, and ingredients retain natural imperfect surfaces"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核食材可食用性、温度状态、份量尺度、手部动作和餐饮卫生逻辑。"]
