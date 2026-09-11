@@ -2,7 +2,7 @@
 
 ## Project scope
 
-Open Image Prompt Library maintains original, structured AI image prompt cases, production templates, generated previews, a searchable website, and agent-ready data. Changes should improve findability, reuse, validation, or production readiness.
+Image Prompt Atlas maintains original, structured AI image prompt cases, production templates, generated previews, a searchable website, and agent-ready data. Changes should improve findability, reuse, validation, or production readiness.
 
 ## Roles
 

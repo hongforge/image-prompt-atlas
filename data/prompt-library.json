@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "project": "open-image-prompt-library",
+  "project": "image-prompt-atlas",
   "taxonomy_dimensions": [
     "deliverable",
     "medium",

@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="docs/assets/banner.svg" alt="Open Image Prompt Library" width="900">
+  <img src="docs/assets/banner.svg" alt="Image Prompt Atlas" width="900">
 </p>
 
 <h3 align="center">把提示词做成可检索、可复用、可验证的视觉生产资产</h3>
 
 <p align="center">
-  <a href="https://github.com/hongforge/ai_skills/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/hongforge/ai_skills/ci.yml?branch=main&style=flat-square&label=CI" alt="CI"></a>
-  <a href="https://github.com/hongforge/ai_skills/stargazers"><img src="https://img.shields.io/github/stars/hongforge/ai_skills?style=flat-square" alt="Stars"></a>
+  <a href="https://github.com/hongforge/image-prompt-atlas/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/hongforge/image-prompt-atlas/ci.yml?branch=main&style=flat-square&label=CI" alt="CI"></a>
+  <a href="https://github.com/hongforge/image-prompt-atlas/stargazers"><img src="https://img.shields.io/github/stars/hongforge/image-prompt-atlas?style=flat-square" alt="Stars"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-c5ff6f?style=flat-square" alt="MIT License"></a>
   <a href="docs/gallery.md"><img src="https://img.shields.io/badge/案例-123-755bff?style=flat-square" alt="123 cases"></a>
   <a href="docs/templates.md"><img src="https://img.shields.io/badge/工业模板-30-19856e?style=flat-square" alt="30 templates"></a>
@@ -18,12 +18,12 @@
 
 ## 🌐 在线视觉画廊
 
-访问 **[hongforge.github.io/ai_skills](https://hongforge.github.io/ai_skills/)**，可按分类、模型、工作流和关键词浏览案例；点击任意卡片即可查看大图、完整变量、封面对应值与生产级提示词。
+访问 **[hongforge.github.io/image-prompt-atlas](https://hongforge.github.io/image-prompt-atlas/)**，可按分类、模型、工作流和关键词浏览案例；点击任意卡片即可查看大图、完整变量、封面对应值与生产级提示词。
 
 <p align="center">
-  <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/aigc-game-key-art.png" alt="AIGC 游戏角色主视觉" width="30%"></a>
-  <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/east-asian-neon-closeup.png" alt="东方人物霓虹特写" width="30%"></a>
-  <a href="https://hongforge.github.io/ai_skills/"><img src="site/public/case-images/aigc-legendary-weapon-card.png" alt="AIGC 传奇武器卡" width="30%"></a>
+  <a href="https://hongforge.github.io/image-prompt-atlas/"><img src="site/public/case-images/aigc-game-key-art.png" alt="AIGC 游戏角色主视觉" width="30%"></a>
+  <a href="https://hongforge.github.io/image-prompt-atlas/"><img src="site/public/case-images/east-asian-neon-closeup.png" alt="东方人物霓虹特写" width="30%"></a>
+  <a href="https://hongforge.github.io/image-prompt-atlas/"><img src="site/public/case-images/aigc-legendary-weapon-card.png" alt="AIGC 传奇武器卡" width="30%"></a>
 </p>
 
 ## 📖 快速入口
@@ -32,9 +32,9 @@
 | --- | --- | --- |
 | [完整案例画廊](docs/gallery.md) | 123 张效果图、案例说明与提示词入口 | 创作者、设计师 |
 | [工业提示词模板](docs/templates.md) | 30 套必填字段、输出契约、质量门槛与避坑检查 | 生产团队、Agent |
-| [在线浏览站点](https://hongforge.github.io/ai_skills/) | 搜索、筛选、卡片预览、提示词复制 | 所有使用者 |
+| [在线浏览站点](https://hongforge.github.io/image-prompt-atlas/) | 搜索、筛选、卡片预览、提示词复制 | 所有使用者 |
 | [Agent 可用 JSON](data/prompt-library.json) | 案例、模板、变量、分类与限制的统一数据 | Agent、自动化程序 |
-| [Open Image Prompt Skill](skills/open-image-prompt-library/SKILL.md) | 检索案例并组合工业模板 | Codex、Claude Code、Cursor |
+| [Image Prompt Atlas Skill](skills/image-prompt-atlas/SKILL.md) | 检索案例并组合工业模板 | Codex、Claude Code、Cursor |
 | [Img2Prompt Skill](skills/img2prompt/SKILL.md) | 将参考图拆解为模型无关的视觉规格 | 提示词工程师 |
 
 ## ⚡ 项目方法

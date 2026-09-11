@@ -13,9 +13,16 @@ const words: Record<Locale, Record<string, string>> = {
 words.zh.heroShotAigc = 'AIGC · 角色';
 words.zh.heroShotProduct = '商品 · 材质';
 words.zh.heroShotPortrait = '人像 · 写实';
+words.zh.homeAria = '图像提示词图谱首页';
+words.zh.footerBrand = '图像提示词图谱';
+words.zh.title = '图像提示词图谱';
 words.en.heroShotAigc = 'AIGC · Character';
 words.en.heroShotProduct = 'Product · Material';
 words.en.heroShotPortrait = 'Portrait · Realism';
+words.en.brand = 'Image Prompt Atlas';
+words.en.homeAria = 'Image Prompt Atlas home';
+words.en.footerBrand = 'Image Prompt Atlas';
+words.en.title = 'Image Prompt Atlas';
 const labels: Record<Locale, Record<string, string>> = { zh:{'ui-interface':'UI 界面',infographic:'信息图','poster-editorial':'海报与编辑','brand-identity':'品牌与标识','product-commerce':'商品与电商','architecture-space':'建筑与空间','portrait-character':'人物与角色','scene-storytelling':'场景与叙事','illustration-art':'插画与艺术','document-publishing':'文档与出版','educational-visual':'教育视觉',photography:'摄影','3d-render':'3D 渲染','vector-graphic':'矢量图形',illustration:'插画','mixed-media':'混合媒介','text-to-image':'文生图','image-to-image':'图生图',inpainting:'局部重绘',compositing:'合成','series-consistency':'系列一致性','text-rendering':'文字渲染','layout-hierarchy':'版式层级','subject-consistency':'主体一致性','product-fidelity':'商品保真','material-lighting':'材质与光线','spatial-reasoning':'空间推理','data-visualization':'数据可视化','instruction-following':'指令遵循',universal:'通用','gpt-image':'GPT Image','nano-banana':'Nano Banana',midjourney:'Midjourney','stable-diffusion':'Stable Diffusion',draft:'草稿',verified:'已验证',archived:'已归档',original:'原创'},en:{'ui-interface':'UI & interfaces',infographic:'Infographics','poster-editorial':'Posters & editorial','brand-identity':'Brand & identity','product-commerce':'Product & commerce','architecture-space':'Architecture & spaces','portrait-character':'People & characters','scene-storytelling':'Scenes & storytelling','illustration-art':'Illustration & art','document-publishing':'Documents & publishing','educational-visual':'Educational visual',photography:'Photography','3d-render':'3D render','vector-graphic':'Vector graphic',illustration:'Illustration','mixed-media':'Mixed media','text-to-image':'Text to image','image-to-image':'Image to image',inpainting:'Inpainting',compositing:'Compositing','series-consistency':'Series consistency','text-rendering':'Text rendering','layout-hierarchy':'Layout hierarchy','subject-consistency':'Subject consistency','product-fidelity':'Product fidelity','material-lighting':'Material & lighting','spatial-reasoning':'Spatial reasoning','data-visualization':'Data visualization','instruction-following':'Instruction following',universal:'Universal','gpt-image':'GPT Image','nano-banana':'Nano Banana',midjourney:'Midjourney','stable-diffusion':'Stable Diffusion',draft:'Draft',verified:'Verified',archived:'Archived',original:'Original'} };
 let locale: Locale = window.localStorage.getItem('prompt-atlas-locale') === 'en' ? 'en' : 'zh';
 const state = { search:'', deliverable:'all', workflow:'all', model:'all' };

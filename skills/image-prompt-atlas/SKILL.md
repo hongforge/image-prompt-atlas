@@ -1,9 +1,9 @@
 ---
-name: open-image-prompt-library
-description: Use when a user needs to find, adapt, or assemble AI image prompts from the Open Image Prompt Library's reviewed cases and industrial templates. Do not use for reverse-engineering a supplied image; use img2prompt instead.
+name: image-prompt-atlas
+description: Use when a user needs to find, adapt, or assemble AI image prompts from Image Prompt Atlas's reviewed cases and industrial templates. Do not use for reverse-engineering a supplied image; use img2prompt instead.
 ---
 
-# Open Image Prompt Library
+# Image Prompt Atlas
 
 Use the generated catalog at `data/prompt-library.json` as the source of truth. It contains the same original cases and templates as the website, plus cover values, variables, model compatibility, evaluation status, and limitations.
 
