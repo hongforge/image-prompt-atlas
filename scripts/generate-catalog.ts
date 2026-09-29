@@ -91,6 +91,9 @@ const VARIABLE_LABEL_OVERRIDES: Record<string, string> = {
   fashion_subject: '时尚主体',
   garment_construction: '服装结构',
   editorial_direction: '编辑方向',
+  clinical_subject: '临床主体',
+  scientific_context: '科学语境',
+  safety_boundaries: '安全边界',
 };
 
 const VARIABLE_TERMS: Record<string, string> = {
@@ -175,6 +178,9 @@ function deliverableRequirements(taxonomy: Record<string, string[]>): string[] {
   if (includes(taxonomy, 'deliverable', 'fashion-editorial')) {
     requirements.push('Preserve identity, anatomy, garment construction, fit, seams, closures, material weight, styling logic, and crop. Direct pose, lens, lighting, and location as one editorial statement; do not hide broken hands, warped accessories, or impossible clothing joins behind motion or effects.');
   }
+  if (includes(taxonomy, 'deliverable', 'health-science')) {
+    requirements.push('Keep scientific and healthcare visuals precise without implying diagnosis, efficacy, or regulatory approval. Preserve device geometry, sterile or educational context, privacy boundaries, readable scale, and a clear distinction between an illustrative model and a real clinical result.');
+  }
   if (includes(taxonomy, 'deliverable', 'illustration-art')) {
     requirements.push('Make the chosen medium visible in mark-making, texture, depth, and edge treatment. Use a restrained palette and a single focal hierarchy rather than an undirected style collage.');
   }
@@ -216,6 +222,7 @@ function deliverableRequirementsZh(taxonomy: Record<string, string[]>): string[]
   if (includes(taxonomy, 'deliverable', 'packaging-design')) requirements.push('按可制造的包装系统处理：保持产品尺寸、开合顺序、闭合方式、保护间隙、内托、材料厚度、印刷区域与货架正面层级可信；不得自行生成文案、商标、条码、认证图标、环保或医疗声称。');
   if (includes(taxonomy, 'deliverable', 'food-beverage')) requirements.push('所有可食用元素都必须符合真实状态：明确烹饪程度、熟度、含水感、温度线索、份量尺度、器皿接触和有意图的装饰位置；避免塑料质感、不可能堆叠、食材复制、不安全操作和看似不可食用的装饰。');
   if (includes(taxonomy, 'deliverable', 'fashion-editorial')) requirements.push('保持人物身份、人体结构、服装版型、合体关系、缝线、闭合件、材质重量、造型逻辑与画面裁切一致；姿势、镜头、布光和地点必须共同表达一个编辑主题，不得用动态或特效遮盖错误手部、变形配饰和不可能的服装连接。');
+  if (includes(taxonomy, 'deliverable', 'health-science')) requirements.push('保持科学与医疗视觉的准确边界：不得暗示诊断、疗效或监管批准；设备几何、洁净或教学语境、隐私边界与尺度必须可信，并清楚区分教学模型和真实临床结果。');
   if (includes(taxonomy, 'deliverable', 'illustration-art')) requirements.push('让媒介特征体现在笔触、纹理、深度和边缘处理上；使用克制色板与单一焦点，不做无方向的风格拼贴。');
   return requirements;
 }

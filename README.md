@@ -8,7 +8,7 @@
   <a href="https://github.com/hongforge/image-prompt-atlas/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/hongforge/image-prompt-atlas/ci.yml?branch=main&style=flat-square&label=CI" alt="CI"></a>
   <a href="https://github.com/hongforge/image-prompt-atlas/stargazers"><img src="https://img.shields.io/github/stars/hongforge/image-prompt-atlas?style=flat-square" alt="Stars"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-c5ff6f?style=flat-square" alt="MIT License"></a>
-  <a href="docs/gallery.md"><img src="https://img.shields.io/badge/案例-193-755bff?style=flat-square" alt="193 cases"></a>
+  <a href="docs/gallery.md"><img src="https://img.shields.io/badge/案例-203-755bff?style=flat-square" alt="203 cases"></a>
   <a href="docs/templates.md"><img src="https://img.shields.io/badge/工业模板-30-19856e?style=flat-square" alt="30 templates"></a>
 </p>
 
@@ -30,7 +30,7 @@
 
 | 入口 | 内容 | 适合谁 |
 | --- | --- | --- |
-| [完整案例画廊](docs/gallery.md) | 193 张效果图、案例说明与提示词入口 | 创作者、设计师 |
+| [完整案例画廊](docs/gallery.md) | 203 张效果图、案例说明与提示词入口 | 创作者、设计师 |
 | [工业提示词模板](docs/templates.md) | 30 套必填字段、输出契约、质量门槛与避坑检查 | 生产团队、Agent |
 | [在线浏览站点](https://hongforge.github.io/image-prompt-atlas/) | 搜索、筛选、卡片预览、提示词复制 | 所有使用者 |
 | [Agent 可用 JSON](data/prompt-library.json) | 案例、模板、变量、分类与限制的统一数据 | Agent、自动化程序 |
@@ -62,6 +62,12 @@
     <td width="33%" align="center" valign="top"><a href="docs/gallery.md#aigc-creation"><img src="site/public/case-images/aigc-game-boss-arena.png" alt="AICG 游戏与动漫" height="288"></a><br><strong>⚡ AICG 游戏与动漫</strong><br><sub>9 个主分类案例</sub></td>
     <td width="33%" align="center" valign="top"><a href="docs/gallery.md#comic-drama"><img src="site/public/case-images/comic-drama-turning-point-scene.png" alt="漫剧关键帧" height="288"></a><br><strong>🎞️ 漫剧关键帧</strong><br><sub>5 个主分类案例</sub></td>
     <td width="33%" align="center" valign="top"><a href="docs/gallery.md#portrait-character"><img src="site/public/case-images/east-asian-neon-closeup.png" alt="人像与角色" height="288"></a><br><strong>🧍 人像与角色</strong><br><sub>19 个主分类案例</sub></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="33%" align="center" valign="top"><a href="docs/gallery.md#health-science"><img src="site/public/case-images/mri-scan-room.png" alt="医疗健康与科学视觉" height="288"></a><br><strong>🧬 医疗健康与科学视觉</strong><br><sub>10 个案例</sub></td>
   </tr>
 </table>
 
@@ -97,6 +103,7 @@
 | [社交媒体内容](docs/gallery.md#social-content) | 10 | [纹样与材质设计](docs/gallery.md#surface-pattern) | 10 |
 | [包装与包装系统](docs/gallery.md#packaging-design) | 10 | [餐饮与美食视觉](docs/gallery.md#food-beverage) | 10 |
 | [时尚造型与编辑片](docs/gallery.md#fashion-editorial) | 10 |  |  |
+| [医疗健康与科学视觉](docs/gallery.md#health-science) | 10 |  |  |
 
 ## 🧩 工业模板
 

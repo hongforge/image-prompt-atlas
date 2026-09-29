@@ -1,0 +1,31 @@
+id: botanical-herbarium
+title: "药用植物标本学习板"
+summary: "以压制植物、空白标本卡和放大镜构成药用植物观察与知识整理的编辑式科学视觉。"
+taxonomy:
+  deliverable: [health-science]
+  medium: ["photography"]
+  workflow: [text-to-image]
+  capability: ["layout-hierarchy","material-lighting","instruction-following"]
+  model: [universal, gpt-image, midjourney]
+tags: ["科学教育","植物标本","知识视觉","编辑摄影"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [clinical_subject, scientific_context, safety_boundaries]
+  cover_values:
+    clinical_subject:
+      zh: "压制的薄荷、洋甘菊、薰衣草等植物标本与空白卡片"
+      en: "The hero subject: botanical herbarium"
+    scientific_context:
+      zh: "温暖自然学研究桌，标本按大小和观察顺序组成清晰俯拍网格"
+      en: "The surrounding professional context for botanical herbarium"
+    safety_boundaries:
+      zh: "只表达观察和归档，不出现可读植物名、疗效、药用剂量或安全声称"
+      en: "No unsupported claims, readable copy, branding, or watermark"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"]
+

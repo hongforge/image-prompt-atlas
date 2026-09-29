@@ -1,0 +1,31 @@
+id: microscope-cell-culture
+title: "细胞培养实验室器材"
+summary: "以显微镜、培养皿与移液器组成可理解的细胞研究场景，突出器材关系和实验室洁净度。"
+taxonomy:
+  deliverable: [health-science]
+  medium: ["photography"]
+  workflow: [text-to-image]
+  capability: ["material-lighting","spatial-reasoning","product-fidelity"]
+  model: [universal, gpt-image, midjourney]
+tags: ["医学科研","实验室","显微镜","科学摄影"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [clinical_subject, scientific_context, safety_boundaries]
+  cover_values:
+    clinical_subject:
+      zh: "双目生物显微镜、透明培养皿和蓝白移液器组成的细胞培养观察组合"
+      en: "The hero subject: microscope cell culture"
+    scientific_context:
+      zh: "明亮生物实验室工作台，器材按观察流程摆放并保持干净的空间关系"
+      en: "The surrounding professional context for microscope cell culture"
+    safety_boundaries:
+      zh: "无菌、整洁、可教学的实验场景；不展示病原体、污染、危险操作或任何可读标签"
+      en: "No unsupported claims, readable copy, branding, or watermark"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"]
+

@@ -4,7 +4,7 @@
 
 [Project home](../README.en.md) · [中文](gallery.md) · [Industrial templates](templates.en.md) · [Live gallery](https://hongforge.github.io/image-prompt-atlas/)
 
-Browse 193 original cases. Covers communicate the visual direction; each case file contains complete variables, cover-specific values, a production prompt, and limitations.
+Browse 203 original cases. Covers communicate the visual direction; each case file contains complete variables, cover-specific values, a production prompt, and limitations.
 
 ## Category navigation
 
@@ -25,6 +25,7 @@ Browse 193 original cases. Covers communicate the visual direction; each case fi
 - [📦 Packaging & Packaging Systems (10)](#packaging-design)
 - [🍽️ Food & Beverage Visuals (10)](#food-beverage)
 - [👗 Fashion Styling & Editorial (10)](#fashion-editorial)
+- [🧬 Health & Scientific Visuals (10)](#health-science)
 - [🎬 Scenes & Storytelling (8)](#scene-storytelling)
 - [🎨 Illustration & Art (5)](#illustration-art)
 - [📚 Documents & Publishing (8)](#document-publishing)
@@ -1525,6 +1526,99 @@ Browse 193 original cases. Covers communicate the visual direction; each case fi
 <sub>制作一张可用于专业型录或广告评审的时尚编辑视觉。人物或核心单品为 {{fashion_subject}}；版型、接缝、闭合、支撑、穿着关系与材料分区严格遵循 {{garment_construction}}；场景、机位、镜头、裁切、光线和色彩采用 {{editorial_direction}}。保持面部、人体、手部、服装结构和配饰连接自然，面料褶皱必须由重力</sub><br>
 <sub>universal · gpt-image · midjourney · text-to-image</sub><br>
 <a href="../library/cases/fashion-editorial/alpine-outerwear-campaign/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%"></td>
+<td width="33%"></td>
+</tr>
+</table>
+
+[Back to category navigation](#category-navigation)
+
+---
+
+<a id="health-science"></a>
+
+## 🧬 Health & Scientific Visuals
+
+> 10 cases. Select a cover to open its prompt file.
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/health-science/home-blood-pressure-monitor/prompt.md"><img src="../site/public/case-images/home-blood-pressure-monitor.png" alt="Home Blood Pressure Monitor" width="240"></a><br>
+<strong>Home Blood Pressure Monitor</strong><br>
+<sub>制作一张家用血压计的专业产品摄影：象牙白圆角主机与折叠深灰袖带放在明亮诊所桌面上，柔焦窗光和少量记录用品构成安静可信的健康设备场景。设备主体、袖带织物、玻璃屏幕、按钮和接触阴影必须真实；屏幕保持无数字状态。场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientific_context}}；合规、隐私和表达边界严格遵循 </sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/health-science/home-blood-pressure-monitor/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/health-science/rehab-balance-device/prompt.md"><img src="../site/public/case-images/rehab-balance-device.png" alt="Rehab Balance Device" width="240"></a><br>
+<strong>Rehab Balance Device</strong><br>
+<sub>制作一张康复平衡训练设备的专业产品视觉：黑色点阵防滑平台、银色双立柱扶手和弹性底座在采光充足的物理治疗工作室中完整呈现。明确平台厚度、支撑连接、底部稳定结构和周围安全空间；竖版 2:3，不能出现患者、疗效、品牌、文字或水印。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientific_context}}；合规、隐私</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/health-science/rehab-balance-device/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/health-science/vaccine-cold-chain/prompt.md"><img src="../site/public/case-images/vaccine-cold-chain.png" alt="Vaccine Cold Chain" width="240"></a><br>
+<strong>Vaccine Cold Chain</strong><br>
+<sub>制作一张疫苗冷链运输箱的专业产品视觉：打开的灰白硬壳箱体内有模切泡棉、蓝色冷媒冰袋、排列整齐的无标签玻璃瓶和缓冲隔板。重点表现闭合件、内衬、瓶体保护和取用路径；不生成温度数字、药品名称、品牌、认证图标或医疗功效。竖版 2:3，冷静不锈钢物流环境，单一完整方案。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientif</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/health-science/vaccine-cold-chain/prompt.md">Open prompt and variables</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/health-science/sleep-tracker-wearable/prompt.md"><img src="../site/public/case-images/sleep-tracker-wearable.png" alt="Sleep Tracker Wearable" width="240"></a><br>
+<strong>Sleep Tracker Wearable</strong><br>
+<sub>以无品牌睡眠监测腕带为主角，置于深蓝卧室的床头柜与叠放亚麻织物上；通过柔和台灯、冷色环境光和克制景深表达夜间低干扰体验。设备主体、织物纹理、金属边缘和接触阴影必须可信，屏幕保持纯黑或无信息状态。竖版 2:3，单一产品焦点，不生成文字、Logo、水印、医疗结论或虚构数据。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{sci</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/health-science/sleep-tracker-wearable/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/health-science/mri-scan-room/prompt.md"><img src="../site/public/case-images/mri-scan-room.png" alt="Mri Scan Room" width="240"></a><br>
+<strong>Mri Scan Room</strong><br>
+<sub>制作一张现代磁共振成像室的专业空间视觉：白色圆筒 MRI 扫描仪、可滑动检查床、护理车和收纳柜按真实医疗动线组织。透视、设备尺度、床体结构、地面反射与顶灯光向必须一致；整体气氛安静、明亮、让人安心。竖版 2:3，不生成患者、文字、Logo、水印或恐怖叙事。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientific</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/health-science/mri-scan-room/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/health-science/microscope-cell-culture/prompt.md"><img src="../site/public/case-images/microscope-cell-culture.png" alt="Microscope Cell Culture" width="240"></a><br>
+<strong>Microscope Cell Culture</strong><br>
+<sub>制作一张专业细胞培养观察实验室照片：双目显微镜作为主焦点，透明培养皿、移液器吸头盒和无标签试剂瓶作为辅助对象，按真实观察流程排列。保持光学镜头、金属调焦结构、玻璃反射与不锈钢台面可信；背景轻微虚化但不杂乱。竖版 2:3，无文字、Logo、水印、人物和危险溢出。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientif</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/health-science/microscope-cell-culture/prompt.md">Open prompt and variables</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/health-science/botanical-herbarium/prompt.md"><img src="../site/public/case-images/botanical-herbarium.png" alt="Botanical Herbarium" width="240"></a><br>
+<strong>Botanical Herbarium</strong><br>
+<sub>制作一张药用植物标本学习板：主画面是一组压制植物、空白标本卡、黄铜放大镜和档案纸，采用有秩序的俯拍编辑构图。纸张纤维、叶脉、干燥程度、固定带和桌面磨损要真实；留出清晰的空白卡片但不生成文字。竖版 2:3，不生成品牌、功效、剂量、Logo 或水印。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientific_cont</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/health-science/botanical-herbarium/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/health-science/nutrition-lab-still-life/prompt.md"><img src="../site/public/case-images/nutrition-lab-still-life.png" alt="Nutrition Lab Still Life" width="240"></a><br>
+<strong>Nutrition Lab Still Life</strong><br>
+<sub>制作一张营养科学实验台静物：燕麦、糙米、扁豆、鹰嘴豆、量勺、玻璃烧杯和空白线圈笔记本按从原料到观察的顺序排列。使用明亮侧光表现颗粒、陶瓷、玻璃和大理石纹理，层级清楚但不拥挤。竖版 2:3，不生成营养数值、疗效、品牌、文字或水印。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientific_context}}；合规、</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/health-science/nutrition-lab-still-life/prompt.md">Open prompt and variables</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/health-science/telemedicine-desk/prompt.md"><img src="../site/public/case-images/telemedicine-desk.png" alt="Telemedicine Desk" width="240"></a><br>
+<strong>Telemedicine Desk</strong><br>
+<sub>制作一张远程问诊工作台的生活方式摄影：木质书桌上摆放黑边平板、深蓝听诊器、空白记录本和一杯水，平板屏幕保持纯白无界面。通过自然光、木纹、硅胶管和金属听诊头表现可信材质；不出现人脸、医疗诊断、患者数据、Logo、文字或水印。竖版 2:3。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientific_context}}</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/health-science/telemedicine-desk/prompt.md">Open prompt and variables</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/health-science/anatomy-learning-model/prompt.md"><img src="../site/public/case-images/anatomy-learning-model.png" alt="Anatomy Learning Model" width="240"></a><br>
+<strong>Anatomy Learning Model</strong><br>
+<sub>制作一张医学教育用透明心脏模型的产品摄影：半透明树脂心脏模型固定在中性浅灰展台，内部红蓝血管路径作为简化教学线索，结构连贯且不血腥。使用柔和棚拍光表现材质厚度和内部透光，背景保持安静。竖版 2:3，不生成标签、诊断、疗效、品牌、文字或水印。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientific_context</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/health-science/anatomy-learning-model/prompt.md">Open prompt and variables</a>
 </td>
 <td width="33%"></td>
 <td width="33%"></td>

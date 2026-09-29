@@ -1,0 +1,31 @@
+id: nutrition-lab-still-life
+title: "营养科学实验台"
+summary: "以谷物、豆类、量勺和玻璃器皿组成营养研究静物，强调样本分类与可观察性而非健康宣传。"
+taxonomy:
+  deliverable: [health-science]
+  medium: ["photography"]
+  workflow: [text-to-image]
+  capability: ["layout-hierarchy","material-lighting","instruction-following"]
+  model: [universal, gpt-image, midjourney]
+tags: ["营养科学","食品实验室","静物摄影","样本分类"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [clinical_subject, scientific_context, safety_boundaries]
+  cover_values:
+    clinical_subject:
+      zh: "燕麦、糙米、扁豆、鹰嘴豆和量勺组成的样本组"
+      en: "The hero subject: nutrition lab still life"
+    scientific_context:
+      zh: "明亮食品科学实验室台面，食材、玻璃器皿与空白笔记本按研究顺序摆放"
+      en: "The surrounding professional context for nutrition lab still life"
+    safety_boundaries:
+      zh: "只展示样本与记录准备，不出现营养数值、减重承诺、疗效或可读文字"
+      en: "No unsupported claims, readable copy, branding, or watermark"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"]
+
