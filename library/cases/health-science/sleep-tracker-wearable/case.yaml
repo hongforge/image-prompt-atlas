@@ -1,0 +1,31 @@
+id: sleep-tracker-wearable
+title: "睡眠监测腕带产品视觉"
+summary: "以无品牌可穿戴设备和夜间卧室环境表达睡眠记录产品的安静、可信与低干扰体验。"
+taxonomy:
+  deliverable: [health-science]
+  medium: ["photography","3d-render"]
+  workflow: [text-to-image]
+  capability: ["product-fidelity","material-lighting","instruction-following"]
+  model: [universal, gpt-image, midjourney]
+tags: ["医疗健康","可穿戴设备","睡眠科技","产品摄影"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [clinical_subject, scientific_context, safety_boundaries]
+  cover_values:
+    clinical_subject:
+      zh: "一枚深海军蓝织物表带、黑色圆角传感器主体的无品牌睡眠监测腕带"
+      en: "The hero subject: sleep tracker wearable"
+    scientific_context:
+      zh: "夜间床头柜与叠放亚麻织物构成的低干扰卧室场景，设备被自然放置而非佩戴"
+      en: "The surrounding professional context for sleep tracker wearable"
+    safety_boundaries:
+      zh: "只表达硬件质感与安静陪伴，不出现睡眠评分、医疗效果、品牌标志或可读文字"
+      en: "No unsupported claims, readable copy, branding, or watermark"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"]
+

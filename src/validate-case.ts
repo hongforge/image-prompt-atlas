@@ -5,6 +5,7 @@ export const TAXONOMY = {
     'scene-storytelling', 'comic-drama', 'avatar-expression', 'aigc-creation',
     'film-storyboard', 'game-asset', 'social-content', 'surface-pattern',
     'packaging-design', 'food-beverage', 'fashion-editorial',
+    'health-science',
     'illustration-art', 'document-publishing', 'educational-visual',
   ],
   medium: ['photography', '3d-render', 'vector-graphic', 'illustration', 'mixed-media'],

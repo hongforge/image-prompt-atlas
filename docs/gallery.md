@@ -4,7 +4,7 @@
 
 [返回项目首页](../README.md) · [English](gallery.en.md) · [工业模板](templates.md) · [在线浏览](https://hongforge.github.io/image-prompt-atlas/)
 
-这里展示 193 个原创案例。封面用于快速判断视觉方向，案例文件提供完整变量、对应封面值、生产级提示词与限制说明。
+这里展示 203 个原创案例。封面用于快速判断视觉方向，案例文件提供完整变量、对应封面值、生产级提示词与限制说明。
 
 ## 分类导航
 
@@ -25,6 +25,7 @@
 - [📦 包装与包装系统（10）](#packaging-design)
 - [🍽️ 餐饮与美食视觉（10）](#food-beverage)
 - [👗 时尚造型与编辑片（10）](#fashion-editorial)
+- [🧬 医疗健康与科学视觉（10）](#health-science)
 - [🎬 场景与叙事（8）](#scene-storytelling)
 - [🎨 插画与艺术实验（5）](#illustration-art)
 - [📚 文档与出版（8）](#document-publishing)
@@ -1525,6 +1526,99 @@
 <sub>以清晰面部、结霜面料和真实攀登装备呈现极端环境中的服装性能</sub><br>
 <sub>universal · gpt-image · midjourney · text-to-image</sub><br>
 <a href="../library/cases/fashion-editorial/alpine-outerwear-campaign/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%"></td>
+<td width="33%"></td>
+</tr>
+</table>
+
+[返回分类导航](#分类导航)
+
+---
+
+<a id="health-science"></a>
+
+## 🧬 医疗健康与科学视觉
+
+> 10 个案例；点击封面进入对应提示词文件。
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/health-science/home-blood-pressure-monitor/prompt.md"><img src="../site/public/case-images/home-blood-pressure-monitor.png" alt="家用血压计产品视觉" width="240"></a><br>
+<strong>家用血压计产品视觉</strong><br>
+<sub>以无品牌家用血压计、袖带与明亮诊所桌面表现易理解的健康设备体验，不暗示任何诊断或疗效。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/health-science/home-blood-pressure-monitor/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/health-science/rehab-balance-device/prompt.md"><img src="../site/public/case-images/rehab-balance-device.png" alt="康复平衡训练设备" width="240"></a><br>
+<strong>康复平衡训练设备</strong><br>
+<sub>以带扶手的平衡训练平台表现康复器材的防滑结构、支撑关系和安全空间。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/health-science/rehab-balance-device/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/health-science/vaccine-cold-chain/prompt.md"><img src="../site/public/case-images/vaccine-cold-chain.png" alt="疫苗冷链运输箱" width="240"></a><br>
+<strong>疫苗冷链运输箱</strong><br>
+<sub>通过保温箱、冰袋和通用玻璃瓶建立药品冷链运输的结构化产品展示，不暗示功效或品牌。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/health-science/vaccine-cold-chain/prompt.md">查看提示词与变量</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/health-science/sleep-tracker-wearable/prompt.md"><img src="../site/public/case-images/sleep-tracker-wearable.png" alt="睡眠监测腕带产品视觉" width="240"></a><br>
+<strong>睡眠监测腕带产品视觉</strong><br>
+<sub>以无品牌可穿戴设备和夜间卧室环境表达睡眠记录产品的安静、可信与低干扰体验。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/health-science/sleep-tracker-wearable/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/health-science/mri-scan-room/prompt.md"><img src="../site/public/case-images/mri-scan-room.png" alt="磁共振成像空间" width="240"></a><br>
+<strong>磁共振成像空间</strong><br>
+<sub>用空置且有尺度线索的 MRI 检查室表现医疗空间的动线、安全感与设备体量。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/health-science/mri-scan-room/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/health-science/microscope-cell-culture/prompt.md"><img src="../site/public/case-images/microscope-cell-culture.png" alt="细胞培养实验室器材" width="240"></a><br>
+<strong>细胞培养实验室器材</strong><br>
+<sub>以显微镜、培养皿与移液器组成可理解的细胞研究场景，突出器材关系和实验室洁净度。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/health-science/microscope-cell-culture/prompt.md">查看提示词与变量</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/health-science/botanical-herbarium/prompt.md"><img src="../site/public/case-images/botanical-herbarium.png" alt="药用植物标本学习板" width="240"></a><br>
+<strong>药用植物标本学习板</strong><br>
+<sub>以压制植物、空白标本卡和放大镜构成药用植物观察与知识整理的编辑式科学视觉。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/health-science/botanical-herbarium/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/health-science/nutrition-lab-still-life/prompt.md"><img src="../site/public/case-images/nutrition-lab-still-life.png" alt="营养科学实验台" width="240"></a><br>
+<strong>营养科学实验台</strong><br>
+<sub>以谷物、豆类、量勺和玻璃器皿组成营养研究静物，强调样本分类与可观察性而非健康宣传。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/health-science/nutrition-lab-still-life/prompt.md">查看提示词与变量</a>
+</td>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/health-science/telemedicine-desk/prompt.md"><img src="../site/public/case-images/telemedicine-desk.png" alt="远程问诊工作台" width="240"></a><br>
+<strong>远程问诊工作台</strong><br>
+<sub>以平板、听诊器和空白记录本组成远程健康咨询的居家工作场景，避免虚构界面与医疗结论。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/health-science/telemedicine-desk/prompt.md">查看提示词与变量</a>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+<a href="../library/cases/health-science/anatomy-learning-model/prompt.md"><img src="../site/public/case-images/anatomy-learning-model.png" alt="透明心脏解剖教学模型" width="240"></a><br>
+<strong>透明心脏解剖教学模型</strong><br>
+<sub>用半透明树脂心脏模型解释基础结构学习场景，强调教育展示而非疾病或治疗叙事。</sub><br>
+<sub>universal · gpt-image · midjourney · text-to-image</sub><br>
+<a href="../library/cases/health-science/anatomy-learning-model/prompt.md">查看提示词与变量</a>
 </td>
 <td width="33%"></td>
 <td width="33%"></td>

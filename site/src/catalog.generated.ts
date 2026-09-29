@@ -7795,6 +7795,138 @@ export const catalog = [
     "path": "library/cases/packaging/detergent-refill-packaging"
   },
   {
+    "id": "home-blood-pressure-monitor",
+    "title": {
+      "zh": "家用血压计产品视觉",
+      "en": "Home Blood Pressure Monitor"
+    },
+    "summary": {
+      "zh": "以无品牌家用血压计、袖带与明亮诊所桌面表现易理解的健康设备体验，不暗示任何诊断或疗效。",
+      "en": "制作一张家用血压计的专业产品摄影：象牙白圆角主机与折叠深灰袖带放在明亮诊所桌面上，柔焦窗光和少量记录用品构成安静可信的健康设备场景。设备主体、袖带织物、玻璃屏幕、按钮和接触阴影必须真实；屏幕保持无数字状态。场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientific_context}}；合规、隐私和表达边界严格遵循 "
+    },
+    "taxonomy": {
+      "deliverable": [
+        "health-science"
+      ],
+      "medium": [
+        "photography",
+        "3d-render"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "product-fidelity",
+        "material-lighting",
+        "instruction-following"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "医疗健康",
+        "血压计",
+        "家用设备",
+        "产品摄影"
+      ],
+      "en": [
+        "Health Science",
+        "Product Fidelity",
+        "Material Lighting",
+        "Instruction Following"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "clinical_subject",
+        "scientific_context",
+        "safety_boundaries"
+      ],
+      "cover_values": {
+        "clinical_subject": {
+          "zh": "一台象牙白圆角家用血压计和折叠深灰袖带，屏幕保持无数字状态",
+          "en": "An ivory rounded home blood-pressure monitor with a folded dark-gray cuff and blank display"
+        },
+        "scientific_context": {
+          "zh": "明亮诊所桌面、柔焦窗光和少量记录用品组成的可信居家健康测量场景",
+          "en": "A calm home-health measurement setting with a bright clinic desk, soft window light, and sparse stationery"
+        },
+        "safety_boundaries": {
+          "zh": "只展示设备、袖带和材质，不生成测量数值、诊断、疗效、品牌、可读文字或水印",
+          "en": "Show only the device, cuff, and materials; no readings, diagnosis, efficacy, branding, readable copy, or watermark"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "clinical_subject",
+          "zh": "临床主体",
+          "en": "Clinical Subject",
+          "description": {
+            "zh": "请填写「临床主体」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Clinical Subject, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "一台象牙白圆角家用血压计和折叠深灰袖带，屏幕保持无数字状态",
+            "en": "An ivory rounded home blood-pressure monitor with a folded dark-gray cuff and blank display"
+          }
+        },
+        {
+          "id": "scientific_context",
+          "zh": "科学语境",
+          "en": "Scientific Context",
+          "description": {
+            "zh": "请填写「科学语境」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Scientific Context, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "明亮诊所桌面、柔焦窗光和少量记录用品组成的可信居家健康测量场景",
+            "en": "A calm home-health measurement setting with a bright clinic desk, soft window light, and sparse stationery"
+          }
+        },
+        {
+          "id": "safety_boundaries",
+          "zh": "安全边界",
+          "en": "Safety Boundaries",
+          "description": {
+            "zh": "请填写「安全边界」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Safety Boundaries, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "只展示设备、袖带和材质，不生成测量数值、诊断、疗效、品牌、可读文字或水印",
+            "en": "Show only the device, cuff, and materials; no readings, diagnosis, efficacy, branding, readable copy, or watermark"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「家用血压计产品视觉」创作图像：以无品牌家用血压计、袖带与明亮诊所桌面表现易理解的健康设备体验，不暗示任何诊断或疗效。\n\n## 必填需求字段\n- `{{clinical_subject}}`（临床主体）：一台象牙白圆角家用血压计和折叠深灰袖带，屏幕保持无数字状态\n- `{{scientific_context}}`（科学语境）：明亮诊所桌面、柔焦窗光和少量记录用品组成的可信居家健康测量场景\n- `{{safety_boundaries}}`（安全边界）：只展示设备、袖带和材质，不生成测量数值、诊断、疗效、品牌、可读文字或水印\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 保持科学与医疗视觉的准确边界：不得暗示诊断、疗效或监管批准；设备几何、洁净或教学语境、隐私边界与尺度必须可信，并清楚区分教学模型和真实临床结果。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。",
+        "en": "制作一张家用血压计的专业产品摄影：象牙白圆角主机与折叠深灰袖带放在明亮诊所桌面上，柔焦窗光和少量记录用品构成安静可信的健康设备场景。设备主体、袖带织物、玻璃屏幕、按钮和接触阴影必须真实；屏幕保持无数字状态。场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientific_context}}；合规、隐私和表达边界严格遵循 {{safety_boundaries}}。竖版 2:3，不生成测量数值、诊断、疗效、品牌、文字、Logo 或水印。\n\n## Production protocol\n\n### Brief integrity\n- `{{clinical_subject}}` (Clinical Subject): An ivory rounded home blood-pressure monitor with a folded dark-gray cuff and blank display\n- `{{scientific_context}}` (Scientific Context): A calm home-health measurement setting with a bright clinic desk, soft window light, and sparse stationery\n- `{{safety_boundaries}}` (Safety Boundaries): Show only the device, cuff, and materials; no readings, diagnosis, efficacy, branding, readable copy, or watermark\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Keep scientific and healthcare visuals precise without implying diagnosis, efficacy, or regulatory approval. Preserve device geometry, sterile or educational context, privacy boundaries, readable scale, and a clear distinction between an illustrative model and a real clinical result.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ],
+      "en": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ]
+    },
+    "preview": "case-images/home-blood-pressure-monitor.png",
+    "path": "library/cases/health-science/home-blood-pressure-monitor"
+  },
+  {
     "id": "niche-fragrance-packaging",
     "title": {
       "zh": "小众香氛瓶盒设计",
@@ -8500,6 +8632,138 @@ export const catalog = [
     },
     "preview": "case-images/annual-report-cover.png",
     "path": "library/cases/publishing/annual-report-cover"
+  },
+  {
+    "id": "rehab-balance-device",
+    "title": {
+      "zh": "康复平衡训练设备",
+      "en": "Rehab Balance Device"
+    },
+    "summary": {
+      "zh": "以带扶手的平衡训练平台表现康复器材的防滑结构、支撑关系和安全空间。",
+      "en": "制作一张康复平衡训练设备的专业产品视觉：黑色点阵防滑平台、银色双立柱扶手和弹性底座在采光充足的物理治疗工作室中完整呈现。明确平台厚度、支撑连接、底部稳定结构和周围安全空间；竖版 2:3，不能出现患者、疗效、品牌、文字或水印。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientific_context}}；合规、隐私"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "health-science"
+      ],
+      "medium": [
+        "photography",
+        "3d-render"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "product-fidelity",
+        "spatial-reasoning",
+        "material-lighting"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "康复器械",
+        "运动医学",
+        "产品摄影",
+        "人体工学"
+      ],
+      "en": [
+        "Health Science",
+        "Product Fidelity",
+        "Spatial Reasoning",
+        "Material Lighting"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "clinical_subject",
+        "scientific_context",
+        "safety_boundaries"
+      ],
+      "cover_values": {
+        "clinical_subject": {
+          "zh": "带黑色防滑纹理平台、银色支撑扶手和可见弹性底座的平衡训练器",
+          "en": "The hero subject: rehab balance device"
+        },
+        "scientific_context": {
+          "zh": "采光充足的物理治疗工作室，设备周围保留真实安全操作空间",
+          "en": "The surrounding professional context for rehab balance device"
+        },
+        "safety_boundaries": {
+          "zh": "只表现器材结构与安全尺度，不出现患者、治疗效果、医疗承诺、品牌或文字",
+          "en": "No unsupported claims, readable copy, branding, or watermark"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "clinical_subject",
+          "zh": "临床主体",
+          "en": "Clinical Subject",
+          "description": {
+            "zh": "请填写「临床主体」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Clinical Subject, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "带黑色防滑纹理平台、银色支撑扶手和可见弹性底座的平衡训练器",
+            "en": "The hero subject: rehab balance device"
+          }
+        },
+        {
+          "id": "scientific_context",
+          "zh": "科学语境",
+          "en": "Scientific Context",
+          "description": {
+            "zh": "请填写「科学语境」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Scientific Context, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "采光充足的物理治疗工作室，设备周围保留真实安全操作空间",
+            "en": "The surrounding professional context for rehab balance device"
+          }
+        },
+        {
+          "id": "safety_boundaries",
+          "zh": "安全边界",
+          "en": "Safety Boundaries",
+          "description": {
+            "zh": "请填写「安全边界」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Safety Boundaries, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "只表现器材结构与安全尺度，不出现患者、治疗效果、医疗承诺、品牌或文字",
+            "en": "No unsupported claims, readable copy, branding, or watermark"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「康复平衡训练设备」创作图像：以带扶手的平衡训练平台表现康复器材的防滑结构、支撑关系和安全空间。\n\n## 必填需求字段\n- `{{clinical_subject}}`（临床主体）：带黑色防滑纹理平台、银色支撑扶手和可见弹性底座的平衡训练器\n- `{{scientific_context}}`（科学语境）：采光充足的物理治疗工作室，设备周围保留真实安全操作空间\n- `{{safety_boundaries}}`（安全边界）：只表现器材结构与安全尺度，不出现患者、治疗效果、医疗承诺、品牌或文字\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 保持科学与医疗视觉的准确边界：不得暗示诊断、疗效或监管批准；设备几何、洁净或教学语境、隐私边界与尺度必须可信，并清楚区分教学模型和真实临床结果。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。",
+        "en": "制作一张康复平衡训练设备的专业产品视觉：黑色点阵防滑平台、银色双立柱扶手和弹性底座在采光充足的物理治疗工作室中完整呈现。明确平台厚度、支撑连接、底部稳定结构和周围安全空间；竖版 2:3，不能出现患者、疗效、品牌、文字或水印。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientific_context}}；合规、隐私和表达边界严格遵循 {{safety_boundaries}}。\n\n## Production protocol\n\n### Brief integrity\n- `{{clinical_subject}}` (Clinical Subject): The hero subject: rehab balance device\n- `{{scientific_context}}` (Scientific Context): The surrounding professional context for rehab balance device\n- `{{safety_boundaries}}` (Safety Boundaries): No unsupported claims, readable copy, branding, or watermark\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Keep scientific and healthcare visuals precise without implying diagnosis, efficacy, or regulatory approval. Preserve device geometry, sterile or educational context, privacy boundaries, readable scale, and a clear distinction between an illustrative model and a real clinical result.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ],
+      "en": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ]
+    },
+    "preview": "case-images/rehab-balance-device.png",
+    "path": "library/cases/health-science/rehab-balance-device"
   },
   {
     "id": "architectural-sneaker-material-shot",
@@ -16797,6 +17061,138 @@ export const catalog = [
     "path": "library/cases/editing/object-removal-cleanup"
   },
   {
+    "id": "vaccine-cold-chain",
+    "title": {
+      "zh": "疫苗冷链运输箱",
+      "en": "Vaccine Cold Chain"
+    },
+    "summary": {
+      "zh": "通过保温箱、冰袋和通用玻璃瓶建立药品冷链运输的结构化产品展示，不暗示功效或品牌。",
+      "en": "制作一张疫苗冷链运输箱的专业产品视觉：打开的灰白硬壳箱体内有模切泡棉、蓝色冷媒冰袋、排列整齐的无标签玻璃瓶和缓冲隔板。重点表现闭合件、内衬、瓶体保护和取用路径；不生成温度数字、药品名称、品牌、认证图标或医疗功效。竖版 2:3，冷静不锈钢物流环境，单一完整方案。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientif"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "health-science"
+      ],
+      "medium": [
+        "photography",
+        "3d-render"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "product-fidelity",
+        "layout-hierarchy",
+        "material-lighting"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "医药物流",
+        "冷链运输",
+        "产品结构",
+        "包装视觉"
+      ],
+      "en": [
+        "Health Science",
+        "Product Fidelity",
+        "Layout Hierarchy",
+        "Material Lighting"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "clinical_subject",
+        "scientific_context",
+        "safety_boundaries"
+      ],
+      "cover_values": {
+        "clinical_subject": {
+          "zh": "打开的灰白硬壳保温运输箱、蓝色冷媒冰袋和无标签通用玻璃瓶",
+          "en": "The hero subject: vaccine cold chain"
+        },
+        "scientific_context": {
+          "zh": "温控物流操作间的不锈钢工作台，箱内分仓、缓冲和固定关系清晰",
+          "en": "The surrounding professional context for vaccine cold chain"
+        },
+        "safety_boundaries": {
+          "zh": "展示收纳与保护结构，不出现药品名称、温度承诺、品牌、认证或功效主张",
+          "en": "No unsupported claims, readable copy, branding, or watermark"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "clinical_subject",
+          "zh": "临床主体",
+          "en": "Clinical Subject",
+          "description": {
+            "zh": "请填写「临床主体」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Clinical Subject, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "打开的灰白硬壳保温运输箱、蓝色冷媒冰袋和无标签通用玻璃瓶",
+            "en": "The hero subject: vaccine cold chain"
+          }
+        },
+        {
+          "id": "scientific_context",
+          "zh": "科学语境",
+          "en": "Scientific Context",
+          "description": {
+            "zh": "请填写「科学语境」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Scientific Context, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "温控物流操作间的不锈钢工作台，箱内分仓、缓冲和固定关系清晰",
+            "en": "The surrounding professional context for vaccine cold chain"
+          }
+        },
+        {
+          "id": "safety_boundaries",
+          "zh": "安全边界",
+          "en": "Safety Boundaries",
+          "description": {
+            "zh": "请填写「安全边界」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Safety Boundaries, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "展示收纳与保护结构，不出现药品名称、温度承诺、品牌、认证或功效主张",
+            "en": "No unsupported claims, readable copy, branding, or watermark"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「疫苗冷链运输箱」创作图像：通过保温箱、冰袋和通用玻璃瓶建立药品冷链运输的结构化产品展示，不暗示功效或品牌。\n\n## 必填需求字段\n- `{{clinical_subject}}`（临床主体）：打开的灰白硬壳保温运输箱、蓝色冷媒冰袋和无标签通用玻璃瓶\n- `{{scientific_context}}`（科学语境）：温控物流操作间的不锈钢工作台，箱内分仓、缓冲和固定关系清晰\n- `{{safety_boundaries}}`（安全边界）：展示收纳与保护结构，不出现药品名称、温度承诺、品牌、认证或功效主张\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 保持科学与医疗视觉的准确边界：不得暗示诊断、疗效或监管批准；设备几何、洁净或教学语境、隐私边界与尺度必须可信，并清楚区分教学模型和真实临床结果。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。",
+        "en": "制作一张疫苗冷链运输箱的专业产品视觉：打开的灰白硬壳箱体内有模切泡棉、蓝色冷媒冰袋、排列整齐的无标签玻璃瓶和缓冲隔板。重点表现闭合件、内衬、瓶体保护和取用路径；不生成温度数字、药品名称、品牌、认证图标或医疗功效。竖版 2:3，冷静不锈钢物流环境，单一完整方案。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientific_context}}；合规、隐私和表达边界严格遵循 {{safety_boundaries}}。\n\n## Production protocol\n\n### Brief integrity\n- `{{clinical_subject}}` (Clinical Subject): The hero subject: vaccine cold chain\n- `{{scientific_context}}` (Scientific Context): The surrounding professional context for vaccine cold chain\n- `{{safety_boundaries}}` (Safety Boundaries): No unsupported claims, readable copy, branding, or watermark\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Keep scientific and healthcare visuals precise without implying diagnosis, efficacy, or regulatory approval. Preserve device geometry, sterile or educational context, privacy boundaries, readable scale, and a clear distinction between an illustrative model and a real clinical result.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ],
+      "en": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ]
+    },
+    "preview": "case-images/vaccine-cold-chain.png",
+    "path": "library/cases/health-science/vaccine-cold-chain"
+  },
+  {
     "id": "whitepaper-cover-system",
     "title": {
       "zh": "白皮书封面系统",
@@ -17145,6 +17541,138 @@ export const catalog = [
     "path": "library/cases/social/live-stream-overlay"
   },
   {
+    "id": "sleep-tracker-wearable",
+    "title": {
+      "zh": "睡眠监测腕带产品视觉",
+      "en": "Sleep Tracker Wearable"
+    },
+    "summary": {
+      "zh": "以无品牌可穿戴设备和夜间卧室环境表达睡眠记录产品的安静、可信与低干扰体验。",
+      "en": "以无品牌睡眠监测腕带为主角，置于深蓝卧室的床头柜与叠放亚麻织物上；通过柔和台灯、冷色环境光和克制景深表达夜间低干扰体验。设备主体、织物纹理、金属边缘和接触阴影必须可信，屏幕保持纯黑或无信息状态。竖版 2:3，单一产品焦点，不生成文字、Logo、水印、医疗结论或虚构数据。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{sci"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "health-science"
+      ],
+      "medium": [
+        "photography",
+        "3d-render"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "product-fidelity",
+        "material-lighting",
+        "instruction-following"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "医疗健康",
+        "可穿戴设备",
+        "睡眠科技",
+        "产品摄影"
+      ],
+      "en": [
+        "Health Science",
+        "Product Fidelity",
+        "Material Lighting",
+        "Instruction Following"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "clinical_subject",
+        "scientific_context",
+        "safety_boundaries"
+      ],
+      "cover_values": {
+        "clinical_subject": {
+          "zh": "一枚深海军蓝织物表带、黑色圆角传感器主体的无品牌睡眠监测腕带",
+          "en": "The hero subject: sleep tracker wearable"
+        },
+        "scientific_context": {
+          "zh": "夜间床头柜与叠放亚麻织物构成的低干扰卧室场景，设备被自然放置而非佩戴",
+          "en": "The surrounding professional context for sleep tracker wearable"
+        },
+        "safety_boundaries": {
+          "zh": "只表达硬件质感与安静陪伴，不出现睡眠评分、医疗效果、品牌标志或可读文字",
+          "en": "No unsupported claims, readable copy, branding, or watermark"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "clinical_subject",
+          "zh": "临床主体",
+          "en": "Clinical Subject",
+          "description": {
+            "zh": "请填写「临床主体」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Clinical Subject, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "一枚深海军蓝织物表带、黑色圆角传感器主体的无品牌睡眠监测腕带",
+            "en": "The hero subject: sleep tracker wearable"
+          }
+        },
+        {
+          "id": "scientific_context",
+          "zh": "科学语境",
+          "en": "Scientific Context",
+          "description": {
+            "zh": "请填写「科学语境」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Scientific Context, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "夜间床头柜与叠放亚麻织物构成的低干扰卧室场景，设备被自然放置而非佩戴",
+            "en": "The surrounding professional context for sleep tracker wearable"
+          }
+        },
+        {
+          "id": "safety_boundaries",
+          "zh": "安全边界",
+          "en": "Safety Boundaries",
+          "description": {
+            "zh": "请填写「安全边界」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Safety Boundaries, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "只表达硬件质感与安静陪伴，不出现睡眠评分、医疗效果、品牌标志或可读文字",
+            "en": "No unsupported claims, readable copy, branding, or watermark"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「睡眠监测腕带产品视觉」创作图像：以无品牌可穿戴设备和夜间卧室环境表达睡眠记录产品的安静、可信与低干扰体验。\n\n## 必填需求字段\n- `{{clinical_subject}}`（临床主体）：一枚深海军蓝织物表带、黑色圆角传感器主体的无品牌睡眠监测腕带\n- `{{scientific_context}}`（科学语境）：夜间床头柜与叠放亚麻织物构成的低干扰卧室场景，设备被自然放置而非佩戴\n- `{{safety_boundaries}}`（安全边界）：只表达硬件质感与安静陪伴，不出现睡眠评分、医疗效果、品牌标志或可读文字\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 保持科学与医疗视觉的准确边界：不得暗示诊断、疗效或监管批准；设备几何、洁净或教学语境、隐私边界与尺度必须可信，并清楚区分教学模型和真实临床结果。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。",
+        "en": "以无品牌睡眠监测腕带为主角，置于深蓝卧室的床头柜与叠放亚麻织物上；通过柔和台灯、冷色环境光和克制景深表达夜间低干扰体验。设备主体、织物纹理、金属边缘和接触阴影必须可信，屏幕保持纯黑或无信息状态。竖版 2:3，单一产品焦点，不生成文字、Logo、水印、医疗结论或虚构数据。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientific_context}}；合规、隐私和表达边界严格遵循 {{safety_boundaries}}。\n\n## Production protocol\n\n### Brief integrity\n- `{{clinical_subject}}` (Clinical Subject): The hero subject: sleep tracker wearable\n- `{{scientific_context}}` (Scientific Context): The surrounding professional context for sleep tracker wearable\n- `{{safety_boundaries}}` (Safety Boundaries): No unsupported claims, readable copy, branding, or watermark\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Keep scientific and healthcare visuals precise without implying diagnosis, efficacy, or regulatory approval. Preserve device geometry, sterile or educational context, privacy boundaries, readable scale, and a clear distinction between an illustrative model and a real clinical result.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ],
+      "en": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ]
+    },
+    "preview": "case-images/sleep-tracker-wearable.png",
+    "path": "library/cases/health-science/sleep-tracker-wearable"
+  },
+  {
     "id": "mineral-surface-library",
     "title": {
       "zh": "矿物建筑材质样板库",
@@ -17298,6 +17826,138 @@ export const catalog = [
     },
     "preview": "case-images/mineral-surface-library.png",
     "path": "library/cases/surface/mineral-surface-library"
+  },
+  {
+    "id": "mri-scan-room",
+    "title": {
+      "zh": "磁共振成像空间",
+      "en": "Mri Scan Room"
+    },
+    "summary": {
+      "zh": "用空置且有尺度线索的 MRI 检查室表现医疗空间的动线、安全感与设备体量。",
+      "en": "制作一张现代磁共振成像室的专业空间视觉：白色圆筒 MRI 扫描仪、可滑动检查床、护理车和收纳柜按真实医疗动线组织。透视、设备尺度、床体结构、地面反射与顶灯光向必须一致；整体气氛安静、明亮、让人安心。竖版 2:3，不生成患者、文字、Logo、水印或恐怖叙事。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientific"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "health-science"
+      ],
+      "medium": [
+        "photography",
+        "3d-render"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "spatial-reasoning",
+        "material-lighting",
+        "instruction-following"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "医疗空间",
+        "MRI",
+        "建筑摄影",
+        "空间推理"
+      ],
+      "en": [
+        "Health Science",
+        "Spatial Reasoning",
+        "Material Lighting",
+        "Instruction Following"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "clinical_subject",
+        "scientific_context",
+        "safety_boundaries"
+      ],
+      "cover_values": {
+        "clinical_subject": {
+          "zh": "白色圆筒式磁共振扫描仪、可滑动检查床和软蓝色护理空间",
+          "en": "The hero subject: mri scan room"
+        },
+        "scientific_context": {
+          "zh": "空置的现代医院影像室，检查床与设备保持真实通行宽度和尺度关系",
+          "en": "The surrounding professional context for mri scan room"
+        },
+        "safety_boundaries": {
+          "zh": "整洁、安静、可解释的医疗环境，不出现患者、警示文字、品牌或检查结论",
+          "en": "No unsupported claims, readable copy, branding, or watermark"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "clinical_subject",
+          "zh": "临床主体",
+          "en": "Clinical Subject",
+          "description": {
+            "zh": "请填写「临床主体」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Clinical Subject, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "白色圆筒式磁共振扫描仪、可滑动检查床和软蓝色护理空间",
+            "en": "The hero subject: mri scan room"
+          }
+        },
+        {
+          "id": "scientific_context",
+          "zh": "科学语境",
+          "en": "Scientific Context",
+          "description": {
+            "zh": "请填写「科学语境」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Scientific Context, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "空置的现代医院影像室，检查床与设备保持真实通行宽度和尺度关系",
+            "en": "The surrounding professional context for mri scan room"
+          }
+        },
+        {
+          "id": "safety_boundaries",
+          "zh": "安全边界",
+          "en": "Safety Boundaries",
+          "description": {
+            "zh": "请填写「安全边界」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Safety Boundaries, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "整洁、安静、可解释的医疗环境，不出现患者、警示文字、品牌或检查结论",
+            "en": "No unsupported claims, readable copy, branding, or watermark"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「磁共振成像空间」创作图像：用空置且有尺度线索的 MRI 检查室表现医疗空间的动线、安全感与设备体量。\n\n## 必填需求字段\n- `{{clinical_subject}}`（临床主体）：白色圆筒式磁共振扫描仪、可滑动检查床和软蓝色护理空间\n- `{{scientific_context}}`（科学语境）：空置的现代医院影像室，检查床与设备保持真实通行宽度和尺度关系\n- `{{safety_boundaries}}`（安全边界）：整洁、安静、可解释的医疗环境，不出现患者、警示文字、品牌或检查结论\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 保持科学与医疗视觉的准确边界：不得暗示诊断、疗效或监管批准；设备几何、洁净或教学语境、隐私边界与尺度必须可信，并清楚区分教学模型和真实临床结果。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。",
+        "en": "制作一张现代磁共振成像室的专业空间视觉：白色圆筒 MRI 扫描仪、可滑动检查床、护理车和收纳柜按真实医疗动线组织。透视、设备尺度、床体结构、地面反射与顶灯光向必须一致；整体气氛安静、明亮、让人安心。竖版 2:3，不生成患者、文字、Logo、水印或恐怖叙事。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientific_context}}；合规、隐私和表达边界严格遵循 {{safety_boundaries}}。\n\n## Production protocol\n\n### Brief integrity\n- `{{clinical_subject}}` (Clinical Subject): The hero subject: mri scan room\n- `{{scientific_context}}` (Scientific Context): The surrounding professional context for mri scan room\n- `{{safety_boundaries}}` (Safety Boundaries): No unsupported claims, readable copy, branding, or watermark\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Keep scientific and healthcare visuals precise without implying diagnosis, efficacy, or regulatory approval. Preserve device geometry, sterile or educational context, privacy boundaries, readable scale, and a clear distinction between an illustrative model and a real clinical result.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ],
+      "en": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ]
+    },
+    "preview": "case-images/mri-scan-room.png",
+    "path": "library/cases/health-science/mri-scan-room"
   },
   {
     "id": "social-quote-card",
@@ -18653,6 +19313,137 @@ export const catalog = [
     "path": "library/cases/storytelling/documentary-scene-concept"
   },
   {
+    "id": "microscope-cell-culture",
+    "title": {
+      "zh": "细胞培养实验室器材",
+      "en": "Microscope Cell Culture"
+    },
+    "summary": {
+      "zh": "以显微镜、培养皿与移液器组成可理解的细胞研究场景，突出器材关系和实验室洁净度。",
+      "en": "制作一张专业细胞培养观察实验室照片：双目显微镜作为主焦点，透明培养皿、移液器吸头盒和无标签试剂瓶作为辅助对象，按真实观察流程排列。保持光学镜头、金属调焦结构、玻璃反射与不锈钢台面可信；背景轻微虚化但不杂乱。竖版 2:3，无文字、Logo、水印、人物和危险溢出。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientif"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "health-science"
+      ],
+      "medium": [
+        "photography"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "material-lighting",
+        "spatial-reasoning",
+        "product-fidelity"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "医学科研",
+        "实验室",
+        "显微镜",
+        "科学摄影"
+      ],
+      "en": [
+        "Health Science",
+        "Material Lighting",
+        "Spatial Reasoning",
+        "Product Fidelity"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "clinical_subject",
+        "scientific_context",
+        "safety_boundaries"
+      ],
+      "cover_values": {
+        "clinical_subject": {
+          "zh": "双目生物显微镜、透明培养皿和蓝白移液器组成的细胞培养观察组合",
+          "en": "The hero subject: microscope cell culture"
+        },
+        "scientific_context": {
+          "zh": "明亮生物实验室工作台，器材按观察流程摆放并保持干净的空间关系",
+          "en": "The surrounding professional context for microscope cell culture"
+        },
+        "safety_boundaries": {
+          "zh": "无菌、整洁、可教学的实验场景；不展示病原体、污染、危险操作或任何可读标签",
+          "en": "No unsupported claims, readable copy, branding, or watermark"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "clinical_subject",
+          "zh": "临床主体",
+          "en": "Clinical Subject",
+          "description": {
+            "zh": "请填写「临床主体」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Clinical Subject, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "双目生物显微镜、透明培养皿和蓝白移液器组成的细胞培养观察组合",
+            "en": "The hero subject: microscope cell culture"
+          }
+        },
+        {
+          "id": "scientific_context",
+          "zh": "科学语境",
+          "en": "Scientific Context",
+          "description": {
+            "zh": "请填写「科学语境」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Scientific Context, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "明亮生物实验室工作台，器材按观察流程摆放并保持干净的空间关系",
+            "en": "The surrounding professional context for microscope cell culture"
+          }
+        },
+        {
+          "id": "safety_boundaries",
+          "zh": "安全边界",
+          "en": "Safety Boundaries",
+          "description": {
+            "zh": "请填写「安全边界」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Safety Boundaries, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "无菌、整洁、可教学的实验场景；不展示病原体、污染、危险操作或任何可读标签",
+            "en": "No unsupported claims, readable copy, branding, or watermark"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「细胞培养实验室器材」创作图像：以显微镜、培养皿与移液器组成可理解的细胞研究场景，突出器材关系和实验室洁净度。\n\n## 必填需求字段\n- `{{clinical_subject}}`（临床主体）：双目生物显微镜、透明培养皿和蓝白移液器组成的细胞培养观察组合\n- `{{scientific_context}}`（科学语境）：明亮生物实验室工作台，器材按观察流程摆放并保持干净的空间关系\n- `{{safety_boundaries}}`（安全边界）：无菌、整洁、可教学的实验场景；不展示病原体、污染、危险操作或任何可读标签\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 保持科学与医疗视觉的准确边界：不得暗示诊断、疗效或监管批准；设备几何、洁净或教学语境、隐私边界与尺度必须可信，并清楚区分教学模型和真实临床结果。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。",
+        "en": "制作一张专业细胞培养观察实验室照片：双目显微镜作为主焦点，透明培养皿、移液器吸头盒和无标签试剂瓶作为辅助对象，按真实观察流程排列。保持光学镜头、金属调焦结构、玻璃反射与不锈钢台面可信；背景轻微虚化但不杂乱。竖版 2:3，无文字、Logo、水印、人物和危险溢出。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientific_context}}；合规、隐私和表达边界严格遵循 {{safety_boundaries}}。\n\n## Production protocol\n\n### Brief integrity\n- `{{clinical_subject}}` (Clinical Subject): The hero subject: microscope cell culture\n- `{{scientific_context}}` (Scientific Context): The surrounding professional context for microscope cell culture\n- `{{safety_boundaries}}` (Safety Boundaries): No unsupported claims, readable copy, branding, or watermark\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Keep scientific and healthcare visuals precise without implying diagnosis, efficacy, or regulatory approval. Preserve device geometry, sterile or educational context, privacy boundaries, readable scale, and a clear distinction between an illustrative model and a real clinical result.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ],
+      "en": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ]
+    },
+    "preview": "case-images/microscope-cell-culture.png",
+    "path": "library/cases/health-science/microscope-cell-culture"
+  },
+  {
     "id": "expression-sticker-pack",
     "title": {
       "zh": "统一表情包",
@@ -19948,6 +20739,268 @@ export const catalog = [
     },
     "preview": "case-images/pharmacy-packaging-guide.png",
     "path": "library/cases/health/pharmacy-packaging-guide"
+  },
+  {
+    "id": "botanical-herbarium",
+    "title": {
+      "zh": "药用植物标本学习板",
+      "en": "Botanical Herbarium"
+    },
+    "summary": {
+      "zh": "以压制植物、空白标本卡和放大镜构成药用植物观察与知识整理的编辑式科学视觉。",
+      "en": "制作一张药用植物标本学习板：主画面是一组压制植物、空白标本卡、黄铜放大镜和档案纸，采用有秩序的俯拍编辑构图。纸张纤维、叶脉、干燥程度、固定带和桌面磨损要真实；留出清晰的空白卡片但不生成文字。竖版 2:3，不生成品牌、功效、剂量、Logo 或水印。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientific_cont"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "health-science"
+      ],
+      "medium": [
+        "photography"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "layout-hierarchy",
+        "material-lighting",
+        "instruction-following"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "科学教育",
+        "植物标本",
+        "知识视觉",
+        "编辑摄影"
+      ],
+      "en": [
+        "Health Science",
+        "Layout Hierarchy",
+        "Material Lighting",
+        "Instruction Following"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "clinical_subject",
+        "scientific_context",
+        "safety_boundaries"
+      ],
+      "cover_values": {
+        "clinical_subject": {
+          "zh": "压制的薄荷、洋甘菊、薰衣草等植物标本与空白卡片",
+          "en": "The hero subject: botanical herbarium"
+        },
+        "scientific_context": {
+          "zh": "温暖自然学研究桌，标本按大小和观察顺序组成清晰俯拍网格",
+          "en": "The surrounding professional context for botanical herbarium"
+        },
+        "safety_boundaries": {
+          "zh": "只表达观察和归档，不出现可读植物名、疗效、药用剂量或安全声称",
+          "en": "No unsupported claims, readable copy, branding, or watermark"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "clinical_subject",
+          "zh": "临床主体",
+          "en": "Clinical Subject",
+          "description": {
+            "zh": "请填写「临床主体」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Clinical Subject, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "压制的薄荷、洋甘菊、薰衣草等植物标本与空白卡片",
+            "en": "The hero subject: botanical herbarium"
+          }
+        },
+        {
+          "id": "scientific_context",
+          "zh": "科学语境",
+          "en": "Scientific Context",
+          "description": {
+            "zh": "请填写「科学语境」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Scientific Context, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "温暖自然学研究桌，标本按大小和观察顺序组成清晰俯拍网格",
+            "en": "The surrounding professional context for botanical herbarium"
+          }
+        },
+        {
+          "id": "safety_boundaries",
+          "zh": "安全边界",
+          "en": "Safety Boundaries",
+          "description": {
+            "zh": "请填写「安全边界」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Safety Boundaries, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "只表达观察和归档，不出现可读植物名、疗效、药用剂量或安全声称",
+            "en": "No unsupported claims, readable copy, branding, or watermark"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「药用植物标本学习板」创作图像：以压制植物、空白标本卡和放大镜构成药用植物观察与知识整理的编辑式科学视觉。\n\n## 必填需求字段\n- `{{clinical_subject}}`（临床主体）：压制的薄荷、洋甘菊、薰衣草等植物标本与空白卡片\n- `{{scientific_context}}`（科学语境）：温暖自然学研究桌，标本按大小和观察顺序组成清晰俯拍网格\n- `{{safety_boundaries}}`（安全边界）：只表达观察和归档，不出现可读植物名、疗效、药用剂量或安全声称\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 保持科学与医疗视觉的准确边界：不得暗示诊断、疗效或监管批准；设备几何、洁净或教学语境、隐私边界与尺度必须可信，并清楚区分教学模型和真实临床结果。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。",
+        "en": "制作一张药用植物标本学习板：主画面是一组压制植物、空白标本卡、黄铜放大镜和档案纸，采用有秩序的俯拍编辑构图。纸张纤维、叶脉、干燥程度、固定带和桌面磨损要真实；留出清晰的空白卡片但不生成文字。竖版 2:3，不生成品牌、功效、剂量、Logo 或水印。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientific_context}}；合规、隐私和表达边界严格遵循 {{safety_boundaries}}。\n\n## Production protocol\n\n### Brief integrity\n- `{{clinical_subject}}` (Clinical Subject): The hero subject: botanical herbarium\n- `{{scientific_context}}` (Scientific Context): The surrounding professional context for botanical herbarium\n- `{{safety_boundaries}}` (Safety Boundaries): No unsupported claims, readable copy, branding, or watermark\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Keep scientific and healthcare visuals precise without implying diagnosis, efficacy, or regulatory approval. Preserve device geometry, sterile or educational context, privacy boundaries, readable scale, and a clear distinction between an illustrative model and a real clinical result.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ],
+      "en": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ]
+    },
+    "preview": "case-images/botanical-herbarium.png",
+    "path": "library/cases/health-science/botanical-herbarium"
+  },
+  {
+    "id": "nutrition-lab-still-life",
+    "title": {
+      "zh": "营养科学实验台",
+      "en": "Nutrition Lab Still Life"
+    },
+    "summary": {
+      "zh": "以谷物、豆类、量勺和玻璃器皿组成营养研究静物，强调样本分类与可观察性而非健康宣传。",
+      "en": "制作一张营养科学实验台静物：燕麦、糙米、扁豆、鹰嘴豆、量勺、玻璃烧杯和空白线圈笔记本按从原料到观察的顺序排列。使用明亮侧光表现颗粒、陶瓷、玻璃和大理石纹理，层级清楚但不拥挤。竖版 2:3，不生成营养数值、疗效、品牌、文字或水印。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientific_context}}；合规、"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "health-science"
+      ],
+      "medium": [
+        "photography"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "layout-hierarchy",
+        "material-lighting",
+        "instruction-following"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "营养科学",
+        "食品实验室",
+        "静物摄影",
+        "样本分类"
+      ],
+      "en": [
+        "Health Science",
+        "Layout Hierarchy",
+        "Material Lighting",
+        "Instruction Following"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "clinical_subject",
+        "scientific_context",
+        "safety_boundaries"
+      ],
+      "cover_values": {
+        "clinical_subject": {
+          "zh": "燕麦、糙米、扁豆、鹰嘴豆和量勺组成的样本组",
+          "en": "The hero subject: nutrition lab still life"
+        },
+        "scientific_context": {
+          "zh": "明亮食品科学实验室台面，食材、玻璃器皿与空白笔记本按研究顺序摆放",
+          "en": "The surrounding professional context for nutrition lab still life"
+        },
+        "safety_boundaries": {
+          "zh": "只展示样本与记录准备，不出现营养数值、减重承诺、疗效或可读文字",
+          "en": "No unsupported claims, readable copy, branding, or watermark"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "clinical_subject",
+          "zh": "临床主体",
+          "en": "Clinical Subject",
+          "description": {
+            "zh": "请填写「临床主体」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Clinical Subject, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "燕麦、糙米、扁豆、鹰嘴豆和量勺组成的样本组",
+            "en": "The hero subject: nutrition lab still life"
+          }
+        },
+        {
+          "id": "scientific_context",
+          "zh": "科学语境",
+          "en": "Scientific Context",
+          "description": {
+            "zh": "请填写「科学语境」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Scientific Context, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "明亮食品科学实验室台面，食材、玻璃器皿与空白笔记本按研究顺序摆放",
+            "en": "The surrounding professional context for nutrition lab still life"
+          }
+        },
+        {
+          "id": "safety_boundaries",
+          "zh": "安全边界",
+          "en": "Safety Boundaries",
+          "description": {
+            "zh": "请填写「安全边界」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Safety Boundaries, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "只展示样本与记录准备，不出现营养数值、减重承诺、疗效或可读文字",
+            "en": "No unsupported claims, readable copy, branding, or watermark"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「营养科学实验台」创作图像：以谷物、豆类、量勺和玻璃器皿组成营养研究静物，强调样本分类与可观察性而非健康宣传。\n\n## 必填需求字段\n- `{{clinical_subject}}`（临床主体）：燕麦、糙米、扁豆、鹰嘴豆和量勺组成的样本组\n- `{{scientific_context}}`（科学语境）：明亮食品科学实验室台面，食材、玻璃器皿与空白笔记本按研究顺序摆放\n- `{{safety_boundaries}}`（安全边界）：只展示样本与记录准备，不出现营养数值、减重承诺、疗效或可读文字\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 保持科学与医疗视觉的准确边界：不得暗示诊断、疗效或监管批准；设备几何、洁净或教学语境、隐私边界与尺度必须可信，并清楚区分教学模型和真实临床结果。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。",
+        "en": "制作一张营养科学实验台静物：燕麦、糙米、扁豆、鹰嘴豆、量勺、玻璃烧杯和空白线圈笔记本按从原料到观察的顺序排列。使用明亮侧光表现颗粒、陶瓷、玻璃和大理石纹理，层级清楚但不拥挤。竖版 2:3，不生成营养数值、疗效、品牌、文字或水印。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientific_context}}；合规、隐私和表达边界严格遵循 {{safety_boundaries}}。\n\n## Production protocol\n\n### Brief integrity\n- `{{clinical_subject}}` (Clinical Subject): The hero subject: nutrition lab still life\n- `{{scientific_context}}` (Scientific Context): The surrounding professional context for nutrition lab still life\n- `{{safety_boundaries}}` (Safety Boundaries): No unsupported claims, readable copy, branding, or watermark\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Keep scientific and healthcare visuals precise without implying diagnosis, efficacy, or regulatory approval. Preserve device geometry, sterile or educational context, privacy boundaries, readable scale, and a clear distinction between an illustrative model and a real clinical result.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ],
+      "en": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ]
+    },
+    "preview": "case-images/nutrition-lab-still-life.png",
+    "path": "library/cases/health-science/nutrition-lab-still-life"
   },
   {
     "id": "investor-pitch-deck-cover",
@@ -21343,6 +22396,269 @@ export const catalog = [
     },
     "preview": "case-images/cinematic-chase-keyframe.png",
     "path": "library/cases/film/cinematic-chase-keyframe"
+  },
+  {
+    "id": "telemedicine-desk",
+    "title": {
+      "zh": "远程问诊工作台",
+      "en": "Telemedicine Desk"
+    },
+    "summary": {
+      "zh": "以平板、听诊器和空白记录本组成远程健康咨询的居家工作场景，避免虚构界面与医疗结论。",
+      "en": "制作一张远程问诊工作台的生活方式摄影：木质书桌上摆放黑边平板、深蓝听诊器、空白记录本和一杯水，平板屏幕保持纯白无界面。通过自然光、木纹、硅胶管和金属听诊头表现可信材质；不出现人脸、医疗诊断、患者数据、Logo、文字或水印。竖版 2:3。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientific_context}}"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "health-science"
+      ],
+      "medium": [
+        "photography"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "layout-hierarchy",
+        "material-lighting",
+        "instruction-following"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "远程医疗",
+        "健康产品",
+        "居家场景",
+        "工作台"
+      ],
+      "en": [
+        "Health Science",
+        "Layout Hierarchy",
+        "Material Lighting",
+        "Instruction Following"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "clinical_subject",
+        "scientific_context",
+        "safety_boundaries"
+      ],
+      "cover_values": {
+        "clinical_subject": {
+          "zh": "黑边平板、深蓝听诊器、空白记录本组成的远程问诊工作台",
+          "en": "The hero subject: telemedicine desk"
+        },
+        "scientific_context": {
+          "zh": "有自然光和植物的温暖居家书桌，设备以真实使用顺序摆放",
+          "en": "The surrounding professional context for telemedicine desk"
+        },
+        "safety_boundaries": {
+          "zh": "平板屏幕保持空白，不展示患者信息、诊断、指标、品牌或虚假界面状态",
+          "en": "No unsupported claims, readable copy, branding, or watermark"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "clinical_subject",
+          "zh": "临床主体",
+          "en": "Clinical Subject",
+          "description": {
+            "zh": "请填写「临床主体」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Clinical Subject, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "黑边平板、深蓝听诊器、空白记录本组成的远程问诊工作台",
+            "en": "The hero subject: telemedicine desk"
+          }
+        },
+        {
+          "id": "scientific_context",
+          "zh": "科学语境",
+          "en": "Scientific Context",
+          "description": {
+            "zh": "请填写「科学语境」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Scientific Context, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "有自然光和植物的温暖居家书桌，设备以真实使用顺序摆放",
+            "en": "The surrounding professional context for telemedicine desk"
+          }
+        },
+        {
+          "id": "safety_boundaries",
+          "zh": "安全边界",
+          "en": "Safety Boundaries",
+          "description": {
+            "zh": "请填写「安全边界」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Safety Boundaries, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "平板屏幕保持空白，不展示患者信息、诊断、指标、品牌或虚假界面状态",
+            "en": "No unsupported claims, readable copy, branding, or watermark"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「远程问诊工作台」创作图像：以平板、听诊器和空白记录本组成远程健康咨询的居家工作场景，避免虚构界面与医疗结论。\n\n## 必填需求字段\n- `{{clinical_subject}}`（临床主体）：黑边平板、深蓝听诊器、空白记录本组成的远程问诊工作台\n- `{{scientific_context}}`（科学语境）：有自然光和植物的温暖居家书桌，设备以真实使用顺序摆放\n- `{{safety_boundaries}}`（安全边界）：平板屏幕保持空白，不展示患者信息、诊断、指标、品牌或虚假界面状态\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 保持科学与医疗视觉的准确边界：不得暗示诊断、疗效或监管批准；设备几何、洁净或教学语境、隐私边界与尺度必须可信，并清楚区分教学模型和真实临床结果。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。",
+        "en": "制作一张远程问诊工作台的生活方式摄影：木质书桌上摆放黑边平板、深蓝听诊器、空白记录本和一杯水，平板屏幕保持纯白无界面。通过自然光、木纹、硅胶管和金属听诊头表现可信材质；不出现人脸、医疗诊断、患者数据、Logo、文字或水印。竖版 2:3。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientific_context}}；合规、隐私和表达边界严格遵循 {{safety_boundaries}}。\n\n## Production protocol\n\n### Brief integrity\n- `{{clinical_subject}}` (Clinical Subject): The hero subject: telemedicine desk\n- `{{scientific_context}}` (Scientific Context): The surrounding professional context for telemedicine desk\n- `{{safety_boundaries}}` (Safety Boundaries): No unsupported claims, readable copy, branding, or watermark\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Keep scientific and healthcare visuals precise without implying diagnosis, efficacy, or regulatory approval. Preserve device geometry, sterile or educational context, privacy boundaries, readable scale, and a clear distinction between an illustrative model and a real clinical result.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ],
+      "en": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ]
+    },
+    "preview": "case-images/telemedicine-desk.png",
+    "path": "library/cases/health-science/telemedicine-desk"
+  },
+  {
+    "id": "anatomy-learning-model",
+    "title": {
+      "zh": "透明心脏解剖教学模型",
+      "en": "Anatomy Learning Model"
+    },
+    "summary": {
+      "zh": "用半透明树脂心脏模型解释基础结构学习场景，强调教育展示而非疾病或治疗叙事。",
+      "en": "制作一张医学教育用透明心脏模型的产品摄影：半透明树脂心脏模型固定在中性浅灰展台，内部红蓝血管路径作为简化教学线索，结构连贯且不血腥。使用柔和棚拍光表现材质厚度和内部透光，背景保持安静。竖版 2:3，不生成标签、诊断、疗效、品牌、文字或水印。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientific_context"
+    },
+    "taxonomy": {
+      "deliverable": [
+        "health-science"
+      ],
+      "medium": [
+        "photography",
+        "3d-render"
+      ],
+      "workflow": [
+        "text-to-image"
+      ],
+      "capability": [
+        "material-lighting",
+        "instruction-following",
+        "spatial-reasoning"
+      ],
+      "model": [
+        "universal",
+        "gpt-image",
+        "midjourney"
+      ]
+    },
+    "tags": {
+      "zh": [
+        "医学教育",
+        "解剖模型",
+        "博物馆视觉",
+        "科学传播"
+      ],
+      "en": [
+        "Health Science",
+        "Material Lighting",
+        "Instruction Following",
+        "Spatial Reasoning"
+      ]
+    },
+    "prompt": {
+      "language": "bilingual",
+      "variables": [
+        "clinical_subject",
+        "scientific_context",
+        "safety_boundaries"
+      ],
+      "cover_values": {
+        "clinical_subject": {
+          "zh": "一枚半透明树脂心脏教学模型，内部红蓝路径简化但结构连贯",
+          "en": "The hero subject: anatomy learning model"
+        },
+        "scientific_context": {
+          "zh": "安静的科学教室或展陈空间，模型置于中性浅灰展台上",
+          "en": "The surrounding professional context for anatomy learning model"
+        },
+        "safety_boundaries": {
+          "zh": "尊重、清晰、非血腥的基础教学语境，不出现标签、诊断、疗效或夸张病变",
+          "en": "No unsupported claims, readable copy, branding, or watermark"
+        }
+      },
+      "variable_labels": [
+        {
+          "id": "clinical_subject",
+          "zh": "临床主体",
+          "en": "Clinical Subject",
+          "description": {
+            "zh": "请填写「临床主体」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Clinical Subject, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "一枚半透明树脂心脏教学模型，内部红蓝路径简化但结构连贯",
+            "en": "The hero subject: anatomy learning model"
+          }
+        },
+        {
+          "id": "scientific_context",
+          "zh": "科学语境",
+          "en": "Scientific Context",
+          "description": {
+            "zh": "请填写「科学语境」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Scientific Context, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "安静的科学教室或展陈空间，模型置于中性浅灰展台上",
+            "en": "The surrounding professional context for anatomy learning model"
+          }
+        },
+        {
+          "id": "safety_boundaries",
+          "zh": "安全边界",
+          "en": "Safety Boundaries",
+          "description": {
+            "zh": "请填写「安全边界」的具体内容，至少包含对象或取值范围、一个可见特征，以及它对构图、信息层级或生成结果的影响。",
+            "en": "Provide a concrete value for Safety Boundaries, including the object or range, one visible characteristic, and its effect on composition, information hierarchy, or the generated result."
+          },
+          "cover_value": {
+            "zh": "尊重、清晰、非血腥的基础教学语境，不出现标签、诊断、疗效或夸张病变",
+            "en": "No unsupported claims, readable copy, branding, or watermark"
+          }
+        }
+      ],
+      "text": {
+        "zh": "## 角色\n你是一名资深视觉总监与图像制作设计师。请把需求转化为一张可交付的成品，而不是灵感拼贴。\n\n## 核心任务\n为案例「透明心脏解剖教学模型」创作图像：用半透明树脂心脏模型解释基础结构学习场景，强调教育展示而非疾病或治疗叙事。\n\n## 必填需求字段\n- `{{clinical_subject}}`（临床主体）：一枚半透明树脂心脏教学模型，内部红蓝路径简化但结构连贯\n- `{{scientific_context}}`（科学语境）：安静的科学教室或展陈空间，模型置于中性浅灰展台上\n- `{{safety_boundaries}}`（安全边界）：尊重、清晰、非血腥的基础教学语境，不出现标签、诊断、疗效或夸张病变\n\n## 输出契约\n- 只交付一张完成度高、可展示的最终图像；不要生成情绪板、九宫格、多方案展示板、过程稿、样机合集或互相竞争的版式。\n- 先确定主焦点、次级信息层和留白，再补充细节；色板、光向、透视与材质行为必须统一。\n- 不要虚构可读的品牌文案、商标、界面填充文字或水印。除非需求提供精确文案，否则文字区域仅作为受控占位。\n\n## 成品结构\n- 保持科学与医疗视觉的准确边界：不得暗示诊断、疗效或监管批准；设备几何、洁净或教学语境、隐私边界与尺度必须可信，并清楚区分教学模型和真实临床结果。\n\n## 质量门槛\n- 输出前检查焦点层级、物理可信度、主体一致性、意外文字、重复对象、错误肢体和意外标志。\n- 避免素材感填充、复制既有营销活动视觉、美术无关叠层、裁切错误和水印样痕迹。\n- 已知限制：使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。",
+        "en": "制作一张医学教育用透明心脏模型的产品摄影：半透明树脂心脏模型固定在中性浅灰展台，内部红蓝血管路径作为简化教学线索，结构连贯且不血腥。使用柔和棚拍光表现材质厚度和内部透光，背景保持安静。竖版 2:3，不生成标签、诊断、疗效、品牌、文字或水印。 场景主体为 {{clinical_subject}}；专业环境与空间关系遵循 {{scientific_context}}；合规、隐私和表达边界严格遵循 {{safety_boundaries}}。\n\n## Production protocol\n\n### Brief integrity\n- `{{clinical_subject}}` (Clinical Subject): The hero subject: anatomy learning model\n- `{{scientific_context}}` (Scientific Context): The surrounding professional context for anatomy learning model\n- `{{safety_boundaries}}` (Safety Boundaries): No unsupported claims, readable copy, branding, or watermark\n- Keep the requested subject, use case, and visual hierarchy more important than generic style adjectives.\n\n### Output contract\n- Deliver one finished, presentation-ready image for this exact brief; do not create a moodboard, contact sheet, process sheet, mockup collection, or multiple competing layouts.\n- Use one focal hierarchy, a restrained palette, coherent light direction, and enough negative space for the intended communication.\n- Do not fabricate readable brand copy, trademarks, UI filler, or watermarks. Treat any text area as a controlled placeholder unless exact copy is supplied.\n\n### Deliverable requirements\n- Keep scientific and healthcare visuals precise without implying diagnosis, efficacy, or regulatory approval. Preserve device geometry, sterile or educational context, privacy boundaries, readable scale, and a clear distinction between an illustrative model and a real clinical result.\n\n### Quality gate\n- Before finalizing, check focal hierarchy, physical plausibility, subject consistency, unintended text, duplicate objects, broken anatomy, and accidental logos.\n- Avoid stock-like filler, copied campaign aesthetics, unrelated overlays, framing errors, and watermark-like marks.\n- Known limitation: 使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      }
+    },
+    "evaluation": {
+      "status": "draft",
+      "tested_models": [],
+      "last_verified": null,
+      "limitations": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ]
+    },
+    "limitations": {
+      "zh": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ],
+      "en": [
+        "使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"
+      ]
+    },
+    "preview": "case-images/anatomy-learning-model.png",
+    "path": "library/cases/health-science/anatomy-learning-model"
   },
   {
     "id": "newsletter-hero-banner",

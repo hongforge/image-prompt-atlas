@@ -1,0 +1,31 @@
+id: telemedicine-desk
+title: "远程问诊工作台"
+summary: "以平板、听诊器和空白记录本组成远程健康咨询的居家工作场景，避免虚构界面与医疗结论。"
+taxonomy:
+  deliverable: [health-science]
+  medium: ["photography"]
+  workflow: [text-to-image]
+  capability: ["layout-hierarchy","material-lighting","instruction-following"]
+  model: [universal, gpt-image, midjourney]
+tags: ["远程医疗","健康产品","居家场景","工作台"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [clinical_subject, scientific_context, safety_boundaries]
+  cover_values:
+    clinical_subject:
+      zh: "黑边平板、深蓝听诊器、空白记录本组成的远程问诊工作台"
+      en: "The hero subject: telemedicine desk"
+    scientific_context:
+      zh: "有自然光和植物的温暖居家书桌，设备以真实使用顺序摆放"
+      en: "The surrounding professional context for telemedicine desk"
+    safety_boundaries:
+      zh: "平板屏幕保持空白，不展示患者信息、诊断、指标、品牌或虚假界面状态"
+      en: "No unsupported claims, readable copy, branding, or watermark"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"]
+

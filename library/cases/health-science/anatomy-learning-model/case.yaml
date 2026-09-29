@@ -1,0 +1,31 @@
+id: anatomy-learning-model
+title: "透明心脏解剖教学模型"
+summary: "用半透明树脂心脏模型解释基础结构学习场景，强调教育展示而非疾病或治疗叙事。"
+taxonomy:
+  deliverable: [health-science]
+  medium: ["photography","3d-render"]
+  workflow: [text-to-image]
+  capability: ["material-lighting","instruction-following","spatial-reasoning"]
+  model: [universal, gpt-image, midjourney]
+tags: ["医学教育","解剖模型","博物馆视觉","科学传播"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [clinical_subject, scientific_context, safety_boundaries]
+  cover_values:
+    clinical_subject:
+      zh: "一枚半透明树脂心脏教学模型，内部红蓝路径简化但结构连贯"
+      en: "The hero subject: anatomy learning model"
+    scientific_context:
+      zh: "安静的科学教室或展陈空间，模型置于中性浅灰展台上"
+      en: "The surrounding professional context for anatomy learning model"
+    safety_boundaries:
+      zh: "尊重、清晰、非血腥的基础教学语境，不出现标签、诊断、疗效或夸张病变"
+      en: "No unsupported claims, readable copy, branding, or watermark"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"]
+

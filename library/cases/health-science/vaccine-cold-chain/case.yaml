@@ -1,0 +1,31 @@
+id: vaccine-cold-chain
+title: "疫苗冷链运输箱"
+summary: "通过保温箱、冰袋和通用玻璃瓶建立药品冷链运输的结构化产品展示，不暗示功效或品牌。"
+taxonomy:
+  deliverable: [health-science]
+  medium: ["photography","3d-render"]
+  workflow: [text-to-image]
+  capability: ["product-fidelity","layout-hierarchy","material-lighting"]
+  model: [universal, gpt-image, midjourney]
+tags: ["医药物流","冷链运输","产品结构","包装视觉"]
+license: { prompt: CC0-1.0, reference: none }
+source: { kind: original, url: null, rights_note: Original repository content. }
+prompt:
+  language: zh
+  variables: [clinical_subject, scientific_context, safety_boundaries]
+  cover_values:
+    clinical_subject:
+      zh: "打开的灰白硬壳保温运输箱、蓝色冷媒冰袋和无标签通用玻璃瓶"
+      en: "The hero subject: vaccine cold chain"
+    scientific_context:
+      zh: "温控物流操作间的不锈钢工作台，箱内分仓、缓冲和固定关系清晰"
+      en: "The surrounding professional context for vaccine cold chain"
+    safety_boundaries:
+      zh: "展示收纳与保护结构，不出现药品名称、温度承诺、品牌、认证或功效主张"
+      en: "No unsupported claims, readable copy, branding, or watermark"
+evaluation:
+  status: draft
+  tested_models: []
+  last_verified: null
+  limitations: ["使用前请复核医学事实、专业术语、监管边界、隐私风险和实际使用场景。"]
+
